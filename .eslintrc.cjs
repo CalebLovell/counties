@@ -7,7 +7,7 @@ module.exports = {
 		`plugin:@typescript-eslint/recommended`,
 		`prettier`,
 	],
-	plugins: ['@typescript-eslint', 'react', 'prettier', 'import'],
+	plugins: ['@typescript-eslint', 'react', 'prettier', 'import', 'simple-import-sort'],
 	parser: `@typescript-eslint/parser`,
 	parserOptions: {
 		ecmaVersion: 2020,
@@ -27,6 +27,7 @@ module.exports = {
 		React: `writable`,
 	},
 	rules: {
+		'simple-import-sort/imports': 2,
 		'@typescript-eslint/explicit-module-boundary-types': `off`,
 		'@typescript-eslint/no-explicit-any': `off`,
 		'@typescript-eslint/ban-ts-comment': `off`,
