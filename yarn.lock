@@ -2267,6 +2267,11 @@ json5@^2.2.1:
     array-includes "^3.1.5"
     object.assign "^4.1.3"
 
+just-standard-deviation@^2.1.1:
+  version "2.1.1"
+  resolved "https://registry.yarnpkg.com/just-standard-deviation/-/just-standard-deviation-2.1.1.tgz#2436e79bb5b29a5ab0e88ef30928d1565ed0eaac"
+  integrity sha512-5EXiYNxbTCXI7s/5pITOj1NDl8i3XeUe4bmQ5kgQf7ws+/uJy8W+EvZ5+7gNPkwvcOKyyvI/BGvch503Wc/+SQ==
+
 language-subtag-registry@~0.3.2:
   version "0.3.22"
   resolved "https://registry.yarnpkg.com/language-subtag-registry/-/language-subtag-registry-0.3.22.tgz#2e1500861b2e457eba7e7ae86877cbd08fa1fd1d"

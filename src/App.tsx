@@ -1,7 +1,5 @@
-import Map from './components/Map';
+import { NewMap } from './components/NewMap';
 
-function App() {
-	return <Map />;
+export default function App() {
+	return <NewMap />;
 }
-
-export default App;
