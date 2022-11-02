@@ -1,4 +1,6 @@
-export const usaCountyTopology = {
+import { Topology } from 'topojson-specification';
+
+export const usaCountyGeojson: Topology = {
 	type: 'Topology',
 	bbox: [-56.77775821661018, 12.469025989284091, 942.7924311762474, 596.9298966319916],
 	transform: { scale: [0.009995801851947097, 0.005844667153098606], translate: [-56.77775821661018, 12.469025989284091] },
