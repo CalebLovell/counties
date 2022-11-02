@@ -25,8 +25,8 @@ export const County = ({ d, path, clicked }: Props) => {
 			onClick={event => onClick(event)}
 			d={path ? path : undefined}
 			fill={color}
-			strokeWidth='1'
-			stroke='#eaeaea'
+			strokeWidth='0.3'
+			stroke='#090821'
 			onMouseOver={() => handleMouseOver(name ? name : '')}
 			onMouseOut={handleMouseOut}
 			onMouseMove={event => handleMouseMove(event)}
