@@ -1,5 +1,11 @@
-export const ActiveCounty = ({ county: { activeCounty } }) => {
-	const { county_id, county_name, county_state_name, household_income, property_value, commute_time, median_age, avg_temp } = activeCounty;
+import { County } from '../data/counties';
+
+interface ActiveCountyProps {
+	county: County;
+}
+
+export const ActiveCounty = ({ county }: ActiveCountyProps) => {
+	const { county_id, county_name, county_state_name, household_income, property_value, commute_time, median_age, avg_temp } = county;
 	return county_id ? (
 		<div className='active-county'>
 			<div className='title-bar'>

@@ -7,6 +7,7 @@ export type County = {
 	commute_time: number;
 	median_age: number;
 	slug: string;
+	avg_temp?: number;
 }
 
 export const counties: County[] = [

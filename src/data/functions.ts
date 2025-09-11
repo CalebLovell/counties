@@ -72,7 +72,7 @@ export const getColor = (county: County) => {
 		let weight = 0;
 		for (let i = 0; i < dataset.length; i++) {
 			const { input, sd, datatype } = dataset[i];
-			const datapoint = county[datatype];
+			const datapoint = Number(county[datatype as keyof County]);
 			if (input - sd < datapoint && datapoint < input + sd) {
 				weight = 1;
 			} else if (input - 2 * sd < datapoint && datapoint < input + 2 * sd) {
@@ -98,7 +98,7 @@ export const getColor = (county: County) => {
 
 	const weight = calcWeight();
 
-	const colors = {
+	const colors: Record<number, string> = {
 		9: '#ffffff',
 		8: '#FEFFE0',
 		7: 'rgb(254,255,207)',
