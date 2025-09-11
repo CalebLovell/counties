@@ -46,8 +46,8 @@ export const NewMap = () => {
 			);
 	}
 
-	// const stateBordersPath = path(topojson.mesh(usaCountyGeojson, usaCountyGeojson.objects.states, (a, b) => a !== b));
-	// const countryBordersPath = path(topojson.mesh(usaCountyGeojson, usaCountyGeojson.objects.nation));
+	const stateBordersPath = path(topojson.mesh(usaCountyGeojson, usaCountyGeojson.objects.states, (a, b) => a !== b));
+	const countryBordersPath = path(topojson.mesh(usaCountyGeojson, usaCountyGeojson.objects.nation));
 	return (
 		<svg ref={svgRef} width='100%' height='100%' viewBox='0 0 960 600' onClick={reset}>
 			<g ref={gRef}>
@@ -55,7 +55,7 @@ export const NewMap = () => {
 					<County key={d.id} d={d} path={path(d)} clicked={clicked} />
 				))}
 			</g>
-			{/* <path
+			<path
 				id='state-borders'
 				d={stateBordersPath ? stateBordersPath : undefined}
 				style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }}
@@ -66,7 +66,7 @@ export const NewMap = () => {
 				d={countryBordersPath ? countryBordersPath : undefined}
 				style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }}
 				onClick={e => clicked(e, countryBordersPath)}
-			/> */}
+			/>
 		</svg>
 	);
 };
