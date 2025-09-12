@@ -11,19 +11,23 @@ export const standardDeviation = () => {
 	const property_value = counties.map((x) => x.property_value);
 	const commute_time = counties.map((x) => x.commute_time);
 	const median_age = counties.map((x) => x.median_age);
+	const avg_temp = counties.map((x) => x.avg_temp).filter((x): x is number => x !== undefined);
+
 	const vals = {
 		household_income_stdev: stddev(household_income) / 2,
 		household_income_max: Math.max(...household_income),
 		household_income_min: Math.min(...household_income),
 		property_value_stdev: stddev(property_value) / 2,
 		property_value_max: Math.max(...property_value),
-		property_value_min: Math.max(...property_value),
+		property_value_min: Math.min(...property_value),
 		commute_time_stdev: stddev(commute_time) / 2,
 		commute_time_max: Math.max(...commute_time),
-		commute_time_min: Math.max(...commute_time),
+		commute_time_min: Math.min(...commute_time),
 		median_age_stdev: stddev(median_age) / 2,
 		median_age_max: Math.max(...median_age),
-		median_age_min: Math.max(...median_age),
+		median_age_min: Math.min(...median_age),
+		avg_temp_max: avg_temp.length > 0 ? Math.max(...avg_temp) : 100,
+		avg_temp_min: avg_temp.length > 0 ? Math.min(...avg_temp) : 0,
 	};
 	return vals;
 };

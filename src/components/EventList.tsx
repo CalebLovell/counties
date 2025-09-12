@@ -1,5 +1,6 @@
 import { ArrowPathRoundedSquareIcon } from "@heroicons/react/24/solid";
 import { format } from "date-fns";
+import { DataFilters } from "~/components/DataFilters";
 
 export const EventList = () => {
 	return (
@@ -26,6 +27,7 @@ const SlideoverContent = () => {
 					<p>A map!</p>
 				</div>
 			</div>
+			<DataFilters />
 			<div className="flex flex-col justify-center pt-2">
 				<div className="flex items-center justify-center space-x-1 pt-2">
 					<ArrowPathRoundedSquareIcon className="h-3.5 w-3.5 text-gray-900" />
