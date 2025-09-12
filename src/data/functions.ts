@@ -1,16 +1,16 @@
-import stddev from 'just-standard-deviation';
+import stddev from "just-standard-deviation";
 
-import { counties, County } from './counties';
+import { type County, counties } from "./counties";
 
 export const getCountyData = () => {
 	return counties;
 };
 
 export const standardDeviation = () => {
-	const household_income = counties.map(x => x.household_income);
-	const property_value = counties.map(x => x.property_value);
-	const commute_time = counties.map(x => x.commute_time);
-	const median_age = counties.map(x => x.median_age);
+	const household_income = counties.map((x) => x.household_income);
+	const property_value = counties.map((x) => x.property_value);
+	const commute_time = counties.map((x) => x.commute_time);
+	const median_age = counties.map((x) => x.median_age);
 	const vals = {
 		household_income_stdev: stddev(household_income) / 2,
 		household_income_max: Math.max(...household_income),
@@ -29,7 +29,7 @@ export const standardDeviation = () => {
 };
 
 export const getActiveCounty = (county_id: number) => {
-	const activeCounty = counties.find(x => x.county_id === county_id);
+	const activeCounty = counties.find((x) => x.county_id === county_id);
 	return activeCounty;
 };
 
@@ -47,22 +47,22 @@ export const getColor = (county: County) => {
 
 	const dataset = [
 		{
-			datatype: 'household_income',
+			datatype: "household_income",
 			input: hi_val,
 			sd: household_income_stdev,
 		},
 		{
-			datatype: 'property_value',
+			datatype: "property_value",
 			input: pv_val,
 			sd: property_value_stdev,
 		},
 		{
-			datatype: 'commute_time',
+			datatype: "commute_time",
 			input: c_val,
 			sd: commute_time_stdev,
 		},
 		{
-			datatype: 'median_age',
+			datatype: "median_age",
 			input: age_val,
 			sd: median_age_stdev,
 		},
@@ -99,16 +99,16 @@ export const getColor = (county: County) => {
 	const weight = calcWeight();
 
 	const colors: Record<number, string> = {
-		9: '#ffffff',
-		8: '#FEFFE0',
-		7: 'rgb(254,255,207)',
-		6: 'rgb(202,233,181)',
-		5: 'rgb(133,204,187)',
-		4: 'rgb(73,183,194)',
-		3: 'rgb(50,128,181)',
-		2: '#205274',
-		1: '#173B53',
-		0: '#fc2f70',
+		9: "#ffffff",
+		8: "#FEFFE0",
+		7: "rgb(254,255,207)",
+		6: "rgb(202,233,181)",
+		5: "rgb(133,204,187)",
+		4: "rgb(73,183,194)",
+		3: "rgb(50,128,181)",
+		2: "#205274",
+		1: "#173B53",
+		0: "#fc2f70",
 	};
 	const color = colors[weight];
 	return color;

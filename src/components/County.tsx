@@ -1,7 +1,7 @@
-import * as d3 from 'd3';
+import * as d3 from "d3";
 
-import { counties } from '../data/counties';
-import { getColor } from '../data/functions';
+import { counties } from "../data/counties";
+import { getColor } from "../data/functions";
 
 type Props = {
 	d: any;
@@ -12,7 +12,7 @@ type Props = {
 export const County = ({ d, path, clicked }: Props) => {
 	const name = d.properties.ADMIN;
 	const county_id = d.id;
-	const county = counties.find(x => x.county_id === Number(county_id));
+	const county = counties.find((x) => x.county_id === Number(county_id));
 	const color = county ? getColor(county) : `purple`;
 
 	const onClick = (event: any) => {
@@ -22,14 +22,14 @@ export const County = ({ d, path, clicked }: Props) => {
 	return (
 		<path
 			id={name}
-			onClick={event => onClick(event)}
+			onClick={(event) => onClick(event)}
 			d={path ? path : undefined}
 			fill={color}
-			strokeWidth='0.3'
-			stroke='#090821'
-			onMouseOver={() => handleMouseOver(name ? name : '')}
+			strokeWidth="0.3"
+			stroke="#090821"
+			onMouseOver={() => handleMouseOver(name ? name : "")}
 			onMouseOut={handleMouseOut}
-			onMouseMove={event => handleMouseMove(event)}
+			onMouseMove={(event) => handleMouseMove(event)}
 		/>
 	);
 };

@@ -1,10 +1,10 @@
-import * as d3 from 'd3';
-import { FeatureCollection, Feature, Geometry, GeometryObject } from 'geojson';
-import * as React from 'react';
-import * as topojson from 'topojson-client';
+import * as d3 from "d3";
+import type { Feature, FeatureCollection, Geometry, GeometryObject } from "geojson";
+import * as React from "react";
+import * as topojson from "topojson-client";
 
-import { usaCountyGeojson } from '../data/usaCountyGeojson';
-import { County } from './County';
+import { usaCountyGeojson } from "../data/usaCountyGeojson";
+import { County } from "./County";
 
 const usaTopoJson = topojson.feature(usaCountyGeojson, usaCountyGeojson.objects.counties) as FeatureCollection;
 const height = 610;
@@ -29,11 +29,11 @@ export const NewMap = () => {
 		}
 	}
 
-	const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([1, 8]).on('zoom', zoomed);
+	const zoom = d3.zoom<SVGSVGElement, unknown>().scaleExtent([1, 8]).on("zoom", zoomed);
 
 	function zoomed(event: ZoomEvent) {
 		const { transform } = event;
-		g.attr('transform', transform.toString());
+		g.attr("transform", transform.toString());
 	}
 
 	function clicked(event: React.MouseEvent, d: Feature<Geometry>) {
@@ -49,14 +49,18 @@ export const NewMap = () => {
 						.translate(width / 2, height / 2)
 						.scale(Math.min(8, 0.9 / Math.max((x1 - x0) / width, (y1 - y0) / height)))
 						.translate(-(x0 + x1) / 2, -(y0 + y1) / 2),
-					d3.pointer(event.nativeEvent, svg.node())
+					d3.pointer(event.nativeEvent, svg.node()),
 				);
 		}
 	}
 
 	// Helper function to handle the topojson mesh type issue
 	const createMesh = (topology: unknown, object: unknown, filter?: (a: unknown, b: unknown) => boolean) => {
-		return (topojson.mesh as (topology: unknown, object: unknown, filter?: unknown) => GeometryObject)(topology, object, filter);
+		return (topojson.mesh as (topology: unknown, object: unknown, filter?: unknown) => GeometryObject)(
+			topology,
+			object,
+			filter,
+		);
 	};
 
 	const stateBordersGeometry = createMesh(usaCountyGeojson, usaCountyGeojson.objects.states, (a, b) => a !== b);
@@ -66,14 +70,22 @@ export const NewMap = () => {
 	const countryBordersPath = countryBordersGeometry ? path(countryBordersGeometry) : null;
 
 	return (
-		<svg ref={svgRef} width='100%' height='100%' viewBox='0 0 960 600' onClick={reset}>
+		<svg ref={svgRef} width="100%" height="100%" viewBox="0 0 960 600" onClick={reset}>
 			<g ref={gRef}>
-				{usaTopoJson.features.map(d => (
+				{usaTopoJson.features.map((d) => (
 					<County key={d.id} d={d} path={path(d)} clicked={clicked} />
 				))}
 			</g>
-			<path id='state-borders' d={stateBordersPath || undefined} style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }} />
-			<path id='nation-borders' d={countryBordersPath || undefined} style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }} />
+			<path
+				id="state-borders"
+				d={stateBordersPath || undefined}
+				style={{ fill: "none", stroke: "#090821", strokeWidth: "0.7px" }}
+			/>
+			<path
+				id="nation-borders"
+				d={countryBordersPath || undefined}
+				style={{ fill: "none", stroke: "#090821", strokeWidth: "0.7px" }}
+			/>
 		</svg>
 	);
 };

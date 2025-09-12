@@ -3,11 +3,11 @@
 @tailwind utilities;
 
 :root {
-	--h-content-area: calc(100vh - theme('height.14'));
+	--h-content-area: calc(100vh - theme("height.14"));
 }
 
 .min-height-mobile {
-	min-height: calc(100vh - theme('height.4'));
+	min-height: calc(100vh - theme("height.4"));
 }
 
 .min-h-content {

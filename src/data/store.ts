@@ -1,4 +1,4 @@
-import { create } from 'zustand';
+import { create } from "zustand";
 
 type AppState = {
 	sidebarIsOpen: boolean;
@@ -9,7 +9,7 @@ type AppState = {
 	setPanelIsVisible: (by: boolean) => void;
 };
 
-export const useAppStore = create<AppState>(set => ({
+export const useAppStore = create<AppState>((set) => ({
 	sidebarIsOpen: false,
 	setSidebarIsOpen: (by: boolean) => set({ sidebarIsOpen: by }),
 	keyIsVisible: true,
