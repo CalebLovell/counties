@@ -1,13 +1,12 @@
-
 import { ArrowPathRoundedSquareIcon } from "@heroicons/react/24/solid";
 import { format } from "date-fns";
 
 export const EventList = () => {
 	return (
-		<div className='fixed inset-y-0 left-0 flex max-w-full pl-10'>
-			<div className='h-0 w-screen max-w-lg'>
-				<div className='mt-14 h-0.5 w-full' />
-				<div className='flex h-slideover w-full flex-col'>
+		<div className="fixed inset-y-0 left-0 flex max-w-full pl-10">
+			<div className="h-0 w-screen max-w-lg">
+				<div className="mt-14 h-0.5 w-full" />
+				<div className="flex h-slideover w-full flex-col">
 					<SlideoverContent />
 				</div>
 			</div>
