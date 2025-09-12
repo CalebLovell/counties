@@ -2,6 +2,7 @@ import * as d3 from "d3";
 
 import { counties } from "../data/counties";
 import { getColor } from "../data/functions";
+import { useAppStore } from "../data/store";
 
 type Props = {
 	d: any;
@@ -10,10 +11,26 @@ type Props = {
 };
 
 export const County = ({ d, path, clicked }: Props) => {
+	const { temp, temp_val, hi, hi_val, pv, pv_val, c, c_val, age, age_val } = useAppStore();
+
 	const name = d.properties.ADMIN;
 	const county_id = d.id;
 	const county = counties.find((x) => x.county_id === Number(county_id));
-	const color = county ? getColor(county) : `purple`;
+
+	const filterValues = {
+		temp,
+		temp_val,
+		hi,
+		hi_val,
+		pv,
+		pv_val,
+		c,
+		c_val,
+		age,
+		age_val,
+	};
+
+	const color = county ? getColor(county, filterValues) : `purple`;
 
 	const onClick = (event: any) => {
 		clicked(event, d);

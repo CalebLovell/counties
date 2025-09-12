@@ -37,70 +37,82 @@ export const getActiveCounty = (county_id: number) => {
 	return activeCounty;
 };
 
-export const getColor = (county: County) => {
-	const state = {
-		hi_val: 22000,
-		pv_val: 19000,
-		age_val: 22,
-		c_val: 5,
-	};
-	const { hi_val, pv_val, age_val, c_val } = state;
+export const getColor = (
+	county: County,
+	filterValues: {
+		temp: boolean;
+		temp_val: number;
+		hi: boolean;
+		hi_val: number;
+		pv: boolean;
+		pv_val: number;
+		c: boolean;
+		c_val: number;
+		age: boolean;
+		age_val: number;
+	},
+) => {
+	const { temp, temp_val, hi, hi_val, pv, pv_val, c, c_val, age, age_val } = filterValues;
 
 	const vals = standardDeviation();
 	const { household_income_stdev, property_value_stdev, median_age_stdev, commute_time_stdev } = vals;
 
-	const dataset = [
-		{
-			datatype: "household_income",
-			input: hi_val,
-			sd: household_income_stdev,
-		},
-		{
-			datatype: "property_value",
-			input: pv_val,
-			sd: property_value_stdev,
-		},
-		{
-			datatype: "commute_time",
-			input: c_val,
-			sd: commute_time_stdev,
-		},
-		{
-			datatype: "median_age",
-			input: age_val,
-			sd: median_age_stdev,
-		},
-	];
+	let totalDeviations = 0;
+	let activeFilters = 0;
 
-	const calcWeight = () => {
-		let weight = 0;
-		for (let i = 0; i < dataset.length; i++) {
-			const { input, sd, datatype } = dataset[i];
-			const datapoint = Number(county[datatype as keyof County]);
-			if (input - sd < datapoint && datapoint < input + sd) {
-				weight = 1;
-			} else if (input - 2 * sd < datapoint && datapoint < input + 2 * sd) {
-				weight = 2;
-			} else if (input - 3 * sd < datapoint && datapoint < input + 3 * sd) {
-				weight = 3;
-			} else if (input - 4 * sd < datapoint && datapoint < input + 4 * sd) {
-				weight = 4;
-			} else if (input - 5 * sd < datapoint && datapoint < input + 5 * sd) {
-				weight = 5;
-			} else if (input - 6 * sd < datapoint && datapoint < input + 6 * sd) {
-				weight = 6;
-			} else if (input - 7 * sd < datapoint && datapoint < input + 7 * sd) {
-				weight = 7;
-			} else if (input - 8 * sd < datapoint && datapoint < input + 8 * sd) {
-				weight = 8;
-			} else {
-				weight = 9;
-			}
-		}
-		return weight;
-	};
+	// Calculate standard deviations for each active filter
+	if (hi) {
+		const deviation = Math.abs(county.household_income - hi_val) / household_income_stdev;
+		totalDeviations += deviation;
+		activeFilters++;
+	}
 
-	const weight = calcWeight();
+	if (pv) {
+		const deviation = Math.abs(county.property_value - pv_val) / property_value_stdev;
+		totalDeviations += deviation;
+		activeFilters++;
+	}
+
+	if (c) {
+		const deviation = Math.abs(county.commute_time - c_val) / commute_time_stdev;
+		totalDeviations += deviation;
+		activeFilters++;
+	}
+
+	if (age) {
+		const deviation = Math.abs(county.median_age - age_val) / median_age_stdev;
+		totalDeviations += deviation;
+		activeFilters++;
+	}
+
+	if (temp && county.avg_temp !== undefined) {
+		// For temperature, create a pseudo-standard deviation based on the range
+		const tempRange = vals.avg_temp_max - vals.avg_temp_min;
+		const tempStdev = tempRange / 6; // Approximate 6 sigma range
+		const deviation = Math.abs(county.avg_temp - temp_val) / tempStdev;
+		totalDeviations += deviation;
+		activeFilters++;
+	}
+
+	// If no filters are active, return default color
+	if (activeFilters === 0) {
+		return "#e5e7eb"; // Light gray for unfiltered counties
+	}
+
+	// Calculate average deviation across all active filters
+	const avgDeviation = totalDeviations / activeFilters;
+
+	// Convert average deviation to weight (0-9 scale)
+	let weight = 9;
+	if (avgDeviation <= 0.5) weight = 1;
+	else if (avgDeviation <= 1) weight = 2;
+	else if (avgDeviation <= 1.5) weight = 3;
+	else if (avgDeviation <= 2) weight = 4;
+	else if (avgDeviation <= 2.5) weight = 5;
+	else if (avgDeviation <= 3) weight = 6;
+	else if (avgDeviation <= 3.5) weight = 7;
+	else if (avgDeviation <= 4) weight = 8;
+	// else weight = 9 (most different)
 
 	const colors: Record<number, string> = {
 		9: "#ffffff",
@@ -114,6 +126,6 @@ export const getColor = (county: County) => {
 		1: "#173B53",
 		0: "#fc2f70",
 	};
-	const color = colors[weight];
-	return color;
+
+	return colors[weight];
 };
