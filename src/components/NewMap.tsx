@@ -25,11 +25,7 @@ export const NewMap = () => {
 		if (svgNode) {
 			svg.transition()
 				.duration(750)
-				.call(
-					zoom.transform as never,
-					d3.zoomIdentity,
-					d3.zoomTransform(svgNode).invert([width / 2, height / 2])
-				);
+				.call(zoom.transform as never, d3.zoomIdentity, d3.zoomTransform(svgNode).invert([width / 2, height / 2]));
 		}
 	}
 
@@ -60,11 +56,7 @@ export const NewMap = () => {
 
 	// Helper function to handle the topojson mesh type issue
 	const createMesh = (topology: unknown, object: unknown, filter?: (a: unknown, b: unknown) => boolean) => {
-		return (topojson.mesh as (topology: unknown, object: unknown, filter?: unknown) => GeometryObject)(
-			topology,
-			object,
-			filter
-		);
+		return (topojson.mesh as (topology: unknown, object: unknown, filter?: unknown) => GeometryObject)(topology, object, filter);
 	};
 
 	const stateBordersGeometry = createMesh(usaCountyGeojson, usaCountyGeojson.objects.states, (a, b) => a !== b);
@@ -80,16 +72,8 @@ export const NewMap = () => {
 					<County key={d.id} d={d} path={path(d)} clicked={clicked} />
 				))}
 			</g>
-			<path
-				id='state-borders'
-				d={stateBordersPath || undefined}
-				style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }}
-			/>
-			<path
-				id='nation-borders'
-				d={countryBordersPath || undefined}
-				style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }}
-			/>
+			<path id='state-borders' d={stateBordersPath || undefined} style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }} />
+			<path id='nation-borders' d={countryBordersPath || undefined} style={{ fill: 'none', stroke: '#090821', strokeWidth: '0.7px' }} />
 		</svg>
 	);
 };

@@ -8,7 +8,7 @@ export type County = {
 	median_age: number;
 	slug: string;
 	avg_temp?: number;
-}
+};
 
 export const counties: County[] = [
 	{

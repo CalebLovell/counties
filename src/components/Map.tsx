@@ -272,10 +272,10 @@ class Map extends Component {
 							style={
 								!temp
 									? {
-										background: 'hsla(0, 0%, 100%, 0.2)',
-										borderRadius: '5px',
-										alignItems: 'center',
-									  }
+											background: 'hsla(0, 0%, 100%, 0.2)',
+											borderRadius: '5px',
+											alignItems: 'center',
+										}
 									: null
 							}
 						>
@@ -327,10 +327,10 @@ class Map extends Component {
 							style={
 								!hi
 									? {
-										background: 'hsla(0, 0%, 100%, 0.2)',
-										alignItems: 'center',
-										borderRadius: '5px',
-									  }
+											background: 'hsla(0, 0%, 100%, 0.2)',
+											alignItems: 'center',
+											borderRadius: '5px',
+										}
 									: null
 							}
 						>
@@ -367,10 +367,10 @@ class Map extends Component {
 							style={
 								!pv
 									? {
-										background: 'hsla(0, 0%, 100%, 0.2)',
-										borderRadius: '5px',
-										alignItems: 'center',
-									  }
+											background: 'hsla(0, 0%, 100%, 0.2)',
+											borderRadius: '5px',
+											alignItems: 'center',
+										}
 									: null
 							}
 						>
@@ -407,10 +407,10 @@ class Map extends Component {
 							style={
 								!c
 									? {
-										background: 'hsla(0, 0%, 100%, 0.2)',
-										borderRadius: '5px',
-										alignItems: 'center',
-									  }
+											background: 'hsla(0, 0%, 100%, 0.2)',
+											borderRadius: '5px',
+											alignItems: 'center',
+										}
 									: null
 							}
 						>
@@ -451,10 +451,10 @@ class Map extends Component {
 							style={
 								!age
 									? {
-										background: 'hsla(0, 0%, 100%, 0.2)',
-										borderRadius: '5px',
-										alignItems: 'center',
-									  }
+											background: 'hsla(0, 0%, 100%, 0.2)',
+											borderRadius: '5px',
+											alignItems: 'center',
+										}
 									: null
 							}
 						>

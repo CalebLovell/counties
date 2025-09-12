@@ -10,16 +10,20 @@
 		"pretty": "prettier src --write",
 		"linty": "eslint src --fix",
 		"ts": "tsc",
-		"clean": "yarn pretty && yarn linty && yarn ts"
+		"clean": "npm run pretty && npm run linty && npm run ts"
 	},
 	"dependencies": {
+		"@headlessui/react": "^2.2.7",
+		"@heroicons/react": "^2.2.0",
 		"axios": "^1.1.3",
 		"d3": "^7.6.1",
+		"date-fns": "^4.1.0",
 		"just-standard-deviation": "^2.1.1",
 		"react": "^19.1.1",
 		"react-dom": "^19.1.1",
 		"topojson": "^3.0.2",
-		"topojson-client": "^3.1.0"
+		"topojson-client": "^3.1.0",
+		"zustand": "^5.0.8"
 	},
 	"devDependencies": {
 		"@types/d3": "^7.4.0",
