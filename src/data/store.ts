@@ -1,9 +1,8 @@
 import { create } from "zustand";
+import type { County } from "~/data/counties";
 import { standardDeviation } from "./functions";
 
 const {
-	avg_temp_min,
-	avg_temp_max,
 	household_income_min,
 	household_income_max,
 	property_value_min,
@@ -21,11 +20,9 @@ type AppState = {
 	setKeyIsVisible: (by: boolean) => void;
 	panelIsVisible: boolean;
 	setPanelIsVisible: (by: boolean) => void;
+	selectedCounty: County | null;
+	setSelectedCounty: (county: County | null) => void;
 	// Filter states
-	temp: boolean;
-	setTemp: (value: boolean) => void;
-	temp_val: number;
-	setTempVal: (value: number) => void;
 	hi: boolean;
 	setHi: (value: boolean) => void;
 	hi_val: number;
@@ -51,11 +48,9 @@ export const useAppStore = create<AppState>((set) => ({
 	setKeyIsVisible: (by: boolean) => set({ keyIsVisible: by }),
 	panelIsVisible: true,
 	setPanelIsVisible: (by: boolean) => set({ panelIsVisible: by }),
+	selectedCounty: null,
+	setSelectedCounty: (county) => set({ selectedCounty: county }),
 	// Filter states
-	temp: true,
-	setTemp: (value: boolean) => set({ temp: value }),
-	temp_val: Math.round((avg_temp_min + avg_temp_max) / 2),
-	setTempVal: (value: number) => set({ temp_val: value }),
 	hi: true,
 	setHi: (value: boolean) => set({ hi: value }),
 	hi_val: Math.round((household_income_min + household_income_max) / 2),

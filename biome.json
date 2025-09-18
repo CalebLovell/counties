@@ -22,6 +22,9 @@
 			"trailingCommas": "all"
 		}
 	},
+	"files": {
+		"includes": ["**/*", "!**/*.css"]
+	},
 	"json": {
 		"formatter": {
 			"trailingCommas": "none"

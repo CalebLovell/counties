@@ -11,7 +11,6 @@ export const standardDeviation = () => {
 	const property_value = counties.map((x) => x.property_value);
 	const commute_time = counties.map((x) => x.commute_time);
 	const median_age = counties.map((x) => x.median_age);
-	const avg_temp = counties.map((x) => x.avg_temp).filter((x): x is number => x !== undefined);
 
 	const vals = {
 		household_income_stdev: stddev(household_income) / 2,
@@ -26,8 +25,6 @@ export const standardDeviation = () => {
 		median_age_stdev: stddev(median_age) / 2,
 		median_age_max: Math.max(...median_age),
 		median_age_min: Math.min(...median_age),
-		avg_temp_max: avg_temp.length > 0 ? Math.max(...avg_temp) : 100,
-		avg_temp_min: avg_temp.length > 0 ? Math.min(...avg_temp) : 0,
 	};
 	return vals;
 };
@@ -40,8 +37,6 @@ export const getActiveCounty = (county_id: number) => {
 export const getColor = (
 	county: County,
 	filterValues: {
-		temp: boolean;
-		temp_val: number;
 		hi: boolean;
 		hi_val: number;
 		pv: boolean;
@@ -52,7 +47,7 @@ export const getColor = (
 		age_val: number;
 	},
 ) => {
-	const { temp, temp_val, hi, hi_val, pv, pv_val, c, c_val, age, age_val } = filterValues;
+	const { hi, hi_val, pv, pv_val, c, c_val, age, age_val } = filterValues;
 
 	const vals = standardDeviation();
 	const { household_income_stdev, property_value_stdev, median_age_stdev, commute_time_stdev } = vals;
@@ -81,15 +76,6 @@ export const getColor = (
 
 	if (age) {
 		const deviation = Math.abs(county.median_age - age_val) / median_age_stdev;
-		totalDeviations += deviation;
-		activeFilters++;
-	}
-
-	if (temp && county.avg_temp !== undefined) {
-		// For temperature, create a pseudo-standard deviation based on the range
-		const tempRange = vals.avg_temp_max - vals.avg_temp_min;
-		const tempStdev = tempRange / 6; // Approximate 6 sigma range
-		const deviation = Math.abs(county.avg_temp - temp_val) / tempStdev;
 		totalDeviations += deviation;
 		activeFilters++;
 	}

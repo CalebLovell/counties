@@ -1,73 +1,48 @@
-import { AcademicCapIcon, ClockIcon, LightBulbIcon, UserCircleIcon } from "@heroicons/react/24/solid";
-import { format } from "date-fns";
-
 import { useAppStore } from "~/data/store";
 
-const formatDate = (date: Date | undefined) => (date ? format(new Date(date), `MMM d, yyy`) : undefined);
-
 export const DataPanel = () => {
-	const { panelIsVisible } = useAppStore();
+	const { selectedCounty } = useAppStore();
 
-	const county = `Placeholder County`;
-	const name = `Placeholder Name`;
-	const inOffice = formatDate(new Date());
-	const party = `Placeholder Party`;
-	const leaning = `Placeholder Leaning`;
+	const details = [
+		{
+			title: "Household Income",
+			value: selectedCounty?.household_income ? `$${selectedCounty.household_income.toLocaleString()}` : null,
+		},
+		{ title: "Commute Time", value: selectedCounty?.commute_time ? `${selectedCounty.commute_time} min` : null },
+		{
+			title: "Property Value",
+			value: selectedCounty?.property_value ? `$${selectedCounty.property_value.toLocaleString()}` : null,
+		},
+		{ title: "Median Age", value: selectedCounty?.median_age ?? null },
+	];
 
-	if (!panelIsVisible) return null;
+	if (!selectedCounty) return null;
 	return (
-		<div className="absolute right-2 top-2 w-40 rounded-lg border border-gray-300 bg-white md:right-8 md:top-8 md:w-60">
-			<dl className="flex flex-col">
-				<div className="relative flex-auto p-1 md:p-2">
-					<dt className="truncate text-center text-xs font-semibold leading-6 text-gray-900 md:whitespace-normal md:text-base">
-						{county}
+		<section className="flex justify-end w-full">
+			<dl className="flex flex-col items-end w-full">
+				<div className="relative flex-auto p-1 md:p-2 text-right w-full">
+					<dt className="truncate text-xs font-semibold leading-6 text-gray-900 md:whitespace-normal md:text-base">
+						{selectedCounty.county_name}
 					</dt>
+					<dd className="text-xs text-gray-500 md:text-sm">{selectedCounty.county_state_name}</dd>
 				</div>
 
-				<>
-					<div className="space-y-0 border-y border-gray-300 p-1 md:space-y-1 md:p-2">
-						<div className="flex w-full flex-none items-center gap-x-1">
-							<dt className="flex-none">
-								<span className="sr-only">County</span>
-								<UserCircleIcon className="h-5 w-4 text-gray-600" aria-hidden="true" />
-							</dt>
-							<dd className="text-xs font-medium leading-6 text-gray-900 md:text-sm">{name}</dd>
-						</div>
-						<div className="flex w-full flex-none items-center gap-x-1">
-							<dt className="flex-none">
-								<span className="sr-only">Time in Office</span>
-								<ClockIcon className="h-5 w-4 text-gray-600" aria-hidden="true" />
-							</dt>
-							<dd className="text-xs italic leading-6 text-gray-500 md:text-sm">
-								<time dateTime="2023-01-31">{inOffice}</time>
-							</dd>
-						</div>
-						<div className="flex w-full flex-none items-center gap-x-1">
-							<dt className="flex-none">
-								<span className="sr-only">Political Party</span>
-								<AcademicCapIcon className="h-5 w-4 text-gray-600" aria-hidden="true" />
-							</dt>
-							<dd className="text-xs leading-6 text-gray-800 md:text-sm">{party}</dd>
-						</div>
-						<div className="flex w-full flex-none items-center gap-x-1">
-							<dt className="flex-none">
-								<span className="sr-only">Political Leaning</span>
-								<LightBulbIcon className="h-5 w-4 text-gray-600" aria-hidden="true" />
-							</dt>
-							<dd className="text-xs leading-6 text-gray-800 md:text-sm">{leaning}</dd>
-						</div>
-					</div>
-
-					<div className="relative flex-auto p-1 md:p-2">
-						<button
-							onClick={() => null}
-							className="w-full rounded-md bg-white px-2.5 py-1 text-xs font-semibold text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 hover:bg-gray-50 active:scale-95"
-						>
-							Clear
-						</button>
-					</div>
-				</>
+				<div className="space-y-0 md:space-y-1 w-full">
+					{details.map(({ title, value }) => (
+						<Detail key={title} title={title} value={value} />
+					))}
+				</div>
 			</dl>
+		</section>
+	);
+};
+
+const Detail = ({ title, value }: { title: string; value: string | number | null | undefined }) => {
+	if (!value) return null;
+	return (
+		<div className="flex w-full flex-none items-center gap-x-1 justify-end text-right">
+			<dt className="flex-none">{title}:</dt>
+			<dd className="text-xs font-medium leading-6 text-gray-900 md:text-sm">{value}</dd>
 		</div>
 	);
 };

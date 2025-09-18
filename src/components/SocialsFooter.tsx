@@ -1,52 +1,29 @@
 import { ArrowPathRoundedSquareIcon } from "@heroicons/react/24/solid";
 import { format } from "date-fns";
-import { DataFilters } from "~/components/DataFilters";
 
-export const EventList = () => {
-	return (
-		<div className="fixed inset-y-0 left-0 flex max-w-full pl-10">
-			<div className="h-0 w-screen max-w-lg">
-				<div className="mt-14 h-0.5 w-full" />
-				<div className="flex h-slideover w-full flex-col">
-					<SlideoverContent />
-				</div>
-			</div>
-		</div>
-	);
-};
-
-const SlideoverContent = () => {
+export const SocialsFooter = () => {
 	const lastUpdated = new Date();
 	const formattedLastUpdated = `Data updated on ${format(lastUpdated, `MMM do, yyyy`)}`;
 
 	return (
-		<div className="flex h-full w-full flex-col justify-between overflow-auto p-2 text-right">
-			<div>
-				<div className="mb-2 text-xs font-semibold leading-6 text-gray-900">Map Information</div>
-				<div className="flex flex-col space-y-2 text-sm text-gray-900">
-					<p>A map!</p>
-				</div>
+		<div className="flex flex-col justify-center pt-2">
+			<div className="flex items-center justify-center space-x-1 pt-2">
+				<ArrowPathRoundedSquareIcon className="h-3.5 w-3.5 text-gray-900" />
+				<p className="text-xs font-semibold italic text-gray-900">{formattedLastUpdated}</p>
 			</div>
-			<DataFilters />
-			<div className="flex flex-col justify-center pt-2">
-				<div className="flex items-center justify-center space-x-1 pt-2">
-					<ArrowPathRoundedSquareIcon className="h-3.5 w-3.5 text-gray-900" />
-					<p className="text-xs font-semibold italic text-gray-900">{formattedLastUpdated}</p>
-				</div>
-				<div className="flex items-center justify-center space-x-2 pt-2">
-					{socials.map((x) => (
-						<a
-							key={x.title}
-							href={x.href}
-							className="rounded p-2 text-blue-900 transition duration-150 ease-in-out hover:rotate-12 hover:bg-gray-200"
-							target="_blank"
-							rel="noreferrer"
-						>
-							<span className="sr-only">{x.title}</span>
-							{x.svg}
-						</a>
-					))}
-				</div>
+			<div className="flex items-center justify-center space-x-2 pt-2">
+				{socials.map((x) => (
+					<a
+						key={x.title}
+						href={x.href}
+						className="rounded p-2 text-blue-900 transition duration-150 ease-in-out hover:rotate-12 hover:bg-gray-200"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<span className="sr-only">{x.title}</span>
+						{x.svg}
+					</a>
+				))}
 			</div>
 		</div>
 	);
