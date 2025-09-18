@@ -5,12 +5,8 @@
 	"type": "module",
 	"scripts": {
 		"dev": "vite",
-		"build": "tsc && vite build",
-		"preview": "vite preview",
-		"format": "biome format --write",
-		"lint": "biome lint --write",
-		"ts": "tsc",
-		"clean": "biome check && tsc"
+		"prod": "vite build && vite preview",
+		"clean": "biome check --write && tsc"
 	},
 	"dependencies": {
 		"@headlessui/react": "^2.2.7",

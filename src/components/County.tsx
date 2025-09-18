@@ -1,6 +1,5 @@
 import type { Feature, GeoJsonProperties, Geometry } from "geojson";
-import { counties } from "~/data/counties";
-import { getColor } from "~/data/functions";
+import { getActiveCounty, getColor } from "~/data/functions";
 import { useAppStore } from "~/data/store";
 
 type Props = {
@@ -9,11 +8,9 @@ type Props = {
 };
 
 export const County = ({ d, path }: Props) => {
-	const { hi, hi_val, pv, pv_val, c, c_val, age, age_val, setSelectedCounty } = useAppStore();
-
-	const name = d.properties?.ADMIN;
-	const county_id = d.id;
-	const county = counties.find((x) => x.county_id === Number(county_id));
+	const { hi, hi_val, pv, pv_val, c, c_val, age, age_val, setSelectedCounty, selectedCounty } = useAppStore();
+	const isSelected = selectedCounty?.county_id === Number(d.id);
+	const activeCounty = getActiveCounty(Number(d.id));
 
 	const filterValues = {
 		hi,
@@ -26,24 +23,45 @@ export const County = ({ d, path }: Props) => {
 		age_val,
 	};
 
-	const color = county ? getColor(county, filterValues) : `purple`;
+	const color = activeCounty ? getColor(activeCounty, filterValues) : `purple`;
 
 	const onClick = () => {
-		const countyObj = counties.find((x) => x.county_id === Number(county_id));
-		setSelectedCounty(countyObj || null);
+		setSelectedCounty(activeCounty ?? null);
 	};
 
+	const patternId = `diagonalHatch-${d.id}`;
+	const filterId = `county-glow-${d.id}`;
 	return (
-		// biome-ignore lint/a11y/useSemanticElements: this must be an svg path element
-		<path
-			role="button"
-			tabIndex={0}
-			aria-label={name}
-			d={path ? path : undefined}
-			fill={color}
-			strokeWidth="0.3"
-			stroke="#090821"
-			onClick={onClick}
-		/>
+		<>
+			{isSelected && (
+				<defs>
+					<pattern id={patternId} patternUnits="userSpaceOnUse" width="3" height="3" patternTransform="rotate(45)">
+						<rect x="0" y="0" width="3" height="3" fill={color} />
+						<line
+							x1="0"
+							y1="0"
+							x2="0"
+							y2="3"
+							stroke={isSelected ? "black" : color}
+							strokeWidth="2"
+							opacity={0.5}
+						/>
+					</pattern>
+					<filter id={filterId} x="-20%" y="-20%" width="140%" height="140%">
+						<feDropShadow dx="0" dy="0" stdDeviation="2.5" floodColor="black" floodOpacity="1" />
+					</filter>
+				</defs>
+			)}
+			{/* biome-ignore lint/a11y/noStaticElementInteractions: temp TODO */}
+			<path
+				className="cursor-pointer outline-none"
+				d={path ? path : undefined}
+				fill={isSelected ? `url(#${patternId})` : color}
+				stroke="#090821"
+				strokeWidth={0.3}
+				onClick={onClick}
+				filter={isSelected ? `url(#${filterId})` : undefined}
+			/>
+		</>
 	);
 };
