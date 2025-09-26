@@ -1,0 +1,3223 @@
+FIPS,County Name,State,State FIPS,County FIPS,Population,Year
+01001,"Autauga County, Alabama",Alabama,01,001,59285,2023
+01003,"Baldwin County, Alabama",Alabama,01,003,239945,2023
+01005,"Barbour County, Alabama",Alabama,01,005,24757,2023
+01007,"Bibb County, Alabama",Alabama,01,007,22152,2023
+01009,"Blount County, Alabama",Alabama,01,009,59292,2023
+01011,"Bullock County, Alabama",Alabama,01,011,10157,2023
+01013,"Butler County, Alabama",Alabama,01,013,18807,2023
+01015,"Calhoun County, Alabama",Alabama,01,015,116141,2023
+01017,"Chambers County, Alabama",Alabama,01,017,34450,2023
+01019,"Cherokee County, Alabama",Alabama,01,019,25224,2023
+01021,"Chilton County, Alabama",Alabama,01,021,45500,2023
+01023,"Choctaw County, Alabama",Alabama,01,023,12525,2023
+01025,"Clarke County, Alabama",Alabama,01,025,22802,2023
+01027,"Clay County, Alabama",Alabama,01,027,14188,2023
+01029,"Cleburne County, Alabama",Alabama,01,029,15254,2023
+01031,"Coffee County, Alabama",Alabama,01,031,54231,2023
+01033,"Colbert County, Alabama",Alabama,01,033,57648,2023
+01035,"Conecuh County, Alabama",Alabama,01,035,11411,2023
+01037,"Coosa County, Alabama",Alabama,01,037,10323,2023
+01039,"Covington County, Alabama",Alabama,01,039,37647,2023
+01041,"Crenshaw County, Alabama",Alabama,01,041,13144,2023
+01043,"Cullman County, Alabama",Alabama,01,043,89463,2023
+01045,"Dale County, Alabama",Alabama,01,045,49516,2023
+01047,"Dallas County, Alabama",Alabama,01,047,37536,2023
+01049,"DeKalb County, Alabama",Alabama,01,049,71946,2023
+01051,"Elmore County, Alabama",Alabama,01,051,88669,2023
+01053,"Escambia County, Alabama",Alabama,01,053,36695,2023
+01055,"Etowah County, Alabama",Alabama,01,055,103208,2023
+01057,"Fayette County, Alabama",Alabama,01,057,16173,2023
+01059,"Franklin County, Alabama",Alabama,01,059,31978,2023
+01061,"Geneva County, Alabama",Alabama,01,061,26726,2023
+01063,"Greene County, Alabama",Alabama,01,063,7589,2023
+01065,"Hale County, Alabama",Alabama,01,065,14749,2023
+01067,"Henry County, Alabama",Alabama,01,067,17450,2023
+01069,"Houston County, Alabama",Alabama,01,069,107628,2023
+01071,"Jackson County, Alabama",Alabama,01,071,52839,2023
+01073,"Jefferson County, Alabama",Alabama,01,073,669744,2023
+01075,"Lamar County, Alabama",Alabama,01,075,13809,2023
+01077,"Lauderdale County, Alabama",Alabama,01,077,95037,2023
+01079,"Lawrence County, Alabama",Alabama,01,079,33182,2023
+01081,"Lee County, Alabama",Alabama,01,081,177663,2023
+01083,"Limestone County, Alabama",Alabama,01,083,107577,2023
+01085,"Lowndes County, Alabama",Alabama,01,085,10008,2023
+01087,"Macon County, Alabama",Alabama,01,087,18951,2023
+01089,"Madison County, Alabama",Alabama,01,089,397135,2023
+01091,"Marengo County, Alabama",Alabama,01,091,19027,2023
+01093,"Marion County, Alabama",Alabama,01,093,29190,2023
+01095,"Marshall County, Alabama",Alabama,01,095,98712,2023
+01097,"Mobile County, Alabama",Alabama,01,097,413162,2023
+01099,"Monroe County, Alabama",Alabama,01,099,19580,2023
+01101,"Montgomery County, Alabama",Alabama,01,101,227197,2023
+01103,"Morgan County, Alabama",Alabama,01,103,123742,2023
+01105,"Perry County, Alabama",Alabama,01,105,8231,2023
+01107,"Pickens County, Alabama",Alabama,01,107,18843,2023
+01109,"Pike County, Alabama",Alabama,01,109,32953,2023
+01111,"Randolph County, Alabama",Alabama,01,111,22310,2023
+01113,"Russell County, Alabama",Alabama,01,113,58858,2023
+01115,"St. Clair County, Alabama",Alabama,01,115,92903,2023
+01117,"Shelby County, Alabama",Alabama,01,117,226955,2023
+01119,"Sumter County, Alabama",Alabama,01,119,12020,2023
+01121,"Talladega County, Alabama",Alabama,01,121,81170,2023
+01123,"Tallapoosa County, Alabama",Alabama,01,123,41070,2023
+01125,"Tuscaloosa County, Alabama",Alabama,01,125,234036,2023
+01127,"Walker County, Alabama",Alabama,01,127,64886,2023
+01129,"Washington County, Alabama",Alabama,01,129,15270,2023
+01131,"Wilcox County, Alabama",Alabama,01,131,10347,2023
+01133,"Winston County, Alabama",Alabama,01,133,23637,2023
+02013,"Aleutians East Borough, Alaska",Alaska,02,013,3423,2023
+02016,"Aleutians West Census Area, Alaska",Alaska,02,016,5178,2023
+02020,"Anchorage Municipality, Alaska",Alaska,02,020,289069,2023
+02050,"Bethel Census Area, Alaska",Alaska,02,050,18487,2023
+02060,"Bristol Bay Borough, Alaska",Alaska,02,060,878,2023
+02063,"Chugach Census Area, Alaska",Alaska,02,063,6964,2023
+02066,"Copper River Census Area, Alaska",Alaska,02,066,2626,2023
+02068,"Denali Borough, Alaska",Alaska,02,068,2029,2023
+02070,"Dillingham Census Area, Alaska",Alaska,02,070,4780,2023
+02090,"Fairbanks North Star Borough, Alaska",Alaska,02,090,95555,2023
+02100,"Haines Borough, Alaska",Alaska,02,100,2077,2023
+02105,"Hoonah-Angoon Census Area, Alaska",Alaska,02,105,2313,2023
+02110,"Juneau City and Borough, Alaska",Alaska,02,110,31969,2023
+02122,"Kenai Peninsula Borough, Alaska",Alaska,02,122,59843,2023
+02130,"Ketchikan Gateway Borough, Alaska",Alaska,02,130,13870,2023
+02150,"Kodiak Island Borough, Alaska",Alaska,02,150,12878,2023
+02158,"Kusilvak Census Area, Alaska",Alaska,02,158,8277,2023
+02164,"Lake and Peninsula Borough, Alaska",Alaska,02,164,1007,2023
+02170,"Matanuska-Susitna Borough, Alaska",Alaska,02,170,110677,2023
+02180,"Nome Census Area, Alaska",Alaska,02,180,9925,2023
+02185,"North Slope Borough, Alaska",Alaska,02,185,10891,2023
+02188,"Northwest Arctic Borough, Alaska",Alaska,02,188,7611,2023
+02195,"Petersburg Borough, Alaska",Alaska,02,195,3394,2023
+02198,"Prince of Wales-Hyder Census Area, Alaska",Alaska,02,198,5730,2023
+02220,"Sitka City and Borough, Alaska",Alaska,02,220,8393,2023
+02230,"Skagway Municipality, Alaska",Alaska,02,230,1308,2023
+02240,"Southeast Fairbanks Census Area, Alaska",Alaska,02,240,6936,2023
+02275,"Wrangell City and Borough, Alaska",Alaska,02,275,2106,2023
+02282,"Yakutat City and Borough, Alaska",Alaska,02,282,506,2023
+02290,"Yukon-Koyukuk Census Area, Alaska",Alaska,02,290,5271,2023
+04001,"Apache County, Arizona",Arizona,04,001,65680,2023
+04003,"Cochise County, Arizona",Arizona,04,003,125458,2023
+04005,"Coconino County, Arizona",Arizona,04,005,144643,2023
+04007,"Gila County, Arizona",Arizona,04,007,53610,2023
+04009,"Graham County, Arizona",Arizona,04,009,38860,2023
+04011,"Greenlee County, Arizona",Arizona,04,011,9452,2023
+04012,"La Paz County, Arizona",Arizona,04,012,16605,2023
+04013,"Maricopa County, Arizona",Arizona,04,013,4491987,2023
+04015,"Mohave County, Arizona",Arizona,04,015,217420,2023
+04017,"Navajo County, Arizona",Arizona,04,017,107744,2023
+04019,"Pima County, Arizona",Arizona,04,019,1049947,2023
+04021,"Pinal County, Arizona",Arizona,04,021,449219,2023
+04023,"Santa Cruz County, Arizona",Arizona,04,023,48209,2023
+04025,"Yavapai County, Arizona",Arizona,04,025,241656,2023
+04027,"Yuma County, Arizona",Arizona,04,027,207685,2023
+05001,"Arkansas County, Arkansas",Arkansas,05,001,16773,2023
+05003,"Ashley County, Arkansas",Arkansas,05,003,18722,2023
+05005,"Baxter County, Arkansas",Arkansas,05,005,42150,2023
+05007,"Benton County, Arkansas",Arkansas,05,007,294541,2023
+05009,"Boone County, Arkansas",Arkansas,05,009,37896,2023
+05011,"Bradley County, Arkansas",Arkansas,05,011,10354,2023
+05013,"Calhoun County, Arkansas",Arkansas,05,013,4717,2023
+05015,"Carroll County, Arkansas",Arkansas,05,015,28526,2023
+05017,"Chicot County, Arkansas",Arkansas,05,017,9997,2023
+05019,"Clark County, Arkansas",Arkansas,05,019,21378,2023
+05021,"Clay County, Arkansas",Arkansas,05,021,14399,2023
+05023,"Cleburne County, Arkansas",Arkansas,05,023,25048,2023
+05025,"Cleveland County, Arkansas",Arkansas,05,025,7491,2023
+05027,"Columbia County, Arkansas",Arkansas,05,027,22527,2023
+05029,"Conway County, Arkansas",Arkansas,05,029,20872,2023
+05031,"Craighead County, Arkansas",Arkansas,05,031,112097,2023
+05033,"Crawford County, Arkansas",Arkansas,05,033,60792,2023
+05035,"Crittenden County, Arkansas",Arkansas,05,035,47609,2023
+05037,"Cross County, Arkansas",Arkansas,05,037,16681,2023
+05039,"Dallas County, Arkansas",Arkansas,05,039,6351,2023
+05041,"Desha County, Arkansas",Arkansas,05,041,11041,2023
+05043,"Drew County, Arkansas",Arkansas,05,043,17143,2023
+05045,"Faulkner County, Arkansas",Arkansas,05,045,126001,2023
+05047,"Franklin County, Arkansas",Arkansas,05,047,17220,2023
+05049,"Fulton County, Arkansas",Arkansas,05,049,12239,2023
+05051,"Garland County, Arkansas",Arkansas,05,051,100062,2023
+05053,"Grant County, Arkansas",Arkansas,05,053,18111,2023
+05055,"Greene County, Arkansas",Arkansas,05,055,46182,2023
+05057,"Hempstead County, Arkansas",Arkansas,05,057,19778,2023
+05059,"Hot Spring County, Arkansas",Arkansas,05,059,33142,2023
+05061,"Howard County, Arkansas",Arkansas,05,061,12701,2023
+05063,"Independence County, Arkansas",Arkansas,05,063,38120,2023
+05065,"Izard County, Arkansas",Arkansas,05,065,13866,2023
+05067,"Jackson County, Arkansas",Arkansas,05,067,16775,2023
+05069,"Jefferson County, Arkansas",Arkansas,05,069,65780,2023
+05071,"Johnson County, Arkansas",Arkansas,05,071,25932,2023
+05073,"Lafayette County, Arkansas",Arkansas,05,073,6211,2023
+05075,"Lawrence County, Arkansas",Arkansas,05,075,16265,2023
+05077,"Lee County, Arkansas",Arkansas,05,077,8511,2023
+05079,"Lincoln County, Arkansas",Arkansas,05,079,12966,2023
+05081,"Little River County, Arkansas",Arkansas,05,081,11959,2023
+05083,"Logan County, Arkansas",Arkansas,05,083,21240,2023
+05085,"Lonoke County, Arkansas",Arkansas,05,085,74747,2023
+05087,"Madison County, Arkansas",Arkansas,05,087,17032,2023
+05089,"Marion County, Arkansas",Arkansas,05,089,17076,2023
+05091,"Miller County, Arkansas",Arkansas,05,091,42588,2023
+05093,"Mississippi County, Arkansas",Arkansas,05,093,39749,2023
+05095,"Monroe County, Arkansas",Arkansas,05,095,6681,2023
+05097,"Montgomery County, Arkansas",Arkansas,05,097,8571,2023
+05099,"Nevada County, Arkansas",Arkansas,05,099,8228,2023
+05101,"Newton County, Arkansas",Arkansas,05,101,7175,2023
+05103,"Ouachita County, Arkansas",Arkansas,05,103,22317,2023
+05105,"Perry County, Arkansas",Arkansas,05,105,10073,2023
+05107,"Phillips County, Arkansas",Arkansas,05,107,15910,2023
+05109,"Pike County, Arkansas",Arkansas,05,109,10182,2023
+05111,"Poinsett County, Arkansas",Arkansas,05,111,22740,2023
+05113,"Polk County, Arkansas",Arkansas,05,113,19348,2023
+05115,"Pope County, Arkansas",Arkansas,05,115,63830,2023
+05117,"Prairie County, Arkansas",Arkansas,05,117,8162,2023
+05119,"Pulaski County, Arkansas",Arkansas,05,119,398949,2023
+05121,"Randolph County, Arkansas",Arkansas,05,121,18733,2023
+05123,"St. Francis County, Arkansas",Arkansas,05,123,22740,2023
+05125,"Saline County, Arkansas",Arkansas,05,125,125724,2023
+05127,"Scott County, Arkansas",Arkansas,05,127,9839,2023
+05129,"Searcy County, Arkansas",Arkansas,05,129,7861,2023
+05131,"Sebastian County, Arkansas",Arkansas,05,131,128448,2023
+05133,"Sevier County, Arkansas",Arkansas,05,133,15797,2023
+05135,"Sharp County, Arkansas",Arkansas,05,135,17597,2023
+05137,"Stone County, Arkansas",Arkansas,05,137,12474,2023
+05139,"Union County, Arkansas",Arkansas,05,139,38368,2023
+05141,"Van Buren County, Arkansas",Arkansas,05,141,15936,2023
+05143,"Washington County, Arkansas",Arkansas,05,143,251863,2023
+05145,"White County, Arkansas",Arkansas,05,145,77395,2023
+05147,"Woodruff County, Arkansas",Arkansas,05,147,6157,2023
+05149,"Yell County, Arkansas",Arkansas,05,149,20195,2023
+06001,"Alameda County, California",California,06,001,1651949,2023
+06003,"Alpine County, California",California,06,003,1695,2023
+06005,"Amador County, California",California,06,005,41029,2023
+06007,"Butte County, California",California,06,007,209470,2023
+06009,"Calaveras County, California",California,06,009,45995,2023
+06011,"Colusa County, California",California,06,011,21895,2023
+06013,"Contra Costa County, California",California,06,013,1161458,2023
+06015,"Del Norte County, California",California,06,015,27293,2023
+06017,"El Dorado County, California",California,06,017,192299,2023
+06019,"Fresno County, California",California,06,019,1012152,2023
+06021,"Glenn County, California",California,06,021,28623,2023
+06023,"Humboldt County, California",California,06,023,135418,2023
+06025,"Imperial County, California",California,06,025,179319,2023
+06027,"Inyo County, California",California,06,027,18803,2023
+06029,"Kern County, California",California,06,029,910433,2023
+06031,"Kings County, California",California,06,031,152830,2023
+06033,"Lake County, California",California,06,033,68139,2023
+06035,"Lassen County, California",California,06,035,31177,2023
+06037,"Los Angeles County, California",California,06,037,9848406,2023
+06039,"Madera County, California",California,06,039,158790,2023
+06041,"Marin County, California",California,06,041,258765,2023
+06043,"Mariposa County, California",California,06,043,17060,2023
+06045,"Mendocino County, California",California,06,045,90709,2023
+06047,"Merced County, California",California,06,047,285597,2023
+06049,"Modoc County, California",California,06,049,8646,2023
+06051,"Mono County, California",California,06,051,13169,2023
+06053,"Monterey County, California",California,06,053,435834,2023
+06055,"Napa County, California",California,06,055,136070,2023
+06057,"Nevada County, California",California,06,057,102452,2023
+06059,"Orange County, California",California,06,059,3164063,2023
+06061,"Placer County, California",California,06,061,412435,2023
+06063,"Plumas County, California",California,06,063,19607,2023
+06065,"Riverside County, California",California,06,065,2449909,2023
+06067,"Sacramento County, California",California,06,067,1584047,2023
+06069,"San Benito County, California",California,06,069,66056,2023
+06071,"San Bernardino County, California",California,06,071,2187816,2023
+06073,"San Diego County, California",California,06,073,3282782,2023
+06075,"San Francisco County, California",California,06,075,836321,2023
+06077,"San Joaquin County, California",California,06,077,787416,2023
+06079,"San Luis Obispo County, California",California,06,079,281486,2023
+06081,"San Mateo County, California",California,06,081,745100,2023
+06083,"Santa Barbara County, California",California,06,083,443975,2023
+06085,"Santa Clara County, California",California,06,085,1903297,2023
+06087,"Santa Cruz County, California",California,06,087,266021,2023
+06089,"Shasta County, California",California,06,089,181554,2023
+06091,"Sierra County, California",California,06,091,2731,2023
+06093,"Siskiyou County, California",California,06,093,43834,2023
+06095,"Solano County, California",California,06,095,450824,2023
+06097,"Sonoma County, California",California,06,097,485642,2023
+06099,"Stanislaus County, California",California,06,099,552250,2023
+06101,"Sutter County, California",California,06,101,98971,2023
+06103,"Tehama County, California",California,06,103,65520,2023
+06105,"Trinity County, California",California,06,105,15886,2023
+06107,"Tulare County, California",California,06,107,475774,2023
+06109,"Tuolumne County, California",California,06,109,54873,2023
+06111,"Ventura County, California",California,06,111,838259,2023
+06113,"Yolo County, California",California,06,113,217782,2023
+06115,"Yuba County, California",California,06,115,83079,2023
+08001,"Adams County, Colorado",Colorado,08,001,524408,2023
+08003,"Alamosa County, Colorado",Colorado,08,003,16515,2023
+08005,"Arapahoe County, Colorado",Colorado,08,005,655709,2023
+08007,"Archuleta County, Colorado",Colorado,08,007,13730,2023
+08009,"Baca County, Colorado",Colorado,08,009,3460,2023
+08011,"Bent County, Colorado",Colorado,08,011,5524,2023
+08013,"Boulder County, Colorado",Colorado,08,013,328317,2023
+08014,"Broomfield County, Colorado",Colorado,08,014,75110,2023
+08015,"Chaffee County, Colorado",Colorado,08,015,19876,2023
+08017,"Cheyenne County, Colorado",Colorado,08,017,1732,2023
+08019,"Clear Creek County, Colorado",Colorado,08,019,9358,2023
+08021,"Conejos County, Colorado",Colorado,08,021,7536,2023
+08023,"Costilla County, Colorado",Colorado,08,023,3571,2023
+08025,"Crowley County, Colorado",Colorado,08,025,5734,2023
+08027,"Custer County, Colorado",Colorado,08,027,5073,2023
+08029,"Delta County, Colorado",Colorado,08,029,31353,2023
+08031,"Denver County, Colorado",Colorado,08,031,713734,2023
+08033,"Dolores County, Colorado",Colorado,08,033,2385,2023
+08035,"Douglas County, Colorado",Colorado,08,035,368283,2023
+08037,"Eagle County, Colorado",Colorado,08,037,55374,2023
+08039,"Elbert County, Colorado",Colorado,08,039,27152,2023
+08041,"El Paso County, Colorado",Colorado,08,041,736008,2023
+08043,"Fremont County, Colorado",Colorado,08,043,49394,2023
+08045,"Garfield County, Colorado",Colorado,08,045,62034,2023
+08047,"Gilpin County, Colorado",Colorado,08,047,5877,2023
+08049,"Grand County, Colorado",Colorado,08,049,15794,2023
+08051,"Gunnison County, Colorado",Colorado,08,051,17158,2023
+08053,"Hinsdale County, Colorado",Colorado,08,053,939,2023
+08055,"Huerfano County, Colorado",Colorado,08,055,6946,2023
+08057,"Jackson County, Colorado",Colorado,08,057,1422,2023
+08059,"Jefferson County, Colorado",Colorado,08,059,579715,2023
+08061,"Kiowa County, Colorado",Colorado,08,061,1356,2023
+08063,"Kit Carson County, Colorado",Colorado,08,063,7015,2023
+08065,"Lake County, Colorado",Colorado,08,065,7411,2023
+08067,"La Plata County, Colorado",Colorado,08,067,56088,2023
+08069,"Larimer County, Colorado",Colorado,08,069,363561,2023
+08071,"Las Animas County, Colorado",Colorado,08,071,14392,2023
+08073,"Lincoln County, Colorado",Colorado,08,073,5561,2023
+08075,"Logan County, Colorado",Colorado,08,075,21067,2023
+08077,"Mesa County, Colorado",Colorado,08,077,157316,2023
+08079,"Mineral County, Colorado",Colorado,08,079,799,2023
+08081,"Moffat County, Colorado",Colorado,08,081,13258,2023
+08083,"Montezuma County, Colorado",Colorado,08,083,26204,2023
+08085,"Montrose County, Colorado",Colorado,08,085,43272,2023
+08087,"Morgan County, Colorado",Colorado,08,087,29186,2023
+08089,"Otero County, Colorado",Colorado,08,089,18460,2023
+08091,"Ouray County, Colorado",Colorado,08,091,5024,2023
+08093,"Park County, Colorado",Colorado,08,093,17739,2023
+08095,"Phillips County, Colorado",Colorado,08,095,4491,2023
+08097,"Pitkin County, Colorado",Colorado,08,097,17119,2023
+08099,"Prowers County, Colorado",Colorado,08,099,11931,2023
+08101,"Pueblo County, Colorado",Colorado,08,101,168726,2023
+08103,"Rio Blanco County, Colorado",Colorado,08,103,6518,2023
+08105,"Rio Grande County, Colorado",Colorado,08,105,11394,2023
+08107,"Routt County, Colorado",Colorado,08,107,24990,2023
+08109,"Saguache County, Colorado",Colorado,08,109,6511,2023
+08111,"San Juan County, Colorado",Colorado,08,111,690,2023
+08113,"San Miguel County, Colorado",Colorado,08,113,8026,2023
+08115,"Sedgwick County, Colorado",Colorado,08,115,2346,2023
+08117,"Summit County, Colorado",Colorado,08,117,30857,2023
+08119,"Teller County, Colorado",Colorado,08,119,24774,2023
+08121,"Washington County, Colorado",Colorado,08,121,4839,2023
+08123,"Weld County, Colorado",Colorado,08,123,340711,2023
+08125,"Yuma County, Colorado",Colorado,08,125,9921,2023
+09110,"Capitol Planning Region, Connecticut",Connecticut,09,110,969029,2023
+09120,"Greater Bridgeport Planning Region, Connecticut",Connecticut,09,120,326296,2023
+09130,"Lower Connecticut River Valley Planning Region, Connecticut",Connecticut,09,130,174983,2023
+09140,"Naugatuck Valley Planning Region, Connecticut",Connecticut,09,140,452303,2023
+09150,"Northeastern Connecticut Planning Region, Connecticut",Connecticut,09,150,95829,2023
+09160,"Northwest Hills Planning Region, Connecticut",Connecticut,09,160,112848,2023
+09170,"South Central Connecticut Planning Region, Connecticut",Connecticut,09,170,566803,2023
+09180,"Southeastern Connecticut Planning Region, Connecticut",Connecticut,09,180,279025,2023
+09190,"Western Connecticut Planning Region, Connecticut",Connecticut,09,190,621232,2023
+10001,"Kent County, Delaware",Delaware,10,001,185043,2023
+10003,"New Castle County, Delaware",Delaware,10,003,573030,2023
+10005,"Sussex County, Delaware",Delaware,10,005,247799,2023
+11001,"District of Columbia, District of Columbia",District of Columbia,11,001,672079,2023
+12001,"Alachua County, Florida",Florida,12,001,281751,2023
+12003,"Baker County, Florida",Florida,12,003,28186,2023
+12005,"Bay County, Florida",Florida,12,005,181368,2023
+12007,"Bradford County, Florida",Florida,12,007,27888,2023
+12009,"Brevard County, Florida",Florida,12,009,620533,2023
+12011,"Broward County, Florida",Florida,12,011,1946127,2023
+12013,"Calhoun County, Florida",Florida,12,013,13593,2023
+12015,"Charlotte County, Florida",Florida,12,015,195083,2023
+12017,"Citrus County, Florida",Florida,12,017,158693,2023
+12019,"Clay County, Florida",Florida,12,019,223436,2023
+12021,"Collier County, Florida",Florida,12,021,387681,2023
+12023,"Columbia County, Florida",Florida,12,023,70755,2023
+12027,"DeSoto County, Florida",Florida,12,027,34719,2023
+12029,"Dixie County, Florida",Florida,12,029,16952,2023
+12031,"Duval County, Florida",Florida,12,031,1007189,2023
+12033,"Escambia County, Florida",Florida,12,033,323275,2023
+12035,"Flagler County, Florida",Florida,12,035,121710,2023
+12037,"Franklin County, Florida",Florida,12,037,12418,2023
+12039,"Gadsden County, Florida",Florida,12,039,43642,2023
+12041,"Gilchrist County, Florida",Florida,12,041,18494,2023
+12043,"Glades County, Florida",Florida,12,043,12324,2023
+12045,"Gulf County, Florida",Florida,12,045,14772,2023
+12047,"Hamilton County, Florida",Florida,12,047,13445,2023
+12049,"Hardee County, Florida",Florida,12,049,25508,2023
+12051,"Hendry County, Florida",Florida,12,051,40798,2023
+12053,"Hernando County, Florida",Florida,12,053,201512,2023
+12055,"Highlands County, Florida",Florida,12,055,103808,2023
+12057,"Hillsborough County, Florida",Florida,12,057,1489634,2023
+12059,"Holmes County, Florida",Florida,12,059,19626,2023
+12061,"Indian River County, Florida",Florida,12,061,163856,2023
+12063,"Jackson County, Florida",Florida,12,063,47652,2023
+12065,"Jefferson County, Florida",Florida,12,065,14713,2023
+12067,"Lafayette County, Florida",Florida,12,067,8035,2023
+12069,"Lake County, Florida",Florida,12,069,398696,2023
+12071,"Lee County, Florida",Florida,12,071,792692,2023
+12073,"Leon County, Florida",Florida,12,073,295335,2023
+12075,"Levy County, Florida",Florida,12,075,44276,2023
+12077,"Liberty County, Florida",Florida,12,077,7650,2023
+12079,"Madison County, Florida",Florida,12,079,18113,2023
+12081,"Manatee County, Florida",Florida,12,081,416020,2023
+12083,"Marion County, Florida",Florida,12,083,387697,2023
+12085,"Martin County, Florida",Florida,12,085,160464,2023
+12086,"Miami-Dade County, Florida",Florida,12,086,2685296,2023
+12087,"Monroe County, Florida",Florida,12,087,81840,2023
+12089,"Nassau County, Florida",Florida,12,089,94653,2023
+12091,"Okaloosa County, Florida",Florida,12,091,214281,2023
+12093,"Okeechobee County, Florida",Florida,12,093,40249,2023
+12095,"Orange County, Florida",Florida,12,095,1440471,2023
+12097,"Osceola County, Florida",Florida,12,097,406943,2023
+12099,"Palm Beach County, Florida",Florida,12,099,1507453,2023
+12101,"Pasco County, Florida",Florida,12,101,588758,2023
+12103,"Pinellas County, Florida",Florida,12,103,960565,2023
+12105,"Polk County, Florida",Florida,12,105,760961,2023
+12107,"Putnam County, Florida",Florida,12,107,74235,2023
+12109,"St. Johns County, Florida",Florida,12,109,292243,2023
+12111,"St. Lucie County, Florida",Florida,12,111,346237,2023
+12113,"Santa Rosa County, Florida",Florida,12,113,193719,2023
+12115,"Sarasota County, Florida",Florida,12,115,449011,2023
+12117,"Seminole County, Florida",Florida,12,117,474912,2023
+12119,"Sumter County, Florida",Florida,12,119,137536,2023
+12121,"Suwannee County, Florida",Florida,12,121,44484,2023
+12123,"Taylor County, Florida",Florida,12,123,21422,2023
+12125,"Union County, Florida",Florida,12,125,15551,2023
+12127,"Volusia County, Florida",Florida,12,127,568229,2023
+12129,"Wakulla County, Florida",Florida,12,129,34608,2023
+12131,"Walton County, Florida",Florida,12,131,79846,2023
+12133,"Washington County, Florida",Florida,12,133,25259,2023
+13001,"Appling County, Georgia",Georgia,13,001,18426,2023
+13003,"Atkinson County, Georgia",Georgia,13,003,8261,2023
+13005,"Bacon County, Georgia",Georgia,13,005,11129,2023
+13007,"Baker County, Georgia",Georgia,13,007,2830,2023
+13009,"Baldwin County, Georgia",Georgia,13,009,43669,2023
+13011,"Banks County, Georgia",Georgia,13,011,18757,2023
+13013,"Barrow County, Georgia",Georgia,13,013,86982,2023
+13015,"Bartow County, Georgia",Georgia,13,015,111153,2023
+13017,"Ben Hill County, Georgia",Georgia,13,017,17138,2023
+13019,"Berrien County, Georgia",Georgia,13,019,18257,2023
+13021,"Bibb County, Georgia",Georgia,13,021,156543,2023
+13023,"Bleckley County, Georgia",Georgia,13,023,12414,2023
+13025,"Brantley County, Georgia",Georgia,13,025,18171,2023
+13027,"Brooks County, Georgia",Georgia,13,027,16285,2023
+13029,"Bryan County, Georgia",Georgia,13,029,46681,2023
+13031,"Bulloch County, Georgia",Georgia,13,031,81372,2023
+13033,"Burke County, Georgia",Georgia,13,033,24427,2023
+13035,"Butts County, Georgia",Georgia,13,035,26074,2023
+13037,"Calhoun County, Georgia",Georgia,13,037,5528,2023
+13039,"Camden County, Georgia",Georgia,13,039,56036,2023
+13043,"Candler County, Georgia",Georgia,13,043,10972,2023
+13045,"Carroll County, Georgia",Georgia,13,045,122187,2023
+13047,"Catoosa County, Georgia",Georgia,13,047,68356,2023
+13049,"Charlton County, Georgia",Georgia,13,049,12711,2023
+13051,"Chatham County, Georgia",Georgia,13,051,298143,2023
+13053,"Chattahoochee County, Georgia",Georgia,13,053,9181,2023
+13055,"Chattooga County, Georgia",Georgia,13,055,24975,2023
+13057,"Cherokee County, Georgia",Georgia,13,057,274539,2023
+13059,"Clarke County, Georgia",Georgia,13,059,129267,2023
+13061,"Clay County, Georgia",Georgia,13,061,2853,2023
+13063,"Clayton County, Georgia",Georgia,13,063,298771,2023
+13065,"Clinch County, Georgia",Georgia,13,065,6722,2023
+13067,"Cobb County, Georgia",Georgia,13,067,769152,2023
+13069,"Coffee County, Georgia",Georgia,13,069,43161,2023
+13071,"Colquitt County, Georgia",Georgia,13,071,45907,2023
+13073,"Columbia County, Georgia",Georgia,13,073,159638,2023
+13075,"Cook County, Georgia",Georgia,13,075,17363,2023
+13077,"Coweta County, Georgia",Georgia,13,077,150071,2023
+13079,"Crawford County, Georgia",Georgia,13,079,12183,2023
+13081,"Crisp County, Georgia",Georgia,13,081,19995,2023
+13083,"Dade County, Georgia",Georgia,13,083,16196,2023
+13085,"Dawson County, Georgia",Georgia,13,085,28704,2023
+13087,"Decatur County, Georgia",Georgia,13,087,29118,2023
+13089,"DeKalb County, Georgia",Georgia,13,089,762105,2023
+13091,"Dodge County, Georgia",Georgia,13,091,19909,2023
+13093,"Dooly County, Georgia",Georgia,13,093,11026,2023
+13095,"Dougherty County, Georgia",Georgia,13,095,83915,2023
+13097,"Douglas County, Georgia",Georgia,13,097,146141,2023
+13099,"Early County, Georgia",Georgia,13,099,10683,2023
+13101,"Echols County, Georgia",Georgia,13,101,3705,2023
+13103,"Effingham County, Georgia",Georgia,13,103,67265,2023
+13105,"Elbert County, Georgia",Georgia,13,105,19725,2023
+13107,"Emanuel County, Georgia",Georgia,13,107,22961,2023
+13109,"Evans County, Georgia",Georgia,13,109,10740,2023
+13111,"Fannin County, Georgia",Georgia,13,111,25605,2023
+13113,"Fayette County, Georgia",Georgia,13,113,120689,2023
+13115,"Floyd County, Georgia",Georgia,13,115,98985,2023
+13117,"Forsyth County, Georgia",Georgia,13,117,260062,2023
+13119,"Franklin County, Georgia",Georgia,13,119,23840,2023
+13121,"Fulton County, Georgia",Georgia,13,121,1068507,2023
+13123,"Gilmer County, Georgia",Georgia,13,123,31976,2023
+13125,"Glascock County, Georgia",Georgia,13,125,2913,2023
+13127,"Glynn County, Georgia",Georgia,13,127,84987,2023
+13129,"Gordon County, Georgia",Georgia,13,129,58336,2023
+13131,"Grady County, Georgia",Georgia,13,131,26056,2023
+13133,"Greene County, Georgia",Georgia,13,133,19586,2023
+13135,"Gwinnett County, Georgia",Georgia,13,135,966972,2023
+13137,"Habersham County, Georgia",Georgia,13,137,46948,2023
+13139,"Hall County, Georgia",Georgia,13,139,208395,2023
+13141,"Hancock County, Georgia",Georgia,13,141,8630,2023
+13143,"Haralson County, Georgia",Georgia,13,143,30720,2023
+13145,"Harris County, Georgia",Georgia,13,145,35509,2023
+13147,"Hart County, Georgia",Georgia,13,147,26484,2023
+13149,"Heard County, Georgia",Georgia,13,149,11616,2023
+13151,"Henry County, Georgia",Georgia,13,151,245417,2023
+13153,"Houston County, Georgia",Georgia,13,153,166902,2023
+13155,"Irwin County, Georgia",Georgia,13,155,9385,2023
+13157,"Jackson County, Georgia",Georgia,13,157,80640,2023
+13159,"Jasper County, Georgia",Georgia,13,159,15345,2023
+13161,"Jeff Davis County, Georgia",Georgia,13,161,14838,2023
+13163,"Jefferson County, Georgia",Georgia,13,163,15468,2023
+13165,"Jenkins County, Georgia",Georgia,13,165,8674,2023
+13167,"Johnson County, Georgia",Georgia,13,167,9192,2023
+13169,"Jones County, Georgia",Georgia,13,169,28526,2023
+13171,"Lamar County, Georgia",Georgia,13,171,19098,2023
+13173,"Lanier County, Georgia",Georgia,13,173,10094,2023
+13175,"Laurens County, Georgia",Georgia,13,175,49619,2023
+13177,"Lee County, Georgia",Georgia,13,177,33337,2023
+13179,"Liberty County, Georgia",Georgia,13,179,66826,2023
+13181,"Lincoln County, Georgia",Georgia,13,181,7773,2023
+13183,"Long County, Georgia",Georgia,13,183,17512,2023
+13185,"Lowndes County, Georgia",Georgia,13,185,119055,2023
+13187,"Lumpkin County, Georgia",Georgia,13,187,33931,2023
+13189,"McDuffie County, Georgia",Georgia,13,189,21687,2023
+13191,"McIntosh County, Georgia",Georgia,13,191,11187,2023
+13193,"Macon County, Georgia",Georgia,13,193,11953,2023
+13195,"Madison County, Georgia",Georgia,13,195,30914,2023
+13197,"Marion County, Georgia",Georgia,13,197,7474,2023
+13199,"Meriwether County, Georgia",Georgia,13,199,20757,2023
+13201,"Miller County, Georgia",Georgia,13,201,5873,2023
+13205,"Mitchell County, Georgia",Georgia,13,205,21441,2023
+13207,"Monroe County, Georgia",Georgia,13,207,28919,2023
+13209,"Montgomery County, Georgia",Georgia,13,209,8675,2023
+13211,"Morgan County, Georgia",Georgia,13,211,20614,2023
+13213,"Murray County, Georgia",Georgia,13,213,40282,2023
+13215,"Muscogee County, Georgia",Georgia,13,215,204383,2023
+13217,"Newton County, Georgia",Georgia,13,217,115530,2023
+13219,"Oconee County, Georgia",Georgia,13,219,42788,2023
+13221,"Oglethorpe County, Georgia",Georgia,13,221,15221,2023
+13223,"Paulding County, Georgia",Georgia,13,223,174292,2023
+13225,"Peach County, Georgia",Georgia,13,225,28269,2023
+13227,"Pickens County, Georgia",Georgia,13,227,34197,2023
+13229,"Pierce County, Georgia",Georgia,13,229,19996,2023
+13231,"Pike County, Georgia",Georgia,13,231,19540,2023
+13233,"Polk County, Georgia",Georgia,13,233,43365,2023
+13235,"Pulaski County, Georgia",Georgia,13,235,9893,2023
+13237,"Putnam County, Georgia",Georgia,13,237,22524,2023
+13239,"Quitman County, Georgia",Georgia,13,239,2092,2023
+13241,"Rabun County, Georgia",Georgia,13,241,17107,2023
+13243,"Randolph County, Georgia",Georgia,13,243,6270,2023
+13245,"Richmond County, Georgia",Georgia,13,245,206040,2023
+13247,"Rockdale County, Georgia",Georgia,13,247,94293,2023
+13249,"Schley County, Georgia",Georgia,13,249,4539,2023
+13251,"Screven County, Georgia",Georgia,13,251,14057,2023
+13253,"Seminole County, Georgia",Georgia,13,253,9117,2023
+13255,"Spalding County, Georgia",Georgia,13,255,68215,2023
+13257,"Stephens County, Georgia",Georgia,13,257,26842,2023
+13259,"Stewart County, Georgia",Georgia,13,259,4978,2023
+13261,"Sumter County, Georgia",Georgia,13,261,29174,2023
+13263,"Talbot County, Georgia",Georgia,13,263,5753,2023
+13265,"Taliaferro County, Georgia",Georgia,13,265,1740,2023
+13267,"Tattnall County, Georgia",Georgia,13,267,24215,2023
+13269,"Taylor County, Georgia",Georgia,13,269,7786,2023
+13271,"Telfair County, Georgia",Georgia,13,271,12174,2023
+13273,"Terrell County, Georgia",Georgia,13,273,8941,2023
+13275,"Thomas County, Georgia",Georgia,13,275,45696,2023
+13277,"Tift County, Georgia",Georgia,13,277,41322,2023
+13279,"Toombs County, Georgia",Georgia,13,279,26943,2023
+13281,"Towns County, Georgia",Georgia,13,281,12739,2023
+13283,"Treutlen County, Georgia",Georgia,13,283,6387,2023
+13285,"Troup County, Georgia",Georgia,13,285,69821,2023
+13287,"Turner County, Georgia",Georgia,13,287,8915,2023
+13289,"Twiggs County, Georgia",Georgia,13,289,7869,2023
+13291,"Union County, Georgia",Georgia,13,291,25598,2023
+13293,"Upson County, Georgia",Georgia,13,293,27856,2023
+13295,"Walker County, Georgia",Georgia,13,295,68449,2023
+13297,"Walton County, Georgia",Georgia,13,297,100361,2023
+13299,"Ware County, Georgia",Georgia,13,299,35958,2023
+13301,"Warren County, Georgia",Georgia,13,301,5175,2023
+13303,"Washington County, Georgia",Georgia,13,303,19893,2023
+13305,"Wayne County, Georgia",Georgia,13,305,30519,2023
+13307,"Webster County, Georgia",Georgia,13,307,2348,2023
+13309,"Wheeler County, Georgia",Georgia,13,309,7434,2023
+13311,"White County, Georgia",Georgia,13,311,28454,2023
+13313,"Whitfield County, Georgia",Georgia,13,313,103118,2023
+13315,"Wilcox County, Georgia",Georgia,13,315,8784,2023
+13317,"Wilkes County, Georgia",Georgia,13,317,9553,2023
+13319,"Wilkinson County, Georgia",Georgia,13,319,8795,2023
+13321,"Worth County, Georgia",Georgia,13,321,20575,2023
+15001,"Hawaii County, Hawaii",Hawaii,15,001,203684,2023
+15003,"Honolulu County, Hawaii",Hawaii,15,003,1003666,2023
+15005,"Kalawao County, Hawaii",Hawaii,15,005,43,2023
+15007,"Kauai County, Hawaii",Hawaii,15,007,73610,2023
+15009,"Maui County, Hawaii",Hawaii,15,009,164632,2023
+16001,"Ada County, Idaho",Idaho,16,001,508052,2023
+16003,"Adams County, Idaho",Idaho,16,003,4599,2023
+16005,"Bannock County, Idaho",Idaho,16,005,88457,2023
+16007,"Bear Lake County, Idaho",Idaho,16,007,6552,2023
+16009,"Benewah County, Idaho",Idaho,16,009,9913,2023
+16011,"Bingham County, Idaho",Idaho,16,011,48993,2023
+16013,"Blaine County, Idaho",Idaho,16,013,24579,2023
+16015,"Boise County, Idaho",Idaho,16,015,8045,2023
+16017,"Bonner County, Idaho",Idaho,16,017,49456,2023
+16019,"Bonneville County, Idaho",Idaho,16,019,127056,2023
+16021,"Boundary County, Idaho",Idaho,16,021,12695,2023
+16023,"Butte County, Idaho",Idaho,16,023,2654,2023
+16025,"Camas County, Idaho",Idaho,16,025,1155,2023
+16027,"Canyon County, Idaho",Idaho,16,027,242405,2023
+16029,"Caribou County, Idaho",Idaho,16,029,7118,2023
+16031,"Cassia County, Idaho",Idaho,16,031,25165,2023
+16033,"Clark County, Idaho",Idaho,16,033,776,2023
+16035,"Clearwater County, Idaho",Idaho,16,035,8921,2023
+16037,"Custer County, Idaho",Idaho,16,037,4411,2023
+16039,"Elmore County, Idaho",Idaho,16,039,29046,2023
+16041,"Franklin County, Idaho",Idaho,16,041,14715,2023
+16043,"Fremont County, Idaho",Idaho,16,043,13701,2023
+16045,"Gem County, Idaho",Idaho,16,045,19854,2023
+16047,"Gooding County, Idaho",Idaho,16,047,15740,2023
+16049,"Idaho County, Idaho",Idaho,16,049,17120,2023
+16051,"Jefferson County, Idaho",Idaho,16,051,32234,2023
+16053,"Jerome County, Idaho",Idaho,16,053,24788,2023
+16055,"Kootenai County, Idaho",Idaho,16,055,177736,2023
+16057,"Latah County, Idaho",Idaho,16,057,40315,2023
+16059,"Lemhi County, Idaho",Idaho,16,059,8166,2023
+16061,"Lewis County, Idaho",Idaho,16,061,3649,2023
+16063,"Lincoln County, Idaho",Idaho,16,063,5276,2023
+16065,"Madison County, Idaho",Idaho,16,065,53578,2023
+16067,"Minidoka County, Idaho",Idaho,16,067,21922,2023
+16069,"Nez Perce County, Idaho",Idaho,16,069,42477,2023
+16071,"Oneida County, Idaho",Idaho,16,071,4681,2023
+16073,"Owyhee County, Idaho",Idaho,16,073,12284,2023
+16075,"Payette County, Idaho",Idaho,16,075,26190,2023
+16077,"Power County, Idaho",Idaho,16,077,8018,2023
+16079,"Shoshone County, Idaho",Idaho,16,079,13580,2023
+16081,"Teton County, Idaho",Idaho,16,081,12101,2023
+16083,"Twin Falls County, Idaho",Idaho,16,083,92121,2023
+16085,"Valley County, Idaho",Idaho,16,085,12136,2023
+16087,"Washington County, Idaho",Idaho,16,087,10866,2023
+17001,"Adams County, Illinois",Illinois,17,001,65166,2023
+17003,"Alexander County, Illinois",Illinois,17,003,5042,2023
+17005,"Bond County, Illinois",Illinois,17,005,16627,2023
+17007,"Boone County, Illinois",Illinois,17,007,53316,2023
+17009,"Brown County, Illinois",Illinois,17,009,6320,2023
+17011,"Bureau County, Illinois",Illinois,17,011,33027,2023
+17013,"Calhoun County, Illinois",Illinois,17,013,4406,2023
+17015,"Carroll County, Illinois",Illinois,17,015,15621,2023
+17017,"Cass County, Illinois",Illinois,17,017,12826,2023
+17019,"Champaign County, Illinois",Illinois,17,019,206098,2023
+17021,"Christian County, Illinois",Illinois,17,021,33684,2023
+17023,"Clark County, Illinois",Illinois,17,023,15328,2023
+17025,"Clay County, Illinois",Illinois,17,025,13173,2023
+17027,"Clinton County, Illinois",Illinois,17,027,36899,2023
+17029,"Coles County, Illinois",Illinois,17,029,46689,2023
+17031,"Cook County, Illinois",Illinois,17,031,5185812,2023
+17033,"Crawford County, Illinois",Illinois,17,033,18588,2023
+17035,"Cumberland County, Illinois",Illinois,17,035,10378,2023
+17037,"DeKalb County, Illinois",Illinois,17,037,100512,2023
+17039,"De Witt County, Illinois",Illinois,17,039,15461,2023
+17041,"Douglas County, Illinois",Illinois,17,041,19686,2023
+17043,"DuPage County, Illinois",Illinois,17,043,927263,2023
+17045,"Edgar County, Illinois",Illinois,17,045,16637,2023
+17047,"Edwards County, Illinois",Illinois,17,047,6118,2023
+17049,"Effingham County, Illinois",Illinois,17,049,34505,2023
+17051,"Fayette County, Illinois",Illinois,17,051,21380,2023
+17053,"Ford County, Illinois",Illinois,17,053,13396,2023
+17055,"Franklin County, Illinois",Illinois,17,055,37541,2023
+17057,"Fulton County, Illinois",Illinois,17,057,33259,2023
+17059,"Gallatin County, Illinois",Illinois,17,059,4857,2023
+17061,"Greene County, Illinois",Illinois,17,061,11837,2023
+17063,"Grundy County, Illinois",Illinois,17,063,52920,2023
+17065,"Hamilton County, Illinois",Illinois,17,065,7972,2023
+17067,"Hancock County, Illinois",Illinois,17,067,17434,2023
+17069,"Hardin County, Illinois",Illinois,17,069,3623,2023
+17071,"Henderson County, Illinois",Illinois,17,071,6284,2023
+17073,"Henry County, Illinois",Illinois,17,073,48948,2023
+17075,"Iroquois County, Illinois",Illinois,17,075,26746,2023
+17077,"Jackson County, Illinois",Illinois,17,077,52706,2023
+17079,"Jasper County, Illinois",Illinois,17,079,9233,2023
+17081,"Jefferson County, Illinois",Illinois,17,081,36808,2023
+17083,"Jersey County, Illinois",Illinois,17,083,21336,2023
+17085,"Jo Daviess County, Illinois",Illinois,17,085,21918,2023
+17087,"Johnson County, Illinois",Illinois,17,087,13350,2023
+17089,"Kane County, Illinois",Illinois,17,089,516097,2023
+17091,"Kankakee County, Illinois",Illinois,17,091,106833,2023
+17093,"Kendall County, Illinois",Illinois,17,093,135053,2023
+17095,"Knox County, Illinois",Illinois,17,095,49294,2023
+17097,"Lake County, Illinois",Illinois,17,097,711885,2023
+17099,"LaSalle County, Illinois",Illinois,17,099,109049,2023
+17101,"Lawrence County, Illinois",Illinois,17,101,15137,2023
+17103,"Lee County, Illinois",Illinois,17,103,34058,2023
+17105,"Livingston County, Illinois",Illinois,17,105,35659,2023
+17107,"Logan County, Illinois",Illinois,17,107,27870,2023
+17109,"McDonough County, Illinois",Illinois,17,109,27102,2023
+17111,"McHenry County, Illinois",Illinois,17,111,311366,2023
+17113,"McLean County, Illinois",Illinois,17,113,170882,2023
+17115,"Macon County, Illinois",Illinois,17,115,102591,2023
+17117,"Macoupin County, Illinois",Illinois,17,117,44566,2023
+17119,"Madison County, Illinois",Illinois,17,119,264631,2023
+17121,"Marion County, Illinois",Illinois,17,121,37294,2023
+17123,"Marshall County, Illinois",Illinois,17,123,11715,2023
+17125,"Mason County, Illinois",Illinois,17,125,12878,2023
+17127,"Massac County, Illinois",Illinois,17,127,13958,2023
+17129,"Menard County, Illinois",Illinois,17,129,12169,2023
+17131,"Mercer County, Illinois",Illinois,17,131,15619,2023
+17133,"Monroe County, Illinois",Illinois,17,133,34969,2023
+17135,"Montgomery County, Illinois",Illinois,17,135,28078,2023
+17137,"Morgan County, Illinois",Illinois,17,137,32621,2023
+17139,"Moultrie County, Illinois",Illinois,17,139,14469,2023
+17141,"Ogle County, Illinois",Illinois,17,141,51536,2023
+17143,"Peoria County, Illinois",Illinois,17,143,179831,2023
+17145,"Perry County, Illinois",Illinois,17,145,20810,2023
+17147,"Piatt County, Illinois",Illinois,17,147,16702,2023
+17149,"Pike County, Illinois",Illinois,17,149,14625,2023
+17151,"Pope County, Illinois",Illinois,17,151,3757,2023
+17153,"Pulaski County, Illinois",Illinois,17,153,5074,2023
+17155,"Putnam County, Illinois",Illinois,17,155,5600,2023
+17157,"Randolph County, Illinois",Illinois,17,157,30142,2023
+17159,"Richland County, Illinois",Illinois,17,159,15675,2023
+17161,"Rock Island County, Illinois",Illinois,17,161,142995,2023
+17163,"St. Clair County, Illinois",Illinois,17,163,254777,2023
+17165,"Saline County, Illinois",Illinois,17,165,23387,2023
+17167,"Sangamon County, Illinois",Illinois,17,167,195217,2023
+17169,"Schuyler County, Illinois",Illinois,17,169,6826,2023
+17171,"Scott County, Illinois",Illinois,17,171,4847,2023
+17173,"Shelby County, Illinois",Illinois,17,173,20867,2023
+17175,"Stark County, Illinois",Illinois,17,175,5324,2023
+17177,"Stephenson County, Illinois",Illinois,17,177,44042,2023
+17179,"Tazewell County, Illinois",Illinois,17,179,130555,2023
+17181,"Union County, Illinois",Illinois,17,181,16972,2023
+17183,"Vermilion County, Illinois",Illinois,17,183,73179,2023
+17185,"Wabash County, Illinois",Illinois,17,185,11199,2023
+17187,"Warren County, Illinois",Illinois,17,187,16576,2023
+17189,"Washington County, Illinois",Illinois,17,189,13682,2023
+17191,"Wayne County, Illinois",Illinois,17,191,15994,2023
+17193,"White County, Illinois",Illinois,17,193,13708,2023
+17195,"Whiteside County, Illinois",Illinois,17,195,55192,2023
+17197,"Will County, Illinois",Illinois,17,197,698450,2023
+17199,"Williamson County, Illinois",Illinois,17,199,66902,2023
+17201,"Winnebago County, Illinois",Illinois,17,201,283289,2023
+17203,"Woodford County, Illinois",Illinois,17,203,38348,2023
+18001,"Adams County, Indiana",Indiana,18,001,35995,2023
+18003,"Allen County, Indiana",Indiana,18,003,388791,2023
+18005,"Bartholomew County, Indiana",Indiana,18,005,82881,2023
+18007,"Benton County, Indiana",Indiana,18,007,8708,2023
+18009,"Blackford County, Indiana",Indiana,18,009,12007,2023
+18011,"Boone County, Indiana",Indiana,18,011,72827,2023
+18013,"Brown County, Indiana",Indiana,18,013,15543,2023
+18015,"Carroll County, Indiana",Indiana,18,015,20443,2023
+18017,"Cass County, Indiana",Indiana,18,017,37703,2023
+18019,"Clark County, Indiana",Indiana,18,019,122800,2023
+18021,"Clay County, Indiana",Indiana,18,021,26431,2023
+18023,"Clinton County, Indiana",Indiana,18,023,32967,2023
+18025,"Crawford County, Indiana",Indiana,18,025,10494,2023
+18027,"Daviess County, Indiana",Indiana,18,027,33442,2023
+18029,"Dearborn County, Indiana",Indiana,18,029,50828,2023
+18031,"Decatur County, Indiana",Indiana,18,031,26411,2023
+18033,"DeKalb County, Indiana",Indiana,18,033,43584,2023
+18035,"Delaware County, Indiana",Indiana,18,035,112109,2023
+18037,"Dubois County, Indiana",Indiana,18,037,43563,2023
+18039,"Elkhart County, Indiana",Indiana,18,039,206868,2023
+18041,"Fayette County, Indiana",Indiana,18,041,23390,2023
+18043,"Floyd County, Indiana",Indiana,18,043,80512,2023
+18045,"Fountain County, Indiana",Indiana,18,045,16546,2023
+18047,"Franklin County, Indiana",Indiana,18,047,22929,2023
+18049,"Fulton County, Indiana",Indiana,18,049,20411,2023
+18051,"Gibson County, Indiana",Indiana,18,051,32986,2023
+18053,"Grant County, Indiana",Indiana,18,053,66377,2023
+18055,"Greene County, Indiana",Indiana,18,055,30954,2023
+18057,"Hamilton County, Indiana",Indiana,18,057,357176,2023
+18059,"Hancock County, Indiana",Indiana,18,059,82013,2023
+18061,"Harrison County, Indiana",Indiana,18,061,39785,2023
+18063,"Hendricks County, Indiana",Indiana,18,063,179379,2023
+18065,"Henry County, Indiana",Indiana,18,065,48896,2023
+18067,"Howard County, Indiana",Indiana,18,067,83610,2023
+18069,"Huntington County, Indiana",Indiana,18,069,36757,2023
+18071,"Jackson County, Indiana",Indiana,18,071,46319,2023
+18073,"Jasper County, Indiana",Indiana,18,073,33198,2023
+18075,"Jay County, Indiana",Indiana,18,075,20281,2023
+18077,"Jefferson County, Indiana",Indiana,18,077,33074,2023
+18079,"Jennings County, Indiana",Indiana,18,079,27584,2023
+18081,"Johnson County, Indiana",Indiana,18,081,163983,2023
+18083,"Knox County, Indiana",Indiana,18,083,36108,2023
+18085,"Kosciusko County, Indiana",Indiana,18,085,80357,2023
+18087,"LaGrange County, Indiana",Indiana,18,087,40596,2023
+18089,"Lake County, Indiana",Indiana,18,089,498990,2023
+18091,"LaPorte County, Indiana",Indiana,18,091,112141,2023
+18093,"Lawrence County, Indiana",Indiana,18,093,45077,2023
+18095,"Madison County, Indiana",Indiana,18,095,130949,2023
+18097,"Marion County, Indiana",Indiana,18,097,971822,2023
+18099,"Marshall County, Indiana",Indiana,18,099,46225,2023
+18101,"Martin County, Indiana",Indiana,18,101,9854,2023
+18103,"Miami County, Indiana",Indiana,18,103,35772,2023
+18105,"Monroe County, Indiana",Indiana,18,105,139822,2023
+18107,"Montgomery County, Indiana",Indiana,18,107,38155,2023
+18109,"Morgan County, Indiana",Indiana,18,109,72202,2023
+18111,"Newton County, Indiana",Indiana,18,111,13859,2023
+18113,"Noble County, Indiana",Indiana,18,113,47417,2023
+18115,"Ohio County, Indiana",Indiana,18,115,5993,2023
+18117,"Orange County, Indiana",Indiana,18,117,19746,2023
+18119,"Owen County, Indiana",Indiana,18,119,21434,2023
+18121,"Parke County, Indiana",Indiana,18,121,16346,2023
+18123,"Perry County, Indiana",Indiana,18,123,19218,2023
+18125,"Pike County, Indiana",Indiana,18,125,12187,2023
+18127,"Porter County, Indiana",Indiana,18,127,174150,2023
+18129,"Posey County, Indiana",Indiana,18,129,25163,2023
+18131,"Pulaski County, Indiana",Indiana,18,131,12441,2023
+18133,"Putnam County, Indiana",Indiana,18,133,37091,2023
+18135,"Randolph County, Indiana",Indiana,18,135,24425,2023
+18137,"Ripley County, Indiana",Indiana,18,137,29039,2023
+18139,"Rush County, Indiana",Indiana,18,139,16734,2023
+18141,"St. Joseph County, Indiana",Indiana,18,141,272574,2023
+18143,"Scott County, Indiana",Indiana,18,143,24468,2023
+18145,"Shelby County, Indiana",Indiana,18,145,45104,2023
+18147,"Spencer County, Indiana",Indiana,18,147,19871,2023
+18149,"Starke County, Indiana",Indiana,18,149,23300,2023
+18151,"Steuben County, Indiana",Indiana,18,151,34648,2023
+18153,"Sullivan County, Indiana",Indiana,18,153,20766,2023
+18155,"Switzerland County, Indiana",Indiana,18,155,9914,2023
+18157,"Tippecanoe County, Indiana",Indiana,18,157,187399,2023
+18159,"Tipton County, Indiana",Indiana,18,159,15329,2023
+18161,"Union County, Indiana",Indiana,18,161,7028,2023
+18163,"Vanderburgh County, Indiana",Indiana,18,163,179908,2023
+18165,"Vermillion County, Indiana",Indiana,18,165,15452,2023
+18167,"Vigo County, Indiana",Indiana,18,167,106201,2023
+18169,"Wabash County, Indiana",Indiana,18,169,30901,2023
+18171,"Warren County, Indiana",Indiana,18,171,8469,2023
+18173,"Warrick County, Indiana",Indiana,18,173,64650,2023
+18175,"Washington County, Indiana",Indiana,18,175,28167,2023
+18177,"Wayne County, Indiana",Indiana,18,177,66377,2023
+18179,"Wells County, Indiana",Indiana,18,179,28261,2023
+18181,"White County, Indiana",Indiana,18,181,24709,2023
+18183,"Whitley County, Indiana",Indiana,18,183,34388,2023
+19001,"Adair County, Iowa",Iowa,19,001,7471,2023
+19003,"Adams County, Iowa",Iowa,19,003,3641,2023
+19005,"Allamakee County, Iowa",Iowa,19,005,14038,2023
+19007,"Appanoose County, Iowa",Iowa,19,007,12242,2023
+19009,"Audubon County, Iowa",Iowa,19,009,5622,2023
+19011,"Benton County, Iowa",Iowa,19,011,25698,2023
+19013,"Black Hawk County, Iowa",Iowa,19,013,130693,2023
+19015,"Boone County, Iowa",Iowa,19,015,26669,2023
+19017,"Bremer County, Iowa",Iowa,19,017,25118,2023
+19019,"Buchanan County, Iowa",Iowa,19,019,20645,2023
+19021,"Buena Vista County, Iowa",Iowa,19,021,20684,2023
+19023,"Butler County, Iowa",Iowa,19,023,14301,2023
+19025,"Calhoun County, Iowa",Iowa,19,025,9858,2023
+19027,"Carroll County, Iowa",Iowa,19,027,20677,2023
+19029,"Cass County, Iowa",Iowa,19,029,13115,2023
+19031,"Cedar County, Iowa",Iowa,19,031,18427,2023
+19033,"Cerro Gordo County, Iowa",Iowa,19,033,42785,2023
+19035,"Cherokee County, Iowa",Iowa,19,035,11587,2023
+19037,"Chickasaw County, Iowa",Iowa,19,037,11868,2023
+19039,"Clarke County, Iowa",Iowa,19,039,9690,2023
+19041,"Clay County, Iowa",Iowa,19,041,16446,2023
+19043,"Clayton County, Iowa",Iowa,19,043,17069,2023
+19045,"Clinton County, Iowa",Iowa,19,045,46383,2023
+19047,"Crawford County, Iowa",Iowa,19,047,16289,2023
+19049,"Dallas County, Iowa",Iowa,19,049,104136,2023
+19051,"Davis County, Iowa",Iowa,19,051,9127,2023
+19053,"Decatur County, Iowa",Iowa,19,053,7669,2023
+19055,"Delaware County, Iowa",Iowa,19,055,17549,2023
+19057,"Des Moines County, Iowa",Iowa,19,057,38597,2023
+19059,"Dickinson County, Iowa",Iowa,19,059,17844,2023
+19061,"Dubuque County, Iowa",Iowa,19,061,98948,2023
+19063,"Emmet County, Iowa",Iowa,19,063,9316,2023
+19065,"Fayette County, Iowa",Iowa,19,065,19393,2023
+19067,"Floyd County, Iowa",Iowa,19,067,15502,2023
+19069,"Franklin County, Iowa",Iowa,19,069,9977,2023
+19071,"Fremont County, Iowa",Iowa,19,071,6570,2023
+19073,"Greene County, Iowa",Iowa,19,073,8722,2023
+19075,"Grundy County, Iowa",Iowa,19,075,12352,2023
+19077,"Guthrie County, Iowa",Iowa,19,077,10646,2023
+19079,"Hamilton County, Iowa",Iowa,19,079,14893,2023
+19081,"Hancock County, Iowa",Iowa,19,081,10718,2023
+19083,"Hardin County, Iowa",Iowa,19,083,16729,2023
+19085,"Harrison County, Iowa",Iowa,19,085,14645,2023
+19087,"Henry County, Iowa",Iowa,19,087,20228,2023
+19089,"Howard County, Iowa",Iowa,19,089,9459,2023
+19091,"Humboldt County, Iowa",Iowa,19,091,9573,2023
+19093,"Ida County, Iowa",Iowa,19,093,6944,2023
+19095,"Iowa County, Iowa",Iowa,19,095,16547,2023
+19097,"Jackson County, Iowa",Iowa,19,097,19429,2023
+19099,"Jasper County, Iowa",Iowa,19,099,37864,2023
+19101,"Jefferson County, Iowa",Iowa,19,101,15676,2023
+19103,"Johnson County, Iowa",Iowa,19,103,154881,2023
+19105,"Jones County, Iowa",Iowa,19,105,20799,2023
+19107,"Keokuk County, Iowa",Iowa,19,107,9964,2023
+19109,"Kossuth County, Iowa",Iowa,19,109,14610,2023
+19111,"Lee County, Iowa",Iowa,19,111,33175,2023
+19113,"Linn County, Iowa",Iowa,19,113,229463,2023
+19115,"Louisa County, Iowa",Iowa,19,115,10710,2023
+19117,"Lucas County, Iowa",Iowa,19,117,8685,2023
+19119,"Lyon County, Iowa",Iowa,19,119,12087,2023
+19121,"Madison County, Iowa",Iowa,19,121,16760,2023
+19123,"Mahaska County, Iowa",Iowa,19,123,22045,2023
+19125,"Marion County, Iowa",Iowa,19,125,33551,2023
+19127,"Marshall County, Iowa",Iowa,19,127,39971,2023
+19129,"Mills County, Iowa",Iowa,19,129,14563,2023
+19131,"Mitchell County, Iowa",Iowa,19,131,10548,2023
+19133,"Monona County, Iowa",Iowa,19,133,8619,2023
+19135,"Monroe County, Iowa",Iowa,19,135,7546,2023
+19137,"Montgomery County, Iowa",Iowa,19,137,10254,2023
+19139,"Muscatine County, Iowa",Iowa,19,139,42735,2023
+19141,"O'Brien County, Iowa",Iowa,19,141,14103,2023
+19143,"Osceola County, Iowa",Iowa,19,143,6114,2023
+19145,"Page County, Iowa",Iowa,19,145,15168,2023
+19147,"Palo Alto County, Iowa",Iowa,19,147,8902,2023
+19149,"Plymouth County, Iowa",Iowa,19,149,25699,2023
+19151,"Pocahontas County, Iowa",Iowa,19,151,7040,2023
+19153,"Polk County, Iowa",Iowa,19,153,497441,2023
+19155,"Pottawattamie County, Iowa",Iowa,19,155,93407,2023
+19157,"Poweshiek County, Iowa",Iowa,19,157,18582,2023
+19159,"Ringgold County, Iowa",Iowa,19,159,4664,2023
+19161,"Sac County, Iowa",Iowa,19,161,9759,2023
+19163,"Scott County, Iowa",Iowa,19,163,174302,2023
+19165,"Shelby County, Iowa",Iowa,19,165,11757,2023
+19167,"Sioux County, Iowa",Iowa,19,167,35984,2023
+19169,"Story County, Iowa",Iowa,19,169,98592,2023
+19171,"Tama County, Iowa",Iowa,19,171,16982,2023
+19173,"Taylor County, Iowa",Iowa,19,173,5901,2023
+19175,"Union County, Iowa",Iowa,19,175,12038,2023
+19177,"Van Buren County, Iowa",Iowa,19,177,7236,2023
+19179,"Wapello County, Iowa",Iowa,19,179,35265,2023
+19181,"Warren County, Iowa",Iowa,19,181,53484,2023
+19183,"Washington County, Iowa",Iowa,19,183,22539,2023
+19185,"Wayne County, Iowa",Iowa,19,185,6518,2023
+19187,"Webster County, Iowa",Iowa,19,187,36848,2023
+19189,"Winnebago County, Iowa",Iowa,19,189,10648,2023
+19191,"Winneshiek County, Iowa",Iowa,19,191,19972,2023
+19193,"Woodbury County, Iowa",Iowa,19,193,105760,2023
+19195,"Worth County, Iowa",Iowa,19,195,7380,2023
+19197,"Wright County, Iowa",Iowa,19,197,12817,2023
+20001,"Allen County, Kansas",Kansas,20,001,12491,2023
+20003,"Anderson County, Kansas",Kansas,20,003,7819,2023
+20005,"Atchison County, Kansas",Kansas,20,005,16211,2023
+20007,"Barber County, Kansas",Kansas,20,007,4153,2023
+20009,"Barton County, Kansas",Kansas,20,009,25275,2023
+20011,"Bourbon County, Kansas",Kansas,20,011,14384,2023
+20013,"Brown County, Kansas",Kansas,20,013,9415,2023
+20015,"Butler County, Kansas",Kansas,20,015,67916,2023
+20017,"Chase County, Kansas",Kansas,20,017,2579,2023
+20019,"Chautauqua County, Kansas",Kansas,20,019,3370,2023
+20021,"Cherokee County, Kansas",Kansas,20,021,19236,2023
+20023,"Cheyenne County, Kansas",Kansas,20,023,2628,2023
+20025,"Clark County, Kansas",Kansas,20,025,1987,2023
+20027,"Clay County, Kansas",Kansas,20,027,8071,2023
+20029,"Cloud County, Kansas",Kansas,20,029,8973,2023
+20031,"Coffey County, Kansas",Kansas,20,031,8304,2023
+20033,"Comanche County, Kansas",Kansas,20,033,1685,2023
+20035,"Cowley County, Kansas",Kansas,20,035,34487,2023
+20037,"Crawford County, Kansas",Kansas,20,037,38963,2023
+20039,"Decatur County, Kansas",Kansas,20,039,2746,2023
+20041,"Dickinson County, Kansas",Kansas,20,041,18423,2023
+20043,"Doniphan County, Kansas",Kansas,20,043,7492,2023
+20045,"Douglas County, Kansas",Kansas,20,045,119547,2023
+20047,"Edwards County, Kansas",Kansas,20,047,2817,2023
+20049,"Elk County, Kansas",Kansas,20,049,2464,2023
+20051,"Ellis County, Kansas",Kansas,20,051,28870,2023
+20053,"Ellsworth County, Kansas",Kansas,20,053,6366,2023
+20055,"Finney County, Kansas",Kansas,20,055,38001,2023
+20057,"Ford County, Kansas",Kansas,20,057,34133,2023
+20059,"Franklin County, Kansas",Kansas,20,059,25994,2023
+20061,"Geary County, Kansas",Kansas,20,061,35895,2023
+20063,"Gove County, Kansas",Kansas,20,063,2796,2023
+20065,"Graham County, Kansas",Kansas,20,065,2406,2023
+20067,"Grant County, Kansas",Kansas,20,067,7284,2023
+20069,"Gray County, Kansas",Kansas,20,069,5696,2023
+20071,"Greeley County, Kansas",Kansas,20,071,1296,2023
+20073,"Greenwood County, Kansas",Kansas,20,073,5956,2023
+20075,"Hamilton County, Kansas",Kansas,20,075,2485,2023
+20077,"Harper County, Kansas",Kansas,20,077,5446,2023
+20079,"Harvey County, Kansas",Kansas,20,079,33823,2023
+20081,"Haskell County, Kansas",Kansas,20,081,3695,2023
+20083,"Hodgeman County, Kansas",Kansas,20,083,1676,2023
+20085,"Jackson County, Kansas",Kansas,20,085,13277,2023
+20087,"Jefferson County, Kansas",Kansas,20,087,18391,2023
+20089,"Jewell County, Kansas",Kansas,20,089,2909,2023
+20091,"Johnson County, Kansas",Kansas,20,091,614764,2023
+20093,"Kearny County, Kansas",Kansas,20,093,3910,2023
+20095,"Kingman County, Kansas",Kansas,20,095,7284,2023
+20097,"Kiowa County, Kansas",Kansas,20,097,2422,2023
+20099,"Labette County, Kansas",Kansas,20,099,19949,2023
+20101,"Lane County, Kansas",Kansas,20,101,1497,2023
+20103,"Leavenworth County, Kansas",Kansas,20,103,82493,2023
+20105,"Lincoln County, Kansas",Kansas,20,105,2924,2023
+20107,"Linn County, Kansas",Kansas,20,107,9723,2023
+20109,"Logan County, Kansas",Kansas,20,109,2720,2023
+20111,"Lyon County, Kansas",Kansas,20,111,32145,2023
+20113,"McPherson County, Kansas",Kansas,20,113,30130,2023
+20115,"Marion County, Kansas",Kansas,20,115,11795,2023
+20117,"Marshall County, Kansas",Kansas,20,117,10001,2023
+20119,"Meade County, Kansas",Kansas,20,119,3949,2023
+20121,"Miami County, Kansas",Kansas,20,121,34625,2023
+20123,"Mitchell County, Kansas",Kansas,20,123,5767,2023
+20125,"Montgomery County, Kansas",Kansas,20,125,31143,2023
+20127,"Morris County, Kansas",Kansas,20,127,5388,2023
+20129,"Morton County, Kansas",Kansas,20,129,2647,2023
+20131,"Nemaha County, Kansas",Kansas,20,131,10213,2023
+20133,"Neosho County, Kansas",Kansas,20,133,15715,2023
+20135,"Ness County, Kansas",Kansas,20,135,2659,2023
+20137,"Norton County, Kansas",Kansas,20,137,5392,2023
+20139,"Osage County, Kansas",Kansas,20,139,15780,2023
+20141,"Osborne County, Kansas",Kansas,20,141,3473,2023
+20143,"Ottawa County, Kansas",Kansas,20,143,5782,2023
+20145,"Pawnee County, Kansas",Kansas,20,145,6220,2023
+20147,"Phillips County, Kansas",Kansas,20,147,4874,2023
+20149,"Pottawatomie County, Kansas",Kansas,20,149,25808,2023
+20151,"Pratt County, Kansas",Kansas,20,151,9120,2023
+20153,"Rawlins County, Kansas",Kansas,20,153,2533,2023
+20155,"Reno County, Kansas",Kansas,20,155,61693,2023
+20157,"Republic County, Kansas",Kansas,20,157,4662,2023
+20159,"Rice County, Kansas",Kansas,20,159,9389,2023
+20161,"Riley County, Kansas",Kansas,20,161,71710,2023
+20163,"Rooks County, Kansas",Kansas,20,163,4869,2023
+20165,"Rush County, Kansas",Kansas,20,165,2957,2023
+20167,"Russell County, Kansas",Kansas,20,167,6717,2023
+20169,"Saline County, Kansas",Kansas,20,169,53801,2023
+20171,"Scott County, Kansas",Kansas,20,171,5071,2023
+20173,"Sedgwick County, Kansas",Kansas,20,173,524810,2023
+20175,"Seward County, Kansas",Kansas,20,175,21640,2023
+20177,"Shawnee County, Kansas",Kansas,20,177,178315,2023
+20179,"Sheridan County, Kansas",Kansas,20,179,2442,2023
+20181,"Sherman County, Kansas",Kansas,20,181,5919,2023
+20183,"Smith County, Kansas",Kansas,20,183,3579,2023
+20185,"Stafford County, Kansas",Kansas,20,185,4004,2023
+20187,"Stanton County, Kansas",Kansas,20,187,2018,2023
+20189,"Stevens County, Kansas",Kansas,20,189,5212,2023
+20191,"Sumner County, Kansas",Kansas,20,191,22386,2023
+20193,"Thomas County, Kansas",Kansas,20,193,7913,2023
+20195,"Trego County, Kansas",Kansas,20,195,2778,2023
+20197,"Wabaunsee County, Kansas",Kansas,20,197,6961,2023
+20199,"Wallace County, Kansas",Kansas,20,199,1459,2023
+20201,"Washington County, Kansas",Kansas,20,201,5519,2023
+20203,"Wichita County, Kansas",Kansas,20,203,2115,2023
+20205,"Wilson County, Kansas",Kansas,20,205,8559,2023
+20207,"Woodson County, Kansas",Kansas,20,207,3118,2023
+20209,"Wyandotte County, Kansas",Kansas,20,209,167277,2023
+21001,"Adair County, Kentucky",Kentucky,21,001,19016,2023
+21003,"Allen County, Kentucky",Kentucky,21,003,21029,2023
+21005,"Anderson County, Kentucky",Kentucky,21,005,24098,2023
+21007,"Ballard County, Kentucky",Kentucky,21,007,7678,2023
+21009,"Barren County, Kentucky",Kentucky,21,009,44670,2023
+21011,"Bath County, Kentucky",Kentucky,21,011,12812,2023
+21013,"Bell County, Kentucky",Kentucky,21,013,23878,2023
+21015,"Boone County, Kentucky",Kentucky,21,015,137676,2023
+21017,"Bourbon County, Kentucky",Kentucky,21,017,20174,2023
+21019,"Boyd County, Kentucky",Kentucky,21,019,48043,2023
+21021,"Boyle County, Kentucky",Kentucky,21,021,30708,2023
+21023,"Bracken County, Kentucky",Kentucky,21,023,8427,2023
+21025,"Breathitt County, Kentucky",Kentucky,21,025,13438,2023
+21027,"Breckinridge County, Kentucky",Kentucky,21,027,20722,2023
+21029,"Bullitt County, Kentucky",Kentucky,21,029,83209,2023
+21031,"Butler County, Kentucky",Kentucky,21,031,12373,2023
+21033,"Caldwell County, Kentucky",Kentucky,21,033,12631,2023
+21035,"Calloway County, Kentucky",Kentucky,21,035,37882,2023
+21037,"Campbell County, Kentucky",Kentucky,21,037,93193,2023
+21039,"Carlisle County, Kentucky",Kentucky,21,039,4763,2023
+21041,"Carroll County, Kentucky",Kentucky,21,041,10878,2023
+21043,"Carter County, Kentucky",Kentucky,21,043,26515,2023
+21045,"Casey County, Kentucky",Kentucky,21,045,15951,2023
+21047,"Christian County, Kentucky",Kentucky,21,047,72599,2023
+21049,"Clark County, Kentucky",Kentucky,21,049,37004,2023
+21051,"Clay County, Kentucky",Kentucky,21,051,20105,2023
+21053,"Clinton County, Kentucky",Kentucky,21,053,9240,2023
+21055,"Crittenden County, Kentucky",Kentucky,21,055,8972,2023
+21057,"Cumberland County, Kentucky",Kentucky,21,057,5948,2023
+21059,"Daviess County, Kentucky",Kentucky,21,059,103195,2023
+21061,"Edmonson County, Kentucky",Kentucky,21,061,12243,2023
+21063,"Elliott County, Kentucky",Kentucky,21,063,7336,2023
+21065,"Estill County, Kentucky",Kentucky,21,065,14079,2023
+21067,"Fayette County, Kentucky",Kentucky,21,067,321122,2023
+21069,"Fleming County, Kentucky",Kentucky,21,069,15221,2023
+21071,"Floyd County, Kentucky",Kentucky,21,071,35342,2023
+21073,"Franklin County, Kentucky",Kentucky,21,073,51563,2023
+21075,"Fulton County, Kentucky",Kentucky,21,075,6440,2023
+21077,"Gallatin County, Kentucky",Kentucky,21,077,8749,2023
+21079,"Garrard County, Kentucky",Kentucky,21,079,17346,2023
+21081,"Grant County, Kentucky",Kentucky,21,081,25238,2023
+21083,"Graves County, Kentucky",Kentucky,21,083,36612,2023
+21085,"Grayson County, Kentucky",Kentucky,21,085,26586,2023
+21087,"Green County, Kentucky",Kentucky,21,087,11278,2023
+21089,"Greenup County, Kentucky",Kentucky,21,089,35639,2023
+21091,"Hancock County, Kentucky",Kentucky,21,091,9032,2023
+21093,"Hardin County, Kentucky",Kentucky,21,093,111452,2023
+21095,"Harlan County, Kentucky",Kentucky,21,095,26185,2023
+21097,"Harrison County, Kentucky",Kentucky,21,097,18971,2023
+21099,"Hart County, Kentucky",Kentucky,21,099,19470,2023
+21101,"Henderson County, Kentucky",Kentucky,21,101,44493,2023
+21103,"Henry County, Kentucky",Kentucky,21,103,15774,2023
+21105,"Hickman County, Kentucky",Kentucky,21,105,4470,2023
+21107,"Hopkins County, Kentucky",Kentucky,21,107,45143,2023
+21109,"Jackson County, Kentucky",Kentucky,21,109,13003,2023
+21111,"Jefferson County, Kentucky",Kentucky,21,111,777392,2023
+21113,"Jessamine County, Kentucky",Kentucky,21,113,53792,2023
+21115,"Johnson County, Kentucky",Kentucky,21,115,22464,2023
+21117,"Kenton County, Kentucky",Kentucky,21,117,169817,2023
+21119,"Knott County, Kentucky",Kentucky,21,119,14046,2023
+21121,"Knox County, Kentucky",Kentucky,21,121,30034,2023
+21123,"Larue County, Kentucky",Kentucky,21,123,15028,2023
+21125,"Laurel County, Kentucky",Kentucky,21,125,62731,2023
+21127,"Lawrence County, Kentucky",Kentucky,21,127,16171,2023
+21129,"Lee County, Kentucky",Kentucky,21,129,7375,2023
+21131,"Leslie County, Kentucky",Kentucky,21,131,10261,2023
+21133,"Letcher County, Kentucky",Kentucky,21,133,21146,2023
+21135,"Lewis County, Kentucky",Kentucky,21,135,13028,2023
+21137,"Lincoln County, Kentucky",Kentucky,21,137,24415,2023
+21139,"Livingston County, Kentucky",Kentucky,21,139,8941,2023
+21141,"Logan County, Kentucky",Kentucky,21,141,27731,2023
+21143,"Lyon County, Kentucky",Kentucky,21,143,8831,2023
+21145,"McCracken County, Kentucky",Kentucky,21,145,67584,2023
+21147,"McCreary County, Kentucky",Kentucky,21,147,16905,2023
+21149,"McLean County, Kentucky",Kentucky,21,149,9127,2023
+21151,"Madison County, Kentucky",Kentucky,21,151,94064,2023
+21153,"Magoffin County, Kentucky",Kentucky,21,153,11495,2023
+21155,"Marion County, Kentucky",Kentucky,21,155,19680,2023
+21157,"Marshall County, Kentucky",Kentucky,21,157,31728,2023
+21159,"Martin County, Kentucky",Kentucky,21,159,11181,2023
+21161,"Mason County, Kentucky",Kentucky,21,161,16995,2023
+21163,"Meade County, Kentucky",Kentucky,21,163,30032,2023
+21165,"Menifee County, Kentucky",Kentucky,21,165,6203,2023
+21167,"Mercer County, Kentucky",Kentucky,21,167,22824,2023
+21169,"Metcalfe County, Kentucky",Kentucky,21,169,10372,2023
+21171,"Monroe County, Kentucky",Kentucky,21,171,11318,2023
+21173,"Montgomery County, Kentucky",Kentucky,21,173,28271,2023
+21175,"Morgan County, Kentucky",Kentucky,21,175,13938,2023
+21177,"Muhlenberg County, Kentucky",Kentucky,21,177,30712,2023
+21179,"Nelson County, Kentucky",Kentucky,21,179,47102,2023
+21181,"Nicholas County, Kentucky",Kentucky,21,181,7655,2023
+21183,"Ohio County, Kentucky",Kentucky,21,183,23704,2023
+21185,"Oldham County, Kentucky",Kentucky,21,185,68600,2023
+21187,"Owen County, Kentucky",Kentucky,21,187,11270,2023
+21189,"Owsley County, Kentucky",Kentucky,21,189,4021,2023
+21191,"Pendleton County, Kentucky",Kentucky,21,191,14683,2023
+21193,"Perry County, Kentucky",Kentucky,21,193,27847,2023
+21195,"Pike County, Kentucky",Kentucky,21,195,57466,2023
+21197,"Powell County, Kentucky",Kentucky,21,197,13057,2023
+21199,"Pulaski County, Kentucky",Kentucky,21,199,65503,2023
+21201,"Robertson County, Kentucky",Kentucky,21,201,2239,2023
+21203,"Rockcastle County, Kentucky",Kentucky,21,203,16144,2023
+21205,"Rowan County, Kentucky",Kentucky,21,205,24525,2023
+21207,"Russell County, Kentucky",Kentucky,21,207,18117,2023
+21209,"Scott County, Kentucky",Kentucky,21,209,58269,2023
+21211,"Shelby County, Kentucky",Kentucky,21,211,48599,2023
+21213,"Simpson County, Kentucky",Kentucky,21,213,19786,2023
+21215,"Spencer County, Kentucky",Kentucky,21,215,19875,2023
+21217,"Taylor County, Kentucky",Kentucky,21,217,26205,2023
+21219,"Todd County, Kentucky",Kentucky,21,219,12330,2023
+21221,"Trigg County, Kentucky",Kentucky,21,221,14211,2023
+21223,"Trimble County, Kentucky",Kentucky,21,223,8531,2023
+21225,"Union County, Kentucky",Kentucky,21,225,13379,2023
+21227,"Warren County, Kentucky",Kentucky,21,227,137549,2023
+21229,"Washington County, Kentucky",Kentucky,21,229,12091,2023
+21231,"Wayne County, Kentucky",Kentucky,21,231,19592,2023
+21233,"Webster County, Kentucky",Kentucky,21,233,12873,2023
+21235,"Whitley County, Kentucky",Kentucky,21,235,36755,2023
+21237,"Wolfe County, Kentucky",Kentucky,21,237,6484,2023
+21239,"Woodford County, Kentucky",Kentucky,21,239,27017,2023
+22001,"Acadia Parish, Louisiana",Louisiana,22,001,57218,2023
+22003,"Allen Parish, Louisiana",Louisiana,22,003,22552,2023
+22005,"Ascension Parish, Louisiana",Louisiana,22,005,128593,2023
+22007,"Assumption Parish, Louisiana",Louisiana,22,007,20720,2023
+22009,"Avoyelles Parish, Louisiana",Louisiana,22,009,39176,2023
+22011,"Beauregard Parish, Louisiana",Louisiana,22,011,36646,2023
+22013,"Bienville Parish, Louisiana",Louisiana,22,013,12769,2023
+22015,"Bossier Parish, Louisiana",Louisiana,22,015,129134,2023
+22017,"Caddo Parish, Louisiana",Louisiana,22,017,232973,2023
+22019,"Calcasieu Parish, Louisiana",Louisiana,22,019,208668,2023
+22021,"Caldwell Parish, Louisiana",Louisiana,22,021,9563,2023
+22023,"Cameron Parish, Louisiana",Louisiana,22,023,5222,2023
+22025,"Catahoula Parish, Louisiana",Louisiana,22,025,8738,2023
+22027,"Claiborne Parish, Louisiana",Louisiana,22,027,14019,2023
+22029,"Concordia Parish, Louisiana",Louisiana,22,029,18325,2023
+22031,"De Soto Parish, Louisiana",Louisiana,22,031,26897,2023
+22033,"East Baton Rouge Parish, Louisiana",Louisiana,22,033,452821,2023
+22035,"East Carroll Parish, Louisiana",Louisiana,22,035,7195,2023
+22037,"East Feliciana Parish, Louisiana",Louisiana,22,037,19378,2023
+22039,"Evangeline Parish, Louisiana",Louisiana,22,039,32162,2023
+22041,"Franklin Parish, Louisiana",Louisiana,22,041,19590,2023
+22043,"Grant Parish, Louisiana",Louisiana,22,043,22123,2023
+22045,"Iberia Parish, Louisiana",Louisiana,22,045,69194,2023
+22047,"Iberville Parish, Louisiana",Louisiana,22,047,29950,2023
+22049,"Jackson Parish, Louisiana",Louisiana,22,049,14939,2023
+22051,"Jefferson Parish, Louisiana",Louisiana,22,051,432484,2023
+22053,"Jefferson Davis Parish, Louisiana",Louisiana,22,053,32083,2023
+22055,"Lafayette Parish, Louisiana",Louisiana,22,055,245075,2023
+22057,"Lafourche Parish, Louisiana",Louisiana,22,057,96670,2023
+22059,"LaSalle Parish, Louisiana",Louisiana,22,059,14804,2023
+22061,"Lincoln Parish, Louisiana",Louisiana,22,061,48160,2023
+22063,"Livingston Parish, Louisiana",Louisiana,22,063,145583,2023
+22065,"Madison Parish, Louisiana",Louisiana,22,065,9757,2023
+22067,"Morehouse Parish, Louisiana",Louisiana,22,067,24967,2023
+22069,"Natchitoches Parish, Louisiana",Louisiana,22,069,37047,2023
+22071,"Orleans Parish, Louisiana",Louisiana,22,071,376035,2023
+22073,"Ouachita Parish, Louisiana",Louisiana,22,073,158916,2023
+22075,"Plaquemines Parish, Louisiana",Louisiana,22,075,23070,2023
+22077,"Pointe Coupee Parish, Louisiana",Louisiana,22,077,20438,2023
+22079,"Rapides Parish, Louisiana",Louisiana,22,079,128470,2023
+22081,"Red River Parish, Louisiana",Louisiana,22,081,7529,2023
+22083,"Richland Parish, Louisiana",Louisiana,22,083,19908,2023
+22085,"Sabine Parish, Louisiana",Louisiana,22,085,22085,2023
+22087,"St. Bernard Parish, Louisiana",Louisiana,22,087,44172,2023
+22089,"St. Charles Parish, Louisiana",Louisiana,22,089,51863,2023
+22091,"St. Helena Parish, Louisiana",Louisiana,22,091,10849,2023
+22093,"St. James Parish, Louisiana",Louisiana,22,093,19797,2023
+22095,"St. John the Baptist Parish, Louisiana",Louisiana,22,095,41342,2023
+22097,"St. Landry Parish, Louisiana",Louisiana,22,097,82128,2023
+22099,"St. Martin Parish, Louisiana",Louisiana,22,099,51559,2023
+22101,"St. Mary Parish, Louisiana",Louisiana,22,101,48455,2023
+22103,"St. Tammany Parish, Louisiana",Louisiana,22,103,269331,2023
+22105,"Tangipahoa Parish, Louisiana",Louisiana,22,105,135218,2023
+22107,"Tensas Parish, Louisiana",Louisiana,22,107,3992,2023
+22109,"Terrebonne Parish, Louisiana",Louisiana,22,109,107362,2023
+22111,"Union Parish, Louisiana",Louisiana,22,111,20914,2023
+22113,"Vermilion Parish, Louisiana",Louisiana,22,113,57031,2023
+22115,"Vernon Parish, Louisiana",Louisiana,22,115,47764,2023
+22117,"Washington Parish, Louisiana",Louisiana,22,117,45238,2023
+22119,"Webster Parish, Louisiana",Louisiana,22,119,36189,2023
+22121,"West Baton Rouge Parish, Louisiana",Louisiana,22,121,27666,2023
+22123,"West Carroll Parish, Louisiana",Louisiana,22,123,9622,2023
+22125,"West Feliciana Parish, Louisiana",Louisiana,22,125,15381,2023
+22127,"Winn Parish, Louisiana",Louisiana,22,127,13506,2023
+23001,"Androscoggin County, Maine",Maine,23,001,112323,2023
+23003,"Aroostook County, Maine",Maine,23,003,67227,2023
+23005,"Cumberland County, Maine",Maine,23,005,305940,2023
+23007,"Franklin County, Maine",Maine,23,007,30145,2023
+23009,"Hancock County, Maine",Maine,23,009,56084,2023
+23011,"Kennebec County, Maine",Maine,23,011,125614,2023
+23013,"Knox County, Maine",Maine,23,013,40860,2023
+23015,"Lincoln County, Maine",Maine,23,015,35840,2023
+23017,"Oxford County, Maine",Maine,23,017,58728,2023
+23019,"Penobscot County, Maine",Maine,23,019,153571,2023
+23021,"Piscataquis County, Maine",Maine,23,021,17125,2023
+23023,"Sagadahoc County, Maine",Maine,23,023,37093,2023
+23025,"Somerset County, Maine",Maine,23,025,50852,2023
+23027,"Waldo County, Maine",Maine,23,027,40006,2023
+23029,"Washington County, Maine",Maine,23,029,31261,2023
+23031,"York County, Maine",Maine,23,031,214731,2023
+24001,"Allegany County, Maryland",Maryland,24,001,67762,2023
+24003,"Anne Arundel County, Maryland",Maryland,24,003,590936,2023
+24005,"Baltimore County, Maryland",Maryland,24,005,849586,2023
+24009,"Calvert County, Maryland",Maryland,24,009,93791,2023
+24011,"Caroline County, Maryland",Maryland,24,011,33406,2023
+24013,"Carroll County, Maryland",Maryland,24,013,174318,2023
+24015,"Cecil County, Maryland",Maryland,24,015,104366,2023
+24017,"Charles County, Maryland",Maryland,24,017,168710,2023
+24019,"Dorchester County, Maryland",Maryland,24,019,32612,2023
+24021,"Frederick County, Maryland",Maryland,24,021,280341,2023
+24023,"Garrett County, Maryland",Maryland,24,023,28713,2023
+24025,"Harford County, Maryland",Maryland,24,025,262509,2023
+24027,"Howard County, Maryland",Maryland,24,027,333916,2023
+24029,"Kent County, Maryland",Maryland,24,029,19265,2023
+24031,"Montgomery County, Maryland",Maryland,24,031,1057586,2023
+24033,"Prince George's County, Maryland",Maryland,24,033,955584,2023
+24035,"Queen Anne's County, Maryland",Maryland,24,035,50951,2023
+24037,"St. Mary's County, Maryland",Maryland,24,037,114372,2023
+24039,"Somerset County, Maryland",Maryland,24,039,24685,2023
+24041,"Talbot County, Maryland",Maryland,24,041,37707,2023
+24043,"Washington County, Maryland",Maryland,24,043,155033,2023
+24045,"Wicomico County, Maryland",Maryland,24,045,104117,2023
+24047,"Worcester County, Maryland",Maryland,24,047,53279,2023
+24510,"Baltimore city, Maryland",Maryland,24,510,577193,2023
+25001,"Barnstable County, Massachusetts",Massachusetts,25,001,230073,2023
+25003,"Berkshire County, Massachusetts",Massachusetts,25,003,128047,2023
+25005,"Bristol County, Massachusetts",Massachusetts,25,005,578436,2023
+25007,"Dukes County, Massachusetts",Massachusetts,25,007,20751,2023
+25009,"Essex County, Massachusetts",Massachusetts,25,009,807258,2023
+25011,"Franklin County, Massachusetts",Massachusetts,25,011,70922,2023
+25013,"Hampden County, Massachusetts",Massachusetts,25,013,462853,2023
+25015,"Hampshire County, Massachusetts",Massachusetts,25,015,156595,2023
+25017,"Middlesex County, Massachusetts",Massachusetts,25,017,1622896,2023
+25019,"Nantucket County, Massachusetts",Massachusetts,25,019,14299,2023
+25021,"Norfolk County, Massachusetts",Massachusetts,25,021,724540,2023
+25023,"Plymouth County, Massachusetts",Massachusetts,25,023,531889,2023
+25025,"Suffolk County, Massachusetts",Massachusetts,25,025,782172,2023
+25027,"Worcester County, Massachusetts",Massachusetts,25,027,861664,2023
+26001,"Alcona County, Michigan",Michigan,26,001,10310,2023
+26003,"Alger County, Michigan",Michigan,26,003,8813,2023
+26005,"Allegan County, Michigan",Michigan,26,005,120913,2023
+26007,"Alpena County, Michigan",Michigan,26,007,28908,2023
+26009,"Antrim County, Michigan",Michigan,26,009,23876,2023
+26011,"Arenac County, Michigan",Michigan,26,011,15054,2023
+26013,"Baraga County, Michigan",Michigan,26,013,8249,2023
+26015,"Barry County, Michigan",Michigan,26,015,62982,2023
+26017,"Bay County, Michigan",Michigan,26,017,103235,2023
+26019,"Benzie County, Michigan",Michigan,26,019,18177,2023
+26021,"Berrien County, Michigan",Michigan,26,021,153411,2023
+26023,"Branch County, Michigan",Michigan,26,023,44914,2023
+26025,"Calhoun County, Michigan",Michigan,26,025,133846,2023
+26027,"Cass County, Michigan",Michigan,26,027,51606,2023
+26029,"Charlevoix County, Michigan",Michigan,26,029,26143,2023
+26031,"Cheboygan County, Michigan",Michigan,26,031,25778,2023
+26033,"Chippewa County, Michigan",Michigan,26,033,36448,2023
+26035,"Clare County, Michigan",Michigan,26,035,31109,2023
+26037,"Clinton County, Michigan",Michigan,26,037,79419,2023
+26039,"Crawford County, Michigan",Michigan,26,039,13271,2023
+26041,"Delta County, Michigan",Michigan,26,041,36829,2023
+26043,"Dickinson County, Michigan",Michigan,26,043,25940,2023
+26045,"Eaton County, Michigan",Michigan,26,045,109000,2023
+26047,"Emmet County, Michigan",Michigan,26,047,34159,2023
+26049,"Genesee County, Michigan",Michigan,26,049,404087,2023
+26051,"Gladwin County, Michigan",Michigan,26,051,25543,2023
+26053,"Gogebic County, Michigan",Michigan,26,053,14348,2023
+26055,"Grand Traverse County, Michigan",Michigan,26,055,95757,2023
+26057,"Gratiot County, Michigan",Michigan,26,057,41478,2023
+26059,"Hillsdale County, Michigan",Michigan,26,059,45658,2023
+26061,"Houghton County, Michigan",Michigan,26,061,37428,2023
+26063,"Huron County, Michigan",Michigan,26,063,31258,2023
+26065,"Ingham County, Michigan",Michigan,26,065,282015,2023
+26067,"Ionia County, Michigan",Michigan,26,067,66706,2023
+26069,"Iosco County, Michigan",Michigan,26,069,25333,2023
+26071,"Iron County, Michigan",Michigan,26,071,11650,2023
+26073,"Isabella County, Michigan",Michigan,26,073,64475,2023
+26075,"Jackson County, Michigan",Michigan,26,075,160187,2023
+26077,"Kalamazoo County, Michigan",Michigan,26,077,261437,2023
+26079,"Kalkaska County, Michigan",Michigan,26,079,18116,2023
+26081,"Kent County, Michigan",Michigan,26,081,658844,2023
+26083,"Keweenaw County, Michigan",Michigan,26,083,2106,2023
+26085,"Lake County, Michigan",Michigan,26,085,12393,2023
+26087,"Lapeer County, Michigan",Michigan,26,087,88703,2023
+26089,"Leelanau County, Michigan",Michigan,26,089,22607,2023
+26091,"Lenawee County, Michigan",Michigan,26,091,98823,2023
+26093,"Livingston County, Michigan",Michigan,26,093,195143,2023
+26095,"Luce County, Michigan",Michigan,26,095,6325,2023
+26097,"Mackinac County, Michigan",Michigan,26,097,10865,2023
+26099,"Macomb County, Michigan",Michigan,26,099,877624,2023
+26101,"Manistee County, Michigan",Michigan,26,101,25247,2023
+26103,"Marquette County, Michigan",Michigan,26,103,66430,2023
+26105,"Mason County, Michigan",Michigan,26,105,29177,2023
+26107,"Mecosta County, Michigan",Michigan,26,107,40321,2023
+26109,"Menominee County, Michigan",Michigan,26,109,23295,2023
+26111,"Midland County, Michigan",Michigan,26,111,83641,2023
+26113,"Missaukee County, Michigan",Michigan,26,113,15156,2023
+26115,"Monroe County, Michigan",Michigan,26,115,155001,2023
+26117,"Montcalm County, Michigan",Michigan,26,117,67174,2023
+26119,"Montmorency County, Michigan",Michigan,26,119,9372,2023
+26121,"Muskegon County, Michigan",Michigan,26,121,175378,2023
+26123,"Newaygo County, Michigan",Michigan,26,123,50414,2023
+26125,"Oakland County, Michigan",Michigan,26,125,1272294,2023
+26127,"Oceana County, Michigan",Michigan,26,127,26788,2023
+26129,"Ogemaw County, Michigan",Michigan,26,129,20853,2023
+26131,"Ontonagon County, Michigan",Michigan,26,131,5870,2023
+26133,"Osceola County, Michigan",Michigan,26,133,23122,2023
+26135,"Oscoda County, Michigan",Michigan,26,135,8338,2023
+26137,"Otsego County, Michigan",Michigan,26,137,25352,2023
+26139,"Ottawa County, Michigan",Michigan,26,139,298614,2023
+26141,"Presque Isle County, Michigan",Michigan,26,141,13142,2023
+26143,"Roscommon County, Michigan",Michigan,26,143,23639,2023
+26145,"Saginaw County, Michigan",Michigan,26,145,189210,2023
+26147,"St. Clair County, Michigan",Michigan,26,147,160089,2023
+26149,"St. Joseph County, Michigan",Michigan,26,149,60870,2023
+26151,"Sanilac County, Michigan",Michigan,26,151,40574,2023
+26153,"Schoolcraft County, Michigan",Michigan,26,153,8093,2023
+26155,"Shiawassee County, Michigan",Michigan,26,155,68061,2023
+26157,"Tuscola County, Michigan",Michigan,26,157,53071,2023
+26159,"Van Buren County, Michigan",Michigan,26,159,75681,2023
+26161,"Washtenaw County, Michigan",Michigan,26,161,368394,2023
+26163,"Wayne County, Michigan",Michigan,26,163,1773767,2023
+26165,"Wexford County, Michigan",Michigan,26,165,33868,2023
+27001,"Aitkin County, Minnesota",Minnesota,27,001,15930,2023
+27003,"Anoka County, Minnesota",Minnesota,27,003,367095,2023
+27005,"Becker County, Minnesota",Minnesota,27,005,35260,2023
+27007,"Beltrami County, Minnesota",Minnesota,27,007,46421,2023
+27009,"Benton County, Minnesota",Minnesota,27,009,41458,2023
+27011,"Big Stone County, Minnesota",Minnesota,27,011,5152,2023
+27013,"Blue Earth County, Minnesota",Minnesota,27,013,69386,2023
+27015,"Brown County, Minnesota",Minnesota,27,015,25826,2023
+27017,"Carlton County, Minnesota",Minnesota,27,017,36457,2023
+27019,"Carver County, Minnesota",Minnesota,27,019,108622,2023
+27021,"Cass County, Minnesota",Minnesota,27,021,30688,2023
+27023,"Chippewa County, Minnesota",Minnesota,27,023,12388,2023
+27025,"Chisago County, Minnesota",Minnesota,27,025,57434,2023
+27027,"Clay County, Minnesota",Minnesota,27,027,65628,2023
+27029,"Clearwater County, Minnesota",Minnesota,27,029,8579,2023
+27031,"Cook County, Minnesota",Minnesota,27,031,5633,2023
+27033,"Cottonwood County, Minnesota",Minnesota,27,033,11458,2023
+27035,"Crow Wing County, Minnesota",Minnesota,27,035,67113,2023
+27037,"Dakota County, Minnesota",Minnesota,27,037,442204,2023
+27039,"Dodge County, Minnesota",Minnesota,27,039,20962,2023
+27041,"Douglas County, Minnesota",Minnesota,27,041,39354,2023
+27043,"Faribault County, Minnesota",Minnesota,27,043,13909,2023
+27045,"Fillmore County, Minnesota",Minnesota,27,045,21346,2023
+27047,"Freeborn County, Minnesota",Minnesota,27,047,30752,2023
+27049,"Goodhue County, Minnesota",Minnesota,27,049,47844,2023
+27051,"Grant County, Minnesota",Minnesota,27,051,6108,2023
+27053,"Hennepin County, Minnesota",Minnesota,27,053,1268903,2023
+27055,"Houston County, Minnesota",Minnesota,27,055,18768,2023
+27057,"Hubbard County, Minnesota",Minnesota,27,057,21700,2023
+27059,"Isanti County, Minnesota",Minnesota,27,059,41934,2023
+27061,"Itasca County, Minnesota",Minnesota,27,061,45141,2023
+27063,"Jackson County, Minnesota",Minnesota,27,063,9964,2023
+27065,"Kanabec County, Minnesota",Minnesota,27,065,16261,2023
+27067,"Kandiyohi County, Minnesota",Minnesota,27,067,43757,2023
+27069,"Kittson County, Minnesota",Minnesota,27,069,4163,2023
+27071,"Koochiching County, Minnesota",Minnesota,27,071,11950,2023
+27073,"Lac qui Parle County, Minnesota",Minnesota,27,073,6694,2023
+27075,"Lake County, Minnesota",Minnesota,27,075,10911,2023
+27077,"Lake of the Woods County, Minnesota",Minnesota,27,077,3800,2023
+27079,"Le Sueur County, Minnesota",Minnesota,27,079,28936,2023
+27081,"Lincoln County, Minnesota",Minnesota,27,081,5594,2023
+27083,"Lyon County, Minnesota",Minnesota,27,083,25498,2023
+27085,"McLeod County, Minnesota",Minnesota,27,085,36771,2023
+27087,"Mahnomen County, Minnesota",Minnesota,27,087,5371,2023
+27089,"Marshall County, Minnesota",Minnesota,27,089,8961,2023
+27091,"Martin County, Minnesota",Minnesota,27,091,19864,2023
+27093,"Meeker County, Minnesota",Minnesota,27,093,23422,2023
+27095,"Mille Lacs County, Minnesota",Minnesota,27,095,26912,2023
+27097,"Morrison County, Minnesota",Minnesota,27,097,34131,2023
+27099,"Mower County, Minnesota",Minnesota,27,099,40069,2023
+27101,"Murray County, Minnesota",Minnesota,27,101,8119,2023
+27103,"Nicollet County, Minnesota",Minnesota,27,103,34350,2023
+27105,"Nobles County, Minnesota",Minnesota,27,105,22067,2023
+27107,"Norman County, Minnesota",Minnesota,27,107,6411,2023
+27109,"Olmsted County, Minnesota",Minnesota,27,109,163425,2023
+27111,"Otter Tail County, Minnesota",Minnesota,27,111,60281,2023
+27113,"Pennington County, Minnesota",Minnesota,27,113,13877,2023
+27115,"Pine County, Minnesota",Minnesota,27,115,29411,2023
+27117,"Pipestone County, Minnesota",Minnesota,27,117,9352,2023
+27119,"Polk County, Minnesota",Minnesota,27,119,30905,2023
+27121,"Pope County, Minnesota",Minnesota,27,121,11363,2023
+27123,"Ramsey County, Minnesota",Minnesota,27,123,544438,2023
+27125,"Red Lake County, Minnesota",Minnesota,27,125,3922,2023
+27127,"Redwood County, Minnesota",Minnesota,27,127,15383,2023
+27129,"Renville County, Minnesota",Minnesota,27,129,14587,2023
+27131,"Rice County, Minnesota",Minnesota,27,131,67389,2023
+27133,"Rock County, Minnesota",Minnesota,27,133,9628,2023
+27135,"Roseau County, Minnesota",Minnesota,27,135,15301,2023
+27137,"St. Louis County, Minnesota",Minnesota,27,137,200056,2023
+27139,"Scott County, Minnesota",Minnesota,27,139,152957,2023
+27141,"Sherburne County, Minnesota",Minnesota,27,141,99178,2023
+27143,"Sibley County, Minnesota",Minnesota,27,143,14933,2023
+27145,"Stearns County, Minnesota",Minnesota,27,145,159358,2023
+27147,"Steele County, Minnesota",Minnesota,27,147,37413,2023
+27149,"Stevens County, Minnesota",Minnesota,27,149,9686,2023
+27151,"Swift County, Minnesota",Minnesota,27,151,9787,2023
+27153,"Todd County, Minnesota",Minnesota,27,153,25402,2023
+27155,"Traverse County, Minnesota",Minnesota,27,155,3279,2023
+27157,"Wabasha County, Minnesota",Minnesota,27,157,21519,2023
+27159,"Wadena County, Minnesota",Minnesota,27,159,14135,2023
+27161,"Waseca County, Minnesota",Minnesota,27,161,18958,2023
+27163,"Washington County, Minnesota",Minnesota,27,163,272298,2023
+27165,"Watonwan County, Minnesota",Minnesota,27,165,11169,2023
+27167,"Wilkin County, Minnesota",Minnesota,27,167,6413,2023
+27169,"Winona County, Minnesota",Minnesota,27,169,49705,2023
+27171,"Wright County, Minnesota",Minnesota,27,171,145270,2023
+27173,"Yellow Medicine County, Minnesota",Minnesota,27,173,9509,2023
+28001,"Adams County, Mississippi",Mississippi,28,001,29098,2023
+28003,"Alcorn County, Mississippi",Mississippi,28,003,34500,2023
+28005,"Amite County, Mississippi",Mississippi,28,005,12611,2023
+28007,"Attala County, Mississippi",Mississippi,28,007,17685,2023
+28009,"Benton County, Mississippi",Mississippi,28,009,7592,2023
+28011,"Bolivar County, Mississippi",Mississippi,28,011,30163,2023
+28013,"Calhoun County, Mississippi",Mississippi,28,013,13029,2023
+28015,"Carroll County, Mississippi",Mississippi,28,015,9828,2023
+28017,"Chickasaw County, Mississippi",Mississippi,28,017,16994,2023
+28019,"Choctaw County, Mississippi",Mississippi,28,019,8172,2023
+28021,"Claiborne County, Mississippi",Mississippi,28,021,8908,2023
+28023,"Clarke County, Mississippi",Mississippi,28,023,15424,2023
+28025,"Clay County, Mississippi",Mississippi,28,025,18462,2023
+28027,"Coahoma County, Mississippi",Mississippi,28,027,20808,2023
+28029,"Copiah County, Mississippi",Mississippi,28,029,27994,2023
+28031,"Covington County, Mississippi",Mississippi,28,031,18226,2023
+28033,"DeSoto County, Mississippi",Mississippi,28,033,188598,2023
+28035,"Forrest County, Mississippi",Mississippi,28,035,78027,2023
+28037,"Franklin County, Mississippi",Mississippi,28,037,7655,2023
+28039,"George County, Mississippi",Mississippi,28,039,24870,2023
+28041,"Greene County, Mississippi",Mississippi,28,041,13595,2023
+28043,"Grenada County, Mississippi",Mississippi,28,043,21342,2023
+28045,"Hancock County, Mississippi",Mississippi,28,045,46057,2023
+28047,"Harrison County, Mississippi",Mississippi,28,047,209443,2023
+28049,"Hinds County, Mississippi",Mississippi,28,049,222494,2023
+28051,"Holmes County, Mississippi",Mississippi,28,051,16491,2023
+28053,"Humphreys County, Mississippi",Mississippi,28,053,7570,2023
+28055,"Issaquena County, Mississippi",Mississippi,28,055,1095,2023
+28057,"Itawamba County, Mississippi",Mississippi,28,057,23942,2023
+28059,"Jackson County, Mississippi",Mississippi,28,059,144437,2023
+28061,"Jasper County, Mississippi",Mississippi,28,061,16211,2023
+28063,"Jefferson County, Mississippi",Mississippi,28,063,7127,2023
+28065,"Jefferson Davis County, Mississippi",Mississippi,28,065,11183,2023
+28067,"Jones County, Mississippi",Mississippi,28,067,66839,2023
+28069,"Kemper County, Mississippi",Mississippi,28,069,8855,2023
+28071,"Lafayette County, Mississippi",Mississippi,28,071,56920,2023
+28073,"Lamar County, Mississippi",Mississippi,28,073,65081,2023
+28075,"Lauderdale County, Mississippi",Mississippi,28,075,71984,2023
+28077,"Lawrence County, Mississippi",Mississippi,28,077,11883,2023
+28079,"Leake County, Mississippi",Mississippi,28,079,21288,2023
+28081,"Lee County, Mississippi",Mississippi,28,081,83138,2023
+28083,"Leflore County, Mississippi",Mississippi,28,083,27432,2023
+28085,"Lincoln County, Mississippi",Mississippi,28,085,34830,2023
+28087,"Lowndes County, Mississippi",Mississippi,28,087,58187,2023
+28089,"Madison County, Mississippi",Mississippi,28,089,110303,2023
+28091,"Marion County, Mississippi",Mississippi,28,091,24303,2023
+28093,"Marshall County, Mississippi",Mississippi,28,093,33899,2023
+28095,"Monroe County, Mississippi",Mississippi,28,095,33928,2023
+28097,"Montgomery County, Mississippi",Mississippi,28,097,9708,2023
+28099,"Neshoba County, Mississippi",Mississippi,28,099,28927,2023
+28101,"Newton County, Mississippi",Mississippi,28,101,21151,2023
+28103,"Noxubee County, Mississippi",Mississippi,28,103,10136,2023
+28105,"Oktibbeha County, Mississippi",Mississippi,28,105,51473,2023
+28107,"Panola County, Mississippi",Mississippi,28,107,32965,2023
+28109,"Pearl River County, Mississippi",Mississippi,28,109,56781,2023
+28111,"Perry County, Mississippi",Mississippi,28,111,11459,2023
+28113,"Pike County, Mississippi",Mississippi,28,113,39930,2023
+28115,"Pontotoc County, Mississippi",Mississippi,28,115,31312,2023
+28117,"Prentiss County, Mississippi",Mississippi,28,117,24999,2023
+28119,"Quitman County, Mississippi",Mississippi,28,119,5908,2023
+28121,"Rankin County, Mississippi",Mississippi,28,121,158218,2023
+28123,"Scott County, Mississippi",Mississippi,28,123,27754,2023
+28125,"Sharkey County, Mississippi",Mississippi,28,125,3848,2023
+28127,"Simpson County, Mississippi",Mississippi,28,127,25817,2023
+28129,"Smith County, Mississippi",Mississippi,28,129,14193,2023
+28131,"Stone County, Mississippi",Mississippi,28,131,18515,2023
+28133,"Sunflower County, Mississippi",Mississippi,28,133,25328,2023
+28135,"Tallahatchie County, Mississippi",Mississippi,28,135,12363,2023
+28137,"Tate County, Mississippi",Mississippi,28,137,28135,2023
+28139,"Tippah County, Mississippi",Mississippi,28,139,21621,2023
+28141,"Tishomingo County, Mississippi",Mississippi,28,141,18738,2023
+28143,"Tunica County, Mississippi",Mississippi,28,143,9586,2023
+28145,"Union County, Mississippi",Mississippi,28,145,28009,2023
+28147,"Walthall County, Mississippi",Mississippi,28,147,13864,2023
+28149,"Warren County, Mississippi",Mississippi,28,149,43623,2023
+28151,"Washington County, Mississippi",Mississippi,28,151,43674,2023
+28153,"Wayne County, Mississippi",Mississippi,28,153,19699,2023
+28155,"Webster County, Mississippi",Mississippi,28,155,9942,2023
+28157,"Wilkinson County, Mississippi",Mississippi,28,157,8376,2023
+28159,"Winston County, Mississippi",Mississippi,28,159,17609,2023
+28161,"Yalobusha County, Mississippi",Mississippi,28,161,12439,2023
+28163,"Yazoo County, Mississippi",Mississippi,28,163,26837,2023
+29001,"Adair County, Missouri",Missouri,29,001,25224,2023
+29003,"Andrew County, Missouri",Missouri,29,003,18086,2023
+29005,"Atchison County, Missouri",Missouri,29,005,5216,2023
+29007,"Audrain County, Missouri",Missouri,29,007,24688,2023
+29009,"Barry County, Missouri",Missouri,29,009,34831,2023
+29011,"Barton County, Missouri",Missouri,29,011,11685,2023
+29013,"Bates County, Missouri",Missouri,29,013,16121,2023
+29015,"Benton County, Missouri",Missouri,29,015,19887,2023
+29017,"Bollinger County, Missouri",Missouri,29,017,10591,2023
+29019,"Boone County, Missouri",Missouri,29,019,185874,2023
+29021,"Buchanan County, Missouri",Missouri,29,021,83855,2023
+29023,"Butler County, Missouri",Missouri,29,023,42166,2023
+29025,"Caldwell County, Missouri",Missouri,29,025,8890,2023
+29027,"Callaway County, Missouri",Missouri,29,027,44541,2023
+29029,"Camden County, Missouri",Missouri,29,029,43416,2023
+29031,"Cape Girardeau County, Missouri",Missouri,29,031,82180,2023
+29033,"Carroll County, Missouri",Missouri,29,033,8459,2023
+29035,"Carter County, Missouri",Missouri,29,035,5269,2023
+29037,"Cass County, Missouri",Missouri,29,037,109393,2023
+29039,"Cedar County, Missouri",Missouri,29,039,14440,2023
+29041,"Chariton County, Missouri",Missouri,29,041,7406,2023
+29043,"Christian County, Missouri",Missouri,29,043,91229,2023
+29045,"Clark County, Missouri",Missouri,29,045,6680,2023
+29047,"Clay County, Missouri",Missouri,29,047,255566,2023
+29049,"Clinton County, Missouri",Missouri,29,049,21259,2023
+29051,"Cole County, Missouri",Missouri,29,051,76924,2023
+29053,"Cooper County, Missouri",Missouri,29,053,16835,2023
+29055,"Crawford County, Missouri",Missouri,29,055,22890,2023
+29057,"Dade County, Missouri",Missouri,29,057,7627,2023
+29059,"Dallas County, Missouri",Missouri,29,059,17344,2023
+29061,"Daviess County, Missouri",Missouri,29,061,8449,2023
+29063,"DeKalb County, Missouri",Missouri,29,063,11176,2023
+29065,"Dent County, Missouri",Missouri,29,065,14506,2023
+29067,"Douglas County, Missouri",Missouri,29,067,11850,2023
+29069,"Dunklin County, Missouri",Missouri,29,069,27795,2023
+29071,"Franklin County, Missouri",Missouri,29,071,105316,2023
+29073,"Gasconade County, Missouri",Missouri,29,073,14774,2023
+29075,"Gentry County, Missouri",Missouri,29,075,6224,2023
+29077,"Greene County, Missouri",Missouri,29,077,301121,2023
+29079,"Grundy County, Missouri",Missouri,29,079,9822,2023
+29081,"Harrison County, Missouri",Missouri,29,081,8198,2023
+29083,"Henry County, Missouri",Missouri,29,083,22194,2023
+29085,"Hickory County, Missouri",Missouri,29,085,8501,2023
+29087,"Holt County, Missouri",Missouri,29,087,4254,2023
+29089,"Howard County, Missouri",Missouri,29,089,10141,2023
+29091,"Howell County, Missouri",Missouri,29,091,40168,2023
+29093,"Iron County, Missouri",Missouri,29,093,9482,2023
+29095,"Jackson County, Missouri",Missouri,29,095,717021,2023
+29097,"Jasper County, Missouri",Missouri,29,097,123532,2023
+29099,"Jefferson County, Missouri",Missouri,29,099,228227,2023
+29101,"Johnson County, Missouri",Missouri,29,101,54331,2023
+29103,"Knox County, Missouri",Missouri,29,103,3760,2023
+29105,"Laclede County, Missouri",Missouri,29,105,36245,2023
+29107,"Lafayette County, Missouri",Missouri,29,107,32974,2023
+29109,"Lawrence County, Missouri",Missouri,29,109,38392,2023
+29111,"Lewis County, Missouri",Missouri,29,111,9945,2023
+29113,"Lincoln County, Missouri",Missouri,29,113,61636,2023
+29115,"Linn County, Missouri",Missouri,29,115,11850,2023
+29117,"Livingston County, Missouri",Missouri,29,117,14330,2023
+29119,"McDonald County, Missouri",Missouri,29,119,23492,2023
+29121,"Macon County, Missouri",Missouri,29,121,15163,2023
+29123,"Madison County, Missouri",Missouri,29,123,12665,2023
+29125,"Maries County, Missouri",Missouri,29,125,8435,2023
+29127,"Marion County, Missouri",Missouri,29,127,28493,2023
+29129,"Mercer County, Missouri",Missouri,29,129,3501,2023
+29131,"Miller County, Missouri",Missouri,29,131,25081,2023
+29133,"Mississippi County, Missouri",Missouri,29,133,12079,2023
+29135,"Moniteau County, Missouri",Missouri,29,135,15303,2023
+29137,"Monroe County, Missouri",Missouri,29,137,8672,2023
+29139,"Montgomery County, Missouri",Missouri,29,139,11422,2023
+29141,"Morgan County, Missouri",Missouri,29,141,21430,2023
+29143,"New Madrid County, Missouri",Missouri,29,143,16041,2023
+29145,"Newton County, Missouri",Missouri,29,145,59490,2023
+29147,"Nodaway County, Missouri",Missouri,29,147,20959,2023
+29149,"Oregon County, Missouri",Missouri,29,149,8704,2023
+29151,"Osage County, Missouri",Missouri,29,151,13379,2023
+29153,"Ozark County, Missouri",Missouri,29,153,8773,2023
+29155,"Pemiscot County, Missouri",Missouri,29,155,15232,2023
+29157,"Perry County, Missouri",Missouri,29,157,18947,2023
+29159,"Pettis County, Missouri",Missouri,29,159,43205,2023
+29161,"Phelps County, Missouri",Missouri,29,161,44948,2023
+29163,"Pike County, Missouri",Missouri,29,163,17623,2023
+29165,"Platte County, Missouri",Missouri,29,165,108751,2023
+29167,"Polk County, Missouri",Missouri,29,167,32109,2023
+29169,"Pulaski County, Missouri",Missouri,29,169,53850,2023
+29171,"Putnam County, Missouri",Missouri,29,171,4675,2023
+29173,"Ralls County, Missouri",Missouri,29,173,10394,2023
+29175,"Randolph County, Missouri",Missouri,29,175,24524,2023
+29177,"Ray County, Missouri",Missouri,29,177,23149,2023
+29179,"Reynolds County, Missouri",Missouri,29,179,6058,2023
+29181,"Ripley County, Missouri",Missouri,29,181,10755,2023
+29183,"St. Charles County, Missouri",Missouri,29,183,409830,2023
+29185,"St. Clair County, Missouri",Missouri,29,185,9451,2023
+29186,"Ste. Genevieve County, Missouri",Missouri,29,186,18551,2023
+29187,"St. Francois County, Missouri",Missouri,29,187,66864,2023
+29189,"St. Louis County, Missouri",Missouri,29,189,996618,2023
+29195,"Saline County, Missouri",Missouri,29,195,23177,2023
+29197,"Schuyler County, Missouri",Missouri,29,197,4044,2023
+29199,"Scotland County, Missouri",Missouri,29,199,4698,2023
+29201,"Scott County, Missouri",Missouri,29,201,37967,2023
+29203,"Shannon County, Missouri",Missouri,29,203,7137,2023
+29205,"Shelby County, Missouri",Missouri,29,205,6011,2023
+29207,"Stoddard County, Missouri",Missouri,29,207,28547,2023
+29209,"Stone County, Missouri",Missouri,29,209,31697,2023
+29211,"Sullivan County, Missouri",Missouri,29,211,5903,2023
+29213,"Taney County, Missouri",Missouri,29,213,56382,2023
+29215,"Texas County, Missouri",Missouri,29,215,24956,2023
+29217,"Vernon County, Missouri",Missouri,29,217,19713,2023
+29219,"Warren County, Missouri",Missouri,29,219,36467,2023
+29221,"Washington County, Missouri",Missouri,29,221,23483,2023
+29223,"Wayne County, Missouri",Missouri,29,223,10942,2023
+29225,"Webster County, Missouri",Missouri,29,225,39868,2023
+29227,"Worth County, Missouri",Missouri,29,227,1956,2023
+29229,"Wright County, Missouri",Missouri,29,229,18722,2023
+29510,"St. Louis city, Missouri",Missouri,29,510,293109,2023
+30001,"Beaverhead County, Montana",Montana,30,001,9590,2023
+30003,"Big Horn County, Montana",Montana,30,003,12963,2023
+30005,"Blaine County, Montana",Montana,30,005,6997,2023
+30007,"Broadwater County, Montana",Montana,30,007,7310,2023
+30009,"Carbon County, Montana",Montana,30,009,10877,2023
+30011,"Carter County, Montana",Montana,30,011,1361,2023
+30013,"Cascade County, Montana",Montana,30,013,84601,2023
+30015,"Chouteau County, Montana",Montana,30,015,5888,2023
+30017,"Custer County, Montana",Montana,30,017,11938,2023
+30019,"Daniels County, Montana",Montana,30,019,1524,2023
+30021,"Dawson County, Montana",Montana,30,021,8874,2023
+30023,"Deer Lodge County, Montana",Montana,30,023,9512,2023
+30025,"Fallon County, Montana",Montana,30,025,2817,2023
+30027,"Fergus County, Montana",Montana,30,027,11581,2023
+30029,"Flathead County, Montana",Montana,30,029,108445,2023
+30031,"Gallatin County, Montana",Montana,30,031,122194,2023
+30033,"Garfield County, Montana",Montana,30,033,938,2023
+30035,"Glacier County, Montana",Montana,30,035,13713,2023
+30037,"Golden Valley County, Montana",Montana,30,037,840,2023
+30039,"Granite County, Montana",Montana,30,039,3419,2023
+30041,"Hill County, Montana",Montana,30,041,16260,2023
+30043,"Jefferson County, Montana",Montana,30,043,12501,2023
+30045,"Judith Basin County, Montana",Montana,30,045,2053,2023
+30047,"Lake County, Montana",Montana,30,047,32073,2023
+30049,"Lewis and Clark County, Montana",Montana,30,049,72580,2023
+30051,"Liberty County, Montana",Montana,30,051,1968,2023
+30053,"Lincoln County, Montana",Montana,30,053,20656,2023
+30055,"McCone County, Montana",Montana,30,055,1818,2023
+30057,"Madison County, Montana",Montana,30,057,8975,2023
+30059,"Meagher County, Montana",Montana,30,059,1979,2023
+30061,"Mineral County, Montana",Montana,30,061,4796,2023
+30063,"Missoula County, Montana",Montana,30,063,119639,2023
+30065,"Musselshell County, Montana",Montana,30,065,5068,2023
+30067,"Park County, Montana",Montana,30,067,17484,2023
+30069,"Petroleum County, Montana",Montana,30,069,401,2023
+30071,"Phillips County, Montana",Montana,30,071,4224,2023
+30073,"Pondera County, Montana",Montana,30,073,6012,2023
+30075,"Powder River County, Montana",Montana,30,075,1762,2023
+30077,"Powell County, Montana",Montana,30,077,7029,2023
+30079,"Prairie County, Montana",Montana,30,079,1251,2023
+30081,"Ravalli County, Montana",Montana,30,081,45807,2023
+30083,"Richland County, Montana",Montana,30,083,11329,2023
+30085,"Roosevelt County, Montana",Montana,30,085,10665,2023
+30087,"Rosebud County, Montana",Montana,30,087,8236,2023
+30089,"Sanders County, Montana",Montana,30,089,12936,2023
+30091,"Sheridan County, Montana",Montana,30,091,3677,2023
+30093,"Silver Bow County, Montana",Montana,30,093,35589,2023
+30095,"Stillwater County, Montana",Montana,30,095,9052,2023
+30097,"Sweet Grass County, Montana",Montana,30,097,3713,2023
+30099,"Teton County, Montana",Montana,30,099,6291,2023
+30101,"Toole County, Montana",Montana,30,101,5028,2023
+30103,"Treasure County, Montana",Montana,30,103,761,2023
+30105,"Valley County, Montana",Montana,30,105,7540,2023
+30107,"Wheatland County, Montana",Montana,30,107,2049,2023
+30109,"Wibaux County, Montana",Montana,30,109,1148,2023
+30111,"Yellowstone County, Montana",Montana,30,111,167340,2023
+31001,"Adams County, Nebraska",Nebraska,31,001,31034,2023
+31003,"Antelope County, Nebraska",Nebraska,31,003,6302,2023
+31005,"Arthur County, Nebraska",Nebraska,31,005,540,2023
+31007,"Banner County, Nebraska",Nebraska,31,007,657,2023
+31009,"Blaine County, Nebraska",Nebraska,31,009,385,2023
+31011,"Boone County, Nebraska",Nebraska,31,011,5366,2023
+31013,"Box Butte County, Nebraska",Nebraska,31,013,10754,2023
+31015,"Boyd County, Nebraska",Nebraska,31,015,1704,2023
+31017,"Brown County, Nebraska",Nebraska,31,017,2739,2023
+31019,"Buffalo County, Nebraska",Nebraska,31,019,50323,2023
+31021,"Burt County, Nebraska",Nebraska,31,021,6730,2023
+31023,"Butler County, Nebraska",Nebraska,31,023,8413,2023
+31025,"Cass County, Nebraska",Nebraska,31,025,26963,2023
+31027,"Cedar County, Nebraska",Nebraska,31,027,8344,2023
+31029,"Chase County, Nebraska",Nebraska,31,029,3639,2023
+31031,"Cherry County, Nebraska",Nebraska,31,031,5468,2023
+31033,"Cheyenne County, Nebraska",Nebraska,31,033,9478,2023
+31035,"Clay County, Nebraska",Nebraska,31,035,6084,2023
+31037,"Colfax County, Nebraska",Nebraska,31,037,10541,2023
+31039,"Cuming County, Nebraska",Nebraska,31,039,8976,2023
+31041,"Custer County, Nebraska",Nebraska,31,041,10544,2023
+31043,"Dakota County, Nebraska",Nebraska,31,043,21331,2023
+31045,"Dawes County, Nebraska",Nebraska,31,045,8212,2023
+31047,"Dawson County, Nebraska",Nebraska,31,047,24020,2023
+31049,"Deuel County, Nebraska",Nebraska,31,049,1865,2023
+31051,"Dixon County, Nebraska",Nebraska,31,051,5561,2023
+31053,"Dodge County, Nebraska",Nebraska,31,053,37146,2023
+31055,"Douglas County, Nebraska",Nebraska,31,055,585461,2023
+31057,"Dundy County, Nebraska",Nebraska,31,057,1811,2023
+31059,"Fillmore County, Nebraska",Nebraska,31,059,5551,2023
+31061,"Franklin County, Nebraska",Nebraska,31,061,2868,2023
+31063,"Frontier County, Nebraska",Nebraska,31,063,2562,2023
+31065,"Furnas County, Nebraska",Nebraska,31,065,4605,2023
+31067,"Gage County, Nebraska",Nebraska,31,067,21646,2023
+31069,"Garden County, Nebraska",Nebraska,31,069,1620,2023
+31071,"Garfield County, Nebraska",Nebraska,31,071,1797,2023
+31073,"Gosper County, Nebraska",Nebraska,31,073,1929,2023
+31075,"Grant County, Nebraska",Nebraska,31,075,695,2023
+31077,"Greeley County, Nebraska",Nebraska,31,077,2211,2023
+31079,"Hall County, Nebraska",Nebraska,31,079,62431,2023
+31081,"Hamilton County, Nebraska",Nebraska,31,081,9438,2023
+31083,"Harlan County, Nebraska",Nebraska,31,083,3006,2023
+31085,"Hayes County, Nebraska",Nebraska,31,085,854,2023
+31087,"Hitchcock County, Nebraska",Nebraska,31,087,2601,2023
+31089,"Holt County, Nebraska",Nebraska,31,089,10093,2023
+31091,"Hooker County, Nebraska",Nebraska,31,091,613,2023
+31093,"Howard County, Nebraska",Nebraska,31,093,6492,2023
+31095,"Jefferson County, Nebraska",Nebraska,31,095,7155,2023
+31097,"Johnson County, Nebraska",Nebraska,31,097,5263,2023
+31099,"Kearney County, Nebraska",Nebraska,31,099,6697,2023
+31101,"Keith County, Nebraska",Nebraska,31,101,8239,2023
+31103,"Keya Paha County, Nebraska",Nebraska,31,103,939,2023
+31105,"Kimball County, Nebraska",Nebraska,31,105,3348,2023
+31107,"Knox County, Nebraska",Nebraska,31,107,8362,2023
+31109,"Lancaster County, Nebraska",Nebraska,31,109,323673,2023
+31111,"Lincoln County, Nebraska",Nebraska,31,111,34122,2023
+31113,"Logan County, Nebraska",Nebraska,31,113,812,2023
+31115,"Loup County, Nebraska",Nebraska,31,115,564,2023
+31117,"McPherson County, Nebraska",Nebraska,31,117,463,2023
+31119,"Madison County, Nebraska",Nebraska,31,119,35535,2023
+31121,"Merrick County, Nebraska",Nebraska,31,121,7696,2023
+31123,"Morrill County, Nebraska",Nebraska,31,123,4544,2023
+31125,"Nance County, Nebraska",Nebraska,31,125,3342,2023
+31127,"Nemaha County, Nebraska",Nebraska,31,127,7035,2023
+31129,"Nuckolls County, Nebraska",Nebraska,31,129,4089,2023
+31131,"Otoe County, Nebraska",Nebraska,31,131,16075,2023
+31133,"Pawnee County, Nebraska",Nebraska,31,133,2539,2023
+31135,"Perkins County, Nebraska",Nebraska,31,135,2835,2023
+31137,"Phelps County, Nebraska",Nebraska,31,137,8983,2023
+31139,"Pierce County, Nebraska",Nebraska,31,139,7312,2023
+31141,"Platte County, Nebraska",Nebraska,31,141,34358,2023
+31143,"Polk County, Nebraska",Nebraska,31,143,5209,2023
+31145,"Red Willow County, Nebraska",Nebraska,31,145,10611,2023
+31147,"Richardson County, Nebraska",Nebraska,31,147,7797,2023
+31149,"Rock County, Nebraska",Nebraska,31,149,1335,2023
+31151,"Saline County, Nebraska",Nebraska,31,151,14642,2023
+31153,"Sarpy County, Nebraska",Nebraska,31,153,194051,2023
+31155,"Saunders County, Nebraska",Nebraska,31,155,22761,2023
+31157,"Scotts Bluff County, Nebraska",Nebraska,31,157,35937,2023
+31159,"Seward County, Nebraska",Nebraska,31,159,17636,2023
+31161,"Sheridan County, Nebraska",Nebraska,31,161,5058,2023
+31163,"Sherman County, Nebraska",Nebraska,31,163,2974,2023
+31165,"Sioux County, Nebraska",Nebraska,31,165,1197,2023
+31167,"Stanton County, Nebraska",Nebraska,31,167,5835,2023
+31169,"Thayer County, Nebraska",Nebraska,31,169,4938,2023
+31171,"Thomas County, Nebraska",Nebraska,31,171,626,2023
+31173,"Thurston County, Nebraska",Nebraska,31,173,6666,2023
+31175,"Valley County, Nebraska",Nebraska,31,175,4094,2023
+31177,"Washington County, Nebraska",Nebraska,31,177,20989,2023
+31179,"Wayne County, Nebraska",Nebraska,31,179,9786,2023
+31181,"Webster County, Nebraska",Nebraska,31,181,3385,2023
+31183,"Wheeler County, Nebraska",Nebraska,31,183,785,2023
+31185,"York County, Nebraska",Nebraska,31,185,14231,2023
+32001,"Churchill County, Nevada",Nevada,32,001,25614,2023
+32003,"Clark County, Nevada",Nevada,32,003,2293764,2023
+32005,"Douglas County, Nevada",Nevada,32,005,49624,2023
+32007,"Elko County, Nevada",Nevada,32,007,53852,2023
+32009,"Esmeralda County, Nevada",Nevada,32,009,962,2023
+32011,"Eureka County, Nevada",Nevada,32,011,1660,2023
+32013,"Humboldt County, Nevada",Nevada,32,013,17299,2023
+32015,"Lander County, Nevada",Nevada,32,015,5745,2023
+32017,"Lincoln County, Nevada",Nevada,32,017,4452,2023
+32019,"Lyon County, Nevada",Nevada,32,019,60630,2023
+32021,"Mineral County, Nevada",Nevada,32,021,4557,2023
+32023,"Nye County, Nevada",Nevada,32,023,53207,2023
+32027,"Pershing County, Nevada",Nevada,32,027,6505,2023
+32029,"Storey County, Nevada",Nevada,32,029,4139,2023
+32031,"Washoe County, Nevada",Nevada,32,031,491770,2023
+32033,"White Pine County, Nevada",Nevada,32,033,8856,2023
+32510,"Carson City, Nevada",Nevada,32,510,58364,2023
+33001,"Belknap County, New Hampshire",New Hampshire,33,001,64300,2023
+33003,"Carroll County, New Hampshire",New Hampshire,33,003,51259,2023
+33005,"Cheshire County, New Hampshire",New Hampshire,33,005,76945,2023
+33007,"Coos County, New Hampshire",New Hampshire,33,007,31386,2023
+33009,"Grafton County, New Hampshire",New Hampshire,33,009,91759,2023
+33011,"Hillsborough County, New Hampshire",New Hampshire,33,011,424732,2023
+33013,"Merrimack County, New Hampshire",New Hampshire,33,013,155018,2023
+33015,"Rockingham County, New Hampshire",New Hampshire,33,015,317163,2023
+33017,"Strafford County, New Hampshire",New Hampshire,33,017,131743,2023
+33019,"Sullivan County, New Hampshire",New Hampshire,33,019,43529,2023
+34001,"Atlantic County, New Jersey",New Jersey,34,001,274704,2023
+34003,"Bergen County, New Jersey",New Jersey,34,003,954717,2023
+34005,"Burlington County, New Jersey",New Jersey,34,005,464226,2023
+34007,"Camden County, New Jersey",New Jersey,34,007,524042,2023
+34009,"Cape May County, New Jersey",New Jersey,34,009,95236,2023
+34011,"Cumberland County, New Jersey",New Jersey,34,011,152915,2023
+34013,"Essex County, New Jersey",New Jersey,34,013,854130,2023
+34015,"Gloucester County, New Jersey",New Jersey,34,015,304504,2023
+34017,"Hudson County, New Jersey",New Jersey,34,017,710478,2023
+34019,"Hunterdon County, New Jersey",New Jersey,34,019,129448,2023
+34021,"Mercer County, New Jersey",New Jersey,34,021,383286,2023
+34023,"Middlesex County, New Jersey",New Jersey,34,023,861535,2023
+34025,"Monmouth County, New Jersey",New Jersey,34,025,643615,2023
+34027,"Morris County, New Jersey",New Jersey,34,027,510375,2023
+34029,"Ocean County, New Jersey",New Jersey,34,029,646434,2023
+34031,"Passaic County, New Jersey",New Jersey,34,031,518289,2023
+34033,"Salem County, New Jersey",New Jersey,34,033,64973,2023
+34035,"Somerset County, New Jersey",New Jersey,34,035,346203,2023
+34037,"Sussex County, New Jersey",New Jersey,34,037,145117,2023
+34039,"Union County, New Jersey",New Jersey,34,039,572549,2023
+34041,"Warren County, New Jersey",New Jersey,34,041,110238,2023
+35001,"Bernalillo County, New Mexico",New Mexico,35,001,674357,2023
+35003,"Catron County, New Mexico",New Mexico,35,003,3685,2023
+35005,"Chaves County, New Mexico",New Mexico,35,005,64446,2023
+35006,"Cibola County, New Mexico",New Mexico,35,006,27059,2023
+35007,"Colfax County, New Mexico",New Mexico,35,007,12336,2023
+35009,"Curry County, New Mexico",New Mexico,35,009,47932,2023
+35011,"De Baca County, New Mexico",New Mexico,35,011,1580,2023
+35013,"Doña Ana County, New Mexico",New Mexico,35,013,221665,2023
+35015,"Eddy County, New Mexico",New Mexico,35,015,61114,2023
+35017,"Grant County, New Mexico",New Mexico,35,017,27856,2023
+35019,"Guadalupe County, New Mexico",New Mexico,35,019,4379,2023
+35021,"Harding County, New Mexico",New Mexico,35,021,748,2023
+35023,"Hidalgo County, New Mexico",New Mexico,35,023,4097,2023
+35025,"Lea County, New Mexico",New Mexico,35,025,73154,2023
+35027,"Lincoln County, New Mexico",New Mexico,35,027,20227,2023
+35028,"Los Alamos County, New Mexico",New Mexico,35,028,19374,2023
+35029,"Luna County, New Mexico",New Mexico,35,029,25420,2023
+35031,"McKinley County, New Mexico",New Mexico,35,031,71172,2023
+35033,"Mora County, New Mexico",New Mexico,35,033,4176,2023
+35035,"Otero County, New Mexico",New Mexico,35,035,68235,2023
+35037,"Quay County, New Mexico",New Mexico,35,037,8616,2023
+35039,"Rio Arriba County, New Mexico",New Mexico,35,039,40165,2023
+35041,"Roosevelt County, New Mexico",New Mexico,35,041,19002,2023
+35043,"Sandoval County, New Mexico",New Mexico,35,043,151538,2023
+35045,"San Juan County, New Mexico",New Mexico,35,045,121178,2023
+35047,"San Miguel County, New Mexico",New Mexico,35,047,27036,2023
+35049,"Santa Fe County, New Mexico",New Mexico,35,049,155175,2023
+35051,"Sierra County, New Mexico",New Mexico,35,051,11511,2023
+35053,"Socorro County, New Mexico",New Mexico,35,053,16308,2023
+35055,"Taos County, New Mexico",New Mexico,35,055,34516,2023
+35057,"Torrance County, New Mexico",New Mexico,35,057,15290,2023
+35059,"Union County, New Mexico",New Mexico,35,059,4039,2023
+35061,"Valencia County, New Mexico",New Mexico,35,061,77382,2023
+36001,"Albany County, New York",New York,36,001,315374,2023
+36003,"Allegany County, New York",New York,36,003,47027,2023
+36005,"Bronx County, New York",New York,36,005,1419250,2023
+36007,"Broome County, New York",New York,36,007,197738,2023
+36009,"Cattaraugus County, New York",New York,36,009,76479,2023
+36011,"Cayuga County, New York",New York,36,011,75464,2023
+36013,"Chautauqua County, New York",New York,36,013,126329,2023
+36015,"Chemung County, New York",New York,36,015,82805,2023
+36017,"Chenango County, New York",New York,36,017,46685,2023
+36019,"Clinton County, New York",New York,36,019,78961,2023
+36021,"Columbia County, New York",New York,36,021,61245,2023
+36023,"Cortland County, New York",New York,36,023,46401,2023
+36025,"Delaware County, New York",New York,36,025,44551,2023
+36027,"Dutchess County, New York",New York,36,027,297144,2023
+36029,"Erie County, New York",New York,36,029,950044,2023
+36031,"Essex County, New York",New York,36,031,37077,2023
+36033,"Franklin County, New York",New York,36,033,47066,2023
+36035,"Fulton County, New York",New York,36,035,52787,2023
+36037,"Genesee County, New York",New York,36,037,57943,2023
+36039,"Greene County, New York",New York,36,039,47554,2023
+36041,"Hamilton County, New York",New York,36,041,5102,2023
+36043,"Herkimer County, New York",New York,36,043,59932,2023
+36045,"Jefferson County, New York",New York,36,045,116130,2023
+36047,"Kings County, New York",New York,36,047,2646306,2023
+36049,"Lewis County, New York",New York,36,049,26618,2023
+36051,"Livingston County, New York",New York,36,051,61588,2023
+36053,"Madison County, New York",New York,36,053,67572,2023
+36055,"Monroe County, New York",New York,36,055,754068,2023
+36057,"Montgomery County, New York",New York,36,057,49461,2023
+36059,"Nassau County, New York",New York,36,059,1388138,2023
+36061,"New York County, New York",New York,36,061,1627788,2023
+36063,"Niagara County, New York",New York,36,063,211341,2023
+36065,"Oneida County, New York",New York,36,065,229645,2023
+36067,"Onondaga County, New York",New York,36,067,471611,2023
+36069,"Ontario County, New York",New York,36,069,112405,2023
+36071,"Orange County, New York",New York,36,071,403840,2023
+36073,"Orleans County, New York",New York,36,073,39686,2023
+36075,"Oswego County, New York",New York,36,075,117945,2023
+36077,"Otsego County, New York",New York,36,077,59738,2023
+36079,"Putnam County, New York",New York,36,079,97988,2023
+36081,"Queens County, New York",New York,36,081,2330124,2023
+36083,"Rensselaer County, New York",New York,36,083,160341,2023
+36085,"Richmond County, New York",New York,36,085,492734,2023
+36087,"Rockland County, New York",New York,36,087,338936,2023
+36089,"St. Lawrence County, New York",New York,36,089,107796,2023
+36091,"Saratoga County, New York",New York,36,091,237075,2023
+36093,"Schenectady County, New York",New York,36,093,159603,2023
+36095,"Schoharie County, New York",New York,36,095,29979,2023
+36097,"Schuyler County, New York",New York,36,097,17749,2023
+36099,"Seneca County, New York",New York,36,099,33125,2023
+36101,"Steuben County, New York",New York,36,101,93034,2023
+36103,"Suffolk County, New York",New York,36,103,1525680,2023
+36105,"Sullivan County, New York",New York,36,105,79147,2023
+36107,"Tioga County, New York",New York,36,107,48106,2023
+36109,"Tompkins County, New York",New York,36,109,102879,2023
+36111,"Ulster County, New York",New York,36,111,182109,2023
+36113,"Warren County, New York",New York,36,113,65560,2023
+36115,"Washington County, New York",New York,36,115,60883,2023
+36117,"Wayne County, New York",New York,36,117,91128,2023
+36119,"Westchester County, New York",New York,36,119,996888,2023
+36121,"Wyoming County, New York",New York,36,121,39980,2023
+36123,"Yates County, New York",New York,36,123,24637,2023
+37001,"Alamance County, North Carolina",North Carolina,37,001,174286,2023
+37003,"Alexander County, North Carolina",North Carolina,37,003,36440,2023
+37005,"Alleghany County, North Carolina",North Carolina,37,005,11075,2023
+37007,"Anson County, North Carolina",North Carolina,37,007,21903,2023
+37009,"Ashe County, North Carolina",North Carolina,37,009,26831,2023
+37011,"Avery County, North Carolina",North Carolina,37,011,17643,2023
+37013,"Beaufort County, North Carolina",North Carolina,37,013,44597,2023
+37015,"Bertie County, North Carolina",North Carolina,37,015,17482,2023
+37017,"Bladen County, North Carolina",North Carolina,37,017,29591,2023
+37019,"Brunswick County, North Carolina",North Carolina,37,019,145889,2023
+37021,"Buncombe County, North Carolina",North Carolina,37,021,271790,2023
+37023,"Burke County, North Carolina",North Carolina,37,023,87863,2023
+37025,"Cabarrus County, North Carolina",North Carolina,37,025,231262,2023
+37027,"Caldwell County, North Carolina",North Carolina,37,027,80618,2023
+37029,"Camden County, North Carolina",North Carolina,37,029,10743,2023
+37031,"Carteret County, North Carolina",North Carolina,37,031,68652,2023
+37033,"Caswell County, North Carolina",North Carolina,37,033,22689,2023
+37035,"Catawba County, North Carolina",North Carolina,37,035,162051,2023
+37037,"Chatham County, North Carolina",North Carolina,37,037,78319,2023
+37039,"Cherokee County, North Carolina",North Carolina,37,039,29197,2023
+37041,"Chowan County, North Carolina",North Carolina,37,041,13814,2023
+37043,"Clay County, North Carolina",North Carolina,37,043,11391,2023
+37045,"Cleveland County, North Carolina",North Carolina,37,045,100170,2023
+37047,"Columbus County, North Carolina",North Carolina,37,047,50453,2023
+37049,"Craven County, North Carolina",North Carolina,37,049,101074,2023
+37051,"Cumberland County, North Carolina",North Carolina,37,051,336749,2023
+37053,"Currituck County, North Carolina",North Carolina,37,053,29612,2023
+37055,"Dare County, North Carolina",North Carolina,37,055,37534,2023
+37057,"Davidson County, North Carolina",North Carolina,37,057,171063,2023
+37059,"Davie County, North Carolina",North Carolina,37,059,43526,2023
+37061,"Duplin County, North Carolina",North Carolina,37,061,49053,2023
+37063,"Durham County, North Carolina",North Carolina,37,063,329405,2023
+37065,"Edgecombe County, North Carolina",North Carolina,37,065,48777,2023
+37067,"Forsyth County, North Carolina",North Carolina,37,067,386740,2023
+37069,"Franklin County, North Carolina",North Carolina,37,069,71962,2023
+37071,"Gaston County, North Carolina",North Carolina,37,071,231485,2023
+37073,"Gates County, North Carolina",North Carolina,37,073,10437,2023
+37075,"Graham County, North Carolina",North Carolina,37,075,8041,2023
+37077,"Granville County, North Carolina",North Carolina,37,077,61439,2023
+37079,"Greene County, North Carolina",North Carolina,37,079,20421,2023
+37081,"Guilford County, North Carolina",North Carolina,37,081,542987,2023
+37083,"Halifax County, North Carolina",North Carolina,37,083,48219,2023
+37085,"Harnett County, North Carolina",North Carolina,37,085,136503,2023
+37087,"Haywood County, North Carolina",North Carolina,37,087,62432,2023
+37089,"Henderson County, North Carolina",North Carolina,37,089,117387,2023
+37091,"Hertford County, North Carolina",North Carolina,37,091,20492,2023
+37093,"Hoke County, North Carolina",North Carolina,37,093,53102,2023
+37095,"Hyde County, North Carolina",North Carolina,37,095,4625,2023
+37097,"Iredell County, North Carolina",North Carolina,37,097,191800,2023
+37099,"Jackson County, North Carolina",North Carolina,37,099,43089,2023
+37101,"Johnston County, North Carolina",North Carolina,37,101,226623,2023
+37103,"Jones County, North Carolina",North Carolina,37,103,9245,2023
+37105,"Lee County, North Carolina",North Carolina,37,105,64565,2023
+37107,"Lenoir County, North Carolina",North Carolina,37,107,54917,2023
+37109,"Lincoln County, North Carolina",North Carolina,37,109,90359,2023
+37111,"McDowell County, North Carolina",North Carolina,37,111,44679,2023
+37113,"Macon County, North Carolina",North Carolina,37,113,37533,2023
+37115,"Madison County, North Carolina",North Carolina,37,115,21640,2023
+37117,"Martin County, North Carolina",North Carolina,37,117,21773,2023
+37119,"Mecklenburg County, North Carolina",North Carolina,37,119,1130906,2023
+37121,"Mitchell County, North Carolina",North Carolina,37,121,14973,2023
+37123,"Montgomery County, North Carolina",North Carolina,37,123,25874,2023
+37125,"Moore County, North Carolina",North Carolina,37,125,102840,2023
+37127,"Nash County, North Carolina",North Carolina,37,127,95451,2023
+37129,"New Hanover County, North Carolina",North Carolina,37,129,231214,2023
+37131,"Northampton County, North Carolina",North Carolina,37,131,17212,2023
+37133,"Onslow County, North Carolina",North Carolina,37,133,208537,2023
+37135,"Orange County, North Carolina",North Carolina,37,135,147292,2023
+37137,"Pamlico County, North Carolina",North Carolina,37,137,12315,2023
+37139,"Pasquotank County, North Carolina",North Carolina,37,139,40830,2023
+37141,"Pender County, North Carolina",North Carolina,37,141,63475,2023
+37143,"Perquimans County, North Carolina",North Carolina,37,143,13146,2023
+37145,"Person County, North Carolina",North Carolina,37,145,39275,2023
+37147,"Pitt County, North Carolina",North Carolina,37,147,172279,2023
+37149,"Polk County, North Carolina",North Carolina,37,149,19689,2023
+37151,"Randolph County, North Carolina",North Carolina,37,151,145322,2023
+37153,"Richmond County, North Carolina",North Carolina,37,153,42818,2023
+37155,"Robeson County, North Carolina",North Carolina,37,155,116858,2023
+37157,"Rockingham County, North Carolina",North Carolina,37,157,91585,2023
+37159,"Rowan County, North Carolina",North Carolina,37,159,148487,2023
+37161,"Rutherford County, North Carolina",North Carolina,37,161,64850,2023
+37163,"Sampson County, North Carolina",North Carolina,37,163,59245,2023
+37165,"Scotland County, North Carolina",North Carolina,37,165,34353,2023
+37167,"Stanly County, North Carolina",North Carolina,37,167,63557,2023
+37169,"Stokes County, North Carolina",North Carolina,37,169,44889,2023
+37171,"Surry County, North Carolina",North Carolina,37,171,71407,2023
+37173,"Swain County, North Carolina",North Carolina,37,173,14065,2023
+37175,"Transylvania County, North Carolina",North Carolina,37,175,33243,2023
+37177,"Tyrrell County, North Carolina",North Carolina,37,177,3376,2023
+37179,"Union County, North Carolina",North Carolina,37,179,244975,2023
+37181,"Vance County, North Carolina",North Carolina,37,181,42361,2023
+37183,"Wake County, North Carolina",North Carolina,37,183,1151009,2023
+37185,"Warren County, North Carolina",North Carolina,37,185,18751,2023
+37187,"Washington County, North Carolina",North Carolina,37,187,10905,2023
+37189,"Watauga County, North Carolina",North Carolina,37,189,54607,2023
+37191,"Wayne County, North Carolina",North Carolina,37,191,117606,2023
+37193,"Wilkes County, North Carolina",North Carolina,37,193,65983,2023
+37195,"Wilson County, North Carolina",North Carolina,37,195,78648,2023
+37197,"Yadkin County, North Carolina",North Carolina,37,197,37419,2023
+37199,"Yancey County, North Carolina",North Carolina,37,199,18676,2023
+38001,"Adams County, North Dakota",North Dakota,38,001,2179,2023
+38003,"Barnes County, North Dakota",North Dakota,38,003,10794,2023
+38005,"Benson County, North Dakota",North Dakota,38,005,5861,2023
+38007,"Billings County, North Dakota",North Dakota,38,007,948,2023
+38009,"Bottineau County, North Dakota",North Dakota,38,009,6390,2023
+38011,"Bowman County, North Dakota",North Dakota,38,011,2935,2023
+38013,"Burke County, North Dakota",North Dakota,38,013,2163,2023
+38015,"Burleigh County, North Dakota",North Dakota,38,015,98986,2023
+38017,"Cass County, North Dakota",North Dakota,38,017,189286,2023
+38019,"Cavalier County, North Dakota",North Dakota,38,019,3663,2023
+38021,"Dickey County, North Dakota",North Dakota,38,021,4959,2023
+38023,"Divide County, North Dakota",North Dakota,38,023,2174,2023
+38025,"Dunn County, North Dakota",North Dakota,38,025,4043,2023
+38027,"Eddy County, North Dakota",North Dakota,38,027,2319,2023
+38029,"Emmons County, North Dakota",North Dakota,38,029,3269,2023
+38031,"Foster County, North Dakota",North Dakota,38,031,3372,2023
+38033,"Golden Valley County, North Dakota",North Dakota,38,033,1679,2023
+38035,"Grand Forks County, North Dakota",North Dakota,38,035,72764,2023
+38037,"Grant County, North Dakota",North Dakota,38,037,2276,2023
+38039,"Griggs County, North Dakota",North Dakota,38,039,2340,2023
+38041,"Hettinger County, North Dakota",North Dakota,38,041,2453,2023
+38043,"Kidder County, North Dakota",North Dakota,38,043,2374,2023
+38045,"LaMoure County, North Dakota",North Dakota,38,045,4107,2023
+38047,"Logan County, North Dakota",North Dakota,38,047,1848,2023
+38049,"McHenry County, North Dakota",North Dakota,38,049,5264,2023
+38051,"McIntosh County, North Dakota",North Dakota,38,051,2512,2023
+38053,"McKenzie County, North Dakota",North Dakota,38,053,14280,2023
+38055,"McLean County, North Dakota",North Dakota,38,055,9807,2023
+38057,"Mercer County, North Dakota",North Dakota,38,057,8341,2023
+38059,"Morton County, North Dakota",North Dakota,38,059,33479,2023
+38061,"Mountrail County, North Dakota",North Dakota,38,061,9567,2023
+38063,"Nelson County, North Dakota",North Dakota,38,063,3015,2023
+38065,"Oliver County, North Dakota",North Dakota,38,065,1821,2023
+38067,"Pembina County, North Dakota",North Dakota,38,067,6787,2023
+38069,"Pierce County, North Dakota",North Dakota,38,069,3961,2023
+38071,"Ramsey County, North Dakota",North Dakota,38,071,11563,2023
+38073,"Ransom County, North Dakota",North Dakota,38,073,5662,2023
+38075,"Renville County, North Dakota",North Dakota,38,075,2277,2023
+38077,"Richland County, North Dakota",North Dakota,38,077,16550,2023
+38079,"Rolette County, North Dakota",North Dakota,38,079,12065,2023
+38081,"Sargent County, North Dakota",North Dakota,38,081,3822,2023
+38083,"Sheridan County, North Dakota",North Dakota,38,083,1327,2023
+38085,"Sioux County, North Dakota",North Dakota,38,085,3789,2023
+38087,"Slope County, North Dakota",North Dakota,38,087,795,2023
+38089,"Stark County, North Dakota",North Dakota,38,089,33116,2023
+38091,"Steele County, North Dakota",North Dakota,38,091,1731,2023
+38093,"Stutsman County, North Dakota",North Dakota,38,093,21525,2023
+38095,"Towner County, North Dakota",North Dakota,38,095,2113,2023
+38097,"Traill County, North Dakota",North Dakota,38,097,7980,2023
+38099,"Walsh County, North Dakota",North Dakota,38,099,10488,2023
+38101,"Ward County, North Dakota",North Dakota,38,101,69232,2023
+38103,"Wells County, North Dakota",North Dakota,38,103,3942,2023
+38105,"Williams County, North Dakota",North Dakota,38,105,39368,2023
+39001,"Adams County, Ohio",Ohio,39,001,27510,2023
+39003,"Allen County, Ohio",Ohio,39,003,101685,2023
+39005,"Ashland County, Ohio",Ohio,39,005,52296,2023
+39007,"Ashtabula County, Ohio",Ohio,39,007,97343,2023
+39009,"Athens County, Ohio",Ohio,39,009,61573,2023
+39011,"Auglaize County, Ohio",Ohio,39,011,46209,2023
+39013,"Belmont County, Ohio",Ohio,39,013,65982,2023
+39015,"Brown County, Ohio",Ohio,39,015,43710,2023
+39017,"Butler County, Ohio",Ohio,39,017,389910,2023
+39019,"Carroll County, Ohio",Ohio,39,019,26731,2023
+39021,"Champaign County, Ohio",Ohio,39,021,38772,2023
+39023,"Clark County, Ohio",Ohio,39,023,135445,2023
+39025,"Clermont County, Ohio",Ohio,39,025,209862,2023
+39027,"Clinton County, Ohio",Ohio,39,027,42014,2023
+39029,"Columbiana County, Ohio",Ohio,39,029,101203,2023
+39031,"Coshocton County, Ohio",Ohio,39,031,36679,2023
+39033,"Crawford County, Ohio",Ohio,39,033,41767,2023
+39035,"Cuyahoga County, Ohio",Ohio,39,035,1249418,2023
+39037,"Darke County, Ohio",Ohio,39,037,51655,2023
+39039,"Defiance County, Ohio",Ohio,39,039,38258,2023
+39041,"Delaware County, Ohio",Ohio,39,041,221160,2023
+39043,"Erie County, Ohio",Ohio,39,043,74938,2023
+39045,"Fairfield County, Ohio",Ohio,39,045,161289,2023
+39047,"Fayette County, Ohio",Ohio,39,047,28880,2023
+39049,"Franklin County, Ohio",Ohio,39,049,1321635,2023
+39051,"Fulton County, Ohio",Ohio,39,051,42434,2023
+39053,"Gallia County, Ohio",Ohio,39,053,29162,2023
+39055,"Geauga County, Ohio",Ohio,39,055,95479,2023
+39057,"Greene County, Ohio",Ohio,39,057,168531,2023
+39059,"Guernsey County, Ohio",Ohio,39,059,38283,2023
+39061,"Hamilton County, Ohio",Ohio,39,061,827878,2023
+39063,"Hancock County, Ohio",Ohio,39,063,74885,2023
+39065,"Hardin County, Ohio",Ohio,39,065,30527,2023
+39067,"Harrison County, Ohio",Ohio,39,067,14408,2023
+39069,"Henry County, Ohio",Ohio,39,069,27581,2023
+39071,"Highland County, Ohio",Ohio,39,071,43403,2023
+39073,"Hocking County, Ohio",Ohio,39,073,27938,2023
+39075,"Holmes County, Ohio",Ohio,39,075,44312,2023
+39077,"Huron County, Ohio",Ohio,39,077,58412,2023
+39079,"Jackson County, Ohio",Ohio,39,079,32588,2023
+39081,"Jefferson County, Ohio",Ohio,39,081,64855,2023
+39083,"Knox County, Ohio",Ohio,39,083,62888,2023
+39085,"Lake County, Ohio",Ohio,39,085,232101,2023
+39087,"Lawrence County, Ohio",Ohio,39,087,57385,2023
+39089,"Licking County, Ohio",Ohio,39,089,180311,2023
+39091,"Logan County, Ohio",Ohio,39,091,46140,2023
+39093,"Lorain County, Ohio",Ohio,39,093,314588,2023
+39095,"Lucas County, Ohio",Ohio,39,095,428748,2023
+39097,"Madison County, Ohio",Ohio,39,097,44126,2023
+39099,"Mahoning County, Ohio",Ohio,39,099,227063,2023
+39101,"Marion County, Ohio",Ohio,39,101,65145,2023
+39103,"Medina County, Ohio",Ohio,39,103,183049,2023
+39105,"Meigs County, Ohio",Ohio,39,105,22072,2023
+39107,"Mercer County, Ohio",Ohio,39,107,42438,2023
+39109,"Miami County, Ohio",Ohio,39,109,109549,2023
+39111,"Monroe County, Ohio",Ohio,39,111,13308,2023
+39113,"Montgomery County, Ohio",Ohio,39,113,535528,2023
+39115,"Morgan County, Ohio",Ohio,39,115,13758,2023
+39117,"Morrow County, Ohio",Ohio,39,117,35214,2023
+39119,"Muskingum County, Ohio",Ohio,39,119,86382,2023
+39121,"Noble County, Ohio",Ohio,39,121,14252,2023
+39123,"Ottawa County, Ohio",Ohio,39,123,40161,2023
+39125,"Paulding County, Ohio",Ohio,39,125,18800,2023
+39127,"Perry County, Ohio",Ohio,39,127,35474,2023
+39129,"Pickaway County, Ohio",Ohio,39,129,59407,2023
+39131,"Pike County, Ohio",Ohio,39,131,27080,2023
+39133,"Portage County, Ohio",Ohio,39,133,161421,2023
+39135,"Preble County, Ohio",Ohio,39,135,40802,2023
+39137,"Putnam County, Ohio",Ohio,39,137,34352,2023
+39139,"Richland County, Ohio",Ohio,39,139,125138,2023
+39141,"Ross County, Ohio",Ohio,39,141,76748,2023
+39143,"Sandusky County, Ohio",Ohio,39,143,58770,2023
+39145,"Scioto County, Ohio",Ohio,39,145,73118,2023
+39147,"Seneca County, Ohio",Ohio,39,147,54861,2023
+39149,"Shelby County, Ohio",Ohio,39,149,48007,2023
+39151,"Stark County, Ohio",Ohio,39,151,373764,2023
+39153,"Summit County, Ohio",Ohio,39,153,538087,2023
+39155,"Trumbull County, Ohio",Ohio,39,155,201367,2023
+39157,"Tuscarawas County, Ohio",Ohio,39,157,92585,2023
+39159,"Union County, Ohio",Ohio,39,159,65293,2023
+39161,"Van Wert County, Ohio",Ohio,39,161,28824,2023
+39163,"Vinton County, Ohio",Ohio,39,163,12686,2023
+39165,"Warren County, Ohio",Ohio,39,165,246364,2023
+39167,"Washington County, Ohio",Ohio,39,167,59318,2023
+39169,"Wayne County, Ohio",Ohio,39,169,116618,2023
+39171,"Williams County, Ohio",Ohio,39,171,36862,2023
+39173,"Wood County, Ohio",Ohio,39,173,131795,2023
+39175,"Wyandot County, Ohio",Ohio,39,175,21699,2023
+40001,"Adair County, Oklahoma",Oklahoma,40,001,19595,2023
+40003,"Alfalfa County, Oklahoma",Oklahoma,40,003,5685,2023
+40005,"Atoka County, Oklahoma",Oklahoma,40,005,14255,2023
+40007,"Beaver County, Oklahoma",Oklahoma,40,007,5041,2023
+40009,"Beckham County, Oklahoma",Oklahoma,40,009,22202,2023
+40011,"Blaine County, Oklahoma",Oklahoma,40,011,8603,2023
+40013,"Bryan County, Oklahoma",Oklahoma,40,013,47237,2023
+40015,"Caddo County, Oklahoma",Oklahoma,40,015,26626,2023
+40017,"Canadian County, Oklahoma",Oklahoma,40,017,162621,2023
+40019,"Carter County, Oklahoma",Oklahoma,40,019,48255,2023
+40021,"Cherokee County, Oklahoma",Oklahoma,40,021,47621,2023
+40023,"Choctaw County, Oklahoma",Oklahoma,40,023,14299,2023
+40025,"Cimarron County, Oklahoma",Oklahoma,40,025,2247,2023
+40027,"Cleveland County, Oklahoma",Oklahoma,40,027,297545,2023
+40029,"Coal County, Oklahoma",Oklahoma,40,029,5275,2023
+40031,"Comanche County, Oklahoma",Oklahoma,40,031,121699,2023
+40033,"Cotton County, Oklahoma",Oklahoma,40,033,5475,2023
+40035,"Craig County, Oklahoma",Oklahoma,40,035,14215,2023
+40037,"Creek County, Oklahoma",Oklahoma,40,037,72353,2023
+40039,"Custer County, Oklahoma",Oklahoma,40,039,28332,2023
+40041,"Delaware County, Oklahoma",Oklahoma,40,041,41017,2023
+40043,"Dewey County, Oklahoma",Oklahoma,40,043,4433,2023
+40045,"Ellis County, Oklahoma",Oklahoma,40,045,3717,2023
+40047,"Garfield County, Oklahoma",Oklahoma,40,047,62322,2023
+40049,"Garvin County, Oklahoma",Oklahoma,40,049,25779,2023
+40051,"Grady County, Oklahoma",Oklahoma,40,051,55868,2023
+40053,"Grant County, Oklahoma",Oklahoma,40,053,4137,2023
+40055,"Greer County, Oklahoma",Oklahoma,40,055,5498,2023
+40057,"Harmon County, Oklahoma",Oklahoma,40,057,2452,2023
+40059,"Harper County, Oklahoma",Oklahoma,40,059,3231,2023
+40061,"Haskell County, Oklahoma",Oklahoma,40,061,11667,2023
+40063,"Hughes County, Oklahoma",Oklahoma,40,063,13411,2023
+40065,"Jackson County, Oklahoma",Oklahoma,40,065,24730,2023
+40067,"Jefferson County, Oklahoma",Oklahoma,40,067,5377,2023
+40069,"Johnston County, Oklahoma",Oklahoma,40,069,10334,2023
+40071,"Kay County, Oklahoma",Oklahoma,40,071,43731,2023
+40073,"Kingfisher County, Oklahoma",Oklahoma,40,073,15288,2023
+40075,"Kiowa County, Oklahoma",Oklahoma,40,075,8458,2023
+40077,"Latimer County, Oklahoma",Oklahoma,40,077,9495,2023
+40079,"Le Flore County, Oklahoma",Oklahoma,40,079,48728,2023
+40081,"Lincoln County, Oklahoma",Oklahoma,40,081,33917,2023
+40083,"Logan County, Oklahoma",Oklahoma,40,083,50905,2023
+40085,"Love County, Oklahoma",Oklahoma,40,085,10196,2023
+40087,"McClain County, Oklahoma",Oklahoma,40,087,43779,2023
+40089,"McCurtain County, Oklahoma",Oklahoma,40,089,30825,2023
+40091,"McIntosh County, Oklahoma",Oklahoma,40,091,19237,2023
+40093,"Major County, Oklahoma",Oklahoma,40,093,7656,2023
+40095,"Marshall County, Oklahoma",Oklahoma,40,095,15628,2023
+40097,"Mayes County, Oklahoma",Oklahoma,40,097,39406,2023
+40099,"Murray County, Oklahoma",Oklahoma,40,099,13807,2023
+40101,"Muskogee County, Oklahoma",Oklahoma,40,101,66471,2023
+40103,"Noble County, Oklahoma",Oklahoma,40,103,10909,2023
+40105,"Nowata County, Oklahoma",Oklahoma,40,105,9392,2023
+40107,"Okfuskee County, Oklahoma",Oklahoma,40,107,11304,2023
+40109,"Oklahoma County, Oklahoma",Oklahoma,40,109,800487,2023
+40111,"Okmulgee County, Oklahoma",Oklahoma,40,111,36922,2023
+40113,"Osage County, Oklahoma",Oklahoma,40,113,45963,2023
+40115,"Ottawa County, Oklahoma",Oklahoma,40,115,30360,2023
+40117,"Pawnee County, Oklahoma",Oklahoma,40,117,15689,2023
+40119,"Payne County, Oklahoma",Oklahoma,40,119,82290,2023
+40121,"Pittsburg County, Oklahoma",Oklahoma,40,121,43629,2023
+40123,"Pontotoc County, Oklahoma",Oklahoma,40,123,38158,2023
+40125,"Pottawatomie County, Oklahoma",Oklahoma,40,125,73011,2023
+40127,"Pushmataha County, Oklahoma",Oklahoma,40,127,10787,2023
+40129,"Roger Mills County, Oklahoma",Oklahoma,40,129,3378,2023
+40131,"Rogers County, Oklahoma",Oklahoma,40,131,97235,2023
+40133,"Seminole County, Oklahoma",Oklahoma,40,133,23550,2023
+40135,"Sequoyah County, Oklahoma",Oklahoma,40,135,39676,2023
+40137,"Stephens County, Oklahoma",Oklahoma,40,137,43314,2023
+40139,"Texas County, Oklahoma",Oklahoma,40,139,20880,2023
+40141,"Tillman County, Oklahoma",Oklahoma,40,141,6967,2023
+40143,"Tulsa County, Oklahoma",Oklahoma,40,143,673708,2023
+40145,"Wagoner County, Oklahoma",Oklahoma,40,145,84339,2023
+40147,"Washington County, Oklahoma",Oklahoma,40,147,52895,2023
+40149,"Washita County, Oklahoma",Oklahoma,40,149,10857,2023
+40151,"Woods County, Oklahoma",Oklahoma,40,151,8619,2023
+40153,"Woodward County, Oklahoma",Oklahoma,40,153,20260,2023
+41001,"Baker County, Oregon",Oregon,41,001,16796,2023
+41003,"Benton County, Oregon",Oregon,41,003,96359,2023
+41005,"Clackamas County, Oregon",Oregon,41,005,422308,2023
+41007,"Clatsop County, Oregon",Oregon,41,007,41343,2023
+41009,"Columbia County, Oregon",Oregon,41,009,53178,2023
+41011,"Coos County, Oregon",Oregon,41,011,64832,2023
+41013,"Crook County, Oregon",Oregon,41,013,25651,2023
+41015,"Curry County, Oregon",Oregon,41,015,23463,2023
+41017,"Deschutes County, Oregon",Oregon,41,017,203026,2023
+41019,"Douglas County, Oregon",Oregon,41,019,111807,2023
+41021,"Gilliam County, Oregon",Oregon,41,021,2002,2023
+41023,"Grant County, Oregon",Oregon,41,023,7238,2023
+41025,"Harney County, Oregon",Oregon,41,025,7515,2023
+41027,"Hood River County, Oregon",Oregon,41,027,23958,2023
+41029,"Jackson County, Oregon",Oregon,41,029,222563,2023
+41031,"Jefferson County, Oregon",Oregon,41,031,24973,2023
+41033,"Josephine County, Oregon",Oregon,41,033,88069,2023
+41035,"Klamath County, Oregon",Oregon,41,035,69812,2023
+41037,"Lake County, Oregon",Oregon,41,037,8254,2023
+41039,"Lane County, Oregon",Oregon,41,039,382628,2023
+41041,"Lincoln County, Oregon",Oregon,41,041,50632,2023
+41043,"Linn County, Oregon",Oregon,41,043,129794,2023
+41045,"Malheur County, Oregon",Oregon,41,045,31701,2023
+41047,"Marion County, Oregon",Oregon,41,047,346532,2023
+41049,"Morrow County, Oregon",Oregon,41,049,12249,2023
+41051,"Multnomah County, Oregon",Oregon,41,051,803863,2023
+41053,"Polk County, Oregon",Oregon,41,053,88553,2023
+41055,"Sherman County, Oregon",Oregon,41,055,1908,2023
+41057,"Tillamook County, Oregon",Oregon,41,057,27471,2023
+41059,"Umatilla County, Oregon",Oregon,41,059,80087,2023
+41061,"Union County, Oregon",Oregon,41,061,26192,2023
+41063,"Wallowa County, Oregon",Oregon,41,063,7532,2023
+41065,"Wasco County, Oregon",Oregon,41,065,26603,2023
+41067,"Washington County, Oregon",Oregon,41,067,600266,2023
+41069,"Wheeler County, Oregon",Oregon,41,069,1434,2023
+41071,"Yamhill County, Oregon",Oregon,41,071,108122,2023
+42001,"Adams County, Pennsylvania",Pennsylvania,42,001,105183,2023
+42003,"Allegheny County, Pennsylvania",Pennsylvania,42,003,1240476,2023
+42005,"Armstrong County, Pennsylvania",Pennsylvania,42,005,65069,2023
+42007,"Beaver County, Pennsylvania",Pennsylvania,42,007,166993,2023
+42009,"Bedford County, Pennsylvania",Pennsylvania,42,009,47503,2023
+42011,"Berks County, Pennsylvania",Pennsylvania,42,011,429989,2023
+42013,"Blair County, Pennsylvania",Pennsylvania,42,013,121854,2023
+42015,"Bradford County, Pennsylvania",Pennsylvania,42,015,59971,2023
+42017,"Bucks County, Pennsylvania",Pennsylvania,42,017,645993,2023
+42019,"Butler County, Pennsylvania",Pennsylvania,42,019,195870,2023
+42021,"Cambria County, Pennsylvania",Pennsylvania,42,021,132355,2023
+42023,"Cameron County, Pennsylvania",Pennsylvania,42,023,4475,2023
+42025,"Carbon County, Pennsylvania",Pennsylvania,42,025,65191,2023
+42027,"Centre County, Pennsylvania",Pennsylvania,42,027,158041,2023
+42029,"Chester County, Pennsylvania",Pennsylvania,42,029,540896,2023
+42031,"Clarion County, Pennsylvania",Pennsylvania,42,031,37297,2023
+42033,"Clearfield County, Pennsylvania",Pennsylvania,42,033,78902,2023
+42035,"Clinton County, Pennsylvania",Pennsylvania,42,035,37707,2023
+42037,"Columbia County, Pennsylvania",Pennsylvania,42,037,65055,2023
+42039,"Crawford County, Pennsylvania",Pennsylvania,42,039,83189,2023
+42041,"Cumberland County, Pennsylvania",Pennsylvania,42,041,264422,2023
+42043,"Dauphin County, Pennsylvania",Pennsylvania,42,043,287484,2023
+42045,"Delaware County, Pennsylvania",Pennsylvania,42,045,576195,2023
+42047,"Elk County, Pennsylvania",Pennsylvania,42,047,30703,2023
+42049,"Erie County, Pennsylvania",Pennsylvania,42,049,269544,2023
+42051,"Fayette County, Pennsylvania",Pennsylvania,42,051,126967,2023
+42053,"Forest County, Pennsylvania",Pennsylvania,42,053,6785,2023
+42055,"Franklin County, Pennsylvania",Pennsylvania,42,055,156626,2023
+42057,"Fulton County, Pennsylvania",Pennsylvania,42,057,14545,2023
+42059,"Greene County, Pennsylvania",Pennsylvania,42,059,35265,2023
+42061,"Huntingdon County, Pennsylvania",Pennsylvania,42,061,43844,2023
+42063,"Indiana County, Pennsylvania",Pennsylvania,42,063,83213,2023
+42065,"Jefferson County, Pennsylvania",Pennsylvania,42,065,44099,2023
+42067,"Juniata County, Pennsylvania",Pennsylvania,42,067,23419,2023
+42069,"Lackawanna County, Pennsylvania",Pennsylvania,42,069,215834,2023
+42071,"Lancaster County, Pennsylvania",Pennsylvania,42,071,555151,2023
+42073,"Lawrence County, Pennsylvania",Pennsylvania,42,073,85423,2023
+42075,"Lebanon County, Pennsylvania",Pennsylvania,42,075,143592,2023
+42077,"Lehigh County, Pennsylvania",Pennsylvania,42,077,375408,2023
+42079,"Luzerne County, Pennsylvania",Pennsylvania,42,079,325978,2023
+42081,"Lycoming County, Pennsylvania",Pennsylvania,42,081,113570,2023
+42083,"McKean County, Pennsylvania",Pennsylvania,42,083,40149,2023
+42085,"Mercer County, Pennsylvania",Pennsylvania,42,085,109852,2023
+42087,"Mifflin County, Pennsylvania",Pennsylvania,42,087,46074,2023
+42089,"Monroe County, Pennsylvania",Pennsylvania,42,089,167784,2023
+42091,"Montgomery County, Pennsylvania",Pennsylvania,42,091,861225,2023
+42093,"Montour County, Pennsylvania",Pennsylvania,42,093,18079,2023
+42095,"Northampton County, Pennsylvania",Pennsylvania,42,095,315927,2023
+42097,"Northumberland County, Pennsylvania",Pennsylvania,42,097,90925,2023
+42099,"Perry County, Pennsylvania",Pennsylvania,42,099,45988,2023
+42101,"Philadelphia County, Pennsylvania",Pennsylvania,42,101,1582432,2023
+42103,"Pike County, Pennsylvania",Pennsylvania,42,103,59691,2023
+42105,"Potter County, Pennsylvania",Pennsylvania,42,105,16276,2023
+42107,"Schuylkill County, Pennsylvania",Pennsylvania,42,107,143259,2023
+42109,"Snyder County, Pennsylvania",Pennsylvania,42,109,39711,2023
+42111,"Somerset County, Pennsylvania",Pennsylvania,42,111,73255,2023
+42113,"Sullivan County, Pennsylvania",Pennsylvania,42,113,5849,2023
+42115,"Susquehanna County, Pennsylvania",Pennsylvania,42,115,38349,2023
+42117,"Tioga County, Pennsylvania",Pennsylvania,42,117,41078,2023
+42119,"Union County, Pennsylvania",Pennsylvania,42,119,42570,2023
+42121,"Venango County, Pennsylvania",Pennsylvania,42,121,50096,2023
+42123,"Warren County, Pennsylvania",Pennsylvania,42,123,38174,2023
+42125,"Washington County, Pennsylvania",Pennsylvania,42,125,209778,2023
+42127,"Wayne County, Pennsylvania",Pennsylvania,42,127,51189,2023
+42129,"Westmoreland County, Pennsylvania",Pennsylvania,42,129,353345,2023
+42131,"Wyoming County, Pennsylvania",Pennsylvania,42,131,26075,2023
+42133,"York County, Pennsylvania",Pennsylvania,42,133,459312,2023
+44001,"Bristol County, Rhode Island",Rhode Island,44,001,50568,2023
+44003,"Kent County, Rhode Island",Rhode Island,44,003,170658,2023
+44005,"Newport County, Rhode Island",Rhode Island,44,005,85095,2023
+44007,"Providence County, Rhode Island",Rhode Island,44,007,658977,2023
+44009,"Washington County, Rhode Island",Rhode Island,44,009,130073,2023
+45001,"Abbeville County, South Carolina",South Carolina,45,001,24352,2023
+45003,"Aiken County, South Carolina",South Carolina,45,003,171949,2023
+45005,"Allendale County, South Carolina",South Carolina,45,005,7738,2023
+45007,"Anderson County, South Carolina",South Carolina,45,007,207218,2023
+45009,"Bamberg County, South Carolina",South Carolina,45,009,13164,2023
+45011,"Barnwell County, South Carolina",South Carolina,45,011,20565,2023
+45013,"Beaufort County, South Carolina",South Carolina,45,013,192123,2023
+45015,"Berkeley County, South Carolina",South Carolina,45,015,238723,2023
+45017,"Calhoun County, South Carolina",South Carolina,45,017,14150,2023
+45019,"Charleston County, South Carolina",South Carolina,45,019,414711,2023
+45021,"Cherokee County, South Carolina",South Carolina,45,021,56299,2023
+45023,"Chester County, South Carolina",South Carolina,45,023,32177,2023
+45025,"Chesterfield County, South Carolina",South Carolina,45,025,43575,2023
+45027,"Clarendon County, South Carolina",South Carolina,45,027,31037,2023
+45029,"Colleton County, South Carolina",South Carolina,45,029,38623,2023
+45031,"Darlington County, South Carolina",South Carolina,45,031,62754,2023
+45033,"Dillon County, South Carolina",South Carolina,45,033,28031,2023
+45035,"Dorchester County, South Carolina",South Carolina,45,035,164322,2023
+45037,"Edgefield County, South Carolina",South Carolina,45,037,26508,2023
+45039,"Fairfield County, South Carolina",South Carolina,45,039,20741,2023
+45041,"Florence County, South Carolina",South Carolina,45,041,136921,2023
+45043,"Georgetown County, South Carolina",South Carolina,45,043,64200,2023
+45045,"Greenville County, South Carolina",South Carolina,45,045,537575,2023
+45047,"Greenwood County, South Carolina",South Carolina,45,047,69329,2023
+45049,"Hampton County, South Carolina",South Carolina,45,049,18555,2023
+45051,"Horry County, South Carolina",South Carolina,45,051,368937,2023
+45053,"Jasper County, South Carolina",South Carolina,45,053,30658,2023
+45055,"Kershaw County, South Carolina",South Carolina,45,055,66924,2023
+45057,"Lancaster County, South Carolina",South Carolina,45,057,100905,2023
+45059,"Laurens County, South Carolina",South Carolina,45,059,67904,2023
+45061,"Lee County, South Carolina",South Carolina,45,061,16330,2023
+45063,"Lexington County, South Carolina",South Carolina,45,063,300370,2023
+45065,"McCormick County, South Carolina",South Carolina,45,065,9701,2023
+45067,"Marion County, South Carolina",South Carolina,45,067,28900,2023
+45069,"Marlboro County, South Carolina",South Carolina,45,069,26285,2023
+45071,"Newberry County, South Carolina",South Carolina,45,071,38121,2023
+45073,"Oconee County, South Carolina",South Carolina,45,073,79566,2023
+45075,"Orangeburg County, South Carolina",South Carolina,45,075,83531,2023
+45077,"Pickens County, South Carolina",South Carolina,45,077,132604,2023
+45079,"Richland County, South Carolina",South Carolina,45,079,418725,2023
+45081,"Saluda County, South Carolina",South Carolina,45,081,18958,2023
+45083,"Spartanburg County, South Carolina",South Carolina,45,083,338096,2023
+45085,"Sumter County, South Carolina",South Carolina,45,085,104853,2023
+45087,"Union County, South Carolina",South Carolina,45,087,26990,2023
+45089,"Williamsburg County, South Carolina",South Carolina,45,089,30517,2023
+45091,"York County, South Carolina",South Carolina,45,091,288559,2023
+46003,"Aurora County, South Dakota",South Dakota,46,003,2573,2023
+46005,"Beadle County, South Dakota",South Dakota,46,005,19279,2023
+46007,"Bennett County, South Dakota",South Dakota,46,007,3354,2023
+46009,"Bon Homme County, South Dakota",South Dakota,46,009,7024,2023
+46011,"Brookings County, South Dakota",South Dakota,46,011,34968,2023
+46013,"Brown County, South Dakota",South Dakota,46,013,38079,2023
+46015,"Brule County, South Dakota",South Dakota,46,015,5261,2023
+46017,"Buffalo County, South Dakota",South Dakota,46,017,1757,2023
+46019,"Butte County, South Dakota",South Dakota,46,019,10538,2023
+46021,"Campbell County, South Dakota",South Dakota,46,021,1481,2023
+46023,"Charles Mix County, South Dakota",South Dakota,46,023,9281,2023
+46025,"Clark County, South Dakota",South Dakota,46,025,3876,2023
+46027,"Clay County, South Dakota",South Dakota,46,027,15133,2023
+46029,"Codington County, South Dakota",South Dakota,46,029,28556,2023
+46031,"Corson County, South Dakota",South Dakota,46,031,3859,2023
+46033,"Custer County, South Dakota",South Dakota,46,033,8686,2023
+46035,"Davison County, South Dakota",South Dakota,46,035,19936,2023
+46037,"Day County, South Dakota",South Dakota,46,037,5460,2023
+46039,"Deuel County, South Dakota",South Dakota,46,039,4318,2023
+46041,"Dewey County, South Dakota",South Dakota,46,041,5230,2023
+46043,"Douglas County, South Dakota",South Dakota,46,043,2823,2023
+46045,"Edmunds County, South Dakota",South Dakota,46,045,4033,2023
+46047,"Fall River County, South Dakota",South Dakota,46,047,7179,2023
+46049,"Faulk County, South Dakota",South Dakota,46,049,2137,2023
+46051,"Grant County, South Dakota",South Dakota,46,051,7544,2023
+46053,"Gregory County, South Dakota",South Dakota,46,053,3993,2023
+46055,"Haakon County, South Dakota",South Dakota,46,055,1708,2023
+46057,"Hamlin County, South Dakota",South Dakota,46,057,6288,2023
+46059,"Hand County, South Dakota",South Dakota,46,059,3045,2023
+46061,"Hanson County, South Dakota",South Dakota,46,061,3473,2023
+46063,"Harding County, South Dakota",South Dakota,46,063,1092,2023
+46065,"Hughes County, South Dakota",South Dakota,46,065,17732,2023
+46067,"Hutchinson County, South Dakota",South Dakota,46,067,7393,2023
+46069,"Hyde County, South Dakota",South Dakota,46,069,1305,2023
+46071,"Jackson County, South Dakota",South Dakota,46,071,2826,2023
+46073,"Jerauld County, South Dakota",South Dakota,46,073,1845,2023
+46075,"Jones County, South Dakota",South Dakota,46,075,1030,2023
+46077,"Kingsbury County, South Dakota",South Dakota,46,077,5210,2023
+46079,"Lake County, South Dakota",South Dakota,46,079,11052,2023
+46081,"Lawrence County, South Dakota",South Dakota,46,081,26574,2023
+46083,"Lincoln County, South Dakota",South Dakota,46,083,68286,2023
+46085,"Lyman County, South Dakota",South Dakota,46,085,3717,2023
+46087,"McCook County, South Dakota",South Dakota,46,087,5732,2023
+46089,"McPherson County, South Dakota",South Dakota,46,089,2278,2023
+46091,"Marshall County, South Dakota",South Dakota,46,091,4355,2023
+46093,"Meade County, South Dakota",South Dakota,46,093,30297,2023
+46095,"Mellette County, South Dakota",South Dakota,46,095,2043,2023
+46097,"Miner County, South Dakota",South Dakota,46,097,2299,2023
+46099,"Minnehaha County, South Dakota",South Dakota,46,099,200689,2023
+46101,"Moody County, South Dakota",South Dakota,46,101,6371,2023
+46102,"Oglala Lakota County, South Dakota",South Dakota,46,102,13587,2023
+46103,"Pennington County, South Dakota",South Dakota,46,103,112081,2023
+46105,"Perkins County, South Dakota",South Dakota,46,105,3058,2023
+46107,"Potter County, South Dakota",South Dakota,46,107,2430,2023
+46109,"Roberts County, South Dakota",South Dakota,46,109,10219,2023
+46111,"Sanborn County, South Dakota",South Dakota,46,111,2370,2023
+46115,"Spink County, South Dakota",South Dakota,46,115,6283,2023
+46117,"Stanley County, South Dakota",South Dakota,46,117,3012,2023
+46119,"Sully County, South Dakota",South Dakota,46,119,1481,2023
+46121,"Todd County, South Dakota",South Dakota,46,121,9293,2023
+46123,"Tripp County, South Dakota",South Dakota,46,123,5607,2023
+46125,"Turner County, South Dakota",South Dakota,46,125,8772,2023
+46127,"Union County, South Dakota",South Dakota,46,127,16916,2023
+46129,"Walworth County, South Dakota",South Dakota,46,129,5298,2023
+46135,"Yankton County, South Dakota",South Dakota,46,135,23379,2023
+46137,"Ziebach County, South Dakota",South Dakota,46,137,2410,2023
+47001,"Anderson County, Tennessee",Tennessee,47,001,78175,2023
+47003,"Bedford County, Tennessee",Tennessee,47,003,51291,2023
+47005,"Benton County, Tennessee",Tennessee,47,005,15948,2023
+47007,"Bledsoe County, Tennessee",Tennessee,47,007,14905,2023
+47009,"Blount County, Tennessee",Tennessee,47,009,137747,2023
+47011,"Bradley County, Tennessee",Tennessee,47,011,109743,2023
+47013,"Campbell County, Tennessee",Tennessee,47,013,39568,2023
+47015,"Cannon County, Tennessee",Tennessee,47,015,14661,2023
+47017,"Carroll County, Tennessee",Tennessee,47,017,28461,2023
+47019,"Carter County, Tennessee",Tennessee,47,019,56462,2023
+47021,"Cheatham County, Tennessee",Tennessee,47,021,41500,2023
+47023,"Chester County, Tennessee",Tennessee,47,023,17452,2023
+47025,"Claiborne County, Tennessee",Tennessee,47,025,32221,2023
+47027,"Clay County, Tennessee",Tennessee,47,027,7621,2023
+47029,"Cocke County, Tennessee",Tennessee,47,029,36503,2023
+47031,"Coffee County, Tennessee",Tennessee,47,031,58940,2023
+47033,"Crockett County, Tennessee",Tennessee,47,033,13937,2023
+47035,"Cumberland County, Tennessee",Tennessee,47,035,62529,2023
+47037,"Davidson County, Tennessee",Tennessee,47,037,709846,2023
+47039,"Decatur County, Tennessee",Tennessee,47,039,11499,2023
+47041,"DeKalb County, Tennessee",Tennessee,47,041,20551,2023
+47043,"Dickson County, Tennessee",Tennessee,47,043,55197,2023
+47045,"Dyer County, Tennessee",Tennessee,47,045,36681,2023
+47047,"Fayette County, Tennessee",Tennessee,47,047,42653,2023
+47049,"Fentress County, Tennessee",Tennessee,47,049,18948,2023
+47051,"Franklin County, Tennessee",Tennessee,47,051,43478,2023
+47053,"Gibson County, Tennessee",Tennessee,47,053,50610,2023
+47055,"Giles County, Tennessee",Tennessee,47,055,30442,2023
+47057,"Grainger County, Tennessee",Tennessee,47,057,23929,2023
+47059,"Greene County, Tennessee",Tennessee,47,059,70919,2023
+47061,"Grundy County, Tennessee",Tennessee,47,061,13665,2023
+47063,"Hamblen County, Tennessee",Tennessee,47,063,64930,2023
+47065,"Hamilton County, Tennessee",Tennessee,47,065,370913,2023
+47067,"Hancock County, Tennessee",Tennessee,47,067,6790,2023
+47069,"Hardeman County, Tennessee",Tennessee,47,069,25477,2023
+47071,"Hardin County, Tennessee",Tennessee,47,071,26939,2023
+47073,"Hawkins County, Tennessee",Tennessee,47,073,57446,2023
+47075,"Haywood County, Tennessee",Tennessee,47,075,17672,2023
+47077,"Henderson County, Tennessee",Tennessee,47,077,27906,2023
+47079,"Henry County, Tennessee",Tennessee,47,079,32345,2023
+47081,"Hickman County, Tennessee",Tennessee,47,081,25229,2023
+47083,"Houston County, Tennessee",Tennessee,47,083,8293,2023
+47085,"Humphreys County, Tennessee",Tennessee,47,085,19074,2023
+47087,"Jackson County, Tennessee",Tennessee,47,087,11882,2023
+47089,"Jefferson County, Tennessee",Tennessee,47,089,55835,2023
+47091,"Johnson County, Tennessee",Tennessee,47,091,18073,2023
+47093,"Knox County, Tennessee",Tennessee,47,093,487401,2023
+47095,"Lake County, Tennessee",Tennessee,47,095,6691,2023
+47097,"Lauderdale County, Tennessee",Tennessee,47,097,24933,2023
+47099,"Lawrence County, Tennessee",Tennessee,47,099,44901,2023
+47101,"Lewis County, Tennessee",Tennessee,47,101,12784,2023
+47103,"Lincoln County, Tennessee",Tennessee,47,103,35617,2023
+47105,"Loudon County, Tennessee",Tennessee,47,105,56996,2023
+47107,"McMinn County, Tennessee",Tennessee,47,107,54135,2023
+47109,"McNairy County, Tennessee",Tennessee,47,109,25933,2023
+47111,"Macon County, Tennessee",Tennessee,47,111,25793,2023
+47113,"Madison County, Tennessee",Tennessee,47,113,98845,2023
+47115,"Marion County, Tennessee",Tennessee,47,115,29010,2023
+47117,"Marshall County, Tennessee",Tennessee,47,117,35276,2023
+47119,"Maury County, Tennessee",Tennessee,47,119,104855,2023
+47121,"Meigs County, Tennessee",Tennessee,47,121,13076,2023
+47123,"Monroe County, Tennessee",Tennessee,47,123,47054,2023
+47125,"Montgomery County, Tennessee",Tennessee,47,125,227957,2023
+47127,"Moore County, Tennessee",Tennessee,47,127,6611,2023
+47129,"Morgan County, Tennessee",Tennessee,47,129,21193,2023
+47131,"Obion County, Tennessee",Tennessee,47,131,30570,2023
+47133,"Overton County, Tennessee",Tennessee,47,133,22807,2023
+47135,"Perry County, Tennessee",Tennessee,47,135,8561,2023
+47137,"Pickett County, Tennessee",Tennessee,47,137,5062,2023
+47139,"Polk County, Tennessee",Tennessee,47,139,17702,2023
+47141,"Putnam County, Tennessee",Tennessee,47,141,81366,2023
+47143,"Rhea County, Tennessee",Tennessee,47,143,33299,2023
+47145,"Roane County, Tennessee",Tennessee,47,145,54403,2023
+47147,"Robertson County, Tennessee",Tennessee,47,147,74291,2023
+47149,"Rutherford County, Tennessee",Tennessee,47,149,351591,2023
+47151,"Scott County, Tennessee",Tennessee,47,151,21969,2023
+47153,"Sequatchie County, Tennessee",Tennessee,47,153,16409,2023
+47155,"Sevier County, Tennessee",Tennessee,47,155,98802,2023
+47157,"Shelby County, Tennessee",Tennessee,47,157,922195,2023
+47159,"Smith County, Tennessee",Tennessee,47,159,20196,2023
+47161,"Stewart County, Tennessee",Tennessee,47,161,13859,2023
+47163,"Sullivan County, Tennessee",Tennessee,47,163,159693,2023
+47165,"Sumner County, Tennessee",Tennessee,47,165,200553,2023
+47167,"Tipton County, Tennessee",Tennessee,47,167,61339,2023
+47169,"Trousdale County, Tennessee",Tennessee,47,169,11805,2023
+47171,"Unicoi County, Tennessee",Tennessee,47,171,17779,2023
+47173,"Union County, Tennessee",Tennessee,47,173,20141,2023
+47175,"Van Buren County, Tennessee",Tennessee,47,175,6293,2023
+47177,"Warren County, Tennessee",Tennessee,47,177,41587,2023
+47179,"Washington County, Tennessee",Tennessee,47,179,134693,2023
+47181,"Wayne County, Tennessee",Tennessee,47,181,16251,2023
+47183,"Weakley County, Tennessee",Tennessee,47,183,32959,2023
+47185,"White County, Tennessee",Tennessee,47,185,27764,2023
+47187,"Williamson County, Tennessee",Tennessee,47,187,254609,2023
+47189,"Wilson County, Tennessee",Tennessee,47,189,153587,2023
+48001,"Anderson County, Texas",Texas,48,001,57825,2023
+48003,"Andrews County, Texas",Texas,48,003,18518,2023
+48005,"Angelina County, Texas",Texas,48,005,86791,2023
+48007,"Aransas County, Texas",Texas,48,007,24449,2023
+48009,"Archer County, Texas",Texas,48,009,8734,2023
+48011,"Armstrong County, Texas",Texas,48,011,1883,2023
+48013,"Atascosa County, Texas",Texas,48,013,50058,2023
+48015,"Austin County, Texas",Texas,48,015,30712,2023
+48017,"Bailey County, Texas",Texas,48,017,7044,2023
+48019,"Bandera County, Texas",Texas,48,019,21589,2023
+48021,"Bastrop County, Texas",Texas,48,021,102370,2023
+48023,"Baylor County, Texas",Texas,48,023,3464,2023
+48025,"Bee County, Texas",Texas,48,025,31000,2023
+48027,"Bell County, Texas",Texas,48,027,379811,2023
+48029,"Bexar County, Texas",Texas,48,029,2037344,2023
+48031,"Blanco County, Texas",Texas,48,031,12008,2023
+48033,"Borden County, Texas",Texas,48,033,723,2023
+48035,"Bosque County, Texas",Texas,48,035,18546,2023
+48037,"Bowie County, Texas",Texas,48,037,92321,2023
+48039,"Brazoria County, Texas",Texas,48,039,381650,2023
+48041,"Brazos County, Texas",Texas,48,041,237980,2023
+48043,"Brewster County, Texas",Texas,48,043,9464,2023
+48045,"Briscoe County, Texas",Texas,48,045,1223,2023
+48047,"Brooks County, Texas",Texas,48,047,6987,2023
+48049,"Brown County, Texas",Texas,48,049,38294,2023
+48051,"Burleson County, Texas",Texas,48,051,18327,2023
+48053,"Burnet County, Texas",Texas,48,053,51064,2023
+48055,"Caldwell County, Texas",Texas,48,055,47184,2023
+48057,"Calhoun County, Texas",Texas,48,057,19921,2023
+48059,"Callahan County, Texas",Texas,48,059,14017,2023
+48061,"Cameron County, Texas",Texas,48,061,423192,2023
+48063,"Camp County, Texas",Texas,48,063,12652,2023
+48065,"Carson County, Texas",Texas,48,065,5802,2023
+48067,"Cass County, Texas",Texas,48,067,28582,2023
+48069,"Castro County, Texas",Texas,48,069,7328,2023
+48071,"Chambers County, Texas",Texas,48,071,49178,2023
+48073,"Cherokee County, Texas",Texas,48,073,51143,2023
+48075,"Childress County, Texas",Texas,48,075,6772,2023
+48077,"Clay County, Texas",Texas,48,077,10402,2023
+48079,"Cochran County, Texas",Texas,48,079,2520,2023
+48081,"Coke County, Texas",Texas,48,081,3315,2023
+48083,"Coleman County, Texas",Texas,48,083,7765,2023
+48085,"Collin County, Texas",Texas,48,085,1116601,2023
+48087,"Collingsworth County, Texas",Texas,48,087,2733,2023
+48089,"Colorado County, Texas",Texas,48,089,20736,2023
+48091,"Comal County, Texas",Texas,48,091,174552,2023
+48093,"Comanche County, Texas",Texas,48,093,13786,2023
+48095,"Concho County, Texas",Texas,48,095,3301,2023
+48097,"Cooke County, Texas",Texas,48,097,42473,2023
+48099,"Coryell County, Texas",Texas,48,099,83772,2023
+48101,"Cottle County, Texas",Texas,48,101,1302,2023
+48103,"Crane County, Texas",Texas,48,103,4623,2023
+48105,"Crockett County, Texas",Texas,48,105,2881,2023
+48107,"Crosby County, Texas",Texas,48,107,5072,2023
+48109,"Culberson County, Texas",Texas,48,109,2181,2023
+48111,"Dallam County, Texas",Texas,48,111,7180,2023
+48113,"Dallas County, Texas",Texas,48,113,2603816,2023
+48115,"Dawson County, Texas",Texas,48,115,12311,2023
+48117,"Deaf Smith County, Texas",Texas,48,117,18487,2023
+48119,"Delta County, Texas",Texas,48,119,5345,2023
+48121,"Denton County, Texas",Texas,48,121,945644,2023
+48123,"DeWitt County, Texas",Texas,48,123,19853,2023
+48125,"Dickens County, Texas",Texas,48,125,1641,2023
+48127,"Dimmit County, Texas",Texas,48,127,8507,2023
+48129,"Donley County, Texas",Texas,48,129,3276,2023
+48131,"Duval County, Texas",Texas,48,131,9824,2023
+48133,"Eastland County, Texas",Texas,48,133,17846,2023
+48135,"Ector County, Texas",Texas,48,135,163206,2023
+48137,"Edwards County, Texas",Texas,48,137,1392,2023
+48139,"Ellis County, Texas",Texas,48,139,203927,2023
+48141,"El Paso County, Texas",Texas,48,141,866275,2023
+48143,"Erath County, Texas",Texas,48,143,43244,2023
+48145,"Falls County, Texas",Texas,48,145,17063,2023
+48147,"Fannin County, Texas",Texas,48,147,36525,2023
+48149,"Fayette County, Texas",Texas,48,149,24783,2023
+48151,"Fisher County, Texas",Texas,48,151,3661,2023
+48153,"Floyd County, Texas",Texas,48,153,5294,2023
+48155,"Foard County, Texas",Texas,48,155,1079,2023
+48157,"Fort Bend County, Texas",Texas,48,157,859721,2023
+48159,"Franklin County, Texas",Texas,48,159,10522,2023
+48161,"Freestone County, Texas",Texas,48,161,19813,2023
+48163,"Frio County, Texas",Texas,48,163,18019,2023
+48165,"Gaines County, Texas",Texas,48,165,21904,2023
+48167,"Galveston County, Texas",Texas,48,167,354721,2023
+48169,"Garza County, Texas",Texas,48,169,5435,2023
+48171,"Gillespie County, Texas",Texas,48,171,27202,2023
+48173,"Glasscock County, Texas",Texas,48,173,1070,2023
+48175,"Goliad County, Texas",Texas,48,175,7096,2023
+48177,"Gonzales County, Texas",Texas,48,177,19764,2023
+48179,"Gray County, Texas",Texas,48,179,21131,2023
+48181,"Grayson County, Texas",Texas,48,181,139988,2023
+48183,"Gregg County, Texas",Texas,48,183,124860,2023
+48185,"Grimes County, Texas",Texas,48,185,30385,2023
+48187,"Guadalupe County, Texas",Texas,48,187,178368,2023
+48189,"Hale County, Texas",Texas,48,189,32247,2023
+48191,"Hall County, Texas",Texas,48,191,2827,2023
+48193,"Hamilton County, Texas",Texas,48,193,8320,2023
+48195,"Hansford County, Texas",Texas,48,195,5182,2023
+48197,"Hardeman County, Texas",Texas,48,197,3529,2023
+48199,"Hardin County, Texas",Texas,48,199,57126,2023
+48201,"Harris County, Texas",Texas,48,201,4758579,2023
+48203,"Harrison County, Texas",Texas,48,203,69584,2023
+48205,"Hartley County, Texas",Texas,48,205,5307,2023
+48207,"Haskell County, Texas",Texas,48,207,5390,2023
+48209,"Hays County, Texas",Texas,48,209,256429,2023
+48211,"Hemphill County, Texas",Texas,48,211,3311,2023
+48213,"Henderson County, Texas",Texas,48,213,83658,2023
+48215,"Hidalgo County, Texas",Texas,48,215,880921,2023
+48217,"Hill County, Texas",Texas,48,217,36664,2023
+48219,"Hockley County, Texas",Texas,48,219,21455,2023
+48221,"Hood County, Texas",Texas,48,221,64198,2023
+48223,"Hopkins County, Texas",Texas,48,223,37351,2023
+48225,"Houston County, Texas",Texas,48,225,22042,2023
+48227,"Howard County, Texas",Texas,48,227,33127,2023
+48229,"Hudspeth County, Texas",Texas,48,229,3331,2023
+48231,"Hunt County, Texas",Texas,48,231,104917,2023
+48233,"Hutchinson County, Texas",Texas,48,233,20413,2023
+48235,"Irion County, Texas",Texas,48,235,1432,2023
+48237,"Jack County, Texas",Texas,48,237,8623,2023
+48239,"Jackson County, Texas",Texas,48,239,15081,2023
+48241,"Jasper County, Texas",Texas,48,241,32807,2023
+48243,"Jeff Davis County, Texas",Texas,48,243,1740,2023
+48245,"Jefferson County, Texas",Texas,48,245,253939,2023
+48247,"Jim Hogg County, Texas",Texas,48,247,4797,2023
+48249,"Jim Wells County, Texas",Texas,48,249,38863,2023
+48251,"Johnson County, Texas",Texas,48,251,188820,2023
+48253,"Jones County, Texas",Texas,48,253,19968,2023
+48255,"Karnes County, Texas",Texas,48,255,14819,2023
+48257,"Kaufman County, Texas",Texas,48,257,160718,2023
+48259,"Kendall County, Texas",Texas,48,259,46971,2023
+48261,"Kenedy County, Texas",Texas,48,261,52,2023
+48263,"Kent County, Texas",Texas,48,263,727,2023
+48265,"Kerr County, Texas",Texas,48,265,53166,2023
+48267,"Kimble County, Texas",Texas,48,267,4355,2023
+48269,"King County, Texas",Texas,48,269,189,2023
+48271,"Kinney County, Texas",Texas,48,271,3140,2023
+48273,"Kleberg County, Texas",Texas,48,273,30629,2023
+48275,"Knox County, Texas",Texas,48,275,3322,2023
+48277,"Lamar County, Texas",Texas,48,277,50421,2023
+48279,"Lamb County, Texas",Texas,48,279,12919,2023
+48281,"Lampasas County, Texas",Texas,48,281,22267,2023
+48283,"La Salle County, Texas",Texas,48,283,6946,2023
+48285,"Lavaca County, Texas",Texas,48,285,20479,2023
+48287,"Lee County, Texas",Texas,48,287,17758,2023
+48289,"Leon County, Texas",Texas,48,289,16067,2023
+48291,"Liberty County, Texas",Texas,48,291,97993,2023
+48293,"Limestone County, Texas",Texas,48,293,22185,2023
+48295,"Lipscomb County, Texas",Texas,48,295,2964,2023
+48297,"Live Oak County, Texas",Texas,48,297,11444,2023
+48299,"Llano County, Texas",Texas,48,299,22011,2023
+48301,"Loving County, Texas",Texas,48,301,54,2023
+48303,"Lubbock County, Texas",Texas,48,303,314633,2023
+48305,"Lynn County, Texas",Texas,48,305,5667,2023
+48307,"McCulloch County, Texas",Texas,48,307,7565,2023
+48309,"McLennan County, Texas",Texas,48,309,263608,2023
+48311,"McMullen County, Texas",Texas,48,311,623,2023
+48313,"Madison County, Texas",Texas,48,313,13574,2023
+48315,"Marion County, Texas",Texas,48,315,9631,2023
+48317,"Martin County, Texas",Texas,48,317,5230,2023
+48319,"Mason County, Texas",Texas,48,319,3951,2023
+48321,"Matagorda County, Texas",Texas,48,321,36274,2023
+48323,"Maverick County, Texas",Texas,48,323,57770,2023
+48325,"Medina County, Texas",Texas,48,325,52419,2023
+48327,"Menard County, Texas",Texas,48,327,1964,2023
+48329,"Midland County, Texas",Texas,48,329,171496,2023
+48331,"Milam County, Texas",Texas,48,331,25268,2023
+48333,"Mills County, Texas",Texas,48,333,4499,2023
+48335,"Mitchell County, Texas",Texas,48,335,8989,2023
+48337,"Montague County, Texas",Texas,48,337,20599,2023
+48339,"Montgomery County, Texas",Texas,48,339,654722,2023
+48341,"Moore County, Texas",Texas,48,341,21234,2023
+48343,"Morris County, Texas",Texas,48,343,12014,2023
+48345,"Motley County, Texas",Texas,48,345,1267,2023
+48347,"Nacogdoches County, Texas",Texas,48,347,64897,2023
+48349,"Navarro County, Texas",Texas,48,349,53735,2023
+48351,"Newton County, Texas",Texas,48,351,12193,2023
+48353,"Nolan County, Texas",Texas,48,353,14565,2023
+48355,"Nueces County, Texas",Texas,48,355,352829,2023
+48357,"Ochiltree County, Texas",Texas,48,357,9852,2023
+48359,"Oldham County, Texas",Texas,48,359,2097,2023
+48361,"Orange County, Texas",Texas,48,361,84993,2023
+48363,"Palo Pinto County, Texas",Texas,48,363,28920,2023
+48365,"Panola County, Texas",Texas,48,365,22624,2023
+48367,"Parker County, Texas",Texas,48,367,158079,2023
+48369,"Parmer County, Texas",Texas,48,369,9752,2023
+48371,"Pecos County, Texas",Texas,48,371,14983,2023
+48373,"Polk County, Texas",Texas,48,373,51780,2023
+48375,"Potter County, Texas",Texas,48,375,116634,2023
+48377,"Presidio County, Texas",Texas,48,377,6043,2023
+48379,"Rains County, Texas",Texas,48,379,12505,2023
+48381,"Randall County, Texas",Texas,48,381,143791,2023
+48383,"Reagan County, Texas",Texas,48,383,3259,2023
+48385,"Real County, Texas",Texas,48,385,2821,2023
+48387,"Red River County, Texas",Texas,48,387,11621,2023
+48389,"Reeves County, Texas",Texas,48,389,13219,2023
+48391,"Refugio County, Texas",Texas,48,391,6693,2023
+48393,"Roberts County, Texas",Texas,48,393,785,2023
+48395,"Robertson County, Texas",Texas,48,395,16973,2023
+48397,"Rockwall County, Texas",Texas,48,397,116931,2023
+48399,"Runnels County, Texas",Texas,48,399,9880,2023
+48401,"Rusk County, Texas",Texas,48,401,52613,2023
+48403,"Sabine County, Texas",Texas,48,403,9998,2023
+48405,"San Augustine County, Texas",Texas,48,405,7889,2023
+48407,"San Jacinto County, Texas",Texas,48,407,27983,2023
+48409,"San Patricio County, Texas",Texas,48,409,69519,2023
+48411,"San Saba County, Texas",Texas,48,411,5802,2023
+48413,"Schleicher County, Texas",Texas,48,413,2426,2023
+48415,"Scurry County, Texas",Texas,48,415,16633,2023
+48417,"Shackelford County, Texas",Texas,48,417,3169,2023
+48419,"Shelby County, Texas",Texas,48,419,24108,2023
+48421,"Sherman County, Texas",Texas,48,421,2434,2023
+48423,"Smith County, Texas",Texas,48,423,238014,2023
+48425,"Somervell County, Texas",Texas,48,425,9510,2023
+48427,"Starr County, Texas",Texas,48,427,65809,2023
+48429,"Stephens County, Texas",Texas,48,429,9278,2023
+48431,"Sterling County, Texas",Texas,48,431,1389,2023
+48433,"Stonewall County, Texas",Texas,48,433,1244,2023
+48435,"Sutton County, Texas",Texas,48,435,3306,2023
+48437,"Swisher County, Texas",Texas,48,437,6981,2023
+48439,"Tarrant County, Texas",Texas,48,439,2135743,2023
+48441,"Taylor County, Texas",Texas,48,441,144259,2023
+48443,"Terrell County, Texas",Texas,48,443,851,2023
+48445,"Terry County, Texas",Texas,48,445,11699,2023
+48447,"Throckmorton County, Texas",Texas,48,447,1589,2023
+48449,"Titus County, Texas",Texas,48,449,31284,2023
+48451,"Tom Green County, Texas",Texas,48,451,119398,2023
+48453,"Travis County, Texas",Texas,48,453,1307625,2023
+48455,"Trinity County, Texas",Texas,48,455,13850,2023
+48457,"Tyler County, Texas",Texas,48,457,20084,2023
+48459,"Upshur County, Texas",Texas,48,459,41864,2023
+48461,"Upton County, Texas",Texas,48,461,3227,2023
+48463,"Uvalde County, Texas",Texas,48,463,24810,2023
+48465,"Val Verde County, Texas",Texas,48,465,47647,2023
+48467,"Van Zandt County, Texas",Texas,48,467,61323,2023
+48469,"Victoria County, Texas",Texas,48,469,91281,2023
+48471,"Walker County, Texas",Texas,48,471,78292,2023
+48473,"Waller County, Texas",Texas,48,473,59455,2023
+48475,"Ward County, Texas",Texas,48,475,11255,2023
+48477,"Washington County, Texas",Texas,48,477,36156,2023
+48479,"Webb County, Texas",Texas,48,479,267731,2023
+48481,"Wharton County, Texas",Texas,48,481,41651,2023
+48483,"Wheeler County, Texas",Texas,48,483,4902,2023
+48485,"Wichita County, Texas",Texas,48,485,129842,2023
+48487,"Wilbarger County, Texas",Texas,48,487,12712,2023
+48489,"Willacy County, Texas",Texas,48,489,20218,2023
+48491,"Williamson County, Texas",Texas,48,491,643889,2023
+48493,"Wilson County, Texas",Texas,48,493,51501,2023
+48495,"Winkler County, Texas",Texas,48,495,7540,2023
+48497,"Wise County, Texas",Texas,48,497,72359,2023
+48499,"Wood County, Texas",Texas,48,499,46094,2023
+48501,"Yoakum County, Texas",Texas,48,501,7589,2023
+48503,"Young County, Texas",Texas,48,503,17963,2023
+48505,"Zapata County, Texas",Texas,48,505,13855,2023
+48507,"Zavala County, Texas",Texas,48,507,9532,2023
+49001,"Beaver County, Utah",Utah,49,001,7172,2023
+49003,"Box Elder County, Utah",Utah,49,003,59725,2023
+49005,"Cache County, Utah",Utah,49,005,137031,2023
+49007,"Carbon County, Utah",Utah,49,007,20446,2023
+49009,"Daggett County, Utah",Utah,49,009,747,2023
+49011,"Davis County, Utah",Utah,49,011,366742,2023
+49013,"Duchesne County, Utah",Utah,49,013,19932,2023
+49015,"Emery County, Utah",Utah,49,015,9968,2023
+49017,"Garfield County, Utah",Utah,49,017,5170,2023
+49019,"Grand County, Utah",Utah,49,019,9697,2023
+49021,"Iron County, Utah",Utah,49,021,60201,2023
+49023,"Juab County, Utah",Utah,49,023,12273,2023
+49025,"Kane County, Utah",Utah,49,025,7996,2023
+49027,"Millard County, Utah",Utah,49,027,13179,2023
+49029,"Morgan County, Utah",Utah,49,029,12585,2023
+49031,"Piute County, Utah",Utah,49,031,1705,2023
+49033,"Rich County, Utah",Utah,49,033,2588,2023
+49035,"Salt Lake County, Utah",Utah,49,035,1184689,2023
+49037,"San Juan County, Utah",Utah,49,037,14466,2023
+49039,"Sanpete County, Utah",Utah,49,039,29209,2023
+49041,"Sevier County, Utah",Utah,49,041,21854,2023
+49043,"Summit County, Utah",Utah,49,043,42709,2023
+49045,"Tooele County, Utah",Utah,49,045,76648,2023
+49047,"Uintah County, Utah",Utah,49,047,36458,2023
+49049,"Utah County, Utah",Utah,49,049,683622,2023
+49051,"Wasatch County, Utah",Utah,49,051,35808,2023
+49053,"Washington County, Utah",Utah,49,053,189827,2023
+49055,"Wayne County, Utah",Utah,49,055,2557,2023
+49057,"Weber County, Utah",Utah,49,057,266183,2023
+50001,"Addison County, Vermont",Vermont,50,001,37497,2023
+50003,"Bennington County, Vermont",Vermont,50,003,37312,2023
+50005,"Caledonia County, Vermont",Vermont,50,005,30425,2023
+50007,"Chittenden County, Vermont",Vermont,50,007,168831,2023
+50009,"Essex County, Vermont",Vermont,50,009,5972,2023
+50011,"Franklin County, Vermont",Vermont,50,011,50379,2023
+50013,"Grand Isle County, Vermont",Vermont,50,013,7393,2023
+50015,"Lamoille County, Vermont",Vermont,50,015,26036,2023
+50017,"Orange County, Vermont",Vermont,50,017,29594,2023
+50019,"Orleans County, Vermont",Vermont,50,019,27492,2023
+50021,"Rutland County, Vermont",Vermont,50,021,60484,2023
+50023,"Washington County, Vermont",Vermont,50,023,59958,2023
+50025,"Windham County, Vermont",Vermont,50,025,45913,2023
+50027,"Windsor County, Vermont",Vermont,50,027,57968,2023
+51001,"Accomack County, Virginia",Virginia,51,001,33326,2023
+51003,"Albemarle County, Virginia",Virginia,51,003,113683,2023
+51005,"Alleghany County, Virginia",Virginia,51,005,14962,2023
+51007,"Amelia County, Virginia",Virginia,51,007,13342,2023
+51009,"Amherst County, Virginia",Virginia,51,009,31385,2023
+51011,"Appomattox County, Virginia",Virginia,51,011,16424,2023
+51013,"Arlington County, Virginia",Virginia,51,013,235463,2023
+51015,"Augusta County, Virginia",Virginia,51,015,77713,2023
+51017,"Bath County, Virginia",Virginia,51,017,4123,2023
+51019,"Bedford County, Virginia",Virginia,51,019,80254,2023
+51021,"Bland County, Virginia",Virginia,51,021,6211,2023
+51023,"Botetourt County, Virginia",Virginia,51,023,33875,2023
+51025,"Brunswick County, Virginia",Virginia,51,025,15868,2023
+51027,"Buchanan County, Virginia",Virginia,51,027,19857,2023
+51029,"Buckingham County, Virginia",Virginia,51,029,16914,2023
+51031,"Campbell County, Virginia",Virginia,51,031,55398,2023
+51033,"Caroline County, Virginia",Virginia,51,033,31541,2023
+51035,"Carroll County, Virginia",Virginia,51,035,29158,2023
+51036,"Charles City County, Virginia",Virginia,51,036,6686,2023
+51037,"Charlotte County, Virginia",Virginia,51,037,11475,2023
+51041,"Chesterfield County, Virginia",Virginia,51,041,371610,2023
+51043,"Clarke County, Virginia",Virginia,51,043,15060,2023
+51045,"Craig County, Virginia",Virginia,51,045,4881,2023
+51047,"Culpeper County, Virginia",Virginia,51,047,53563,2023
+51049,"Cumberland County, Virginia",Virginia,51,049,9745,2023
+51051,"Dickenson County, Virginia",Virginia,51,051,13920,2023
+51053,"Dinwiddie County, Virginia",Virginia,51,053,28083,2023
+51057,"Essex County, Virginia",Virginia,51,057,10604,2023
+51059,"Fairfax County, Virginia",Virginia,51,059,1144474,2023
+51061,"Fauquier County, Virginia",Virginia,51,061,73935,2023
+51063,"Floyd County, Virginia",Virginia,51,063,15560,2023
+51065,"Fluvanna County, Virginia",Virginia,51,065,27764,2023
+51067,"Franklin County, Virginia",Virginia,51,067,54958,2023
+51069,"Frederick County, Virginia",Virginia,51,069,93355,2023
+51071,"Giles County, Virginia",Virginia,51,071,16610,2023
+51073,"Gloucester County, Virginia",Virginia,51,073,39228,2023
+51075,"Goochland County, Virginia",Virginia,51,075,25613,2023
+51077,"Grayson County, Virginia",Virginia,51,077,15323,2023
+51079,"Greene County, Virginia",Virginia,51,079,20850,2023
+51081,"Greensville County, Virginia",Virginia,51,081,11304,2023
+51083,"Halifax County, Virginia",Virginia,51,083,33811,2023
+51085,"Hanover County, Virginia",Virginia,51,085,111652,2023
+51087,"Henrico County, Virginia",Virginia,51,087,334434,2023
+51089,"Henry County, Virginia",Virginia,51,089,50365,2023
+51091,"Highland County, Virginia",Virginia,51,091,2265,2023
+51093,"Isle of Wight County, Virginia",Virginia,51,093,39444,2023
+51095,"James City County, Virginia",Virginia,51,095,80046,2023
+51097,"King and Queen County, Virginia",Virginia,51,097,6676,2023
+51099,"King George County, Virginia",Virginia,51,099,27468,2023
+51101,"King William County, Virginia",Virginia,51,101,18232,2023
+51103,"Lancaster County, Virginia",Virginia,51,103,10876,2023
+51105,"Lee County, Virginia",Virginia,51,105,22042,2023
+51107,"Loudoun County, Virginia",Virginia,51,107,427082,2023
+51109,"Louisa County, Virginia",Virginia,51,109,39012,2023
+51111,"Lunenburg County, Virginia",Virginia,51,111,11990,2023
+51113,"Madison County, Virginia",Virginia,51,113,13931,2023
+51115,"Mathews County, Virginia",Virginia,51,115,8517,2023
+51117,"Mecklenburg County, Virginia",Virginia,51,117,30431,2023
+51119,"Middlesex County, Virginia",Virginia,51,119,10774,2023
+51121,"Montgomery County, Virginia",Virginia,51,121,99159,2023
+51125,"Nelson County, Virginia",Virginia,51,125,14777,2023
+51127,"New Kent County, Virginia",Virginia,51,127,24139,2023
+51131,"Northampton County, Virginia",Virginia,51,131,12115,2023
+51133,"Northumberland County, Virginia",Virginia,51,133,12085,2023
+51135,"Nottoway County, Virginia",Virginia,51,135,15597,2023
+51137,"Orange County, Virginia",Virginia,51,137,37208,2023
+51139,"Page County, Virginia",Virginia,51,139,23750,2023
+51141,"Patrick County, Virginia",Virginia,51,141,17606,2023
+51143,"Pittsylvania County, Virginia",Virginia,51,143,60148,2023
+51145,"Powhatan County, Virginia",Virginia,51,145,31074,2023
+51147,"Prince Edward County, Virginia",Virginia,51,147,21932,2023
+51149,"Prince George County, Virginia",Virginia,51,149,42873,2023
+51153,"Prince William County, Virginia",Virginia,51,153,484625,2023
+51155,"Pulaski County, Virginia",Virginia,51,155,33771,2023
+51157,"Rappahannock County, Virginia",Virginia,51,157,7409,2023
+51159,"Richmond County, Virginia",Virginia,51,159,9047,2023
+51161,"Roanoke County, Virginia",Virginia,51,161,96793,2023
+51163,"Rockbridge County, Virginia",Virginia,51,163,22578,2023
+51165,"Rockingham County, Virginia",Virginia,51,165,84739,2023
+51167,"Russell County, Virginia",Virginia,51,167,25635,2023
+51169,"Scott County, Virginia",Virginia,51,169,21504,2023
+51171,"Shenandoah County, Virginia",Virginia,51,171,44630,2023
+51173,"Smyth County, Virginia",Virginia,51,173,29585,2023
+51175,"Southampton County, Virginia",Virginia,51,175,17988,2023
+51177,"Spotsylvania County, Virginia",Virginia,51,177,143876,2023
+51179,"Stafford County, Virginia",Virginia,51,179,160520,2023
+51181,"Surry County, Virginia",Virginia,51,181,6552,2023
+51183,"Sussex County, Virginia",Virginia,51,183,10793,2023
+51185,"Tazewell County, Virginia",Virginia,51,185,39933,2023
+51187,"Warren County, Virginia",Virginia,51,187,41104,2023
+51191,"Washington County, Virginia",Virginia,51,191,53913,2023
+51193,"Westmoreland County, Virginia",Virginia,51,193,18683,2023
+51195,"Wise County, Virginia",Virginia,51,195,35727,2023
+51197,"Wythe County, Virginia",Virginia,51,197,28219,2023
+51199,"York County, Virginia",Virginia,51,199,70590,2023
+51510,"Alexandria city, Virginia",Virginia,51,510,156788,2023
+51520,"Bristol city, Virginia",Virginia,51,520,17024,2023
+51530,"Buena Vista city, Virginia",Virginia,51,530,6612,2023
+51540,"Charlottesville city, Virginia",Virginia,51,540,45863,2023
+51550,"Chesapeake city, Virginia",Virginia,51,550,251153,2023
+51570,"Colonial Heights city, Virginia",Virginia,51,570,18210,2023
+51580,"Covington city, Virginia",Virginia,51,580,5671,2023
+51590,"Danville city, Virginia",Virginia,51,590,42239,2023
+51595,"Emporia city, Virginia",Virginia,51,595,5633,2023
+51600,"Fairfax city, Virginia",Virginia,51,600,24478,2023
+51610,"Falls Church city, Virginia",Virginia,51,610,14593,2023
+51620,"Franklin city, Virginia",Virginia,51,620,8212,2023
+51630,"Fredericksburg city, Virginia",Virginia,51,630,28383,2023
+51640,"Galax city, Virginia",Virginia,51,640,6698,2023
+51650,"Hampton city, Virginia",Virginia,51,650,137334,2023
+51660,"Harrisonburg city, Virginia",Virginia,51,660,51492,2023
+51670,"Hopewell city, Virginia",Virginia,51,670,22944,2023
+51678,"Lexington city, Virginia",Virginia,51,678,7420,2023
+51680,"Lynchburg city, Virginia",Virginia,51,680,79255,2023
+51683,"Manassas city, Virginia",Virginia,51,683,42674,2023
+51685,"Manassas Park city, Virginia",Virginia,51,685,16923,2023
+51690,"Martinsville city, Virginia",Virginia,51,690,13584,2023
+51700,"Newport News city, Virginia",Virginia,51,700,184774,2023
+51710,"Norfolk city, Virginia",Virginia,51,710,235037,2023
+51720,"Norton city, Virginia",Virginia,51,720,3620,2023
+51730,"Petersburg city, Virginia",Virginia,51,730,33365,2023
+51735,"Poquoson city, Virginia",Virginia,51,735,12556,2023
+51740,"Portsmouth city, Virginia",Virginia,51,740,97299,2023
+51750,"Radford city, Virginia",Virginia,51,750,16505,2023
+51760,"Richmond city, Virginia",Virginia,51,760,227595,2023
+51770,"Roanoke city, Virginia",Virginia,51,770,98677,2023
+51775,"Salem city, Virginia",Virginia,51,775,25477,2023
+51790,"Staunton city, Virginia",Virginia,51,790,25765,2023
+51800,"Suffolk city, Virginia",Virginia,51,800,96638,2023
+51810,"Virginia Beach city, Virginia",Virginia,51,810,457066,2023
+51820,"Waynesboro city, Virginia",Virginia,51,820,22574,2023
+51830,"Williamsburg city, Virginia",Virginia,51,830,15564,2023
+51840,"Winchester city, Virginia",Virginia,51,840,27981,2023
+53001,"Adams County, Washington",Washington,53,001,20690,2023
+53003,"Asotin County, Washington",Washington,53,003,22424,2023
+53005,"Benton County, Washington",Washington,53,005,210224,2023
+53007,"Chelan County, Washington",Washington,53,007,79518,2023
+53009,"Clallam County, Washington",Washington,53,009,77593,2023
+53011,"Clark County, Washington",Washington,53,011,510516,2023
+53013,"Columbia County, Washington",Washington,53,013,3996,2023
+53015,"Cowlitz County, Washington",Washington,53,015,111539,2023
+53017,"Douglas County, Washington",Washington,53,017,43733,2023
+53019,"Ferry County, Washington",Washington,53,019,7326,2023
+53021,"Franklin County, Washington",Washington,53,021,97676,2023
+53023,"Garfield County, Washington",Washington,53,023,2326,2023
+53025,"Grant County, Washington",Washington,53,025,100428,2023
+53027,"Grays Harbor County, Washington",Washington,53,027,76397,2023
+53029,"Island County, Washington",Washington,53,029,86747,2023
+53031,"Jefferson County, Washington",Washington,53,031,33313,2023
+53033,"King County, Washington",Washington,53,033,2262713,2023
+53035,"Kitsap County, Washington",Washington,53,035,276581,2023
+53037,"Kittitas County, Washington",Washington,53,037,44736,2023
+53039,"Klickitat County, Washington",Washington,53,039,23082,2023
+53041,"Lewis County, Washington",Washington,53,041,83925,2023
+53043,"Lincoln County, Washington",Washington,53,043,11271,2023
+53045,"Mason County, Washington",Washington,53,045,66968,2023
+53047,"Okanogan County, Washington",Washington,53,047,42811,2023
+53049,"Pacific County, Washington",Washington,53,049,23750,2023
+53051,"Pend Oreille County, Washington",Washington,53,051,13811,2023
+53053,"Pierce County, Washington",Washington,53,053,924106,2023
+53055,"San Juan County, Washington",Washington,53,055,18266,2023
+53057,"Skagit County, Washington",Washington,53,057,130407,2023
+53059,"Skamania County, Washington",Washington,53,059,12276,2023
+53061,"Snohomish County, Washington",Washington,53,061,834648,2023
+53063,"Spokane County, Washington",Washington,53,063,544323,2023
+53065,"Stevens County, Washington",Washington,53,065,47470,2023
+53067,"Thurston County, Washington",Washington,53,067,296640,2023
+53069,"Wahkiakum County, Washington",Washington,53,069,4573,2023
+53071,"Walla Walla County, Washington",Washington,53,071,62102,2023
+53073,"Whatcom County, Washington",Washington,53,073,228432,2023
+53075,"Whitman County, Washington",Washington,53,075,47042,2023
+53077,"Yakima County, Washington",Washington,53,077,256605,2023
+54001,"Barbour County, West Virginia",West Virginia,54,001,15454,2023
+54003,"Berkeley County, West Virginia",West Virginia,54,003,126165,2023
+54005,"Boone County, West Virginia",West Virginia,54,005,21312,2023
+54007,"Braxton County, West Virginia",West Virginia,54,007,12345,2023
+54009,"Brooke County, West Virginia",West Virginia,54,009,22053,2023
+54011,"Cabell County, West Virginia",West Virginia,54,011,93300,2023
+54013,"Calhoun County, West Virginia",West Virginia,54,013,6158,2023
+54015,"Clay County, West Virginia",West Virginia,54,015,7946,2023
+54017,"Doddridge County, West Virginia",West Virginia,54,017,7767,2023
+54019,"Fayette County, West Virginia",West Virginia,54,019,39987,2023
+54021,"Gilmer County, West Virginia",West Virginia,54,021,7376,2023
+54023,"Grant County, West Virginia",West Virginia,54,023,10972,2023
+54025,"Greenbrier County, West Virginia",West Virginia,54,025,32688,2023
+54027,"Hampshire County, West Virginia",West Virginia,54,027,23340,2023
+54029,"Hancock County, West Virginia",West Virginia,54,029,28658,2023
+54031,"Hardy County, West Virginia",West Virginia,54,031,14236,2023
+54033,"Harrison County, West Virginia",West Virginia,54,033,65407,2023
+54035,"Jackson County, West Virginia",West Virginia,54,035,27753,2023
+54037,"Jefferson County, West Virginia",West Virginia,54,037,58546,2023
+54039,"Kanawha County, West Virginia",West Virginia,54,039,178198,2023
+54041,"Lewis County, West Virginia",West Virginia,54,041,16808,2023
+54043,"Lincoln County, West Virginia",West Virginia,54,043,20170,2023
+54045,"Logan County, West Virginia",West Virginia,54,045,31826,2023
+54047,"McDowell County, West Virginia",West Virginia,54,047,18413,2023
+54049,"Marion County, West Virginia",West Virginia,54,049,56042,2023
+54051,"Marshall County, West Virginia",West Virginia,54,051,30129,2023
+54053,"Mason County, West Virginia",West Virginia,54,053,25214,2023
+54055,"Mercer County, West Virginia",West Virginia,54,055,59062,2023
+54057,"Mineral County, West Virginia",West Virginia,54,057,26922,2023
+54059,"Mingo County, West Virginia",West Virginia,54,059,22979,2023
+54061,"Monongalia County, West Virginia",West Virginia,54,061,106520,2023
+54063,"Monroe County, West Virginia",West Virginia,54,063,12401,2023
+54065,"Morgan County, West Virginia",West Virginia,54,065,17327,2023
+54067,"Nicholas County, West Virginia",West Virginia,54,067,24446,2023
+54069,"Ohio County, West Virginia",West Virginia,54,069,41904,2023
+54071,"Pendleton County, West Virginia",West Virginia,54,071,6111,2023
+54073,"Pleasants County, West Virginia",West Virginia,54,073,7572,2023
+54075,"Pocahontas County, West Virginia",West Virginia,54,075,7855,2023
+54077,"Preston County, West Virginia",West Virginia,54,077,34204,2023
+54079,"Putnam County, West Virginia",West Virginia,54,079,57250,2023
+54081,"Raleigh County, West Virginia",West Virginia,54,081,73666,2023
+54083,"Randolph County, West Virginia",West Virginia,54,083,27782,2023
+54085,"Ritchie County, West Virginia",West Virginia,54,085,8372,2023
+54087,"Roane County, West Virginia",West Virginia,54,087,13921,2023
+54089,"Summers County, West Virginia",West Virginia,54,089,11833,2023
+54091,"Taylor County, West Virginia",West Virginia,54,091,16543,2023
+54093,"Tucker County, West Virginia",West Virginia,54,093,6698,2023
+54095,"Tyler County, West Virginia",West Virginia,54,095,8181,2023
+54097,"Upshur County, West Virginia",West Virginia,54,097,23758,2023
+54099,"Wayne County, West Virginia",West Virginia,54,099,38498,2023
+54101,"Webster County, West Virginia",West Virginia,54,101,8253,2023
+54103,"Wetzel County, West Virginia",West Virginia,54,103,14233,2023
+54105,"Wirt County, West Virginia",West Virginia,54,105,5131,2023
+54107,"Wood County, West Virginia",West Virginia,54,107,83829,2023
+54109,"Wyoming County, West Virginia",West Virginia,54,109,20948,2023
+55001,"Adams County, Wisconsin",Wisconsin,55,001,20928,2023
+55003,"Ashland County, Wisconsin",Wisconsin,55,003,16050,2023
+55005,"Barron County, Wisconsin",Wisconsin,55,005,46741,2023
+55007,"Bayfield County, Wisconsin",Wisconsin,55,007,16410,2023
+55009,"Brown County, Wisconsin",Wisconsin,55,009,269425,2023
+55011,"Buffalo County, Wisconsin",Wisconsin,55,011,13341,2023
+55013,"Burnett County, Wisconsin",Wisconsin,55,013,16741,2023
+55015,"Calumet County, Wisconsin",Wisconsin,55,015,52626,2023
+55017,"Chippewa County, Wisconsin",Wisconsin,55,017,66558,2023
+55019,"Clark County, Wisconsin",Wisconsin,55,019,34736,2023
+55021,"Columbia County, Wisconsin",Wisconsin,55,021,58322,2023
+55023,"Crawford County, Wisconsin",Wisconsin,55,023,16064,2023
+55025,"Dane County, Wisconsin",Wisconsin,55,025,564777,2023
+55027,"Dodge County, Wisconsin",Wisconsin,55,027,88818,2023
+55029,"Door County, Wisconsin",Wisconsin,55,029,30279,2023
+55031,"Douglas County, Wisconsin",Wisconsin,55,031,44197,2023
+55033,"Dunn County, Wisconsin",Wisconsin,55,033,45349,2023
+55035,"Eau Claire County, Wisconsin",Wisconsin,55,035,106328,2023
+55037,"Florence County, Wisconsin",Wisconsin,55,037,4617,2023
+55039,"Fond du Lac County, Wisconsin",Wisconsin,55,039,104053,2023
+55041,"Forest County, Wisconsin",Wisconsin,55,041,9261,2023
+55043,"Grant County, Wisconsin",Wisconsin,55,043,51678,2023
+55045,"Green County, Wisconsin",Wisconsin,55,045,37036,2023
+55047,"Green Lake County, Wisconsin",Wisconsin,55,047,19165,2023
+55049,"Iowa County, Wisconsin",Wisconsin,55,049,23832,2023
+55051,"Iron County, Wisconsin",Wisconsin,55,051,6164,2023
+55053,"Jackson County, Wisconsin",Wisconsin,55,053,20971,2023
+55055,"Jefferson County, Wisconsin",Wisconsin,55,055,85867,2023
+55057,"Juneau County, Wisconsin",Wisconsin,55,057,26695,2023
+55059,"Kenosha County, Wisconsin",Wisconsin,55,059,168413,2023
+55061,"Kewaunee County, Wisconsin",Wisconsin,55,061,20621,2023
+55063,"La Crosse County, Wisconsin",Wisconsin,55,063,120262,2023
+55065,"Lafayette County, Wisconsin",Wisconsin,55,065,16788,2023
+55067,"Langlade County, Wisconsin",Wisconsin,55,067,19473,2023
+55069,"Lincoln County, Wisconsin",Wisconsin,55,069,28403,2023
+55071,"Manitowoc County, Wisconsin",Wisconsin,55,071,81314,2023
+55073,"Marathon County, Wisconsin",Wisconsin,55,073,138067,2023
+55075,"Marinette County, Wisconsin",Wisconsin,55,075,41907,2023
+55077,"Marquette County, Wisconsin",Wisconsin,55,077,15706,2023
+55078,"Menominee County, Wisconsin",Wisconsin,55,078,4256,2023
+55079,"Milwaukee County, Wisconsin",Wisconsin,55,079,927656,2023
+55081,"Monroe County, Wisconsin",Wisconsin,55,081,46169,2023
+55083,"Oconto County, Wisconsin",Wisconsin,55,083,39329,2023
+55085,"Oneida County, Wisconsin",Wisconsin,55,085,38007,2023
+55087,"Outagamie County, Wisconsin",Wisconsin,55,087,191537,2023
+55089,"Ozaukee County, Wisconsin",Wisconsin,55,089,92345,2023
+55091,"Pepin County, Wisconsin",Wisconsin,55,091,7372,2023
+55093,"Pierce County, Wisconsin",Wisconsin,55,093,42351,2023
+55095,"Polk County, Wisconsin",Wisconsin,55,095,45327,2023
+55097,"Portage County, Wisconsin",Wisconsin,55,097,70375,2023
+55099,"Price County, Wisconsin",Wisconsin,55,099,14077,2023
+55101,"Racine County, Wisconsin",Wisconsin,55,101,196888,2023
+55103,"Richland County, Wisconsin",Wisconsin,55,103,17229,2023
+55105,"Rock County, Wisconsin",Wisconsin,55,105,163944,2023
+55107,"Rusk County, Wisconsin",Wisconsin,55,107,14146,2023
+55109,"St. Croix County, Wisconsin",Wisconsin,55,109,94819,2023
+55111,"Sauk County, Wisconsin",Wisconsin,55,111,65759,2023
+55113,"Sawyer County, Wisconsin",Wisconsin,55,113,18243,2023
+55115,"Shawano County, Wisconsin",Wisconsin,55,115,40927,2023
+55117,"Sheboygan County, Wisconsin",Wisconsin,55,117,117783,2023
+55119,"Taylor County, Wisconsin",Wisconsin,55,119,19972,2023
+55121,"Trempealeau County, Wisconsin",Wisconsin,55,121,30786,2023
+55123,"Vernon County, Wisconsin",Wisconsin,55,123,30915,2023
+55125,"Vilas County, Wisconsin",Wisconsin,55,125,23410,2023
+55127,"Walworth County, Wisconsin",Wisconsin,55,127,105447,2023
+55129,"Washburn County, Wisconsin",Wisconsin,55,129,16749,2023
+55131,"Washington County, Wisconsin",Wisconsin,55,131,137320,2023
+55133,"Waukesha County, Wisconsin",Wisconsin,55,133,409040,2023
+55135,"Waupaca County, Wisconsin",Wisconsin,55,135,51714,2023
+55137,"Waushara County, Wisconsin",Wisconsin,55,137,24752,2023
+55139,"Winnebago County, Wisconsin",Wisconsin,55,139,171357,2023
+55141,"Wood County, Wisconsin",Wisconsin,55,141,74039,2023
+56001,"Albany County, Wyoming",Wyoming,56,001,37713,2023
+56003,"Big Horn County, Wyoming",Wyoming,56,003,11737,2023
+56005,"Campbell County, Wyoming",Wyoming,56,005,47018,2023
+56007,"Carbon County, Wyoming",Wyoming,56,007,14549,2023
+56009,"Converse County, Wyoming",Wyoming,56,009,13759,2023
+56011,"Crook County, Wyoming",Wyoming,56,011,7339,2023
+56013,"Fremont County, Wyoming",Wyoming,56,013,39472,2023
+56015,"Goshen County, Wyoming",Wyoming,56,015,12587,2023
+56017,"Hot Springs County, Wyoming",Wyoming,56,017,4618,2023
+56019,"Johnson County, Wyoming",Wyoming,56,019,8602,2023
+56021,"Laramie County, Wyoming",Wyoming,56,021,100661,2023
+56023,"Lincoln County, Wyoming",Wyoming,56,023,20158,2023
+56025,"Natrona County, Wyoming",Wyoming,56,025,79735,2023
+56027,"Niobrara County, Wyoming",Wyoming,56,027,2415,2023
+56029,"Park County, Wyoming",Wyoming,56,029,30109,2023
+56031,"Platte County, Wyoming",Wyoming,56,031,8606,2023
+56033,"Sheridan County, Wyoming",Wyoming,56,033,31585,2023
+56035,"Sublette County, Wyoming",Wyoming,56,035,8806,2023
+56037,"Sweetwater County, Wyoming",Wyoming,56,037,41786,2023
+56039,"Teton County, Wyoming",Wyoming,56,039,23358,2023
+56041,"Uinta County, Wyoming",Wyoming,56,041,20605,2023
+56043,"Washakie County, Wyoming",Wyoming,56,043,7708,2023
+56045,"Weston County, Wyoming",Wyoming,56,045,6835,2023
+72001,"Adjuntas Municipio, Puerto Rico",Puerto Rico,72,001,17975,2023
+72003,"Aguada Municipio, Puerto Rico",Puerto Rico,72,003,37904,2023
+72005,"Aguadilla Municipio, Puerto Rico",Puerto Rico,72,005,54486,2023
+72007,"Aguas Buenas Municipio, Puerto Rico",Puerto Rico,72,007,23888,2023
+72009,"Aibonito Municipio, Puerto Rico",Puerto Rico,72,009,24610,2023
+72011,"Añasco Municipio, Puerto Rico",Puerto Rico,72,011,25316,2023
+72013,"Arecibo Municipio, Puerto Rico",Puerto Rico,72,013,86875,2023
+72015,"Arroyo Municipio, Puerto Rico",Puerto Rico,72,015,15573,2023
+72017,"Barceloneta Municipio, Puerto Rico",Puerto Rico,72,017,22565,2023
+72019,"Barranquitas Municipio, Puerto Rico",Puerto Rico,72,019,28984,2023
+72021,"Bayamón Municipio, Puerto Rico",Puerto Rico,72,021,183456,2023
+72023,"Cabo Rojo Municipio, Puerto Rico",Puerto Rico,72,023,46955,2023
+72025,"Caguas Municipio, Puerto Rico",Puerto Rico,72,025,126239,2023
+72027,"Camuy Municipio, Puerto Rico",Puerto Rico,72,027,32753,2023
+72029,"Canóvanas Municipio, Puerto Rico",Puerto Rico,72,029,42037,2023
+72031,"Carolina Municipio, Puerto Rico",Puerto Rico,72,031,153226,2023
+72033,"Cataño Municipio, Puerto Rico",Puerto Rico,72,033,22768,2023
+72035,"Cayey Municipio, Puerto Rico",Puerto Rico,72,035,41231,2023
+72037,"Ceiba Municipio, Puerto Rico",Puerto Rico,72,037,11128,2023
+72039,"Ciales Municipio, Puerto Rico",Puerto Rico,72,039,16874,2023
+72041,"Cidra Municipio, Puerto Rico",Puerto Rico,72,041,39765,2023
+72043,"Coamo Municipio, Puerto Rico",Puerto Rico,72,043,34294,2023
+72045,"Comerío Municipio, Puerto Rico",Puerto Rico,72,045,18775,2023
+72047,"Corozal Municipio, Puerto Rico",Puerto Rico,72,047,34474,2023
+72049,"Culebra Municipio, Puerto Rico",Puerto Rico,72,049,1281,2023
+72051,"Dorado Municipio, Puerto Rico",Puerto Rico,72,051,35816,2023
+72053,"Fajardo Municipio, Puerto Rico",Puerto Rico,72,053,31756,2023
+72054,"Florida Municipio, Puerto Rico",Puerto Rico,72,054,11624,2023
+72055,"Guánica Municipio, Puerto Rico",Puerto Rico,72,055,13266,2023
+72057,"Guayama Municipio, Puerto Rico",Puerto Rico,72,057,35845,2023
+72059,"Guayanilla Municipio, Puerto Rico",Puerto Rico,72,059,17418,2023
+72061,"Guaynabo Municipio, Puerto Rico",Puerto Rico,72,061,89503,2023
+72063,"Gurabo Municipio, Puerto Rico",Puerto Rico,72,063,40383,2023
+72065,"Hatillo Municipio, Puerto Rico",Puerto Rico,72,065,38266,2023
+72067,"Hormigueros Municipio, Puerto Rico",Puerto Rico,72,067,15520,2023
+72069,"Humacao Municipio, Puerto Rico",Puerto Rico,72,069,50441,2023
+72071,"Isabela Municipio, Puerto Rico",Puerto Rico,72,071,42878,2023
+72073,"Jayuya Municipio, Puerto Rico",Puerto Rico,72,073,14653,2023
+72075,"Juana Díaz Municipio, Puerto Rico",Puerto Rico,72,075,46276,2023
+72077,"Juncos Municipio, Puerto Rico",Puerto Rico,72,077,36895,2023
+72079,"Lajas Municipio, Puerto Rico",Puerto Rico,72,079,23133,2023
+72081,"Lares Municipio, Puerto Rico",Puerto Rico,72,081,27944,2023
+72083,"Las Marías Municipio, Puerto Rico",Puerto Rico,72,083,8790,2023
+72085,"Las Piedras Municipio, Puerto Rico",Puerto Rico,72,085,35034,2023
+72087,"Loíza Municipio, Puerto Rico",Puerto Rico,72,087,23176,2023
+72089,"Luquillo Municipio, Puerto Rico",Puerto Rico,72,089,17631,2023
+72091,"Manatí Municipio, Puerto Rico",Puerto Rico,72,091,39152,2023
+72093,"Maricao Municipio, Puerto Rico",Puerto Rico,72,093,5176,2023
+72095,"Maunabo Municipio, Puerto Rico",Puerto Rico,72,095,10482,2023
+72097,"Mayagüez Municipio, Puerto Rico",Puerto Rico,72,097,71824,2023
+72099,"Moca Municipio, Puerto Rico",Puerto Rico,72,099,37402,2023
+72101,"Morovis Municipio, Puerto Rico",Puerto Rico,72,101,28534,2023
+72103,"Naguabo Municipio, Puerto Rico",Puerto Rico,72,103,23205,2023
+72105,"Naranjito Municipio, Puerto Rico",Puerto Rico,72,105,29246,2023
+72107,"Orocovis Municipio, Puerto Rico",Puerto Rico,72,107,21351,2023
+72109,"Patillas Municipio, Puerto Rico",Puerto Rico,72,109,15753,2023
+72111,"Peñuelas Municipio, Puerto Rico",Puerto Rico,72,111,20082,2023
+72113,"Ponce Municipio, Puerto Rico",Puerto Rico,72,113,134676,2023
+72115,"Quebradillas Municipio, Puerto Rico",Puerto Rico,72,115,23486,2023
+72117,"Rincón Municipio, Puerto Rico",Puerto Rico,72,117,15276,2023
+72119,"Río Grande Municipio, Puerto Rico",Puerto Rico,72,119,46478,2023
+72121,"Sabana Grande Municipio, Puerto Rico",Puerto Rico,72,121,22541,2023
+72123,"Salinas Municipio, Puerto Rico",Puerto Rico,72,123,25397,2023
+72125,"San Germán Municipio, Puerto Rico",Puerto Rico,72,125,31514,2023
+72127,"San Juan Municipio, Puerto Rico",Puerto Rico,72,127,338661,2023
+72129,"San Lorenzo Municipio, Puerto Rico",Puerto Rico,72,129,37515,2023
+72131,"San Sebastián Municipio, Puerto Rico",Puerto Rico,72,131,39168,2023
+72133,"Santa Isabel Municipio, Puerto Rico",Puerto Rico,72,133,20064,2023
+72135,"Toa Alta Municipio, Puerto Rico",Puerto Rico,72,135,66536,2023
+72137,"Toa Baja Municipio, Puerto Rico",Puerto Rico,72,137,73987,2023
+72139,"Trujillo Alto Municipio, Puerto Rico",Puerto Rico,72,139,67329,2023
+72141,"Utuado Municipio, Puerto Rico",Puerto Rico,72,141,27896,2023
+72143,"Vega Alta Municipio, Puerto Rico",Puerto Rico,72,143,35114,2023
+72145,"Vega Baja Municipio, Puerto Rico",Puerto Rico,72,145,54058,2023
+72147,"Vieques Municipio, Puerto Rico",Puerto Rico,72,147,8147,2023
+72149,"Villalba Municipio, Puerto Rico",Puerto Rico,72,149,21778,2023
+72151,"Yabucoa Municipio, Puerto Rico",Puerto Rico,72,151,29868,2023
+72153,"Yauco Municipio, Puerto Rico",Puerto Rico,72,153,33509,2023

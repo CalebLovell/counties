@@ -23,7 +23,8 @@
 		}
 	},
 	"files": {
-		"includes": ["**/*", "!**/*.css"]
+		"includes": ["**/*", "!**/*.css"],
+		"maxSize": 2097152
 	},
 	"json": {
 		"formatter": {

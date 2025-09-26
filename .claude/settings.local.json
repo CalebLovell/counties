@@ -11,7 +11,9 @@
 			"WebFetch(domain:www.census.gov)",
 			"Bash(npm run collect:age:*)",
 			"WebFetch(domain:www.huduser.gov)",
-			"Bash(npm run collect:rents:*)"
+			"Bash(npm run collect:rents:*)",
+			"WebFetch(domain:api.census.gov)",
+			"Bash(npm run collect:population:*)"
 		],
 		"deny": [],
 		"ask": []
