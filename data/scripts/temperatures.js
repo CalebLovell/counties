@@ -202,14 +202,14 @@ async function getCountyAverages() {
 		console.log(`\n✓ Successfully collected data for ${results.size || results.length} counties`);
 
 		// Save to JSON file
-		await fs.writeFile(`data/output/us_county_temperatures_${DATA_YEAR}.json`, JSON.stringify(results, null, 2));
-		console.log(`✓ Saved to: us_county_temperatures_${DATA_YEAR}.json`);
+		await fs.writeFile(`data/output/temperatures_${DATA_YEAR}.json`, JSON.stringify(results, null, 2));
+		console.log(`✓ Saved to: temperatures_${DATA_YEAR}.json`);
 
 		// Save to CSV file
 		const csvHeader = "FIPS,County Name,State,Avg Temperature (°F),Data Points\n";
 		const csvRows = results.map((r) => `${r.fips},"${r.name}",${r.state},${r.avgTemp},${r.dataPoints}`).join("\n");
-		await fs.writeFile(`data/output/us_county_temperatures_${DATA_YEAR}.csv`, csvHeader + csvRows);
-		console.log(`✓ Saved to: us_county_temperatures_${DATA_YEAR}.csv`);
+		await fs.writeFile(`data/output/temperatures_${DATA_YEAR}.csv`, csvHeader + csvRows);
+		console.log(`✓ Saved to: temperatures_${DATA_YEAR}.csv`);
 
 		// Show sample of results
 		console.log("\nSample results (first 5 counties):");

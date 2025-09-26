@@ -123,7 +123,7 @@ async function fetchCountyMedianAges() {
 		await fs.mkdir("data/output", { recursive: true });
 
 		// Save to JSON file
-		const jsonFilePath = `data/output/us_county_median_ages_${DATA_YEAR}.json`;
+		const jsonFilePath = `data/output/median_ages_${DATA_YEAR}.json`;
 		await fs.writeFile(jsonFilePath, JSON.stringify(results, null, 2));
 		console.log(`✓ Saved to: ${jsonFilePath}`);
 
@@ -132,7 +132,7 @@ async function fetchCountyMedianAges() {
 		const csvRows = results
 			.map((r) => `${r.fips},"${r.name}",${r.state},${r.stateFips},${r.countyFips},${r.medianAge}`)
 			.join("\n");
-		const csvFilePath = `data/output/us_county_median_ages_${DATA_YEAR}.csv`;
+		const csvFilePath = `data/output/median_ages_${DATA_YEAR}.csv`;
 		await fs.writeFile(csvFilePath, csvHeader + csvRows);
 		console.log(`✓ Saved to: ${csvFilePath}`);
 

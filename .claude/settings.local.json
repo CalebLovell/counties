@@ -1,17 +1,17 @@
 {
-  "permissions": {
-    "allow": [
-      "Bash(curl:*)",
-      "Bash(node:*)",
-      "WebSearch",
-      "WebFetch(domain:livingwage.mit.edu)",
-      "WebFetch(domain:www.commerce.gov)",
-      "WebFetch(domain:www.bea.gov)",
-      "WebFetch(domain:www.nar.realtor)",
-      "WebFetch(domain:www.census.gov)",
-      "Bash(npm run collect:age:*)"
-    ],
-    "deny": [],
-    "ask": []
-  }
+	"permissions": {
+		"allow": [
+			"Bash(curl:*)",
+			"Bash(node:*)",
+			"WebSearch",
+			"WebFetch(domain:livingwage.mit.edu)",
+			"WebFetch(domain:www.commerce.gov)",
+			"WebFetch(domain:www.bea.gov)",
+			"WebFetch(domain:www.nar.realtor)",
+			"WebFetch(domain:www.census.gov)",
+			"Bash(npm run collect:age:*)"
+		],
+		"deny": [],
+		"ask": []
+	}
 }

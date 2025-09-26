@@ -128,8 +128,8 @@ async function main() {
 
 		// Save to JSON file
 		const jsonOutput = housingData.map(({ dataYear, ...rest }) => rest);
-		await fs.writeFile("data/output/us_county_housing_2023.json", JSON.stringify(jsonOutput, null, 2));
-		console.log("✓ Saved to: data/output/us_county_housing_2023.json");
+		await fs.writeFile("data/output/housing_2023.json", JSON.stringify(jsonOutput, null, 2));
+		console.log("✓ Saved to: data/output/housing_2023.json");
 
 		// Save to CSV file
 		const csvHeader = "FIPS,County,State,Median Home Value,% of National Median,Price Category\n";
@@ -139,8 +139,8 @@ async function main() {
 					`${r.fips},"${r.county}","${r.state}",${r.medianHomeValue},${r.percentageOfNationalMedian},${r.priceCategory}`,
 			)
 			.join("\n");
-		await fs.writeFile("data/output/us_county_housing_2023.csv", csvHeader + csvRows);
-		console.log("✓ Saved to: data/output/us_county_housing_2023.csv");
+		await fs.writeFile("data/output/housing_2023.csv", csvHeader + csvRows);
+		console.log("✓ Saved to: data/output/housing_2023.csv");
 
 		// Show sample results - most expensive counties
 		console.log("\nMost expensive counties (top 10):");
