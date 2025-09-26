@@ -9,7 +9,9 @@
 			"WebFetch(domain:www.bea.gov)",
 			"WebFetch(domain:www.nar.realtor)",
 			"WebFetch(domain:www.census.gov)",
-			"Bash(npm run collect:age:*)"
+			"Bash(npm run collect:age:*)",
+			"WebFetch(domain:www.huduser.gov)",
+			"Bash(npm run collect:rents:*)"
 		],
 		"deny": [],
 		"ask": []

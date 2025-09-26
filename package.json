@@ -11,7 +11,8 @@
 		"collect:votes": "node data/scripts/elections.js",
 		"collect:housing": "node data/scripts/housing.js",
 		"collect:age": "node data/scripts/ages.js",
-		"collect:all": "npm run collect:temps && npm run collect:votes && npm run collect:housing && npm run collect:age && npm run clean"
+		"collect:rents": "node data/scripts/rents.js",
+		"collect:all": "npm run collect:temps && npm run collect:votes && npm run collect:housing && npm run collect:age && npm run collect:rents && npm run clean"
 	},
 	"dependencies": {
 		"@headlessui/react": "^2.2.7",
