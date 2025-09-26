@@ -7,7 +7,9 @@
 		"dev": "vite",
 		"prod": "vite build && vite preview",
 		"clean": "biome check --write && tsc",
-		"collect": "node data/scripts/monthly-collector.js"
+		"collect:temps": "node data/scripts/temperatures.js",
+		"collect:votes": "node data/scripts/voting-records.js",
+		"collect:all": "npm run collect:temps && npm run collect:votes && npm run clean"
 	},
 	"dependencies": {
 		"@headlessui/react": "^2.2.7",
