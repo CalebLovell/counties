@@ -9,7 +9,8 @@
 		"clean": "biome check --write && tsc",
 		"collect:temps": "node data/scripts/temperatures.js",
 		"collect:votes": "node data/scripts/voting-records.js",
-		"collect:all": "npm run collect:temps && npm run collect:votes && npm run clean"
+		"collect:housing": "node data/scripts/housing-collector.js",
+		"collect:all": "npm run collect:temps && npm run collect:votes && npm run collect:housing && npm run clean"
 	},
 	"dependencies": {
 		"@headlessui/react": "^2.2.7",
