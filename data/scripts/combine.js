@@ -57,6 +57,23 @@ function normalizeCountyName(county, state) {
 	return `${cleanCounty}|${cleanState}`.toLowerCase();
 }
 
+// Create state name to abbreviation mapping
+function getStateAbbreviation(stateName) {
+	const stateMap = {
+		'alabama': 'al', 'alaska': 'ak', 'arizona': 'az', 'arkansas': 'ar', 'california': 'ca',
+		'colorado': 'co', 'connecticut': 'ct', 'delaware': 'de', 'florida': 'fl', 'georgia': 'ga',
+		'hawaii': 'hi', 'idaho': 'id', 'illinois': 'il', 'indiana': 'in', 'iowa': 'ia',
+		'kansas': 'ks', 'kentucky': 'ky', 'louisiana': 'la', 'maine': 'me', 'maryland': 'md',
+		'massachusetts': 'ma', 'michigan': 'mi', 'minnesota': 'mn', 'mississippi': 'ms', 'missouri': 'mo',
+		'montana': 'mt', 'nebraska': 'ne', 'nevada': 'nv', 'new hampshire': 'nh', 'new jersey': 'nj',
+		'new mexico': 'nm', 'new york': 'ny', 'north carolina': 'nc', 'north dakota': 'nd', 'ohio': 'oh',
+		'oklahoma': 'ok', 'oregon': 'or', 'pennsylvania': 'pa', 'rhode island': 'ri', 'south carolina': 'sc',
+		'south dakota': 'sd', 'tennessee': 'tn', 'texas': 'tx', 'utah': 'ut', 'vermont': 'vt',
+		'virginia': 'va', 'washington': 'wa', 'west virginia': 'wv', 'wisconsin': 'wi', 'wyoming': 'wy'
+	};
+	return stateMap[stateName.toLowerCase()] || stateName.toLowerCase();
+}
+
 async function combineCountyData() {
 	const dataDir = path.join(__dirname, "..", "output");
 
@@ -101,6 +118,21 @@ async function combineCountyData() {
 	temperatures.rows.forEach((row) => {
 		const fips = normalizeFIPS(row.FIPS);
 		if (fips) temperaturesMap.set(fips, row);
+	});
+
+	// Also create temperature lookup by county name for better matching
+	const temperaturesNameMap = new Map();
+	temperatures.rows.forEach((row) => {
+		// Format: 'AL: Autauga' or 'AL: Baldwin County'
+		const parts = row["County Name"].split(": ");
+		if (parts.length === 2) {
+			const stateCode = parts[0].replace(/"/g, "").trim().toLowerCase();
+			const county = parts[1].replace(/"/g, "").trim().toLowerCase()
+				.replace(/county$/, "").replace(/parish$/, "").replace(/borough$/, "")
+				.replace(/municipality$/, "").replace(/census area$/, "").trim();
+			const key = `${county}|${stateCode}`;
+			temperaturesNameMap.set(key, row);
+		}
 	});
 
 	console.log("Merging data by FIPS...");
@@ -149,8 +181,17 @@ async function combineCountyData() {
 			});
 		}
 
-		// Merge temperatures data
-		const temperaturesData = temperaturesMap.get(fips);
+		// Merge temperatures data - try FIPS first, then county name
+		let temperaturesData = temperaturesMap.get(fips);
+		if (!temperaturesData) {
+			// Fallback to county name matching
+			const county = row.County.replace(/"/g, "").trim().toLowerCase()
+				.replace(/county$/, "").replace(/parish$/, "").replace(/borough$/, "")
+				.replace(/municipality$/, "").replace(/census area$/, "").trim();
+			const stateCode = getStateAbbreviation(row.State);
+			const nameKey = `${county}|${stateCode}`;
+			temperaturesData = temperaturesNameMap.get(nameKey);
+		}
 		if (temperaturesData) {
 			Object.keys(temperaturesData).forEach((key) => {
 				if (!["FIPS", "County Name", "State"].includes(key)) {
@@ -173,6 +214,7 @@ async function combineCountyData() {
 
 	// Add rents data to combined dataset
 	let rentsMatched = 0;
+	let temperaturesMatched = 0;
 	combined.forEach((row) => {
 		const countyKey = normalizeCountyName(row.County, row.State);
 		const rentsData = rentsMap.get(countyKey);
@@ -185,9 +227,15 @@ async function combineCountyData() {
 				}
 			});
 		}
+
+		// Count temperature matches
+		if (row["temp_Avg Temperature (°F)"]) {
+			temperaturesMatched++;
+		}
 	});
 
 	console.log(`Rents data matched: ${rentsMatched}/${combined.length} counties`);
+	console.log(`Temperature data matched: ${temperaturesMatched}/${combined.length} counties`);
 
 	// Generate output CSV
 	const outputHeaders = Object.keys(combined[0]);
