@@ -13,7 +13,8 @@
 		"collect:age": "node data/scripts/ages.js && npm run clean",
 		"collect:rents": "node data/scripts/rents.js && npm run clean",
 		"collect:population": "node data/scripts/population.js && npm run clean",
-		"collect:all": "npm run collect:temps && npm run collect:votes && npm run collect:housing && npm run collect:age && npm run collect:rents && npm run collect:population && npm run clean"
+		"collect:all": "npm run collect:temps && npm run collect:votes && npm run collect:housing && npm run collect:age && npm run collect:rents && npm run collect:population && npm run clean",
+		"combine": "node data/scripts/combine.js"
 	},
 	"dependencies": {
 		"@headlessui/react": "^2.2.7",
