@@ -9,7 +9,7 @@ export type County = {
 	slug: string;
 };
 
-export const counties: County[] = [
+export const old_counties: County[] = [
 	{
 		county_id: 1001,
 		county_name: "Autauga County",

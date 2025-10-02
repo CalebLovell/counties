@@ -17,7 +17,7 @@ function transformToCleanData(rawData) {
 		};
 
 		return {
-			FIPS: row.FIPS || "",
+			id: row.FIPS || "",
 			name: row.County || "",
 			state: row.State || "",
 			population: parseNumber(row.Population),

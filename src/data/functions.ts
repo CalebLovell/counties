@@ -1,16 +1,16 @@
 import stddev from "just-standard-deviation";
 
-import { type County, counties } from "./counties";
+import { type County, old_counties } from "./old_data";
 
 export const getCountyData = () => {
-	return counties;
+	return old_counties;
 };
 
 export const standardDeviation = () => {
-	const household_income = counties.map((x) => x.household_income);
-	const property_value = counties.map((x) => x.property_value);
-	const commute_time = counties.map((x) => x.commute_time);
-	const median_age = counties.map((x) => x.median_age);
+	const household_income = old_counties.map((x) => x.household_income);
+	const property_value = old_counties.map((x) => x.property_value);
+	const commute_time = old_counties.map((x) => x.commute_time);
+	const median_age = old_counties.map((x) => x.median_age);
 
 	const vals = {
 		household_income_stdev: stddev(household_income) / 2,
@@ -30,7 +30,7 @@ export const standardDeviation = () => {
 };
 
 export const getActiveCounty = (county_id: number) => {
-	const activeCounty = counties.find((x) => x.county_id === county_id);
+	const activeCounty = old_counties.find((x) => x.county_id === county_id);
 	return activeCounty;
 };
 

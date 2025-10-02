@@ -5,7 +5,7 @@ import type { CountyData } from "./types";
 
 export const counties: CountyData[] = [
 	{
-		FIPS: "01001",
+		id: "01001",
 		name: "Autauga County",
 		state: "Alabama",
 		population: 59285,
@@ -45,7 +45,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01003",
+		id: "01003",
 		name: "Baldwin County",
 		state: "Alabama",
 		population: 239945,
@@ -85,7 +85,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01005",
+		id: "01005",
 		name: "Barbour County",
 		state: "Alabama",
 		population: 24757,
@@ -125,7 +125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01007",
+		id: "01007",
 		name: "Bibb County",
 		state: "Alabama",
 		population: 22152,
@@ -165,7 +165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01009",
+		id: "01009",
 		name: "Blount County",
 		state: "Alabama",
 		population: 59292,
@@ -205,7 +205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01011",
+		id: "01011",
 		name: "Bullock County",
 		state: "Alabama",
 		population: 10157,
@@ -245,7 +245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01013",
+		id: "01013",
 		name: "Butler County",
 		state: "Alabama",
 		population: 18807,
@@ -285,7 +285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01015",
+		id: "01015",
 		name: "Calhoun County",
 		state: "Alabama",
 		population: 116141,
@@ -325,7 +325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01017",
+		id: "01017",
 		name: "Chambers County",
 		state: "Alabama",
 		population: 34450,
@@ -365,7 +365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01019",
+		id: "01019",
 		name: "Cherokee County",
 		state: "Alabama",
 		population: 25224,
@@ -405,7 +405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01021",
+		id: "01021",
 		name: "Chilton County",
 		state: "Alabama",
 		population: 45500,
@@ -445,7 +445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01023",
+		id: "01023",
 		name: "Choctaw County",
 		state: "Alabama",
 		population: 12525,
@@ -485,7 +485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01025",
+		id: "01025",
 		name: "Clarke County",
 		state: "Alabama",
 		population: 22802,
@@ -525,7 +525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01027",
+		id: "01027",
 		name: "Clay County",
 		state: "Alabama",
 		population: 14188,
@@ -565,7 +565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01029",
+		id: "01029",
 		name: "Cleburne County",
 		state: "Alabama",
 		population: 15254,
@@ -605,7 +605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01031",
+		id: "01031",
 		name: "Coffee County",
 		state: "Alabama",
 		population: 54231,
@@ -645,7 +645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01033",
+		id: "01033",
 		name: "Colbert County",
 		state: "Alabama",
 		population: 57648,
@@ -685,7 +685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01035",
+		id: "01035",
 		name: "Conecuh County",
 		state: "Alabama",
 		population: 11411,
@@ -725,7 +725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01037",
+		id: "01037",
 		name: "Coosa County",
 		state: "Alabama",
 		population: 10323,
@@ -765,7 +765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01039",
+		id: "01039",
 		name: "Covington County",
 		state: "Alabama",
 		population: 37647,
@@ -805,7 +805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01041",
+		id: "01041",
 		name: "Crenshaw County",
 		state: "Alabama",
 		population: 13144,
@@ -845,7 +845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01043",
+		id: "01043",
 		name: "Cullman County",
 		state: "Alabama",
 		population: 89463,
@@ -885,7 +885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01045",
+		id: "01045",
 		name: "Dale County",
 		state: "Alabama",
 		population: 49516,
@@ -925,7 +925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01047",
+		id: "01047",
 		name: "Dallas County",
 		state: "Alabama",
 		population: 37536,
@@ -965,7 +965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01049",
+		id: "01049",
 		name: "DeKalb County",
 		state: "Alabama",
 		population: 71946,
@@ -1005,7 +1005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01051",
+		id: "01051",
 		name: "Elmore County",
 		state: "Alabama",
 		population: 88669,
@@ -1045,7 +1045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01053",
+		id: "01053",
 		name: "Escambia County",
 		state: "Alabama",
 		population: 36695,
@@ -1085,7 +1085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01055",
+		id: "01055",
 		name: "Etowah County",
 		state: "Alabama",
 		population: 103208,
@@ -1125,7 +1125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01057",
+		id: "01057",
 		name: "Fayette County",
 		state: "Alabama",
 		population: 16173,
@@ -1165,7 +1165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01059",
+		id: "01059",
 		name: "Franklin County",
 		state: "Alabama",
 		population: 31978,
@@ -1205,7 +1205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01061",
+		id: "01061",
 		name: "Geneva County",
 		state: "Alabama",
 		population: 26726,
@@ -1245,7 +1245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01063",
+		id: "01063",
 		name: "Greene County",
 		state: "Alabama",
 		population: 7589,
@@ -1285,7 +1285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01065",
+		id: "01065",
 		name: "Hale County",
 		state: "Alabama",
 		population: 14749,
@@ -1325,7 +1325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01067",
+		id: "01067",
 		name: "Henry County",
 		state: "Alabama",
 		population: 17450,
@@ -1365,7 +1365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01069",
+		id: "01069",
 		name: "Houston County",
 		state: "Alabama",
 		population: 107628,
@@ -1405,7 +1405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01071",
+		id: "01071",
 		name: "Jackson County",
 		state: "Alabama",
 		population: 52839,
@@ -1445,7 +1445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01073",
+		id: "01073",
 		name: "Jefferson County",
 		state: "Alabama",
 		population: 669744,
@@ -1485,7 +1485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01075",
+		id: "01075",
 		name: "Lamar County",
 		state: "Alabama",
 		population: 13809,
@@ -1525,7 +1525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01077",
+		id: "01077",
 		name: "Lauderdale County",
 		state: "Alabama",
 		population: 95037,
@@ -1565,7 +1565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01079",
+		id: "01079",
 		name: "Lawrence County",
 		state: "Alabama",
 		population: 33182,
@@ -1605,7 +1605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01081",
+		id: "01081",
 		name: "Lee County",
 		state: "Alabama",
 		population: 177663,
@@ -1645,7 +1645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01083",
+		id: "01083",
 		name: "Limestone County",
 		state: "Alabama",
 		population: 107577,
@@ -1685,7 +1685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01085",
+		id: "01085",
 		name: "Lowndes County",
 		state: "Alabama",
 		population: 10008,
@@ -1725,7 +1725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01087",
+		id: "01087",
 		name: "Macon County",
 		state: "Alabama",
 		population: 18951,
@@ -1765,7 +1765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01089",
+		id: "01089",
 		name: "Madison County",
 		state: "Alabama",
 		population: 397135,
@@ -1805,7 +1805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01091",
+		id: "01091",
 		name: "Marengo County",
 		state: "Alabama",
 		population: 19027,
@@ -1845,7 +1845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01093",
+		id: "01093",
 		name: "Marion County",
 		state: "Alabama",
 		population: 29190,
@@ -1885,7 +1885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01095",
+		id: "01095",
 		name: "Marshall County",
 		state: "Alabama",
 		population: 98712,
@@ -1925,7 +1925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01097",
+		id: "01097",
 		name: "Mobile County",
 		state: "Alabama",
 		population: 413162,
@@ -1965,7 +1965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01099",
+		id: "01099",
 		name: "Monroe County",
 		state: "Alabama",
 		population: 19580,
@@ -2005,7 +2005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01101",
+		id: "01101",
 		name: "Montgomery County",
 		state: "Alabama",
 		population: 227197,
@@ -2045,7 +2045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01103",
+		id: "01103",
 		name: "Morgan County",
 		state: "Alabama",
 		population: 123742,
@@ -2085,7 +2085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01105",
+		id: "01105",
 		name: "Perry County",
 		state: "Alabama",
 		population: 8231,
@@ -2125,7 +2125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01107",
+		id: "01107",
 		name: "Pickens County",
 		state: "Alabama",
 		population: 18843,
@@ -2165,7 +2165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01109",
+		id: "01109",
 		name: "Pike County",
 		state: "Alabama",
 		population: 32953,
@@ -2205,7 +2205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01111",
+		id: "01111",
 		name: "Randolph County",
 		state: "Alabama",
 		population: 22310,
@@ -2245,7 +2245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01113",
+		id: "01113",
 		name: "Russell County",
 		state: "Alabama",
 		population: 58858,
@@ -2285,7 +2285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01115",
+		id: "01115",
 		name: "St. Clair County",
 		state: "Alabama",
 		population: 92903,
@@ -2325,7 +2325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01117",
+		id: "01117",
 		name: "Shelby County",
 		state: "Alabama",
 		population: 226955,
@@ -2365,7 +2365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01119",
+		id: "01119",
 		name: "Sumter County",
 		state: "Alabama",
 		population: 12020,
@@ -2405,7 +2405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01121",
+		id: "01121",
 		name: "Talladega County",
 		state: "Alabama",
 		population: 81170,
@@ -2445,7 +2445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01123",
+		id: "01123",
 		name: "Tallapoosa County",
 		state: "Alabama",
 		population: 41070,
@@ -2485,7 +2485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01125",
+		id: "01125",
 		name: "Tuscaloosa County",
 		state: "Alabama",
 		population: 234036,
@@ -2525,7 +2525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01127",
+		id: "01127",
 		name: "Walker County",
 		state: "Alabama",
 		population: 64886,
@@ -2565,7 +2565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01129",
+		id: "01129",
 		name: "Washington County",
 		state: "Alabama",
 		population: 15270,
@@ -2605,7 +2605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01131",
+		id: "01131",
 		name: "Wilcox County",
 		state: "Alabama",
 		population: 10347,
@@ -2645,7 +2645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "01133",
+		id: "01133",
 		name: "Winston County",
 		state: "Alabama",
 		population: 23637,
@@ -2685,7 +2685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02013",
+		id: "02013",
 		name: "Aleutians East Borough",
 		state: "Alaska",
 		population: 3423,
@@ -2725,7 +2725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02016",
+		id: "02016",
 		name: "Aleutians West Census Area",
 		state: "Alaska",
 		population: 5178,
@@ -2765,7 +2765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02020",
+		id: "02020",
 		name: "Anchorage Municipality",
 		state: "Alaska",
 		population: 289069,
@@ -2805,7 +2805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02050",
+		id: "02050",
 		name: "Bethel Census Area",
 		state: "Alaska",
 		population: 18487,
@@ -2845,7 +2845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02060",
+		id: "02060",
 		name: "Bristol Bay Borough",
 		state: "Alaska",
 		population: 878,
@@ -2885,7 +2885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02063",
+		id: "02063",
 		name: "Chugach Census Area",
 		state: "Alaska",
 		population: 6964,
@@ -2925,7 +2925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02066",
+		id: "02066",
 		name: "Copper River Census Area",
 		state: "Alaska",
 		population: 2626,
@@ -2965,7 +2965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02068",
+		id: "02068",
 		name: "Denali Borough",
 		state: "Alaska",
 		population: 2029,
@@ -3005,7 +3005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02070",
+		id: "02070",
 		name: "Dillingham Census Area",
 		state: "Alaska",
 		population: 4780,
@@ -3045,7 +3045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02090",
+		id: "02090",
 		name: "Fairbanks North Star Borough",
 		state: "Alaska",
 		population: 95555,
@@ -3085,7 +3085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02100",
+		id: "02100",
 		name: "Haines Borough",
 		state: "Alaska",
 		population: 2077,
@@ -3125,7 +3125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02105",
+		id: "02105",
 		name: "Hoonah-Angoon Census Area",
 		state: "Alaska",
 		population: 2313,
@@ -3165,7 +3165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02110",
+		id: "02110",
 		name: "Juneau City and Borough",
 		state: "Alaska",
 		population: 31969,
@@ -3205,7 +3205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02122",
+		id: "02122",
 		name: "Kenai Peninsula Borough",
 		state: "Alaska",
 		population: 59843,
@@ -3245,7 +3245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02130",
+		id: "02130",
 		name: "Ketchikan Gateway Borough",
 		state: "Alaska",
 		population: 13870,
@@ -3285,7 +3285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02150",
+		id: "02150",
 		name: "Kodiak Island Borough",
 		state: "Alaska",
 		population: 12878,
@@ -3325,7 +3325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02158",
+		id: "02158",
 		name: "Kusilvak Census Area",
 		state: "Alaska",
 		population: 8277,
@@ -3365,7 +3365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02164",
+		id: "02164",
 		name: "Lake and Peninsula Borough",
 		state: "Alaska",
 		population: 1007,
@@ -3405,7 +3405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02170",
+		id: "02170",
 		name: "Matanuska-Susitna Borough",
 		state: "Alaska",
 		population: 110677,
@@ -3445,7 +3445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02180",
+		id: "02180",
 		name: "Nome Census Area",
 		state: "Alaska",
 		population: 9925,
@@ -3485,7 +3485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02185",
+		id: "02185",
 		name: "North Slope Borough",
 		state: "Alaska",
 		population: 10891,
@@ -3525,7 +3525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02188",
+		id: "02188",
 		name: "Northwest Arctic Borough",
 		state: "Alaska",
 		population: 7611,
@@ -3565,7 +3565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02195",
+		id: "02195",
 		name: "Petersburg Borough",
 		state: "Alaska",
 		population: 3394,
@@ -3605,7 +3605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02198",
+		id: "02198",
 		name: "Prince of Wales-Hyder Census Area",
 		state: "Alaska",
 		population: 5730,
@@ -3645,7 +3645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02220",
+		id: "02220",
 		name: "Sitka City and Borough",
 		state: "Alaska",
 		population: 8393,
@@ -3685,7 +3685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02230",
+		id: "02230",
 		name: "Skagway Municipality",
 		state: "Alaska",
 		population: 1308,
@@ -3725,7 +3725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02240",
+		id: "02240",
 		name: "Southeast Fairbanks Census Area",
 		state: "Alaska",
 		population: 6936,
@@ -3765,7 +3765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02275",
+		id: "02275",
 		name: "Wrangell City and Borough",
 		state: "Alaska",
 		population: 2106,
@@ -3805,7 +3805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02282",
+		id: "02282",
 		name: "Yakutat City and Borough",
 		state: "Alaska",
 		population: 506,
@@ -3845,7 +3845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "02290",
+		id: "02290",
 		name: "Yukon-Koyukuk Census Area",
 		state: "Alaska",
 		population: 5271,
@@ -3885,7 +3885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04001",
+		id: "04001",
 		name: "Apache County",
 		state: "Arizona",
 		population: 65680,
@@ -3925,7 +3925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04003",
+		id: "04003",
 		name: "Cochise County",
 		state: "Arizona",
 		population: 125458,
@@ -3965,7 +3965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04005",
+		id: "04005",
 		name: "Coconino County",
 		state: "Arizona",
 		population: 144643,
@@ -4005,7 +4005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04007",
+		id: "04007",
 		name: "Gila County",
 		state: "Arizona",
 		population: 53610,
@@ -4045,7 +4045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04009",
+		id: "04009",
 		name: "Graham County",
 		state: "Arizona",
 		population: 38860,
@@ -4085,7 +4085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04011",
+		id: "04011",
 		name: "Greenlee County",
 		state: "Arizona",
 		population: 9452,
@@ -4125,7 +4125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04012",
+		id: "04012",
 		name: "La Paz County",
 		state: "Arizona",
 		population: 16605,
@@ -4165,7 +4165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04013",
+		id: "04013",
 		name: "Maricopa County",
 		state: "Arizona",
 		population: 4491987,
@@ -4205,7 +4205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04015",
+		id: "04015",
 		name: "Mohave County",
 		state: "Arizona",
 		population: 217420,
@@ -4245,7 +4245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04017",
+		id: "04017",
 		name: "Navajo County",
 		state: "Arizona",
 		population: 107744,
@@ -4285,7 +4285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04019",
+		id: "04019",
 		name: "Pima County",
 		state: "Arizona",
 		population: 1049947,
@@ -4325,7 +4325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04021",
+		id: "04021",
 		name: "Pinal County",
 		state: "Arizona",
 		population: 449219,
@@ -4365,7 +4365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04023",
+		id: "04023",
 		name: "Santa Cruz County",
 		state: "Arizona",
 		population: 48209,
@@ -4405,7 +4405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04025",
+		id: "04025",
 		name: "Yavapai County",
 		state: "Arizona",
 		population: 241656,
@@ -4445,7 +4445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "04027",
+		id: "04027",
 		name: "Yuma County",
 		state: "Arizona",
 		population: 207685,
@@ -4485,7 +4485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05001",
+		id: "05001",
 		name: "Arkansas County",
 		state: "Arkansas",
 		population: 16773,
@@ -4525,7 +4525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05003",
+		id: "05003",
 		name: "Ashley County",
 		state: "Arkansas",
 		population: 18722,
@@ -4565,7 +4565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05005",
+		id: "05005",
 		name: "Baxter County",
 		state: "Arkansas",
 		population: 42150,
@@ -4605,7 +4605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05007",
+		id: "05007",
 		name: "Benton County",
 		state: "Arkansas",
 		population: 294541,
@@ -4645,7 +4645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05009",
+		id: "05009",
 		name: "Boone County",
 		state: "Arkansas",
 		population: 37896,
@@ -4685,7 +4685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05011",
+		id: "05011",
 		name: "Bradley County",
 		state: "Arkansas",
 		population: 10354,
@@ -4725,7 +4725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05013",
+		id: "05013",
 		name: "Calhoun County",
 		state: "Arkansas",
 		population: 4717,
@@ -4765,7 +4765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05015",
+		id: "05015",
 		name: "Carroll County",
 		state: "Arkansas",
 		population: 28526,
@@ -4805,7 +4805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05017",
+		id: "05017",
 		name: "Chicot County",
 		state: "Arkansas",
 		population: 9997,
@@ -4845,7 +4845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05019",
+		id: "05019",
 		name: "Clark County",
 		state: "Arkansas",
 		population: 21378,
@@ -4885,7 +4885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05021",
+		id: "05021",
 		name: "Clay County",
 		state: "Arkansas",
 		population: 14399,
@@ -4925,7 +4925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05023",
+		id: "05023",
 		name: "Cleburne County",
 		state: "Arkansas",
 		population: 25048,
@@ -4965,7 +4965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05025",
+		id: "05025",
 		name: "Cleveland County",
 		state: "Arkansas",
 		population: 7491,
@@ -5005,7 +5005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05027",
+		id: "05027",
 		name: "Columbia County",
 		state: "Arkansas",
 		population: 22527,
@@ -5045,7 +5045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05029",
+		id: "05029",
 		name: "Conway County",
 		state: "Arkansas",
 		population: 20872,
@@ -5085,7 +5085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05031",
+		id: "05031",
 		name: "Craighead County",
 		state: "Arkansas",
 		population: 112097,
@@ -5125,7 +5125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05033",
+		id: "05033",
 		name: "Crawford County",
 		state: "Arkansas",
 		population: 60792,
@@ -5165,7 +5165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05035",
+		id: "05035",
 		name: "Crittenden County",
 		state: "Arkansas",
 		population: 47609,
@@ -5205,7 +5205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05037",
+		id: "05037",
 		name: "Cross County",
 		state: "Arkansas",
 		population: 16681,
@@ -5245,7 +5245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05039",
+		id: "05039",
 		name: "Dallas County",
 		state: "Arkansas",
 		population: 6351,
@@ -5285,7 +5285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05041",
+		id: "05041",
 		name: "Desha County",
 		state: "Arkansas",
 		population: 11041,
@@ -5325,7 +5325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05043",
+		id: "05043",
 		name: "Drew County",
 		state: "Arkansas",
 		population: 17143,
@@ -5365,7 +5365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05045",
+		id: "05045",
 		name: "Faulkner County",
 		state: "Arkansas",
 		population: 126001,
@@ -5405,7 +5405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05047",
+		id: "05047",
 		name: "Franklin County",
 		state: "Arkansas",
 		population: 17220,
@@ -5445,7 +5445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05049",
+		id: "05049",
 		name: "Fulton County",
 		state: "Arkansas",
 		population: 12239,
@@ -5485,7 +5485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05051",
+		id: "05051",
 		name: "Garland County",
 		state: "Arkansas",
 		population: 100062,
@@ -5525,7 +5525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05053",
+		id: "05053",
 		name: "Grant County",
 		state: "Arkansas",
 		population: 18111,
@@ -5565,7 +5565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05055",
+		id: "05055",
 		name: "Greene County",
 		state: "Arkansas",
 		population: 46182,
@@ -5605,7 +5605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05057",
+		id: "05057",
 		name: "Hempstead County",
 		state: "Arkansas",
 		population: 19778,
@@ -5645,7 +5645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05059",
+		id: "05059",
 		name: "Hot Spring County",
 		state: "Arkansas",
 		population: 33142,
@@ -5685,7 +5685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05061",
+		id: "05061",
 		name: "Howard County",
 		state: "Arkansas",
 		population: 12701,
@@ -5725,7 +5725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05063",
+		id: "05063",
 		name: "Independence County",
 		state: "Arkansas",
 		population: 38120,
@@ -5765,7 +5765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05065",
+		id: "05065",
 		name: "Izard County",
 		state: "Arkansas",
 		population: 13866,
@@ -5805,7 +5805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05067",
+		id: "05067",
 		name: "Jackson County",
 		state: "Arkansas",
 		population: 16775,
@@ -5845,7 +5845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05069",
+		id: "05069",
 		name: "Jefferson County",
 		state: "Arkansas",
 		population: 65780,
@@ -5885,7 +5885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05071",
+		id: "05071",
 		name: "Johnson County",
 		state: "Arkansas",
 		population: 25932,
@@ -5925,7 +5925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05073",
+		id: "05073",
 		name: "Lafayette County",
 		state: "Arkansas",
 		population: 6211,
@@ -5965,7 +5965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05075",
+		id: "05075",
 		name: "Lawrence County",
 		state: "Arkansas",
 		population: 16265,
@@ -6005,7 +6005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05077",
+		id: "05077",
 		name: "Lee County",
 		state: "Arkansas",
 		population: 8511,
@@ -6045,7 +6045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05079",
+		id: "05079",
 		name: "Lincoln County",
 		state: "Arkansas",
 		population: 12966,
@@ -6085,7 +6085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05081",
+		id: "05081",
 		name: "Little River County",
 		state: "Arkansas",
 		population: 11959,
@@ -6125,7 +6125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05083",
+		id: "05083",
 		name: "Logan County",
 		state: "Arkansas",
 		population: 21240,
@@ -6165,7 +6165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05085",
+		id: "05085",
 		name: "Lonoke County",
 		state: "Arkansas",
 		population: 74747,
@@ -6205,7 +6205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05087",
+		id: "05087",
 		name: "Madison County",
 		state: "Arkansas",
 		population: 17032,
@@ -6245,7 +6245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05089",
+		id: "05089",
 		name: "Marion County",
 		state: "Arkansas",
 		population: 17076,
@@ -6285,7 +6285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05091",
+		id: "05091",
 		name: "Miller County",
 		state: "Arkansas",
 		population: 42588,
@@ -6325,7 +6325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05093",
+		id: "05093",
 		name: "Mississippi County",
 		state: "Arkansas",
 		population: 39749,
@@ -6365,7 +6365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05095",
+		id: "05095",
 		name: "Monroe County",
 		state: "Arkansas",
 		population: 6681,
@@ -6405,7 +6405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05097",
+		id: "05097",
 		name: "Montgomery County",
 		state: "Arkansas",
 		population: 8571,
@@ -6445,7 +6445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05099",
+		id: "05099",
 		name: "Nevada County",
 		state: "Arkansas",
 		population: 8228,
@@ -6485,7 +6485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05101",
+		id: "05101",
 		name: "Newton County",
 		state: "Arkansas",
 		population: 7175,
@@ -6525,7 +6525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05103",
+		id: "05103",
 		name: "Ouachita County",
 		state: "Arkansas",
 		population: 22317,
@@ -6565,7 +6565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05105",
+		id: "05105",
 		name: "Perry County",
 		state: "Arkansas",
 		population: 10073,
@@ -6605,7 +6605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05107",
+		id: "05107",
 		name: "Phillips County",
 		state: "Arkansas",
 		population: 15910,
@@ -6645,7 +6645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05109",
+		id: "05109",
 		name: "Pike County",
 		state: "Arkansas",
 		population: 10182,
@@ -6685,7 +6685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05111",
+		id: "05111",
 		name: "Poinsett County",
 		state: "Arkansas",
 		population: 22740,
@@ -6725,7 +6725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05113",
+		id: "05113",
 		name: "Polk County",
 		state: "Arkansas",
 		population: 19348,
@@ -6765,7 +6765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05115",
+		id: "05115",
 		name: "Pope County",
 		state: "Arkansas",
 		population: 63830,
@@ -6805,7 +6805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05117",
+		id: "05117",
 		name: "Prairie County",
 		state: "Arkansas",
 		population: 8162,
@@ -6845,7 +6845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05119",
+		id: "05119",
 		name: "Pulaski County",
 		state: "Arkansas",
 		population: 398949,
@@ -6885,7 +6885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05121",
+		id: "05121",
 		name: "Randolph County",
 		state: "Arkansas",
 		population: 18733,
@@ -6925,7 +6925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05123",
+		id: "05123",
 		name: "St. Francis County",
 		state: "Arkansas",
 		population: 22740,
@@ -6965,7 +6965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05125",
+		id: "05125",
 		name: "Saline County",
 		state: "Arkansas",
 		population: 125724,
@@ -7005,7 +7005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05127",
+		id: "05127",
 		name: "Scott County",
 		state: "Arkansas",
 		population: 9839,
@@ -7045,7 +7045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05129",
+		id: "05129",
 		name: "Searcy County",
 		state: "Arkansas",
 		population: 7861,
@@ -7085,7 +7085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05131",
+		id: "05131",
 		name: "Sebastian County",
 		state: "Arkansas",
 		population: 128448,
@@ -7125,7 +7125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05133",
+		id: "05133",
 		name: "Sevier County",
 		state: "Arkansas",
 		population: 15797,
@@ -7165,7 +7165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05135",
+		id: "05135",
 		name: "Sharp County",
 		state: "Arkansas",
 		population: 17597,
@@ -7205,7 +7205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05137",
+		id: "05137",
 		name: "Stone County",
 		state: "Arkansas",
 		population: 12474,
@@ -7245,7 +7245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05139",
+		id: "05139",
 		name: "Union County",
 		state: "Arkansas",
 		population: 38368,
@@ -7285,7 +7285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05141",
+		id: "05141",
 		name: "Van Buren County",
 		state: "Arkansas",
 		population: 15936,
@@ -7325,7 +7325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05143",
+		id: "05143",
 		name: "Washington County",
 		state: "Arkansas",
 		population: 251863,
@@ -7365,7 +7365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05145",
+		id: "05145",
 		name: "White County",
 		state: "Arkansas",
 		population: 77395,
@@ -7405,7 +7405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05147",
+		id: "05147",
 		name: "Woodruff County",
 		state: "Arkansas",
 		population: 6157,
@@ -7445,7 +7445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "05149",
+		id: "05149",
 		name: "Yell County",
 		state: "Arkansas",
 		population: 20195,
@@ -7485,7 +7485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06001",
+		id: "06001",
 		name: "Alameda County",
 		state: "California",
 		population: 1651949,
@@ -7525,7 +7525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06003",
+		id: "06003",
 		name: "Alpine County",
 		state: "California",
 		population: 1695,
@@ -7565,7 +7565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06005",
+		id: "06005",
 		name: "Amador County",
 		state: "California",
 		population: 41029,
@@ -7605,7 +7605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06007",
+		id: "06007",
 		name: "Butte County",
 		state: "California",
 		population: 209470,
@@ -7645,7 +7645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06009",
+		id: "06009",
 		name: "Calaveras County",
 		state: "California",
 		population: 45995,
@@ -7685,7 +7685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06011",
+		id: "06011",
 		name: "Colusa County",
 		state: "California",
 		population: 21895,
@@ -7725,7 +7725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06013",
+		id: "06013",
 		name: "Contra Costa County",
 		state: "California",
 		population: 1161458,
@@ -7765,7 +7765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06015",
+		id: "06015",
 		name: "Del Norte County",
 		state: "California",
 		population: 27293,
@@ -7805,7 +7805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06017",
+		id: "06017",
 		name: "El Dorado County",
 		state: "California",
 		population: 192299,
@@ -7845,7 +7845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06019",
+		id: "06019",
 		name: "Fresno County",
 		state: "California",
 		population: 1012152,
@@ -7885,7 +7885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06021",
+		id: "06021",
 		name: "Glenn County",
 		state: "California",
 		population: 28623,
@@ -7925,7 +7925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06023",
+		id: "06023",
 		name: "Humboldt County",
 		state: "California",
 		population: 135418,
@@ -7965,7 +7965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06025",
+		id: "06025",
 		name: "Imperial County",
 		state: "California",
 		population: 179319,
@@ -8005,7 +8005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06027",
+		id: "06027",
 		name: "Inyo County",
 		state: "California",
 		population: 18803,
@@ -8045,7 +8045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06029",
+		id: "06029",
 		name: "Kern County",
 		state: "California",
 		population: 910433,
@@ -8085,7 +8085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06031",
+		id: "06031",
 		name: "Kings County",
 		state: "California",
 		population: 152830,
@@ -8125,7 +8125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06033",
+		id: "06033",
 		name: "Lake County",
 		state: "California",
 		population: 68139,
@@ -8165,7 +8165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06035",
+		id: "06035",
 		name: "Lassen County",
 		state: "California",
 		population: 31177,
@@ -8205,7 +8205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06037",
+		id: "06037",
 		name: "Los Angeles County",
 		state: "California",
 		population: 9848406,
@@ -8245,7 +8245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06039",
+		id: "06039",
 		name: "Madera County",
 		state: "California",
 		population: 158790,
@@ -8285,7 +8285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06041",
+		id: "06041",
 		name: "Marin County",
 		state: "California",
 		population: 258765,
@@ -8325,7 +8325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06043",
+		id: "06043",
 		name: "Mariposa County",
 		state: "California",
 		population: 17060,
@@ -8365,7 +8365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06045",
+		id: "06045",
 		name: "Mendocino County",
 		state: "California",
 		population: 90709,
@@ -8405,7 +8405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06047",
+		id: "06047",
 		name: "Merced County",
 		state: "California",
 		population: 285597,
@@ -8445,7 +8445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06049",
+		id: "06049",
 		name: "Modoc County",
 		state: "California",
 		population: 8646,
@@ -8485,7 +8485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06051",
+		id: "06051",
 		name: "Mono County",
 		state: "California",
 		population: 13169,
@@ -8525,7 +8525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06053",
+		id: "06053",
 		name: "Monterey County",
 		state: "California",
 		population: 435834,
@@ -8565,7 +8565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06055",
+		id: "06055",
 		name: "Napa County",
 		state: "California",
 		population: 136070,
@@ -8605,7 +8605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06057",
+		id: "06057",
 		name: "Nevada County",
 		state: "California",
 		population: 102452,
@@ -8645,7 +8645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06059",
+		id: "06059",
 		name: "Orange County",
 		state: "California",
 		population: 3164063,
@@ -8685,7 +8685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06061",
+		id: "06061",
 		name: "Placer County",
 		state: "California",
 		population: 412435,
@@ -8725,7 +8725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06063",
+		id: "06063",
 		name: "Plumas County",
 		state: "California",
 		population: 19607,
@@ -8765,7 +8765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06065",
+		id: "06065",
 		name: "Riverside County",
 		state: "California",
 		population: 2449909,
@@ -8805,7 +8805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06067",
+		id: "06067",
 		name: "Sacramento County",
 		state: "California",
 		population: 1584047,
@@ -8845,7 +8845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06069",
+		id: "06069",
 		name: "San Benito County",
 		state: "California",
 		population: 66056,
@@ -8885,7 +8885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06071",
+		id: "06071",
 		name: "San Bernardino County",
 		state: "California",
 		population: 2187816,
@@ -8925,7 +8925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06073",
+		id: "06073",
 		name: "San Diego County",
 		state: "California",
 		population: 3282782,
@@ -8965,7 +8965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06075",
+		id: "06075",
 		name: "San Francisco County",
 		state: "California",
 		population: 836321,
@@ -9005,7 +9005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06077",
+		id: "06077",
 		name: "San Joaquin County",
 		state: "California",
 		population: 787416,
@@ -9045,7 +9045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06079",
+		id: "06079",
 		name: "San Luis Obispo County",
 		state: "California",
 		population: 281486,
@@ -9085,7 +9085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06081",
+		id: "06081",
 		name: "San Mateo County",
 		state: "California",
 		population: 745100,
@@ -9125,7 +9125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06083",
+		id: "06083",
 		name: "Santa Barbara County",
 		state: "California",
 		population: 443975,
@@ -9165,7 +9165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06085",
+		id: "06085",
 		name: "Santa Clara County",
 		state: "California",
 		population: 1903297,
@@ -9205,7 +9205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06087",
+		id: "06087",
 		name: "Santa Cruz County",
 		state: "California",
 		population: 266021,
@@ -9245,7 +9245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06089",
+		id: "06089",
 		name: "Shasta County",
 		state: "California",
 		population: 181554,
@@ -9285,7 +9285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06091",
+		id: "06091",
 		name: "Sierra County",
 		state: "California",
 		population: 2731,
@@ -9325,7 +9325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06093",
+		id: "06093",
 		name: "Siskiyou County",
 		state: "California",
 		population: 43834,
@@ -9365,7 +9365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06095",
+		id: "06095",
 		name: "Solano County",
 		state: "California",
 		population: 450824,
@@ -9405,7 +9405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06097",
+		id: "06097",
 		name: "Sonoma County",
 		state: "California",
 		population: 485642,
@@ -9445,7 +9445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06099",
+		id: "06099",
 		name: "Stanislaus County",
 		state: "California",
 		population: 552250,
@@ -9485,7 +9485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06101",
+		id: "06101",
 		name: "Sutter County",
 		state: "California",
 		population: 98971,
@@ -9525,7 +9525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06103",
+		id: "06103",
 		name: "Tehama County",
 		state: "California",
 		population: 65520,
@@ -9565,7 +9565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06105",
+		id: "06105",
 		name: "Trinity County",
 		state: "California",
 		population: 15886,
@@ -9605,7 +9605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06107",
+		id: "06107",
 		name: "Tulare County",
 		state: "California",
 		population: 475774,
@@ -9645,7 +9645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06109",
+		id: "06109",
 		name: "Tuolumne County",
 		state: "California",
 		population: 54873,
@@ -9685,7 +9685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06111",
+		id: "06111",
 		name: "Ventura County",
 		state: "California",
 		population: 838259,
@@ -9725,7 +9725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06113",
+		id: "06113",
 		name: "Yolo County",
 		state: "California",
 		population: 217782,
@@ -9765,7 +9765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "06115",
+		id: "06115",
 		name: "Yuba County",
 		state: "California",
 		population: 83079,
@@ -9805,7 +9805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08001",
+		id: "08001",
 		name: "Adams County",
 		state: "Colorado",
 		population: 524408,
@@ -9845,7 +9845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08003",
+		id: "08003",
 		name: "Alamosa County",
 		state: "Colorado",
 		population: 16515,
@@ -9885,7 +9885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08005",
+		id: "08005",
 		name: "Arapahoe County",
 		state: "Colorado",
 		population: 655709,
@@ -9925,7 +9925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08007",
+		id: "08007",
 		name: "Archuleta County",
 		state: "Colorado",
 		population: 13730,
@@ -9965,7 +9965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08009",
+		id: "08009",
 		name: "Baca County",
 		state: "Colorado",
 		population: 3460,
@@ -10005,7 +10005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08011",
+		id: "08011",
 		name: "Bent County",
 		state: "Colorado",
 		population: 5524,
@@ -10045,7 +10045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08013",
+		id: "08013",
 		name: "Boulder County",
 		state: "Colorado",
 		population: 328317,
@@ -10085,7 +10085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08014",
+		id: "08014",
 		name: "Broomfield County",
 		state: "Colorado",
 		population: 75110,
@@ -10125,7 +10125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08015",
+		id: "08015",
 		name: "Chaffee County",
 		state: "Colorado",
 		population: 19876,
@@ -10165,7 +10165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08017",
+		id: "08017",
 		name: "Cheyenne County",
 		state: "Colorado",
 		population: 1732,
@@ -10205,7 +10205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08019",
+		id: "08019",
 		name: "Clear Creek County",
 		state: "Colorado",
 		population: 9358,
@@ -10245,7 +10245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08021",
+		id: "08021",
 		name: "Conejos County",
 		state: "Colorado",
 		population: 7536,
@@ -10285,7 +10285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08023",
+		id: "08023",
 		name: "Costilla County",
 		state: "Colorado",
 		population: 3571,
@@ -10325,7 +10325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08025",
+		id: "08025",
 		name: "Crowley County",
 		state: "Colorado",
 		population: 5734,
@@ -10365,7 +10365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08027",
+		id: "08027",
 		name: "Custer County",
 		state: "Colorado",
 		population: 5073,
@@ -10405,7 +10405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08029",
+		id: "08029",
 		name: "Delta County",
 		state: "Colorado",
 		population: 31353,
@@ -10445,7 +10445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08031",
+		id: "08031",
 		name: "Denver County",
 		state: "Colorado",
 		population: 713734,
@@ -10485,7 +10485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08033",
+		id: "08033",
 		name: "Dolores County",
 		state: "Colorado",
 		population: 2385,
@@ -10525,7 +10525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08035",
+		id: "08035",
 		name: "Douglas County",
 		state: "Colorado",
 		population: 368283,
@@ -10565,7 +10565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08037",
+		id: "08037",
 		name: "Eagle County",
 		state: "Colorado",
 		population: 55374,
@@ -10605,7 +10605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08039",
+		id: "08039",
 		name: "Elbert County",
 		state: "Colorado",
 		population: 27152,
@@ -10645,7 +10645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08041",
+		id: "08041",
 		name: "El Paso County",
 		state: "Colorado",
 		population: 736008,
@@ -10685,7 +10685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08043",
+		id: "08043",
 		name: "Fremont County",
 		state: "Colorado",
 		population: 49394,
@@ -10725,7 +10725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08045",
+		id: "08045",
 		name: "Garfield County",
 		state: "Colorado",
 		population: 62034,
@@ -10765,7 +10765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08047",
+		id: "08047",
 		name: "Gilpin County",
 		state: "Colorado",
 		population: 5877,
@@ -10805,7 +10805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08049",
+		id: "08049",
 		name: "Grand County",
 		state: "Colorado",
 		population: 15794,
@@ -10845,7 +10845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08051",
+		id: "08051",
 		name: "Gunnison County",
 		state: "Colorado",
 		population: 17158,
@@ -10885,7 +10885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08053",
+		id: "08053",
 		name: "Hinsdale County",
 		state: "Colorado",
 		population: 939,
@@ -10925,7 +10925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08055",
+		id: "08055",
 		name: "Huerfano County",
 		state: "Colorado",
 		population: 6946,
@@ -10965,7 +10965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08057",
+		id: "08057",
 		name: "Jackson County",
 		state: "Colorado",
 		population: 1422,
@@ -11005,7 +11005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08059",
+		id: "08059",
 		name: "Jefferson County",
 		state: "Colorado",
 		population: 579715,
@@ -11045,7 +11045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08061",
+		id: "08061",
 		name: "Kiowa County",
 		state: "Colorado",
 		population: 1356,
@@ -11085,7 +11085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08063",
+		id: "08063",
 		name: "Kit Carson County",
 		state: "Colorado",
 		population: 7015,
@@ -11125,7 +11125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08065",
+		id: "08065",
 		name: "Lake County",
 		state: "Colorado",
 		population: 7411,
@@ -11165,7 +11165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08067",
+		id: "08067",
 		name: "La Plata County",
 		state: "Colorado",
 		population: 56088,
@@ -11205,7 +11205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08069",
+		id: "08069",
 		name: "Larimer County",
 		state: "Colorado",
 		population: 363561,
@@ -11245,7 +11245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08071",
+		id: "08071",
 		name: "Las Animas County",
 		state: "Colorado",
 		population: 14392,
@@ -11285,7 +11285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08073",
+		id: "08073",
 		name: "Lincoln County",
 		state: "Colorado",
 		population: 5561,
@@ -11325,7 +11325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08075",
+		id: "08075",
 		name: "Logan County",
 		state: "Colorado",
 		population: 21067,
@@ -11365,7 +11365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08077",
+		id: "08077",
 		name: "Mesa County",
 		state: "Colorado",
 		population: 157316,
@@ -11405,7 +11405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08079",
+		id: "08079",
 		name: "Mineral County",
 		state: "Colorado",
 		population: 799,
@@ -11445,7 +11445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08081",
+		id: "08081",
 		name: "Moffat County",
 		state: "Colorado",
 		population: 13258,
@@ -11485,7 +11485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08083",
+		id: "08083",
 		name: "Montezuma County",
 		state: "Colorado",
 		population: 26204,
@@ -11525,7 +11525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08085",
+		id: "08085",
 		name: "Montrose County",
 		state: "Colorado",
 		population: 43272,
@@ -11565,7 +11565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08087",
+		id: "08087",
 		name: "Morgan County",
 		state: "Colorado",
 		population: 29186,
@@ -11605,7 +11605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08089",
+		id: "08089",
 		name: "Otero County",
 		state: "Colorado",
 		population: 18460,
@@ -11645,7 +11645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08091",
+		id: "08091",
 		name: "Ouray County",
 		state: "Colorado",
 		population: 5024,
@@ -11685,7 +11685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08093",
+		id: "08093",
 		name: "Park County",
 		state: "Colorado",
 		population: 17739,
@@ -11725,7 +11725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08095",
+		id: "08095",
 		name: "Phillips County",
 		state: "Colorado",
 		population: 4491,
@@ -11765,7 +11765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08097",
+		id: "08097",
 		name: "Pitkin County",
 		state: "Colorado",
 		population: 17119,
@@ -11805,7 +11805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08099",
+		id: "08099",
 		name: "Prowers County",
 		state: "Colorado",
 		population: 11931,
@@ -11845,7 +11845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08101",
+		id: "08101",
 		name: "Pueblo County",
 		state: "Colorado",
 		population: 168726,
@@ -11885,7 +11885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08103",
+		id: "08103",
 		name: "Rio Blanco County",
 		state: "Colorado",
 		population: 6518,
@@ -11925,7 +11925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08105",
+		id: "08105",
 		name: "Rio Grande County",
 		state: "Colorado",
 		population: 11394,
@@ -11965,7 +11965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08107",
+		id: "08107",
 		name: "Routt County",
 		state: "Colorado",
 		population: 24990,
@@ -12005,7 +12005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08109",
+		id: "08109",
 		name: "Saguache County",
 		state: "Colorado",
 		population: 6511,
@@ -12045,7 +12045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08111",
+		id: "08111",
 		name: "San Juan County",
 		state: "Colorado",
 		population: 690,
@@ -12085,7 +12085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08113",
+		id: "08113",
 		name: "San Miguel County",
 		state: "Colorado",
 		population: 8026,
@@ -12125,7 +12125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08115",
+		id: "08115",
 		name: "Sedgwick County",
 		state: "Colorado",
 		population: 2346,
@@ -12165,7 +12165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08117",
+		id: "08117",
 		name: "Summit County",
 		state: "Colorado",
 		population: 30857,
@@ -12205,7 +12205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08119",
+		id: "08119",
 		name: "Teller County",
 		state: "Colorado",
 		population: 24774,
@@ -12245,7 +12245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08121",
+		id: "08121",
 		name: "Washington County",
 		state: "Colorado",
 		population: 4839,
@@ -12285,7 +12285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08123",
+		id: "08123",
 		name: "Weld County",
 		state: "Colorado",
 		population: 340711,
@@ -12325,7 +12325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "08125",
+		id: "08125",
 		name: "Yuma County",
 		state: "Colorado",
 		population: 9921,
@@ -12365,7 +12365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09110",
+		id: "09110",
 		name: "Capitol Planning Region",
 		state: "Connecticut",
 		population: 969029,
@@ -12405,7 +12405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09120",
+		id: "09120",
 		name: "Greater Bridgeport Planning Region",
 		state: "Connecticut",
 		population: 326296,
@@ -12445,7 +12445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09130",
+		id: "09130",
 		name: "Lower Connecticut River Valley Planning Region",
 		state: "Connecticut",
 		population: 174983,
@@ -12485,7 +12485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09140",
+		id: "09140",
 		name: "Naugatuck Valley Planning Region",
 		state: "Connecticut",
 		population: 452303,
@@ -12525,7 +12525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09150",
+		id: "09150",
 		name: "Northeastern Connecticut Planning Region",
 		state: "Connecticut",
 		population: 95829,
@@ -12565,7 +12565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09160",
+		id: "09160",
 		name: "Northwest Hills Planning Region",
 		state: "Connecticut",
 		population: 112848,
@@ -12605,7 +12605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09170",
+		id: "09170",
 		name: "South Central Connecticut Planning Region",
 		state: "Connecticut",
 		population: 566803,
@@ -12645,7 +12645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09180",
+		id: "09180",
 		name: "Southeastern Connecticut Planning Region",
 		state: "Connecticut",
 		population: 279025,
@@ -12685,7 +12685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "09190",
+		id: "09190",
 		name: "Western Connecticut Planning Region",
 		state: "Connecticut",
 		population: 621232,
@@ -12725,7 +12725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "10001",
+		id: "10001",
 		name: "Kent County",
 		state: "Delaware",
 		population: 185043,
@@ -12765,7 +12765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "10003",
+		id: "10003",
 		name: "New Castle County",
 		state: "Delaware",
 		population: 573030,
@@ -12805,7 +12805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "10005",
+		id: "10005",
 		name: "Sussex County",
 		state: "Delaware",
 		population: 247799,
@@ -12845,7 +12845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "11001",
+		id: "11001",
 		name: "District of Columbia",
 		state: "District of Columbia",
 		population: 672079,
@@ -12885,7 +12885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12001",
+		id: "12001",
 		name: "Alachua County",
 		state: "Florida",
 		population: 281751,
@@ -12925,7 +12925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12003",
+		id: "12003",
 		name: "Baker County",
 		state: "Florida",
 		population: 28186,
@@ -12965,7 +12965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12005",
+		id: "12005",
 		name: "Bay County",
 		state: "Florida",
 		population: 181368,
@@ -13005,7 +13005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12007",
+		id: "12007",
 		name: "Bradford County",
 		state: "Florida",
 		population: 27888,
@@ -13045,7 +13045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12009",
+		id: "12009",
 		name: "Brevard County",
 		state: "Florida",
 		population: 620533,
@@ -13085,7 +13085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12011",
+		id: "12011",
 		name: "Broward County",
 		state: "Florida",
 		population: 1946127,
@@ -13125,7 +13125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12013",
+		id: "12013",
 		name: "Calhoun County",
 		state: "Florida",
 		population: 13593,
@@ -13165,7 +13165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12015",
+		id: "12015",
 		name: "Charlotte County",
 		state: "Florida",
 		population: 195083,
@@ -13205,7 +13205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12017",
+		id: "12017",
 		name: "Citrus County",
 		state: "Florida",
 		population: 158693,
@@ -13245,7 +13245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12019",
+		id: "12019",
 		name: "Clay County",
 		state: "Florida",
 		population: 223436,
@@ -13285,7 +13285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12021",
+		id: "12021",
 		name: "Collier County",
 		state: "Florida",
 		population: 387681,
@@ -13325,7 +13325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12023",
+		id: "12023",
 		name: "Columbia County",
 		state: "Florida",
 		population: 70755,
@@ -13365,7 +13365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12027",
+		id: "12027",
 		name: "DeSoto County",
 		state: "Florida",
 		population: 34719,
@@ -13405,7 +13405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12029",
+		id: "12029",
 		name: "Dixie County",
 		state: "Florida",
 		population: 16952,
@@ -13445,7 +13445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12031",
+		id: "12031",
 		name: "Duval County",
 		state: "Florida",
 		population: 1007189,
@@ -13485,7 +13485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12033",
+		id: "12033",
 		name: "Escambia County",
 		state: "Florida",
 		population: 323275,
@@ -13525,7 +13525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12035",
+		id: "12035",
 		name: "Flagler County",
 		state: "Florida",
 		population: 121710,
@@ -13565,7 +13565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12037",
+		id: "12037",
 		name: "Franklin County",
 		state: "Florida",
 		population: 12418,
@@ -13605,7 +13605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12039",
+		id: "12039",
 		name: "Gadsden County",
 		state: "Florida",
 		population: 43642,
@@ -13645,7 +13645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12041",
+		id: "12041",
 		name: "Gilchrist County",
 		state: "Florida",
 		population: 18494,
@@ -13685,7 +13685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12043",
+		id: "12043",
 		name: "Glades County",
 		state: "Florida",
 		population: 12324,
@@ -13725,7 +13725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12045",
+		id: "12045",
 		name: "Gulf County",
 		state: "Florida",
 		population: 14772,
@@ -13765,7 +13765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12047",
+		id: "12047",
 		name: "Hamilton County",
 		state: "Florida",
 		population: 13445,
@@ -13805,7 +13805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12049",
+		id: "12049",
 		name: "Hardee County",
 		state: "Florida",
 		population: 25508,
@@ -13845,7 +13845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12051",
+		id: "12051",
 		name: "Hendry County",
 		state: "Florida",
 		population: 40798,
@@ -13885,7 +13885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12053",
+		id: "12053",
 		name: "Hernando County",
 		state: "Florida",
 		population: 201512,
@@ -13925,7 +13925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12055",
+		id: "12055",
 		name: "Highlands County",
 		state: "Florida",
 		population: 103808,
@@ -13965,7 +13965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12057",
+		id: "12057",
 		name: "Hillsborough County",
 		state: "Florida",
 		population: 1489634,
@@ -14005,7 +14005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12059",
+		id: "12059",
 		name: "Holmes County",
 		state: "Florida",
 		population: 19626,
@@ -14045,7 +14045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12061",
+		id: "12061",
 		name: "Indian River County",
 		state: "Florida",
 		population: 163856,
@@ -14085,7 +14085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12063",
+		id: "12063",
 		name: "Jackson County",
 		state: "Florida",
 		population: 47652,
@@ -14125,7 +14125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12065",
+		id: "12065",
 		name: "Jefferson County",
 		state: "Florida",
 		population: 14713,
@@ -14165,7 +14165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12067",
+		id: "12067",
 		name: "Lafayette County",
 		state: "Florida",
 		population: 8035,
@@ -14205,7 +14205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12069",
+		id: "12069",
 		name: "Lake County",
 		state: "Florida",
 		population: 398696,
@@ -14245,7 +14245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12071",
+		id: "12071",
 		name: "Lee County",
 		state: "Florida",
 		population: 792692,
@@ -14285,7 +14285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12073",
+		id: "12073",
 		name: "Leon County",
 		state: "Florida",
 		population: 295335,
@@ -14325,7 +14325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12075",
+		id: "12075",
 		name: "Levy County",
 		state: "Florida",
 		population: 44276,
@@ -14365,7 +14365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12077",
+		id: "12077",
 		name: "Liberty County",
 		state: "Florida",
 		population: 7650,
@@ -14405,7 +14405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12079",
+		id: "12079",
 		name: "Madison County",
 		state: "Florida",
 		population: 18113,
@@ -14445,7 +14445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12081",
+		id: "12081",
 		name: "Manatee County",
 		state: "Florida",
 		population: 416020,
@@ -14485,7 +14485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12083",
+		id: "12083",
 		name: "Marion County",
 		state: "Florida",
 		population: 387697,
@@ -14525,7 +14525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12085",
+		id: "12085",
 		name: "Martin County",
 		state: "Florida",
 		population: 160464,
@@ -14565,7 +14565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12086",
+		id: "12086",
 		name: "Miami-Dade County",
 		state: "Florida",
 		population: 2685296,
@@ -14605,7 +14605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12087",
+		id: "12087",
 		name: "Monroe County",
 		state: "Florida",
 		population: 81840,
@@ -14645,7 +14645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12089",
+		id: "12089",
 		name: "Nassau County",
 		state: "Florida",
 		population: 94653,
@@ -14685,7 +14685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12091",
+		id: "12091",
 		name: "Okaloosa County",
 		state: "Florida",
 		population: 214281,
@@ -14725,7 +14725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12093",
+		id: "12093",
 		name: "Okeechobee County",
 		state: "Florida",
 		population: 40249,
@@ -14765,7 +14765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12095",
+		id: "12095",
 		name: "Orange County",
 		state: "Florida",
 		population: 1440471,
@@ -14805,7 +14805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12097",
+		id: "12097",
 		name: "Osceola County",
 		state: "Florida",
 		population: 406943,
@@ -14845,7 +14845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12099",
+		id: "12099",
 		name: "Palm Beach County",
 		state: "Florida",
 		population: 1507453,
@@ -14885,7 +14885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12101",
+		id: "12101",
 		name: "Pasco County",
 		state: "Florida",
 		population: 588758,
@@ -14925,7 +14925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12103",
+		id: "12103",
 		name: "Pinellas County",
 		state: "Florida",
 		population: 960565,
@@ -14965,7 +14965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12105",
+		id: "12105",
 		name: "Polk County",
 		state: "Florida",
 		population: 760961,
@@ -15005,7 +15005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12107",
+		id: "12107",
 		name: "Putnam County",
 		state: "Florida",
 		population: 74235,
@@ -15045,7 +15045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12109",
+		id: "12109",
 		name: "St. Johns County",
 		state: "Florida",
 		population: 292243,
@@ -15085,7 +15085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12111",
+		id: "12111",
 		name: "St. Lucie County",
 		state: "Florida",
 		population: 346237,
@@ -15125,7 +15125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12113",
+		id: "12113",
 		name: "Santa Rosa County",
 		state: "Florida",
 		population: 193719,
@@ -15165,7 +15165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12115",
+		id: "12115",
 		name: "Sarasota County",
 		state: "Florida",
 		population: 449011,
@@ -15205,7 +15205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12117",
+		id: "12117",
 		name: "Seminole County",
 		state: "Florida",
 		population: 474912,
@@ -15245,7 +15245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12119",
+		id: "12119",
 		name: "Sumter County",
 		state: "Florida",
 		population: 137536,
@@ -15285,7 +15285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12121",
+		id: "12121",
 		name: "Suwannee County",
 		state: "Florida",
 		population: 44484,
@@ -15325,7 +15325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12123",
+		id: "12123",
 		name: "Taylor County",
 		state: "Florida",
 		population: 21422,
@@ -15365,7 +15365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12125",
+		id: "12125",
 		name: "Union County",
 		state: "Florida",
 		population: 15551,
@@ -15405,7 +15405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12127",
+		id: "12127",
 		name: "Volusia County",
 		state: "Florida",
 		population: 568229,
@@ -15445,7 +15445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12129",
+		id: "12129",
 		name: "Wakulla County",
 		state: "Florida",
 		population: 34608,
@@ -15485,7 +15485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12131",
+		id: "12131",
 		name: "Walton County",
 		state: "Florida",
 		population: 79846,
@@ -15525,7 +15525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "12133",
+		id: "12133",
 		name: "Washington County",
 		state: "Florida",
 		population: 25259,
@@ -15565,7 +15565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13001",
+		id: "13001",
 		name: "Appling County",
 		state: "Georgia",
 		population: 18426,
@@ -15605,7 +15605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13003",
+		id: "13003",
 		name: "Atkinson County",
 		state: "Georgia",
 		population: 8261,
@@ -15645,7 +15645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13005",
+		id: "13005",
 		name: "Bacon County",
 		state: "Georgia",
 		population: 11129,
@@ -15685,7 +15685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13007",
+		id: "13007",
 		name: "Baker County",
 		state: "Georgia",
 		population: 2830,
@@ -15725,7 +15725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13009",
+		id: "13009",
 		name: "Baldwin County",
 		state: "Georgia",
 		population: 43669,
@@ -15765,7 +15765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13011",
+		id: "13011",
 		name: "Banks County",
 		state: "Georgia",
 		population: 18757,
@@ -15805,7 +15805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13013",
+		id: "13013",
 		name: "Barrow County",
 		state: "Georgia",
 		population: 86982,
@@ -15845,7 +15845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13015",
+		id: "13015",
 		name: "Bartow County",
 		state: "Georgia",
 		population: 111153,
@@ -15885,7 +15885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13017",
+		id: "13017",
 		name: "Ben Hill County",
 		state: "Georgia",
 		population: 17138,
@@ -15925,7 +15925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13019",
+		id: "13019",
 		name: "Berrien County",
 		state: "Georgia",
 		population: 18257,
@@ -15965,7 +15965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13021",
+		id: "13021",
 		name: "Bibb County",
 		state: "Georgia",
 		population: 156543,
@@ -16005,7 +16005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13023",
+		id: "13023",
 		name: "Bleckley County",
 		state: "Georgia",
 		population: 12414,
@@ -16045,7 +16045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13025",
+		id: "13025",
 		name: "Brantley County",
 		state: "Georgia",
 		population: 18171,
@@ -16085,7 +16085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13027",
+		id: "13027",
 		name: "Brooks County",
 		state: "Georgia",
 		population: 16285,
@@ -16125,7 +16125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13029",
+		id: "13029",
 		name: "Bryan County",
 		state: "Georgia",
 		population: 46681,
@@ -16165,7 +16165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13031",
+		id: "13031",
 		name: "Bulloch County",
 		state: "Georgia",
 		population: 81372,
@@ -16205,7 +16205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13033",
+		id: "13033",
 		name: "Burke County",
 		state: "Georgia",
 		population: 24427,
@@ -16245,7 +16245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13035",
+		id: "13035",
 		name: "Butts County",
 		state: "Georgia",
 		population: 26074,
@@ -16285,7 +16285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13037",
+		id: "13037",
 		name: "Calhoun County",
 		state: "Georgia",
 		population: 5528,
@@ -16325,7 +16325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13039",
+		id: "13039",
 		name: "Camden County",
 		state: "Georgia",
 		population: 56036,
@@ -16365,7 +16365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13043",
+		id: "13043",
 		name: "Candler County",
 		state: "Georgia",
 		population: 10972,
@@ -16405,7 +16405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13045",
+		id: "13045",
 		name: "Carroll County",
 		state: "Georgia",
 		population: 122187,
@@ -16445,7 +16445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13047",
+		id: "13047",
 		name: "Catoosa County",
 		state: "Georgia",
 		population: 68356,
@@ -16485,7 +16485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13049",
+		id: "13049",
 		name: "Charlton County",
 		state: "Georgia",
 		population: 12711,
@@ -16525,7 +16525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13051",
+		id: "13051",
 		name: "Chatham County",
 		state: "Georgia",
 		population: 298143,
@@ -16565,7 +16565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13053",
+		id: "13053",
 		name: "Chattahoochee County",
 		state: "Georgia",
 		population: 9181,
@@ -16605,7 +16605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13055",
+		id: "13055",
 		name: "Chattooga County",
 		state: "Georgia",
 		population: 24975,
@@ -16645,7 +16645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13057",
+		id: "13057",
 		name: "Cherokee County",
 		state: "Georgia",
 		population: 274539,
@@ -16685,7 +16685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13059",
+		id: "13059",
 		name: "Clarke County",
 		state: "Georgia",
 		population: 129267,
@@ -16725,7 +16725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13061",
+		id: "13061",
 		name: "Clay County",
 		state: "Georgia",
 		population: 2853,
@@ -16765,7 +16765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13063",
+		id: "13063",
 		name: "Clayton County",
 		state: "Georgia",
 		population: 298771,
@@ -16805,7 +16805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13065",
+		id: "13065",
 		name: "Clinch County",
 		state: "Georgia",
 		population: 6722,
@@ -16845,7 +16845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13067",
+		id: "13067",
 		name: "Cobb County",
 		state: "Georgia",
 		population: 769152,
@@ -16885,7 +16885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13069",
+		id: "13069",
 		name: "Coffee County",
 		state: "Georgia",
 		population: 43161,
@@ -16925,7 +16925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13071",
+		id: "13071",
 		name: "Colquitt County",
 		state: "Georgia",
 		population: 45907,
@@ -16965,7 +16965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13073",
+		id: "13073",
 		name: "Columbia County",
 		state: "Georgia",
 		population: 159638,
@@ -17005,7 +17005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13075",
+		id: "13075",
 		name: "Cook County",
 		state: "Georgia",
 		population: 17363,
@@ -17045,7 +17045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13077",
+		id: "13077",
 		name: "Coweta County",
 		state: "Georgia",
 		population: 150071,
@@ -17085,7 +17085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13079",
+		id: "13079",
 		name: "Crawford County",
 		state: "Georgia",
 		population: 12183,
@@ -17125,7 +17125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13081",
+		id: "13081",
 		name: "Crisp County",
 		state: "Georgia",
 		population: 19995,
@@ -17165,7 +17165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13083",
+		id: "13083",
 		name: "Dade County",
 		state: "Georgia",
 		population: 16196,
@@ -17205,7 +17205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13085",
+		id: "13085",
 		name: "Dawson County",
 		state: "Georgia",
 		population: 28704,
@@ -17245,7 +17245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13087",
+		id: "13087",
 		name: "Decatur County",
 		state: "Georgia",
 		population: 29118,
@@ -17285,7 +17285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13089",
+		id: "13089",
 		name: "DeKalb County",
 		state: "Georgia",
 		population: 762105,
@@ -17325,7 +17325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13091",
+		id: "13091",
 		name: "Dodge County",
 		state: "Georgia",
 		population: 19909,
@@ -17365,7 +17365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13093",
+		id: "13093",
 		name: "Dooly County",
 		state: "Georgia",
 		population: 11026,
@@ -17405,7 +17405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13095",
+		id: "13095",
 		name: "Dougherty County",
 		state: "Georgia",
 		population: 83915,
@@ -17445,7 +17445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13097",
+		id: "13097",
 		name: "Douglas County",
 		state: "Georgia",
 		population: 146141,
@@ -17485,7 +17485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13099",
+		id: "13099",
 		name: "Early County",
 		state: "Georgia",
 		population: 10683,
@@ -17525,7 +17525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13101",
+		id: "13101",
 		name: "Echols County",
 		state: "Georgia",
 		population: 3705,
@@ -17565,7 +17565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13103",
+		id: "13103",
 		name: "Effingham County",
 		state: "Georgia",
 		population: 67265,
@@ -17605,7 +17605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13105",
+		id: "13105",
 		name: "Elbert County",
 		state: "Georgia",
 		population: 19725,
@@ -17645,7 +17645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13107",
+		id: "13107",
 		name: "Emanuel County",
 		state: "Georgia",
 		population: 22961,
@@ -17685,7 +17685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13109",
+		id: "13109",
 		name: "Evans County",
 		state: "Georgia",
 		population: 10740,
@@ -17725,7 +17725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13111",
+		id: "13111",
 		name: "Fannin County",
 		state: "Georgia",
 		population: 25605,
@@ -17765,7 +17765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13113",
+		id: "13113",
 		name: "Fayette County",
 		state: "Georgia",
 		population: 120689,
@@ -17805,7 +17805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13115",
+		id: "13115",
 		name: "Floyd County",
 		state: "Georgia",
 		population: 98985,
@@ -17845,7 +17845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13117",
+		id: "13117",
 		name: "Forsyth County",
 		state: "Georgia",
 		population: 260062,
@@ -17885,7 +17885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13119",
+		id: "13119",
 		name: "Franklin County",
 		state: "Georgia",
 		population: 23840,
@@ -17925,7 +17925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13121",
+		id: "13121",
 		name: "Fulton County",
 		state: "Georgia",
 		population: 1068507,
@@ -17965,7 +17965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13123",
+		id: "13123",
 		name: "Gilmer County",
 		state: "Georgia",
 		population: 31976,
@@ -18005,7 +18005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13125",
+		id: "13125",
 		name: "Glascock County",
 		state: "Georgia",
 		population: 2913,
@@ -18045,7 +18045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13127",
+		id: "13127",
 		name: "Glynn County",
 		state: "Georgia",
 		population: 84987,
@@ -18085,7 +18085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13129",
+		id: "13129",
 		name: "Gordon County",
 		state: "Georgia",
 		population: 58336,
@@ -18125,7 +18125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13131",
+		id: "13131",
 		name: "Grady County",
 		state: "Georgia",
 		population: 26056,
@@ -18165,7 +18165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13133",
+		id: "13133",
 		name: "Greene County",
 		state: "Georgia",
 		population: 19586,
@@ -18205,7 +18205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13135",
+		id: "13135",
 		name: "Gwinnett County",
 		state: "Georgia",
 		population: 966972,
@@ -18245,7 +18245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13137",
+		id: "13137",
 		name: "Habersham County",
 		state: "Georgia",
 		population: 46948,
@@ -18285,7 +18285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13139",
+		id: "13139",
 		name: "Hall County",
 		state: "Georgia",
 		population: 208395,
@@ -18325,7 +18325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13141",
+		id: "13141",
 		name: "Hancock County",
 		state: "Georgia",
 		population: 8630,
@@ -18365,7 +18365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13143",
+		id: "13143",
 		name: "Haralson County",
 		state: "Georgia",
 		population: 30720,
@@ -18405,7 +18405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13145",
+		id: "13145",
 		name: "Harris County",
 		state: "Georgia",
 		population: 35509,
@@ -18445,7 +18445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13147",
+		id: "13147",
 		name: "Hart County",
 		state: "Georgia",
 		population: 26484,
@@ -18485,7 +18485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13149",
+		id: "13149",
 		name: "Heard County",
 		state: "Georgia",
 		population: 11616,
@@ -18525,7 +18525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13151",
+		id: "13151",
 		name: "Henry County",
 		state: "Georgia",
 		population: 245417,
@@ -18565,7 +18565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13153",
+		id: "13153",
 		name: "Houston County",
 		state: "Georgia",
 		population: 166902,
@@ -18605,7 +18605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13155",
+		id: "13155",
 		name: "Irwin County",
 		state: "Georgia",
 		population: 9385,
@@ -18645,7 +18645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13157",
+		id: "13157",
 		name: "Jackson County",
 		state: "Georgia",
 		population: 80640,
@@ -18685,7 +18685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13159",
+		id: "13159",
 		name: "Jasper County",
 		state: "Georgia",
 		population: 15345,
@@ -18725,7 +18725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13161",
+		id: "13161",
 		name: "Jeff Davis County",
 		state: "Georgia",
 		population: 14838,
@@ -18765,7 +18765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13163",
+		id: "13163",
 		name: "Jefferson County",
 		state: "Georgia",
 		population: 15468,
@@ -18805,7 +18805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13165",
+		id: "13165",
 		name: "Jenkins County",
 		state: "Georgia",
 		population: 8674,
@@ -18845,7 +18845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13167",
+		id: "13167",
 		name: "Johnson County",
 		state: "Georgia",
 		population: 9192,
@@ -18885,7 +18885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13169",
+		id: "13169",
 		name: "Jones County",
 		state: "Georgia",
 		population: 28526,
@@ -18925,7 +18925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13171",
+		id: "13171",
 		name: "Lamar County",
 		state: "Georgia",
 		population: 19098,
@@ -18965,7 +18965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13173",
+		id: "13173",
 		name: "Lanier County",
 		state: "Georgia",
 		population: 10094,
@@ -19005,7 +19005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13175",
+		id: "13175",
 		name: "Laurens County",
 		state: "Georgia",
 		population: 49619,
@@ -19045,7 +19045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13177",
+		id: "13177",
 		name: "Lee County",
 		state: "Georgia",
 		population: 33337,
@@ -19085,7 +19085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13179",
+		id: "13179",
 		name: "Liberty County",
 		state: "Georgia",
 		population: 66826,
@@ -19125,7 +19125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13181",
+		id: "13181",
 		name: "Lincoln County",
 		state: "Georgia",
 		population: 7773,
@@ -19165,7 +19165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13183",
+		id: "13183",
 		name: "Long County",
 		state: "Georgia",
 		population: 17512,
@@ -19205,7 +19205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13185",
+		id: "13185",
 		name: "Lowndes County",
 		state: "Georgia",
 		population: 119055,
@@ -19245,7 +19245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13187",
+		id: "13187",
 		name: "Lumpkin County",
 		state: "Georgia",
 		population: 33931,
@@ -19285,7 +19285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13189",
+		id: "13189",
 		name: "McDuffie County",
 		state: "Georgia",
 		population: 21687,
@@ -19325,7 +19325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13191",
+		id: "13191",
 		name: "McIntosh County",
 		state: "Georgia",
 		population: 11187,
@@ -19365,7 +19365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13193",
+		id: "13193",
 		name: "Macon County",
 		state: "Georgia",
 		population: 11953,
@@ -19405,7 +19405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13195",
+		id: "13195",
 		name: "Madison County",
 		state: "Georgia",
 		population: 30914,
@@ -19445,7 +19445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13197",
+		id: "13197",
 		name: "Marion County",
 		state: "Georgia",
 		population: 7474,
@@ -19485,7 +19485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13199",
+		id: "13199",
 		name: "Meriwether County",
 		state: "Georgia",
 		population: 20757,
@@ -19525,7 +19525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13201",
+		id: "13201",
 		name: "Miller County",
 		state: "Georgia",
 		population: 5873,
@@ -19565,7 +19565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13205",
+		id: "13205",
 		name: "Mitchell County",
 		state: "Georgia",
 		population: 21441,
@@ -19605,7 +19605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13207",
+		id: "13207",
 		name: "Monroe County",
 		state: "Georgia",
 		population: 28919,
@@ -19645,7 +19645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13209",
+		id: "13209",
 		name: "Montgomery County",
 		state: "Georgia",
 		population: 8675,
@@ -19685,7 +19685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13211",
+		id: "13211",
 		name: "Morgan County",
 		state: "Georgia",
 		population: 20614,
@@ -19725,7 +19725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13213",
+		id: "13213",
 		name: "Murray County",
 		state: "Georgia",
 		population: 40282,
@@ -19765,7 +19765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13215",
+		id: "13215",
 		name: "Muscogee County",
 		state: "Georgia",
 		population: 204383,
@@ -19805,7 +19805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13217",
+		id: "13217",
 		name: "Newton County",
 		state: "Georgia",
 		population: 115530,
@@ -19845,7 +19845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13219",
+		id: "13219",
 		name: "Oconee County",
 		state: "Georgia",
 		population: 42788,
@@ -19885,7 +19885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13221",
+		id: "13221",
 		name: "Oglethorpe County",
 		state: "Georgia",
 		population: 15221,
@@ -19925,7 +19925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13223",
+		id: "13223",
 		name: "Paulding County",
 		state: "Georgia",
 		population: 174292,
@@ -19965,7 +19965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13225",
+		id: "13225",
 		name: "Peach County",
 		state: "Georgia",
 		population: 28269,
@@ -20005,7 +20005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13227",
+		id: "13227",
 		name: "Pickens County",
 		state: "Georgia",
 		population: 34197,
@@ -20045,7 +20045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13229",
+		id: "13229",
 		name: "Pierce County",
 		state: "Georgia",
 		population: 19996,
@@ -20085,7 +20085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13231",
+		id: "13231",
 		name: "Pike County",
 		state: "Georgia",
 		population: 19540,
@@ -20125,7 +20125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13233",
+		id: "13233",
 		name: "Polk County",
 		state: "Georgia",
 		population: 43365,
@@ -20165,7 +20165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13235",
+		id: "13235",
 		name: "Pulaski County",
 		state: "Georgia",
 		population: 9893,
@@ -20205,7 +20205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13237",
+		id: "13237",
 		name: "Putnam County",
 		state: "Georgia",
 		population: 22524,
@@ -20245,7 +20245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13239",
+		id: "13239",
 		name: "Quitman County",
 		state: "Georgia",
 		population: 2092,
@@ -20285,7 +20285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13241",
+		id: "13241",
 		name: "Rabun County",
 		state: "Georgia",
 		population: 17107,
@@ -20325,7 +20325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13243",
+		id: "13243",
 		name: "Randolph County",
 		state: "Georgia",
 		population: 6270,
@@ -20365,7 +20365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13245",
+		id: "13245",
 		name: "Richmond County",
 		state: "Georgia",
 		population: 206040,
@@ -20405,7 +20405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13247",
+		id: "13247",
 		name: "Rockdale County",
 		state: "Georgia",
 		population: 94293,
@@ -20445,7 +20445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13249",
+		id: "13249",
 		name: "Schley County",
 		state: "Georgia",
 		population: 4539,
@@ -20485,7 +20485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13251",
+		id: "13251",
 		name: "Screven County",
 		state: "Georgia",
 		population: 14057,
@@ -20525,7 +20525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13253",
+		id: "13253",
 		name: "Seminole County",
 		state: "Georgia",
 		population: 9117,
@@ -20565,7 +20565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13255",
+		id: "13255",
 		name: "Spalding County",
 		state: "Georgia",
 		population: 68215,
@@ -20605,7 +20605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13257",
+		id: "13257",
 		name: "Stephens County",
 		state: "Georgia",
 		population: 26842,
@@ -20645,7 +20645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13259",
+		id: "13259",
 		name: "Stewart County",
 		state: "Georgia",
 		population: 4978,
@@ -20685,7 +20685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13261",
+		id: "13261",
 		name: "Sumter County",
 		state: "Georgia",
 		population: 29174,
@@ -20725,7 +20725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13263",
+		id: "13263",
 		name: "Talbot County",
 		state: "Georgia",
 		population: 5753,
@@ -20765,7 +20765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13265",
+		id: "13265",
 		name: "Taliaferro County",
 		state: "Georgia",
 		population: 1740,
@@ -20805,7 +20805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13267",
+		id: "13267",
 		name: "Tattnall County",
 		state: "Georgia",
 		population: 24215,
@@ -20845,7 +20845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13269",
+		id: "13269",
 		name: "Taylor County",
 		state: "Georgia",
 		population: 7786,
@@ -20885,7 +20885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13271",
+		id: "13271",
 		name: "Telfair County",
 		state: "Georgia",
 		population: 12174,
@@ -20925,7 +20925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13273",
+		id: "13273",
 		name: "Terrell County",
 		state: "Georgia",
 		population: 8941,
@@ -20965,7 +20965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13275",
+		id: "13275",
 		name: "Thomas County",
 		state: "Georgia",
 		population: 45696,
@@ -21005,7 +21005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13277",
+		id: "13277",
 		name: "Tift County",
 		state: "Georgia",
 		population: 41322,
@@ -21045,7 +21045,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13279",
+		id: "13279",
 		name: "Toombs County",
 		state: "Georgia",
 		population: 26943,
@@ -21085,7 +21085,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13281",
+		id: "13281",
 		name: "Towns County",
 		state: "Georgia",
 		population: 12739,
@@ -21125,7 +21125,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13283",
+		id: "13283",
 		name: "Treutlen County",
 		state: "Georgia",
 		population: 6387,
@@ -21165,7 +21165,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13285",
+		id: "13285",
 		name: "Troup County",
 		state: "Georgia",
 		population: 69821,
@@ -21205,7 +21205,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13287",
+		id: "13287",
 		name: "Turner County",
 		state: "Georgia",
 		population: 8915,
@@ -21245,7 +21245,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13289",
+		id: "13289",
 		name: "Twiggs County",
 		state: "Georgia",
 		population: 7869,
@@ -21285,7 +21285,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13291",
+		id: "13291",
 		name: "Union County",
 		state: "Georgia",
 		population: 25598,
@@ -21325,7 +21325,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13293",
+		id: "13293",
 		name: "Upson County",
 		state: "Georgia",
 		population: 27856,
@@ -21365,7 +21365,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13295",
+		id: "13295",
 		name: "Walker County",
 		state: "Georgia",
 		population: 68449,
@@ -21405,7 +21405,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13297",
+		id: "13297",
 		name: "Walton County",
 		state: "Georgia",
 		population: 100361,
@@ -21445,7 +21445,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13299",
+		id: "13299",
 		name: "Ware County",
 		state: "Georgia",
 		population: 35958,
@@ -21485,7 +21485,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13301",
+		id: "13301",
 		name: "Warren County",
 		state: "Georgia",
 		population: 5175,
@@ -21525,7 +21525,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13303",
+		id: "13303",
 		name: "Washington County",
 		state: "Georgia",
 		population: 19893,
@@ -21565,7 +21565,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13305",
+		id: "13305",
 		name: "Wayne County",
 		state: "Georgia",
 		population: 30519,
@@ -21605,7 +21605,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13307",
+		id: "13307",
 		name: "Webster County",
 		state: "Georgia",
 		population: 2348,
@@ -21645,7 +21645,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13309",
+		id: "13309",
 		name: "Wheeler County",
 		state: "Georgia",
 		population: 7434,
@@ -21685,7 +21685,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13311",
+		id: "13311",
 		name: "White County",
 		state: "Georgia",
 		population: 28454,
@@ -21725,7 +21725,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13313",
+		id: "13313",
 		name: "Whitfield County",
 		state: "Georgia",
 		population: 103118,
@@ -21765,7 +21765,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13315",
+		id: "13315",
 		name: "Wilcox County",
 		state: "Georgia",
 		population: 8784,
@@ -21805,7 +21805,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13317",
+		id: "13317",
 		name: "Wilkes County",
 		state: "Georgia",
 		population: 9553,
@@ -21845,7 +21845,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13319",
+		id: "13319",
 		name: "Wilkinson County",
 		state: "Georgia",
 		population: 8795,
@@ -21885,7 +21885,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "13321",
+		id: "13321",
 		name: "Worth County",
 		state: "Georgia",
 		population: 20575,
@@ -21925,7 +21925,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "15001",
+		id: "15001",
 		name: "Hawaii County",
 		state: "Hawaii",
 		population: 203684,
@@ -21965,7 +21965,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "15003",
+		id: "15003",
 		name: "Honolulu County",
 		state: "Hawaii",
 		population: 1003666,
@@ -22005,7 +22005,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "15005",
+		id: "15005",
 		name: "Kalawao County",
 		state: "Hawaii",
 		population: 43,
@@ -22044,7 +22044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "15007",
+		id: "15007",
 		name: "Kauai County",
 		state: "Hawaii",
 		population: 73610,
@@ -22084,7 +22084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "15009",
+		id: "15009",
 		name: "Maui County",
 		state: "Hawaii",
 		population: 164632,
@@ -22124,7 +22124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16001",
+		id: "16001",
 		name: "Ada County",
 		state: "Idaho",
 		population: 508052,
@@ -22164,7 +22164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16003",
+		id: "16003",
 		name: "Adams County",
 		state: "Idaho",
 		population: 4599,
@@ -22204,7 +22204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16005",
+		id: "16005",
 		name: "Bannock County",
 		state: "Idaho",
 		population: 88457,
@@ -22244,7 +22244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16007",
+		id: "16007",
 		name: "Bear Lake County",
 		state: "Idaho",
 		population: 6552,
@@ -22284,7 +22284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16009",
+		id: "16009",
 		name: "Benewah County",
 		state: "Idaho",
 		population: 9913,
@@ -22324,7 +22324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16011",
+		id: "16011",
 		name: "Bingham County",
 		state: "Idaho",
 		population: 48993,
@@ -22364,7 +22364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16013",
+		id: "16013",
 		name: "Blaine County",
 		state: "Idaho",
 		population: 24579,
@@ -22404,7 +22404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16015",
+		id: "16015",
 		name: "Boise County",
 		state: "Idaho",
 		population: 8045,
@@ -22444,7 +22444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16017",
+		id: "16017",
 		name: "Bonner County",
 		state: "Idaho",
 		population: 49456,
@@ -22484,7 +22484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16019",
+		id: "16019",
 		name: "Bonneville County",
 		state: "Idaho",
 		population: 127056,
@@ -22524,7 +22524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16021",
+		id: "16021",
 		name: "Boundary County",
 		state: "Idaho",
 		population: 12695,
@@ -22564,7 +22564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16023",
+		id: "16023",
 		name: "Butte County",
 		state: "Idaho",
 		population: 2654,
@@ -22604,7 +22604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16025",
+		id: "16025",
 		name: "Camas County",
 		state: "Idaho",
 		population: 1155,
@@ -22644,7 +22644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16027",
+		id: "16027",
 		name: "Canyon County",
 		state: "Idaho",
 		population: 242405,
@@ -22684,7 +22684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16029",
+		id: "16029",
 		name: "Caribou County",
 		state: "Idaho",
 		population: 7118,
@@ -22724,7 +22724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16031",
+		id: "16031",
 		name: "Cassia County",
 		state: "Idaho",
 		population: 25165,
@@ -22764,7 +22764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16033",
+		id: "16033",
 		name: "Clark County",
 		state: "Idaho",
 		population: 776,
@@ -22804,7 +22804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16035",
+		id: "16035",
 		name: "Clearwater County",
 		state: "Idaho",
 		population: 8921,
@@ -22844,7 +22844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16037",
+		id: "16037",
 		name: "Custer County",
 		state: "Idaho",
 		population: 4411,
@@ -22884,7 +22884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16039",
+		id: "16039",
 		name: "Elmore County",
 		state: "Idaho",
 		population: 29046,
@@ -22924,7 +22924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16041",
+		id: "16041",
 		name: "Franklin County",
 		state: "Idaho",
 		population: 14715,
@@ -22964,7 +22964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16043",
+		id: "16043",
 		name: "Fremont County",
 		state: "Idaho",
 		population: 13701,
@@ -23004,7 +23004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16045",
+		id: "16045",
 		name: "Gem County",
 		state: "Idaho",
 		population: 19854,
@@ -23044,7 +23044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16047",
+		id: "16047",
 		name: "Gooding County",
 		state: "Idaho",
 		population: 15740,
@@ -23084,7 +23084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16049",
+		id: "16049",
 		name: "Idaho County",
 		state: "Idaho",
 		population: 17120,
@@ -23124,7 +23124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16051",
+		id: "16051",
 		name: "Jefferson County",
 		state: "Idaho",
 		population: 32234,
@@ -23164,7 +23164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16053",
+		id: "16053",
 		name: "Jerome County",
 		state: "Idaho",
 		population: 24788,
@@ -23204,7 +23204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16055",
+		id: "16055",
 		name: "Kootenai County",
 		state: "Idaho",
 		population: 177736,
@@ -23244,7 +23244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16057",
+		id: "16057",
 		name: "Latah County",
 		state: "Idaho",
 		population: 40315,
@@ -23284,7 +23284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16059",
+		id: "16059",
 		name: "Lemhi County",
 		state: "Idaho",
 		population: 8166,
@@ -23324,7 +23324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16061",
+		id: "16061",
 		name: "Lewis County",
 		state: "Idaho",
 		population: 3649,
@@ -23364,7 +23364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16063",
+		id: "16063",
 		name: "Lincoln County",
 		state: "Idaho",
 		population: 5276,
@@ -23404,7 +23404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16065",
+		id: "16065",
 		name: "Madison County",
 		state: "Idaho",
 		population: 53578,
@@ -23444,7 +23444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16067",
+		id: "16067",
 		name: "Minidoka County",
 		state: "Idaho",
 		population: 21922,
@@ -23484,7 +23484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16069",
+		id: "16069",
 		name: "Nez Perce County",
 		state: "Idaho",
 		population: 42477,
@@ -23524,7 +23524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16071",
+		id: "16071",
 		name: "Oneida County",
 		state: "Idaho",
 		population: 4681,
@@ -23564,7 +23564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16073",
+		id: "16073",
 		name: "Owyhee County",
 		state: "Idaho",
 		population: 12284,
@@ -23604,7 +23604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16075",
+		id: "16075",
 		name: "Payette County",
 		state: "Idaho",
 		population: 26190,
@@ -23644,7 +23644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16077",
+		id: "16077",
 		name: "Power County",
 		state: "Idaho",
 		population: 8018,
@@ -23684,7 +23684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16079",
+		id: "16079",
 		name: "Shoshone County",
 		state: "Idaho",
 		population: 13580,
@@ -23724,7 +23724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16081",
+		id: "16081",
 		name: "Teton County",
 		state: "Idaho",
 		population: 12101,
@@ -23764,7 +23764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16083",
+		id: "16083",
 		name: "Twin Falls County",
 		state: "Idaho",
 		population: 92121,
@@ -23804,7 +23804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16085",
+		id: "16085",
 		name: "Valley County",
 		state: "Idaho",
 		population: 12136,
@@ -23844,7 +23844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "16087",
+		id: "16087",
 		name: "Washington County",
 		state: "Idaho",
 		population: 10866,
@@ -23884,7 +23884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17001",
+		id: "17001",
 		name: "Adams County",
 		state: "Illinois",
 		population: 65166,
@@ -23924,7 +23924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17003",
+		id: "17003",
 		name: "Alexander County",
 		state: "Illinois",
 		population: 5042,
@@ -23964,7 +23964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17005",
+		id: "17005",
 		name: "Bond County",
 		state: "Illinois",
 		population: 16627,
@@ -24004,7 +24004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17007",
+		id: "17007",
 		name: "Boone County",
 		state: "Illinois",
 		population: 53316,
@@ -24044,7 +24044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17009",
+		id: "17009",
 		name: "Brown County",
 		state: "Illinois",
 		population: 6320,
@@ -24084,7 +24084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17011",
+		id: "17011",
 		name: "Bureau County",
 		state: "Illinois",
 		population: 33027,
@@ -24124,7 +24124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17013",
+		id: "17013",
 		name: "Calhoun County",
 		state: "Illinois",
 		population: 4406,
@@ -24164,7 +24164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17015",
+		id: "17015",
 		name: "Carroll County",
 		state: "Illinois",
 		population: 15621,
@@ -24204,7 +24204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17017",
+		id: "17017",
 		name: "Cass County",
 		state: "Illinois",
 		population: 12826,
@@ -24244,7 +24244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17019",
+		id: "17019",
 		name: "Champaign County",
 		state: "Illinois",
 		population: 206098,
@@ -24284,7 +24284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17021",
+		id: "17021",
 		name: "Christian County",
 		state: "Illinois",
 		population: 33684,
@@ -24324,7 +24324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17023",
+		id: "17023",
 		name: "Clark County",
 		state: "Illinois",
 		population: 15328,
@@ -24364,7 +24364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17025",
+		id: "17025",
 		name: "Clay County",
 		state: "Illinois",
 		population: 13173,
@@ -24404,7 +24404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17027",
+		id: "17027",
 		name: "Clinton County",
 		state: "Illinois",
 		population: 36899,
@@ -24444,7 +24444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17029",
+		id: "17029",
 		name: "Coles County",
 		state: "Illinois",
 		population: 46689,
@@ -24484,7 +24484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17031",
+		id: "17031",
 		name: "Cook County",
 		state: "Illinois",
 		population: 5185812,
@@ -24524,7 +24524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17033",
+		id: "17033",
 		name: "Crawford County",
 		state: "Illinois",
 		population: 18588,
@@ -24564,7 +24564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17035",
+		id: "17035",
 		name: "Cumberland County",
 		state: "Illinois",
 		population: 10378,
@@ -24604,7 +24604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17037",
+		id: "17037",
 		name: "DeKalb County",
 		state: "Illinois",
 		population: 100512,
@@ -24644,7 +24644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17039",
+		id: "17039",
 		name: "De Witt County",
 		state: "Illinois",
 		population: 15461,
@@ -24684,7 +24684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17041",
+		id: "17041",
 		name: "Douglas County",
 		state: "Illinois",
 		population: 19686,
@@ -24724,7 +24724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17043",
+		id: "17043",
 		name: "DuPage County",
 		state: "Illinois",
 		population: 927263,
@@ -24764,7 +24764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17045",
+		id: "17045",
 		name: "Edgar County",
 		state: "Illinois",
 		population: 16637,
@@ -24804,7 +24804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17047",
+		id: "17047",
 		name: "Edwards County",
 		state: "Illinois",
 		population: 6118,
@@ -24844,7 +24844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17049",
+		id: "17049",
 		name: "Effingham County",
 		state: "Illinois",
 		population: 34505,
@@ -24884,7 +24884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17051",
+		id: "17051",
 		name: "Fayette County",
 		state: "Illinois",
 		population: 21380,
@@ -24924,7 +24924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17053",
+		id: "17053",
 		name: "Ford County",
 		state: "Illinois",
 		population: 13396,
@@ -24964,7 +24964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17055",
+		id: "17055",
 		name: "Franklin County",
 		state: "Illinois",
 		population: 37541,
@@ -25004,7 +25004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17057",
+		id: "17057",
 		name: "Fulton County",
 		state: "Illinois",
 		population: 33259,
@@ -25044,7 +25044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17059",
+		id: "17059",
 		name: "Gallatin County",
 		state: "Illinois",
 		population: 4857,
@@ -25084,7 +25084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17061",
+		id: "17061",
 		name: "Greene County",
 		state: "Illinois",
 		population: 11837,
@@ -25124,7 +25124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17063",
+		id: "17063",
 		name: "Grundy County",
 		state: "Illinois",
 		population: 52920,
@@ -25164,7 +25164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17065",
+		id: "17065",
 		name: "Hamilton County",
 		state: "Illinois",
 		population: 7972,
@@ -25204,7 +25204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17067",
+		id: "17067",
 		name: "Hancock County",
 		state: "Illinois",
 		population: 17434,
@@ -25244,7 +25244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17069",
+		id: "17069",
 		name: "Hardin County",
 		state: "Illinois",
 		population: 3623,
@@ -25284,7 +25284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17071",
+		id: "17071",
 		name: "Henderson County",
 		state: "Illinois",
 		population: 6284,
@@ -25324,7 +25324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17073",
+		id: "17073",
 		name: "Henry County",
 		state: "Illinois",
 		population: 48948,
@@ -25364,7 +25364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17075",
+		id: "17075",
 		name: "Iroquois County",
 		state: "Illinois",
 		population: 26746,
@@ -25404,7 +25404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17077",
+		id: "17077",
 		name: "Jackson County",
 		state: "Illinois",
 		population: 52706,
@@ -25444,7 +25444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17079",
+		id: "17079",
 		name: "Jasper County",
 		state: "Illinois",
 		population: 9233,
@@ -25484,7 +25484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17081",
+		id: "17081",
 		name: "Jefferson County",
 		state: "Illinois",
 		population: 36808,
@@ -25524,7 +25524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17083",
+		id: "17083",
 		name: "Jersey County",
 		state: "Illinois",
 		population: 21336,
@@ -25564,7 +25564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17085",
+		id: "17085",
 		name: "Jo Daviess County",
 		state: "Illinois",
 		population: 21918,
@@ -25604,7 +25604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17087",
+		id: "17087",
 		name: "Johnson County",
 		state: "Illinois",
 		population: 13350,
@@ -25644,7 +25644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17089",
+		id: "17089",
 		name: "Kane County",
 		state: "Illinois",
 		population: 516097,
@@ -25684,7 +25684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17091",
+		id: "17091",
 		name: "Kankakee County",
 		state: "Illinois",
 		population: 106833,
@@ -25724,7 +25724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17093",
+		id: "17093",
 		name: "Kendall County",
 		state: "Illinois",
 		population: 135053,
@@ -25764,7 +25764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17095",
+		id: "17095",
 		name: "Knox County",
 		state: "Illinois",
 		population: 49294,
@@ -25804,7 +25804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17097",
+		id: "17097",
 		name: "Lake County",
 		state: "Illinois",
 		population: 711885,
@@ -25844,7 +25844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17099",
+		id: "17099",
 		name: "LaSalle County",
 		state: "Illinois",
 		population: 109049,
@@ -25884,7 +25884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17101",
+		id: "17101",
 		name: "Lawrence County",
 		state: "Illinois",
 		population: 15137,
@@ -25924,7 +25924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17103",
+		id: "17103",
 		name: "Lee County",
 		state: "Illinois",
 		population: 34058,
@@ -25964,7 +25964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17105",
+		id: "17105",
 		name: "Livingston County",
 		state: "Illinois",
 		population: 35659,
@@ -26004,7 +26004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17107",
+		id: "17107",
 		name: "Logan County",
 		state: "Illinois",
 		population: 27870,
@@ -26044,7 +26044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17109",
+		id: "17109",
 		name: "McDonough County",
 		state: "Illinois",
 		population: 27102,
@@ -26084,7 +26084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17111",
+		id: "17111",
 		name: "McHenry County",
 		state: "Illinois",
 		population: 311366,
@@ -26124,7 +26124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17113",
+		id: "17113",
 		name: "McLean County",
 		state: "Illinois",
 		population: 170882,
@@ -26164,7 +26164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17115",
+		id: "17115",
 		name: "Macon County",
 		state: "Illinois",
 		population: 102591,
@@ -26204,7 +26204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17117",
+		id: "17117",
 		name: "Macoupin County",
 		state: "Illinois",
 		population: 44566,
@@ -26244,7 +26244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17119",
+		id: "17119",
 		name: "Madison County",
 		state: "Illinois",
 		population: 264631,
@@ -26284,7 +26284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17121",
+		id: "17121",
 		name: "Marion County",
 		state: "Illinois",
 		population: 37294,
@@ -26324,7 +26324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17123",
+		id: "17123",
 		name: "Marshall County",
 		state: "Illinois",
 		population: 11715,
@@ -26364,7 +26364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17125",
+		id: "17125",
 		name: "Mason County",
 		state: "Illinois",
 		population: 12878,
@@ -26404,7 +26404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17127",
+		id: "17127",
 		name: "Massac County",
 		state: "Illinois",
 		population: 13958,
@@ -26444,7 +26444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17129",
+		id: "17129",
 		name: "Menard County",
 		state: "Illinois",
 		population: 12169,
@@ -26484,7 +26484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17131",
+		id: "17131",
 		name: "Mercer County",
 		state: "Illinois",
 		population: 15619,
@@ -26524,7 +26524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17133",
+		id: "17133",
 		name: "Monroe County",
 		state: "Illinois",
 		population: 34969,
@@ -26564,7 +26564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17135",
+		id: "17135",
 		name: "Montgomery County",
 		state: "Illinois",
 		population: 28078,
@@ -26604,7 +26604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17137",
+		id: "17137",
 		name: "Morgan County",
 		state: "Illinois",
 		population: 32621,
@@ -26644,7 +26644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17139",
+		id: "17139",
 		name: "Moultrie County",
 		state: "Illinois",
 		population: 14469,
@@ -26684,7 +26684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17141",
+		id: "17141",
 		name: "Ogle County",
 		state: "Illinois",
 		population: 51536,
@@ -26724,7 +26724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17143",
+		id: "17143",
 		name: "Peoria County",
 		state: "Illinois",
 		population: 179831,
@@ -26764,7 +26764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17145",
+		id: "17145",
 		name: "Perry County",
 		state: "Illinois",
 		population: 20810,
@@ -26804,7 +26804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17147",
+		id: "17147",
 		name: "Piatt County",
 		state: "Illinois",
 		population: 16702,
@@ -26844,7 +26844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17149",
+		id: "17149",
 		name: "Pike County",
 		state: "Illinois",
 		population: 14625,
@@ -26884,7 +26884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17151",
+		id: "17151",
 		name: "Pope County",
 		state: "Illinois",
 		population: 3757,
@@ -26924,7 +26924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17153",
+		id: "17153",
 		name: "Pulaski County",
 		state: "Illinois",
 		population: 5074,
@@ -26964,7 +26964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17155",
+		id: "17155",
 		name: "Putnam County",
 		state: "Illinois",
 		population: 5600,
@@ -27004,7 +27004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17157",
+		id: "17157",
 		name: "Randolph County",
 		state: "Illinois",
 		population: 30142,
@@ -27044,7 +27044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17159",
+		id: "17159",
 		name: "Richland County",
 		state: "Illinois",
 		population: 15675,
@@ -27084,7 +27084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17161",
+		id: "17161",
 		name: "Rock Island County",
 		state: "Illinois",
 		population: 142995,
@@ -27124,7 +27124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17163",
+		id: "17163",
 		name: "St. Clair County",
 		state: "Illinois",
 		population: 254777,
@@ -27164,7 +27164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17165",
+		id: "17165",
 		name: "Saline County",
 		state: "Illinois",
 		population: 23387,
@@ -27204,7 +27204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17167",
+		id: "17167",
 		name: "Sangamon County",
 		state: "Illinois",
 		population: 195217,
@@ -27244,7 +27244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17169",
+		id: "17169",
 		name: "Schuyler County",
 		state: "Illinois",
 		population: 6826,
@@ -27284,7 +27284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17171",
+		id: "17171",
 		name: "Scott County",
 		state: "Illinois",
 		population: 4847,
@@ -27324,7 +27324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17173",
+		id: "17173",
 		name: "Shelby County",
 		state: "Illinois",
 		population: 20867,
@@ -27364,7 +27364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17175",
+		id: "17175",
 		name: "Stark County",
 		state: "Illinois",
 		population: 5324,
@@ -27404,7 +27404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17177",
+		id: "17177",
 		name: "Stephenson County",
 		state: "Illinois",
 		population: 44042,
@@ -27444,7 +27444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17179",
+		id: "17179",
 		name: "Tazewell County",
 		state: "Illinois",
 		population: 130555,
@@ -27484,7 +27484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17181",
+		id: "17181",
 		name: "Union County",
 		state: "Illinois",
 		population: 16972,
@@ -27524,7 +27524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17183",
+		id: "17183",
 		name: "Vermilion County",
 		state: "Illinois",
 		population: 73179,
@@ -27564,7 +27564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17185",
+		id: "17185",
 		name: "Wabash County",
 		state: "Illinois",
 		population: 11199,
@@ -27604,7 +27604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17187",
+		id: "17187",
 		name: "Warren County",
 		state: "Illinois",
 		population: 16576,
@@ -27644,7 +27644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17189",
+		id: "17189",
 		name: "Washington County",
 		state: "Illinois",
 		population: 13682,
@@ -27684,7 +27684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17191",
+		id: "17191",
 		name: "Wayne County",
 		state: "Illinois",
 		population: 15994,
@@ -27724,7 +27724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17193",
+		id: "17193",
 		name: "White County",
 		state: "Illinois",
 		population: 13708,
@@ -27764,7 +27764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17195",
+		id: "17195",
 		name: "Whiteside County",
 		state: "Illinois",
 		population: 55192,
@@ -27804,7 +27804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17197",
+		id: "17197",
 		name: "Will County",
 		state: "Illinois",
 		population: 698450,
@@ -27844,7 +27844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17199",
+		id: "17199",
 		name: "Williamson County",
 		state: "Illinois",
 		population: 66902,
@@ -27884,7 +27884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17201",
+		id: "17201",
 		name: "Winnebago County",
 		state: "Illinois",
 		population: 283289,
@@ -27924,7 +27924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "17203",
+		id: "17203",
 		name: "Woodford County",
 		state: "Illinois",
 		population: 38348,
@@ -27964,7 +27964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18001",
+		id: "18001",
 		name: "Adams County",
 		state: "Indiana",
 		population: 35995,
@@ -28004,7 +28004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18003",
+		id: "18003",
 		name: "Allen County",
 		state: "Indiana",
 		population: 388791,
@@ -28044,7 +28044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18005",
+		id: "18005",
 		name: "Bartholomew County",
 		state: "Indiana",
 		population: 82881,
@@ -28084,7 +28084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18007",
+		id: "18007",
 		name: "Benton County",
 		state: "Indiana",
 		population: 8708,
@@ -28124,7 +28124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18009",
+		id: "18009",
 		name: "Blackford County",
 		state: "Indiana",
 		population: 12007,
@@ -28164,7 +28164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18011",
+		id: "18011",
 		name: "Boone County",
 		state: "Indiana",
 		population: 72827,
@@ -28204,7 +28204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18013",
+		id: "18013",
 		name: "Brown County",
 		state: "Indiana",
 		population: 15543,
@@ -28244,7 +28244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18015",
+		id: "18015",
 		name: "Carroll County",
 		state: "Indiana",
 		population: 20443,
@@ -28284,7 +28284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18017",
+		id: "18017",
 		name: "Cass County",
 		state: "Indiana",
 		population: 37703,
@@ -28324,7 +28324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18019",
+		id: "18019",
 		name: "Clark County",
 		state: "Indiana",
 		population: 122800,
@@ -28364,7 +28364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18021",
+		id: "18021",
 		name: "Clay County",
 		state: "Indiana",
 		population: 26431,
@@ -28404,7 +28404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18023",
+		id: "18023",
 		name: "Clinton County",
 		state: "Indiana",
 		population: 32967,
@@ -28444,7 +28444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18025",
+		id: "18025",
 		name: "Crawford County",
 		state: "Indiana",
 		population: 10494,
@@ -28484,7 +28484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18027",
+		id: "18027",
 		name: "Daviess County",
 		state: "Indiana",
 		population: 33442,
@@ -28524,7 +28524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18029",
+		id: "18029",
 		name: "Dearborn County",
 		state: "Indiana",
 		population: 50828,
@@ -28564,7 +28564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18031",
+		id: "18031",
 		name: "Decatur County",
 		state: "Indiana",
 		population: 26411,
@@ -28604,7 +28604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18033",
+		id: "18033",
 		name: "DeKalb County",
 		state: "Indiana",
 		population: 43584,
@@ -28644,7 +28644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18035",
+		id: "18035",
 		name: "Delaware County",
 		state: "Indiana",
 		population: 112109,
@@ -28684,7 +28684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18037",
+		id: "18037",
 		name: "Dubois County",
 		state: "Indiana",
 		population: 43563,
@@ -28724,7 +28724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18039",
+		id: "18039",
 		name: "Elkhart County",
 		state: "Indiana",
 		population: 206868,
@@ -28764,7 +28764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18041",
+		id: "18041",
 		name: "Fayette County",
 		state: "Indiana",
 		population: 23390,
@@ -28804,7 +28804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18043",
+		id: "18043",
 		name: "Floyd County",
 		state: "Indiana",
 		population: 80512,
@@ -28844,7 +28844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18045",
+		id: "18045",
 		name: "Fountain County",
 		state: "Indiana",
 		population: 16546,
@@ -28884,7 +28884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18047",
+		id: "18047",
 		name: "Franklin County",
 		state: "Indiana",
 		population: 22929,
@@ -28924,7 +28924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18049",
+		id: "18049",
 		name: "Fulton County",
 		state: "Indiana",
 		population: 20411,
@@ -28964,7 +28964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18051",
+		id: "18051",
 		name: "Gibson County",
 		state: "Indiana",
 		population: 32986,
@@ -29004,7 +29004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18053",
+		id: "18053",
 		name: "Grant County",
 		state: "Indiana",
 		population: 66377,
@@ -29044,7 +29044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18055",
+		id: "18055",
 		name: "Greene County",
 		state: "Indiana",
 		population: 30954,
@@ -29084,7 +29084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18057",
+		id: "18057",
 		name: "Hamilton County",
 		state: "Indiana",
 		population: 357176,
@@ -29124,7 +29124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18059",
+		id: "18059",
 		name: "Hancock County",
 		state: "Indiana",
 		population: 82013,
@@ -29164,7 +29164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18061",
+		id: "18061",
 		name: "Harrison County",
 		state: "Indiana",
 		population: 39785,
@@ -29204,7 +29204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18063",
+		id: "18063",
 		name: "Hendricks County",
 		state: "Indiana",
 		population: 179379,
@@ -29244,7 +29244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18065",
+		id: "18065",
 		name: "Henry County",
 		state: "Indiana",
 		population: 48896,
@@ -29284,7 +29284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18067",
+		id: "18067",
 		name: "Howard County",
 		state: "Indiana",
 		population: 83610,
@@ -29324,7 +29324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18069",
+		id: "18069",
 		name: "Huntington County",
 		state: "Indiana",
 		population: 36757,
@@ -29364,7 +29364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18071",
+		id: "18071",
 		name: "Jackson County",
 		state: "Indiana",
 		population: 46319,
@@ -29404,7 +29404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18073",
+		id: "18073",
 		name: "Jasper County",
 		state: "Indiana",
 		population: 33198,
@@ -29444,7 +29444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18075",
+		id: "18075",
 		name: "Jay County",
 		state: "Indiana",
 		population: 20281,
@@ -29484,7 +29484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18077",
+		id: "18077",
 		name: "Jefferson County",
 		state: "Indiana",
 		population: 33074,
@@ -29524,7 +29524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18079",
+		id: "18079",
 		name: "Jennings County",
 		state: "Indiana",
 		population: 27584,
@@ -29564,7 +29564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18081",
+		id: "18081",
 		name: "Johnson County",
 		state: "Indiana",
 		population: 163983,
@@ -29604,7 +29604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18083",
+		id: "18083",
 		name: "Knox County",
 		state: "Indiana",
 		population: 36108,
@@ -29644,7 +29644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18085",
+		id: "18085",
 		name: "Kosciusko County",
 		state: "Indiana",
 		population: 80357,
@@ -29684,7 +29684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18087",
+		id: "18087",
 		name: "LaGrange County",
 		state: "Indiana",
 		population: 40596,
@@ -29724,7 +29724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18089",
+		id: "18089",
 		name: "Lake County",
 		state: "Indiana",
 		population: 498990,
@@ -29764,7 +29764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18091",
+		id: "18091",
 		name: "LaPorte County",
 		state: "Indiana",
 		population: 112141,
@@ -29804,7 +29804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18093",
+		id: "18093",
 		name: "Lawrence County",
 		state: "Indiana",
 		population: 45077,
@@ -29844,7 +29844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18095",
+		id: "18095",
 		name: "Madison County",
 		state: "Indiana",
 		population: 130949,
@@ -29884,7 +29884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18097",
+		id: "18097",
 		name: "Marion County",
 		state: "Indiana",
 		population: 971822,
@@ -29924,7 +29924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18099",
+		id: "18099",
 		name: "Marshall County",
 		state: "Indiana",
 		population: 46225,
@@ -29964,7 +29964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18101",
+		id: "18101",
 		name: "Martin County",
 		state: "Indiana",
 		population: 9854,
@@ -30004,7 +30004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18103",
+		id: "18103",
 		name: "Miami County",
 		state: "Indiana",
 		population: 35772,
@@ -30044,7 +30044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18105",
+		id: "18105",
 		name: "Monroe County",
 		state: "Indiana",
 		population: 139822,
@@ -30084,7 +30084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18107",
+		id: "18107",
 		name: "Montgomery County",
 		state: "Indiana",
 		population: 38155,
@@ -30124,7 +30124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18109",
+		id: "18109",
 		name: "Morgan County",
 		state: "Indiana",
 		population: 72202,
@@ -30164,7 +30164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18111",
+		id: "18111",
 		name: "Newton County",
 		state: "Indiana",
 		population: 13859,
@@ -30204,7 +30204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18113",
+		id: "18113",
 		name: "Noble County",
 		state: "Indiana",
 		population: 47417,
@@ -30244,7 +30244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18115",
+		id: "18115",
 		name: "Ohio County",
 		state: "Indiana",
 		population: 5993,
@@ -30284,7 +30284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18117",
+		id: "18117",
 		name: "Orange County",
 		state: "Indiana",
 		population: 19746,
@@ -30324,7 +30324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18119",
+		id: "18119",
 		name: "Owen County",
 		state: "Indiana",
 		population: 21434,
@@ -30364,7 +30364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18121",
+		id: "18121",
 		name: "Parke County",
 		state: "Indiana",
 		population: 16346,
@@ -30404,7 +30404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18123",
+		id: "18123",
 		name: "Perry County",
 		state: "Indiana",
 		population: 19218,
@@ -30444,7 +30444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18125",
+		id: "18125",
 		name: "Pike County",
 		state: "Indiana",
 		population: 12187,
@@ -30484,7 +30484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18127",
+		id: "18127",
 		name: "Porter County",
 		state: "Indiana",
 		population: 174150,
@@ -30524,7 +30524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18129",
+		id: "18129",
 		name: "Posey County",
 		state: "Indiana",
 		population: 25163,
@@ -30564,7 +30564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18131",
+		id: "18131",
 		name: "Pulaski County",
 		state: "Indiana",
 		population: 12441,
@@ -30604,7 +30604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18133",
+		id: "18133",
 		name: "Putnam County",
 		state: "Indiana",
 		population: 37091,
@@ -30644,7 +30644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18135",
+		id: "18135",
 		name: "Randolph County",
 		state: "Indiana",
 		population: 24425,
@@ -30684,7 +30684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18137",
+		id: "18137",
 		name: "Ripley County",
 		state: "Indiana",
 		population: 29039,
@@ -30724,7 +30724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18139",
+		id: "18139",
 		name: "Rush County",
 		state: "Indiana",
 		population: 16734,
@@ -30764,7 +30764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18141",
+		id: "18141",
 		name: "St. Joseph County",
 		state: "Indiana",
 		population: 272574,
@@ -30804,7 +30804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18143",
+		id: "18143",
 		name: "Scott County",
 		state: "Indiana",
 		population: 24468,
@@ -30844,7 +30844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18145",
+		id: "18145",
 		name: "Shelby County",
 		state: "Indiana",
 		population: 45104,
@@ -30884,7 +30884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18147",
+		id: "18147",
 		name: "Spencer County",
 		state: "Indiana",
 		population: 19871,
@@ -30924,7 +30924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18149",
+		id: "18149",
 		name: "Starke County",
 		state: "Indiana",
 		population: 23300,
@@ -30964,7 +30964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18151",
+		id: "18151",
 		name: "Steuben County",
 		state: "Indiana",
 		population: 34648,
@@ -31004,7 +31004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18153",
+		id: "18153",
 		name: "Sullivan County",
 		state: "Indiana",
 		population: 20766,
@@ -31044,7 +31044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18155",
+		id: "18155",
 		name: "Switzerland County",
 		state: "Indiana",
 		population: 9914,
@@ -31084,7 +31084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18157",
+		id: "18157",
 		name: "Tippecanoe County",
 		state: "Indiana",
 		population: 187399,
@@ -31124,7 +31124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18159",
+		id: "18159",
 		name: "Tipton County",
 		state: "Indiana",
 		population: 15329,
@@ -31164,7 +31164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18161",
+		id: "18161",
 		name: "Union County",
 		state: "Indiana",
 		population: 7028,
@@ -31204,7 +31204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18163",
+		id: "18163",
 		name: "Vanderburgh County",
 		state: "Indiana",
 		population: 179908,
@@ -31244,7 +31244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18165",
+		id: "18165",
 		name: "Vermillion County",
 		state: "Indiana",
 		population: 15452,
@@ -31284,7 +31284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18167",
+		id: "18167",
 		name: "Vigo County",
 		state: "Indiana",
 		population: 106201,
@@ -31324,7 +31324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18169",
+		id: "18169",
 		name: "Wabash County",
 		state: "Indiana",
 		population: 30901,
@@ -31364,7 +31364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18171",
+		id: "18171",
 		name: "Warren County",
 		state: "Indiana",
 		population: 8469,
@@ -31404,7 +31404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18173",
+		id: "18173",
 		name: "Warrick County",
 		state: "Indiana",
 		population: 64650,
@@ -31444,7 +31444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18175",
+		id: "18175",
 		name: "Washington County",
 		state: "Indiana",
 		population: 28167,
@@ -31484,7 +31484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18177",
+		id: "18177",
 		name: "Wayne County",
 		state: "Indiana",
 		population: 66377,
@@ -31524,7 +31524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18179",
+		id: "18179",
 		name: "Wells County",
 		state: "Indiana",
 		population: 28261,
@@ -31564,7 +31564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18181",
+		id: "18181",
 		name: "White County",
 		state: "Indiana",
 		population: 24709,
@@ -31604,7 +31604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "18183",
+		id: "18183",
 		name: "Whitley County",
 		state: "Indiana",
 		population: 34388,
@@ -31644,7 +31644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19001",
+		id: "19001",
 		name: "Adair County",
 		state: "Iowa",
 		population: 7471,
@@ -31684,7 +31684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19003",
+		id: "19003",
 		name: "Adams County",
 		state: "Iowa",
 		population: 3641,
@@ -31724,7 +31724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19005",
+		id: "19005",
 		name: "Allamakee County",
 		state: "Iowa",
 		population: 14038,
@@ -31764,7 +31764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19007",
+		id: "19007",
 		name: "Appanoose County",
 		state: "Iowa",
 		population: 12242,
@@ -31804,7 +31804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19009",
+		id: "19009",
 		name: "Audubon County",
 		state: "Iowa",
 		population: 5622,
@@ -31844,7 +31844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19011",
+		id: "19011",
 		name: "Benton County",
 		state: "Iowa",
 		population: 25698,
@@ -31884,7 +31884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19013",
+		id: "19013",
 		name: "Black Hawk County",
 		state: "Iowa",
 		population: 130693,
@@ -31924,7 +31924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19015",
+		id: "19015",
 		name: "Boone County",
 		state: "Iowa",
 		population: 26669,
@@ -31964,7 +31964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19017",
+		id: "19017",
 		name: "Bremer County",
 		state: "Iowa",
 		population: 25118,
@@ -32004,7 +32004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19019",
+		id: "19019",
 		name: "Buchanan County",
 		state: "Iowa",
 		population: 20645,
@@ -32044,7 +32044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19021",
+		id: "19021",
 		name: "Buena Vista County",
 		state: "Iowa",
 		population: 20684,
@@ -32084,7 +32084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19023",
+		id: "19023",
 		name: "Butler County",
 		state: "Iowa",
 		population: 14301,
@@ -32124,7 +32124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19025",
+		id: "19025",
 		name: "Calhoun County",
 		state: "Iowa",
 		population: 9858,
@@ -32164,7 +32164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19027",
+		id: "19027",
 		name: "Carroll County",
 		state: "Iowa",
 		population: 20677,
@@ -32204,7 +32204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19029",
+		id: "19029",
 		name: "Cass County",
 		state: "Iowa",
 		population: 13115,
@@ -32244,7 +32244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19031",
+		id: "19031",
 		name: "Cedar County",
 		state: "Iowa",
 		population: 18427,
@@ -32284,7 +32284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19033",
+		id: "19033",
 		name: "Cerro Gordo County",
 		state: "Iowa",
 		population: 42785,
@@ -32324,7 +32324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19035",
+		id: "19035",
 		name: "Cherokee County",
 		state: "Iowa",
 		population: 11587,
@@ -32364,7 +32364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19037",
+		id: "19037",
 		name: "Chickasaw County",
 		state: "Iowa",
 		population: 11868,
@@ -32404,7 +32404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19039",
+		id: "19039",
 		name: "Clarke County",
 		state: "Iowa",
 		population: 9690,
@@ -32444,7 +32444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19041",
+		id: "19041",
 		name: "Clay County",
 		state: "Iowa",
 		population: 16446,
@@ -32484,7 +32484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19043",
+		id: "19043",
 		name: "Clayton County",
 		state: "Iowa",
 		population: 17069,
@@ -32524,7 +32524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19045",
+		id: "19045",
 		name: "Clinton County",
 		state: "Iowa",
 		population: 46383,
@@ -32564,7 +32564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19047",
+		id: "19047",
 		name: "Crawford County",
 		state: "Iowa",
 		population: 16289,
@@ -32604,7 +32604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19049",
+		id: "19049",
 		name: "Dallas County",
 		state: "Iowa",
 		population: 104136,
@@ -32644,7 +32644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19051",
+		id: "19051",
 		name: "Davis County",
 		state: "Iowa",
 		population: 9127,
@@ -32684,7 +32684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19053",
+		id: "19053",
 		name: "Decatur County",
 		state: "Iowa",
 		population: 7669,
@@ -32724,7 +32724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19055",
+		id: "19055",
 		name: "Delaware County",
 		state: "Iowa",
 		population: 17549,
@@ -32764,7 +32764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19057",
+		id: "19057",
 		name: "Des Moines County",
 		state: "Iowa",
 		population: 38597,
@@ -32804,7 +32804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19059",
+		id: "19059",
 		name: "Dickinson County",
 		state: "Iowa",
 		population: 17844,
@@ -32844,7 +32844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19061",
+		id: "19061",
 		name: "Dubuque County",
 		state: "Iowa",
 		population: 98948,
@@ -32884,7 +32884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19063",
+		id: "19063",
 		name: "Emmet County",
 		state: "Iowa",
 		population: 9316,
@@ -32924,7 +32924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19065",
+		id: "19065",
 		name: "Fayette County",
 		state: "Iowa",
 		population: 19393,
@@ -32964,7 +32964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19067",
+		id: "19067",
 		name: "Floyd County",
 		state: "Iowa",
 		population: 15502,
@@ -33004,7 +33004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19069",
+		id: "19069",
 		name: "Franklin County",
 		state: "Iowa",
 		population: 9977,
@@ -33044,7 +33044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19071",
+		id: "19071",
 		name: "Fremont County",
 		state: "Iowa",
 		population: 6570,
@@ -33084,7 +33084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19073",
+		id: "19073",
 		name: "Greene County",
 		state: "Iowa",
 		population: 8722,
@@ -33124,7 +33124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19075",
+		id: "19075",
 		name: "Grundy County",
 		state: "Iowa",
 		population: 12352,
@@ -33164,7 +33164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19077",
+		id: "19077",
 		name: "Guthrie County",
 		state: "Iowa",
 		population: 10646,
@@ -33204,7 +33204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19079",
+		id: "19079",
 		name: "Hamilton County",
 		state: "Iowa",
 		population: 14893,
@@ -33244,7 +33244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19081",
+		id: "19081",
 		name: "Hancock County",
 		state: "Iowa",
 		population: 10718,
@@ -33284,7 +33284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19083",
+		id: "19083",
 		name: "Hardin County",
 		state: "Iowa",
 		population: 16729,
@@ -33324,7 +33324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19085",
+		id: "19085",
 		name: "Harrison County",
 		state: "Iowa",
 		population: 14645,
@@ -33364,7 +33364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19087",
+		id: "19087",
 		name: "Henry County",
 		state: "Iowa",
 		population: 20228,
@@ -33404,7 +33404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19089",
+		id: "19089",
 		name: "Howard County",
 		state: "Iowa",
 		population: 9459,
@@ -33444,7 +33444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19091",
+		id: "19091",
 		name: "Humboldt County",
 		state: "Iowa",
 		population: 9573,
@@ -33484,7 +33484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19093",
+		id: "19093",
 		name: "Ida County",
 		state: "Iowa",
 		population: 6944,
@@ -33524,7 +33524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19095",
+		id: "19095",
 		name: "Iowa County",
 		state: "Iowa",
 		population: 16547,
@@ -33564,7 +33564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19097",
+		id: "19097",
 		name: "Jackson County",
 		state: "Iowa",
 		population: 19429,
@@ -33604,7 +33604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19099",
+		id: "19099",
 		name: "Jasper County",
 		state: "Iowa",
 		population: 37864,
@@ -33644,7 +33644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19101",
+		id: "19101",
 		name: "Jefferson County",
 		state: "Iowa",
 		population: 15676,
@@ -33684,7 +33684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19103",
+		id: "19103",
 		name: "Johnson County",
 		state: "Iowa",
 		population: 154881,
@@ -33724,7 +33724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19105",
+		id: "19105",
 		name: "Jones County",
 		state: "Iowa",
 		population: 20799,
@@ -33764,7 +33764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19107",
+		id: "19107",
 		name: "Keokuk County",
 		state: "Iowa",
 		population: 9964,
@@ -33804,7 +33804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19109",
+		id: "19109",
 		name: "Kossuth County",
 		state: "Iowa",
 		population: 14610,
@@ -33844,7 +33844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19111",
+		id: "19111",
 		name: "Lee County",
 		state: "Iowa",
 		population: 33175,
@@ -33884,7 +33884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19113",
+		id: "19113",
 		name: "Linn County",
 		state: "Iowa",
 		population: 229463,
@@ -33924,7 +33924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19115",
+		id: "19115",
 		name: "Louisa County",
 		state: "Iowa",
 		population: 10710,
@@ -33964,7 +33964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19117",
+		id: "19117",
 		name: "Lucas County",
 		state: "Iowa",
 		population: 8685,
@@ -34004,7 +34004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19119",
+		id: "19119",
 		name: "Lyon County",
 		state: "Iowa",
 		population: 12087,
@@ -34044,7 +34044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19121",
+		id: "19121",
 		name: "Madison County",
 		state: "Iowa",
 		population: 16760,
@@ -34084,7 +34084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19123",
+		id: "19123",
 		name: "Mahaska County",
 		state: "Iowa",
 		population: 22045,
@@ -34124,7 +34124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19125",
+		id: "19125",
 		name: "Marion County",
 		state: "Iowa",
 		population: 33551,
@@ -34164,7 +34164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19127",
+		id: "19127",
 		name: "Marshall County",
 		state: "Iowa",
 		population: 39971,
@@ -34204,7 +34204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19129",
+		id: "19129",
 		name: "Mills County",
 		state: "Iowa",
 		population: 14563,
@@ -34244,7 +34244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19131",
+		id: "19131",
 		name: "Mitchell County",
 		state: "Iowa",
 		population: 10548,
@@ -34284,7 +34284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19133",
+		id: "19133",
 		name: "Monona County",
 		state: "Iowa",
 		population: 8619,
@@ -34324,7 +34324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19135",
+		id: "19135",
 		name: "Monroe County",
 		state: "Iowa",
 		population: 7546,
@@ -34364,7 +34364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19137",
+		id: "19137",
 		name: "Montgomery County",
 		state: "Iowa",
 		population: 10254,
@@ -34404,7 +34404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19139",
+		id: "19139",
 		name: "Muscatine County",
 		state: "Iowa",
 		population: 42735,
@@ -34444,7 +34444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19141",
+		id: "19141",
 		name: "O'Brien County",
 		state: "Iowa",
 		population: 14103,
@@ -34484,7 +34484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19143",
+		id: "19143",
 		name: "Osceola County",
 		state: "Iowa",
 		population: 6114,
@@ -34524,7 +34524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19145",
+		id: "19145",
 		name: "Page County",
 		state: "Iowa",
 		population: 15168,
@@ -34564,7 +34564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19147",
+		id: "19147",
 		name: "Palo Alto County",
 		state: "Iowa",
 		population: 8902,
@@ -34604,7 +34604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19149",
+		id: "19149",
 		name: "Plymouth County",
 		state: "Iowa",
 		population: 25699,
@@ -34644,7 +34644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19151",
+		id: "19151",
 		name: "Pocahontas County",
 		state: "Iowa",
 		population: 7040,
@@ -34684,7 +34684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19153",
+		id: "19153",
 		name: "Polk County",
 		state: "Iowa",
 		population: 497441,
@@ -34724,7 +34724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19155",
+		id: "19155",
 		name: "Pottawattamie County",
 		state: "Iowa",
 		population: 93407,
@@ -34764,7 +34764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19157",
+		id: "19157",
 		name: "Poweshiek County",
 		state: "Iowa",
 		population: 18582,
@@ -34804,7 +34804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19159",
+		id: "19159",
 		name: "Ringgold County",
 		state: "Iowa",
 		population: 4664,
@@ -34844,7 +34844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19161",
+		id: "19161",
 		name: "Sac County",
 		state: "Iowa",
 		population: 9759,
@@ -34884,7 +34884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19163",
+		id: "19163",
 		name: "Scott County",
 		state: "Iowa",
 		population: 174302,
@@ -34924,7 +34924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19165",
+		id: "19165",
 		name: "Shelby County",
 		state: "Iowa",
 		population: 11757,
@@ -34964,7 +34964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19167",
+		id: "19167",
 		name: "Sioux County",
 		state: "Iowa",
 		population: 35984,
@@ -35004,7 +35004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19169",
+		id: "19169",
 		name: "Story County",
 		state: "Iowa",
 		population: 98592,
@@ -35044,7 +35044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19171",
+		id: "19171",
 		name: "Tama County",
 		state: "Iowa",
 		population: 16982,
@@ -35084,7 +35084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19173",
+		id: "19173",
 		name: "Taylor County",
 		state: "Iowa",
 		population: 5901,
@@ -35124,7 +35124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19175",
+		id: "19175",
 		name: "Union County",
 		state: "Iowa",
 		population: 12038,
@@ -35164,7 +35164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19177",
+		id: "19177",
 		name: "Van Buren County",
 		state: "Iowa",
 		population: 7236,
@@ -35204,7 +35204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19179",
+		id: "19179",
 		name: "Wapello County",
 		state: "Iowa",
 		population: 35265,
@@ -35244,7 +35244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19181",
+		id: "19181",
 		name: "Warren County",
 		state: "Iowa",
 		population: 53484,
@@ -35284,7 +35284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19183",
+		id: "19183",
 		name: "Washington County",
 		state: "Iowa",
 		population: 22539,
@@ -35324,7 +35324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19185",
+		id: "19185",
 		name: "Wayne County",
 		state: "Iowa",
 		population: 6518,
@@ -35364,7 +35364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19187",
+		id: "19187",
 		name: "Webster County",
 		state: "Iowa",
 		population: 36848,
@@ -35404,7 +35404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19189",
+		id: "19189",
 		name: "Winnebago County",
 		state: "Iowa",
 		population: 10648,
@@ -35444,7 +35444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19191",
+		id: "19191",
 		name: "Winneshiek County",
 		state: "Iowa",
 		population: 19972,
@@ -35484,7 +35484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19193",
+		id: "19193",
 		name: "Woodbury County",
 		state: "Iowa",
 		population: 105760,
@@ -35524,7 +35524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19195",
+		id: "19195",
 		name: "Worth County",
 		state: "Iowa",
 		population: 7380,
@@ -35564,7 +35564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "19197",
+		id: "19197",
 		name: "Wright County",
 		state: "Iowa",
 		population: 12817,
@@ -35604,7 +35604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20001",
+		id: "20001",
 		name: "Allen County",
 		state: "Kansas",
 		population: 12491,
@@ -35644,7 +35644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20003",
+		id: "20003",
 		name: "Anderson County",
 		state: "Kansas",
 		population: 7819,
@@ -35684,7 +35684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20005",
+		id: "20005",
 		name: "Atchison County",
 		state: "Kansas",
 		population: 16211,
@@ -35724,7 +35724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20007",
+		id: "20007",
 		name: "Barber County",
 		state: "Kansas",
 		population: 4153,
@@ -35764,7 +35764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20009",
+		id: "20009",
 		name: "Barton County",
 		state: "Kansas",
 		population: 25275,
@@ -35804,7 +35804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20011",
+		id: "20011",
 		name: "Bourbon County",
 		state: "Kansas",
 		population: 14384,
@@ -35844,7 +35844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20013",
+		id: "20013",
 		name: "Brown County",
 		state: "Kansas",
 		population: 9415,
@@ -35884,7 +35884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20015",
+		id: "20015",
 		name: "Butler County",
 		state: "Kansas",
 		population: 67916,
@@ -35924,7 +35924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20017",
+		id: "20017",
 		name: "Chase County",
 		state: "Kansas",
 		population: 2579,
@@ -35964,7 +35964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20019",
+		id: "20019",
 		name: "Chautauqua County",
 		state: "Kansas",
 		population: 3370,
@@ -36004,7 +36004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20021",
+		id: "20021",
 		name: "Cherokee County",
 		state: "Kansas",
 		population: 19236,
@@ -36044,7 +36044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20023",
+		id: "20023",
 		name: "Cheyenne County",
 		state: "Kansas",
 		population: 2628,
@@ -36084,7 +36084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20025",
+		id: "20025",
 		name: "Clark County",
 		state: "Kansas",
 		population: 1987,
@@ -36124,7 +36124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20027",
+		id: "20027",
 		name: "Clay County",
 		state: "Kansas",
 		population: 8071,
@@ -36164,7 +36164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20029",
+		id: "20029",
 		name: "Cloud County",
 		state: "Kansas",
 		population: 8973,
@@ -36204,7 +36204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20031",
+		id: "20031",
 		name: "Coffey County",
 		state: "Kansas",
 		population: 8304,
@@ -36244,7 +36244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20033",
+		id: "20033",
 		name: "Comanche County",
 		state: "Kansas",
 		population: 1685,
@@ -36284,7 +36284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20035",
+		id: "20035",
 		name: "Cowley County",
 		state: "Kansas",
 		population: 34487,
@@ -36324,7 +36324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20037",
+		id: "20037",
 		name: "Crawford County",
 		state: "Kansas",
 		population: 38963,
@@ -36364,7 +36364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20039",
+		id: "20039",
 		name: "Decatur County",
 		state: "Kansas",
 		population: 2746,
@@ -36404,7 +36404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20041",
+		id: "20041",
 		name: "Dickinson County",
 		state: "Kansas",
 		population: 18423,
@@ -36444,7 +36444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20043",
+		id: "20043",
 		name: "Doniphan County",
 		state: "Kansas",
 		population: 7492,
@@ -36484,7 +36484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20045",
+		id: "20045",
 		name: "Douglas County",
 		state: "Kansas",
 		population: 119547,
@@ -36524,7 +36524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20047",
+		id: "20047",
 		name: "Edwards County",
 		state: "Kansas",
 		population: 2817,
@@ -36564,7 +36564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20049",
+		id: "20049",
 		name: "Elk County",
 		state: "Kansas",
 		population: 2464,
@@ -36604,7 +36604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20051",
+		id: "20051",
 		name: "Ellis County",
 		state: "Kansas",
 		population: 28870,
@@ -36644,7 +36644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20053",
+		id: "20053",
 		name: "Ellsworth County",
 		state: "Kansas",
 		population: 6366,
@@ -36684,7 +36684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20055",
+		id: "20055",
 		name: "Finney County",
 		state: "Kansas",
 		population: 38001,
@@ -36724,7 +36724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20057",
+		id: "20057",
 		name: "Ford County",
 		state: "Kansas",
 		population: 34133,
@@ -36764,7 +36764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20059",
+		id: "20059",
 		name: "Franklin County",
 		state: "Kansas",
 		population: 25994,
@@ -36804,7 +36804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20061",
+		id: "20061",
 		name: "Geary County",
 		state: "Kansas",
 		population: 35895,
@@ -36844,7 +36844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20063",
+		id: "20063",
 		name: "Gove County",
 		state: "Kansas",
 		population: 2796,
@@ -36884,7 +36884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20065",
+		id: "20065",
 		name: "Graham County",
 		state: "Kansas",
 		population: 2406,
@@ -36924,7 +36924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20067",
+		id: "20067",
 		name: "Grant County",
 		state: "Kansas",
 		population: 7284,
@@ -36964,7 +36964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20069",
+		id: "20069",
 		name: "Gray County",
 		state: "Kansas",
 		population: 5696,
@@ -37004,7 +37004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20071",
+		id: "20071",
 		name: "Greeley County",
 		state: "Kansas",
 		population: 1296,
@@ -37044,7 +37044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20073",
+		id: "20073",
 		name: "Greenwood County",
 		state: "Kansas",
 		population: 5956,
@@ -37084,7 +37084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20075",
+		id: "20075",
 		name: "Hamilton County",
 		state: "Kansas",
 		population: 2485,
@@ -37124,7 +37124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20077",
+		id: "20077",
 		name: "Harper County",
 		state: "Kansas",
 		population: 5446,
@@ -37164,7 +37164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20079",
+		id: "20079",
 		name: "Harvey County",
 		state: "Kansas",
 		population: 33823,
@@ -37204,7 +37204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20081",
+		id: "20081",
 		name: "Haskell County",
 		state: "Kansas",
 		population: 3695,
@@ -37244,7 +37244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20083",
+		id: "20083",
 		name: "Hodgeman County",
 		state: "Kansas",
 		population: 1676,
@@ -37284,7 +37284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20085",
+		id: "20085",
 		name: "Jackson County",
 		state: "Kansas",
 		population: 13277,
@@ -37324,7 +37324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20087",
+		id: "20087",
 		name: "Jefferson County",
 		state: "Kansas",
 		population: 18391,
@@ -37364,7 +37364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20089",
+		id: "20089",
 		name: "Jewell County",
 		state: "Kansas",
 		population: 2909,
@@ -37404,7 +37404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20091",
+		id: "20091",
 		name: "Johnson County",
 		state: "Kansas",
 		population: 614764,
@@ -37444,7 +37444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20093",
+		id: "20093",
 		name: "Kearny County",
 		state: "Kansas",
 		population: 3910,
@@ -37484,7 +37484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20095",
+		id: "20095",
 		name: "Kingman County",
 		state: "Kansas",
 		population: 7284,
@@ -37524,7 +37524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20097",
+		id: "20097",
 		name: "Kiowa County",
 		state: "Kansas",
 		population: 2422,
@@ -37564,7 +37564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20099",
+		id: "20099",
 		name: "Labette County",
 		state: "Kansas",
 		population: 19949,
@@ -37604,7 +37604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20101",
+		id: "20101",
 		name: "Lane County",
 		state: "Kansas",
 		population: 1497,
@@ -37644,7 +37644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20103",
+		id: "20103",
 		name: "Leavenworth County",
 		state: "Kansas",
 		population: 82493,
@@ -37684,7 +37684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20105",
+		id: "20105",
 		name: "Lincoln County",
 		state: "Kansas",
 		population: 2924,
@@ -37724,7 +37724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20107",
+		id: "20107",
 		name: "Linn County",
 		state: "Kansas",
 		population: 9723,
@@ -37764,7 +37764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20109",
+		id: "20109",
 		name: "Logan County",
 		state: "Kansas",
 		population: 2720,
@@ -37804,7 +37804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20111",
+		id: "20111",
 		name: "Lyon County",
 		state: "Kansas",
 		population: 32145,
@@ -37844,7 +37844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20113",
+		id: "20113",
 		name: "McPherson County",
 		state: "Kansas",
 		population: 30130,
@@ -37884,7 +37884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20115",
+		id: "20115",
 		name: "Marion County",
 		state: "Kansas",
 		population: 11795,
@@ -37924,7 +37924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20117",
+		id: "20117",
 		name: "Marshall County",
 		state: "Kansas",
 		population: 10001,
@@ -37964,7 +37964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20119",
+		id: "20119",
 		name: "Meade County",
 		state: "Kansas",
 		population: 3949,
@@ -38004,7 +38004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20121",
+		id: "20121",
 		name: "Miami County",
 		state: "Kansas",
 		population: 34625,
@@ -38044,7 +38044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20123",
+		id: "20123",
 		name: "Mitchell County",
 		state: "Kansas",
 		population: 5767,
@@ -38084,7 +38084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20125",
+		id: "20125",
 		name: "Montgomery County",
 		state: "Kansas",
 		population: 31143,
@@ -38124,7 +38124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20127",
+		id: "20127",
 		name: "Morris County",
 		state: "Kansas",
 		population: 5388,
@@ -38164,7 +38164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20129",
+		id: "20129",
 		name: "Morton County",
 		state: "Kansas",
 		population: 2647,
@@ -38204,7 +38204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20131",
+		id: "20131",
 		name: "Nemaha County",
 		state: "Kansas",
 		population: 10213,
@@ -38244,7 +38244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20133",
+		id: "20133",
 		name: "Neosho County",
 		state: "Kansas",
 		population: 15715,
@@ -38284,7 +38284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20135",
+		id: "20135",
 		name: "Ness County",
 		state: "Kansas",
 		population: 2659,
@@ -38324,7 +38324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20137",
+		id: "20137",
 		name: "Norton County",
 		state: "Kansas",
 		population: 5392,
@@ -38364,7 +38364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20139",
+		id: "20139",
 		name: "Osage County",
 		state: "Kansas",
 		population: 15780,
@@ -38404,7 +38404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20141",
+		id: "20141",
 		name: "Osborne County",
 		state: "Kansas",
 		population: 3473,
@@ -38444,7 +38444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20143",
+		id: "20143",
 		name: "Ottawa County",
 		state: "Kansas",
 		population: 5782,
@@ -38484,7 +38484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20145",
+		id: "20145",
 		name: "Pawnee County",
 		state: "Kansas",
 		population: 6220,
@@ -38524,7 +38524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20147",
+		id: "20147",
 		name: "Phillips County",
 		state: "Kansas",
 		population: 4874,
@@ -38564,7 +38564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20149",
+		id: "20149",
 		name: "Pottawatomie County",
 		state: "Kansas",
 		population: 25808,
@@ -38604,7 +38604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20151",
+		id: "20151",
 		name: "Pratt County",
 		state: "Kansas",
 		population: 9120,
@@ -38644,7 +38644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20153",
+		id: "20153",
 		name: "Rawlins County",
 		state: "Kansas",
 		population: 2533,
@@ -38684,7 +38684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20155",
+		id: "20155",
 		name: "Reno County",
 		state: "Kansas",
 		population: 61693,
@@ -38724,7 +38724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20157",
+		id: "20157",
 		name: "Republic County",
 		state: "Kansas",
 		population: 4662,
@@ -38764,7 +38764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20159",
+		id: "20159",
 		name: "Rice County",
 		state: "Kansas",
 		population: 9389,
@@ -38804,7 +38804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20161",
+		id: "20161",
 		name: "Riley County",
 		state: "Kansas",
 		population: 71710,
@@ -38844,7 +38844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20163",
+		id: "20163",
 		name: "Rooks County",
 		state: "Kansas",
 		population: 4869,
@@ -38884,7 +38884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20165",
+		id: "20165",
 		name: "Rush County",
 		state: "Kansas",
 		population: 2957,
@@ -38924,7 +38924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20167",
+		id: "20167",
 		name: "Russell County",
 		state: "Kansas",
 		population: 6717,
@@ -38964,7 +38964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20169",
+		id: "20169",
 		name: "Saline County",
 		state: "Kansas",
 		population: 53801,
@@ -39004,7 +39004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20171",
+		id: "20171",
 		name: "Scott County",
 		state: "Kansas",
 		population: 5071,
@@ -39044,7 +39044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20173",
+		id: "20173",
 		name: "Sedgwick County",
 		state: "Kansas",
 		population: 524810,
@@ -39084,7 +39084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20175",
+		id: "20175",
 		name: "Seward County",
 		state: "Kansas",
 		population: 21640,
@@ -39124,7 +39124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20177",
+		id: "20177",
 		name: "Shawnee County",
 		state: "Kansas",
 		population: 178315,
@@ -39164,7 +39164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20179",
+		id: "20179",
 		name: "Sheridan County",
 		state: "Kansas",
 		population: 2442,
@@ -39204,7 +39204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20181",
+		id: "20181",
 		name: "Sherman County",
 		state: "Kansas",
 		population: 5919,
@@ -39244,7 +39244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20183",
+		id: "20183",
 		name: "Smith County",
 		state: "Kansas",
 		population: 3579,
@@ -39284,7 +39284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20185",
+		id: "20185",
 		name: "Stafford County",
 		state: "Kansas",
 		population: 4004,
@@ -39324,7 +39324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20187",
+		id: "20187",
 		name: "Stanton County",
 		state: "Kansas",
 		population: 2018,
@@ -39364,7 +39364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20189",
+		id: "20189",
 		name: "Stevens County",
 		state: "Kansas",
 		population: 5212,
@@ -39404,7 +39404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20191",
+		id: "20191",
 		name: "Sumner County",
 		state: "Kansas",
 		population: 22386,
@@ -39444,7 +39444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20193",
+		id: "20193",
 		name: "Thomas County",
 		state: "Kansas",
 		population: 7913,
@@ -39484,7 +39484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20195",
+		id: "20195",
 		name: "Trego County",
 		state: "Kansas",
 		population: 2778,
@@ -39524,7 +39524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20197",
+		id: "20197",
 		name: "Wabaunsee County",
 		state: "Kansas",
 		population: 6961,
@@ -39564,7 +39564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20199",
+		id: "20199",
 		name: "Wallace County",
 		state: "Kansas",
 		population: 1459,
@@ -39604,7 +39604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20201",
+		id: "20201",
 		name: "Washington County",
 		state: "Kansas",
 		population: 5519,
@@ -39644,7 +39644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20203",
+		id: "20203",
 		name: "Wichita County",
 		state: "Kansas",
 		population: 2115,
@@ -39684,7 +39684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20205",
+		id: "20205",
 		name: "Wilson County",
 		state: "Kansas",
 		population: 8559,
@@ -39724,7 +39724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20207",
+		id: "20207",
 		name: "Woodson County",
 		state: "Kansas",
 		population: 3118,
@@ -39764,7 +39764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "20209",
+		id: "20209",
 		name: "Wyandotte County",
 		state: "Kansas",
 		population: 167277,
@@ -39804,7 +39804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21001",
+		id: "21001",
 		name: "Adair County",
 		state: "Kentucky",
 		population: 19016,
@@ -39844,7 +39844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21003",
+		id: "21003",
 		name: "Allen County",
 		state: "Kentucky",
 		population: 21029,
@@ -39884,7 +39884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21005",
+		id: "21005",
 		name: "Anderson County",
 		state: "Kentucky",
 		population: 24098,
@@ -39924,7 +39924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21007",
+		id: "21007",
 		name: "Ballard County",
 		state: "Kentucky",
 		population: 7678,
@@ -39964,7 +39964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21009",
+		id: "21009",
 		name: "Barren County",
 		state: "Kentucky",
 		population: 44670,
@@ -40004,7 +40004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21011",
+		id: "21011",
 		name: "Bath County",
 		state: "Kentucky",
 		population: 12812,
@@ -40044,7 +40044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21013",
+		id: "21013",
 		name: "Bell County",
 		state: "Kentucky",
 		population: 23878,
@@ -40084,7 +40084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21015",
+		id: "21015",
 		name: "Boone County",
 		state: "Kentucky",
 		population: 137676,
@@ -40124,7 +40124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21017",
+		id: "21017",
 		name: "Bourbon County",
 		state: "Kentucky",
 		population: 20174,
@@ -40164,7 +40164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21019",
+		id: "21019",
 		name: "Boyd County",
 		state: "Kentucky",
 		population: 48043,
@@ -40204,7 +40204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21021",
+		id: "21021",
 		name: "Boyle County",
 		state: "Kentucky",
 		population: 30708,
@@ -40244,7 +40244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21023",
+		id: "21023",
 		name: "Bracken County",
 		state: "Kentucky",
 		population: 8427,
@@ -40284,7 +40284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21025",
+		id: "21025",
 		name: "Breathitt County",
 		state: "Kentucky",
 		population: 13438,
@@ -40324,7 +40324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21027",
+		id: "21027",
 		name: "Breckinridge County",
 		state: "Kentucky",
 		population: 20722,
@@ -40364,7 +40364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21029",
+		id: "21029",
 		name: "Bullitt County",
 		state: "Kentucky",
 		population: 83209,
@@ -40404,7 +40404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21031",
+		id: "21031",
 		name: "Butler County",
 		state: "Kentucky",
 		population: 12373,
@@ -40444,7 +40444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21033",
+		id: "21033",
 		name: "Caldwell County",
 		state: "Kentucky",
 		population: 12631,
@@ -40484,7 +40484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21035",
+		id: "21035",
 		name: "Calloway County",
 		state: "Kentucky",
 		population: 37882,
@@ -40524,7 +40524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21037",
+		id: "21037",
 		name: "Campbell County",
 		state: "Kentucky",
 		population: 93193,
@@ -40564,7 +40564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21039",
+		id: "21039",
 		name: "Carlisle County",
 		state: "Kentucky",
 		population: 4763,
@@ -40604,7 +40604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21041",
+		id: "21041",
 		name: "Carroll County",
 		state: "Kentucky",
 		population: 10878,
@@ -40644,7 +40644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21043",
+		id: "21043",
 		name: "Carter County",
 		state: "Kentucky",
 		population: 26515,
@@ -40684,7 +40684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21045",
+		id: "21045",
 		name: "Casey County",
 		state: "Kentucky",
 		population: 15951,
@@ -40724,7 +40724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21047",
+		id: "21047",
 		name: "Christian County",
 		state: "Kentucky",
 		population: 72599,
@@ -40764,7 +40764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21049",
+		id: "21049",
 		name: "Clark County",
 		state: "Kentucky",
 		population: 37004,
@@ -40804,7 +40804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21051",
+		id: "21051",
 		name: "Clay County",
 		state: "Kentucky",
 		population: 20105,
@@ -40844,7 +40844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21053",
+		id: "21053",
 		name: "Clinton County",
 		state: "Kentucky",
 		population: 9240,
@@ -40884,7 +40884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21055",
+		id: "21055",
 		name: "Crittenden County",
 		state: "Kentucky",
 		population: 8972,
@@ -40924,7 +40924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21057",
+		id: "21057",
 		name: "Cumberland County",
 		state: "Kentucky",
 		population: 5948,
@@ -40964,7 +40964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21059",
+		id: "21059",
 		name: "Daviess County",
 		state: "Kentucky",
 		population: 103195,
@@ -41004,7 +41004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21061",
+		id: "21061",
 		name: "Edmonson County",
 		state: "Kentucky",
 		population: 12243,
@@ -41044,7 +41044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21063",
+		id: "21063",
 		name: "Elliott County",
 		state: "Kentucky",
 		population: 7336,
@@ -41084,7 +41084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21065",
+		id: "21065",
 		name: "Estill County",
 		state: "Kentucky",
 		population: 14079,
@@ -41124,7 +41124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21067",
+		id: "21067",
 		name: "Fayette County",
 		state: "Kentucky",
 		population: 321122,
@@ -41164,7 +41164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21069",
+		id: "21069",
 		name: "Fleming County",
 		state: "Kentucky",
 		population: 15221,
@@ -41204,7 +41204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21071",
+		id: "21071",
 		name: "Floyd County",
 		state: "Kentucky",
 		population: 35342,
@@ -41244,7 +41244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21073",
+		id: "21073",
 		name: "Franklin County",
 		state: "Kentucky",
 		population: 51563,
@@ -41284,7 +41284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21075",
+		id: "21075",
 		name: "Fulton County",
 		state: "Kentucky",
 		population: 6440,
@@ -41324,7 +41324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21077",
+		id: "21077",
 		name: "Gallatin County",
 		state: "Kentucky",
 		population: 8749,
@@ -41364,7 +41364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21079",
+		id: "21079",
 		name: "Garrard County",
 		state: "Kentucky",
 		population: 17346,
@@ -41404,7 +41404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21081",
+		id: "21081",
 		name: "Grant County",
 		state: "Kentucky",
 		population: 25238,
@@ -41444,7 +41444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21083",
+		id: "21083",
 		name: "Graves County",
 		state: "Kentucky",
 		population: 36612,
@@ -41484,7 +41484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21085",
+		id: "21085",
 		name: "Grayson County",
 		state: "Kentucky",
 		population: 26586,
@@ -41524,7 +41524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21087",
+		id: "21087",
 		name: "Green County",
 		state: "Kentucky",
 		population: 11278,
@@ -41564,7 +41564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21089",
+		id: "21089",
 		name: "Greenup County",
 		state: "Kentucky",
 		population: 35639,
@@ -41604,7 +41604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21091",
+		id: "21091",
 		name: "Hancock County",
 		state: "Kentucky",
 		population: 9032,
@@ -41644,7 +41644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21093",
+		id: "21093",
 		name: "Hardin County",
 		state: "Kentucky",
 		population: 111452,
@@ -41684,7 +41684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21095",
+		id: "21095",
 		name: "Harlan County",
 		state: "Kentucky",
 		population: 26185,
@@ -41724,7 +41724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21097",
+		id: "21097",
 		name: "Harrison County",
 		state: "Kentucky",
 		population: 18971,
@@ -41764,7 +41764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21099",
+		id: "21099",
 		name: "Hart County",
 		state: "Kentucky",
 		population: 19470,
@@ -41804,7 +41804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21101",
+		id: "21101",
 		name: "Henderson County",
 		state: "Kentucky",
 		population: 44493,
@@ -41844,7 +41844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21103",
+		id: "21103",
 		name: "Henry County",
 		state: "Kentucky",
 		population: 15774,
@@ -41884,7 +41884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21105",
+		id: "21105",
 		name: "Hickman County",
 		state: "Kentucky",
 		population: 4470,
@@ -41924,7 +41924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21107",
+		id: "21107",
 		name: "Hopkins County",
 		state: "Kentucky",
 		population: 45143,
@@ -41964,7 +41964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21109",
+		id: "21109",
 		name: "Jackson County",
 		state: "Kentucky",
 		population: 13003,
@@ -42004,7 +42004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21111",
+		id: "21111",
 		name: "Jefferson County",
 		state: "Kentucky",
 		population: 777392,
@@ -42044,7 +42044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21113",
+		id: "21113",
 		name: "Jessamine County",
 		state: "Kentucky",
 		population: 53792,
@@ -42084,7 +42084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21115",
+		id: "21115",
 		name: "Johnson County",
 		state: "Kentucky",
 		population: 22464,
@@ -42124,7 +42124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21117",
+		id: "21117",
 		name: "Kenton County",
 		state: "Kentucky",
 		population: 169817,
@@ -42164,7 +42164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21119",
+		id: "21119",
 		name: "Knott County",
 		state: "Kentucky",
 		population: 14046,
@@ -42204,7 +42204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21121",
+		id: "21121",
 		name: "Knox County",
 		state: "Kentucky",
 		population: 30034,
@@ -42244,7 +42244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21123",
+		id: "21123",
 		name: "Larue County",
 		state: "Kentucky",
 		population: 15028,
@@ -42284,7 +42284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21125",
+		id: "21125",
 		name: "Laurel County",
 		state: "Kentucky",
 		population: 62731,
@@ -42324,7 +42324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21127",
+		id: "21127",
 		name: "Lawrence County",
 		state: "Kentucky",
 		population: 16171,
@@ -42364,7 +42364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21129",
+		id: "21129",
 		name: "Lee County",
 		state: "Kentucky",
 		population: 7375,
@@ -42404,7 +42404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21131",
+		id: "21131",
 		name: "Leslie County",
 		state: "Kentucky",
 		population: 10261,
@@ -42444,7 +42444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21133",
+		id: "21133",
 		name: "Letcher County",
 		state: "Kentucky",
 		population: 21146,
@@ -42484,7 +42484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21135",
+		id: "21135",
 		name: "Lewis County",
 		state: "Kentucky",
 		population: 13028,
@@ -42524,7 +42524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21137",
+		id: "21137",
 		name: "Lincoln County",
 		state: "Kentucky",
 		population: 24415,
@@ -42564,7 +42564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21139",
+		id: "21139",
 		name: "Livingston County",
 		state: "Kentucky",
 		population: 8941,
@@ -42604,7 +42604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21141",
+		id: "21141",
 		name: "Logan County",
 		state: "Kentucky",
 		population: 27731,
@@ -42644,7 +42644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21143",
+		id: "21143",
 		name: "Lyon County",
 		state: "Kentucky",
 		population: 8831,
@@ -42684,7 +42684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21145",
+		id: "21145",
 		name: "McCracken County",
 		state: "Kentucky",
 		population: 67584,
@@ -42724,7 +42724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21147",
+		id: "21147",
 		name: "McCreary County",
 		state: "Kentucky",
 		population: 16905,
@@ -42764,7 +42764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21149",
+		id: "21149",
 		name: "McLean County",
 		state: "Kentucky",
 		population: 9127,
@@ -42804,7 +42804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21151",
+		id: "21151",
 		name: "Madison County",
 		state: "Kentucky",
 		population: 94064,
@@ -42844,7 +42844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21153",
+		id: "21153",
 		name: "Magoffin County",
 		state: "Kentucky",
 		population: 11495,
@@ -42884,7 +42884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21155",
+		id: "21155",
 		name: "Marion County",
 		state: "Kentucky",
 		population: 19680,
@@ -42924,7 +42924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21157",
+		id: "21157",
 		name: "Marshall County",
 		state: "Kentucky",
 		population: 31728,
@@ -42964,7 +42964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21159",
+		id: "21159",
 		name: "Martin County",
 		state: "Kentucky",
 		population: 11181,
@@ -43004,7 +43004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21161",
+		id: "21161",
 		name: "Mason County",
 		state: "Kentucky",
 		population: 16995,
@@ -43044,7 +43044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21163",
+		id: "21163",
 		name: "Meade County",
 		state: "Kentucky",
 		population: 30032,
@@ -43084,7 +43084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21165",
+		id: "21165",
 		name: "Menifee County",
 		state: "Kentucky",
 		population: 6203,
@@ -43124,7 +43124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21167",
+		id: "21167",
 		name: "Mercer County",
 		state: "Kentucky",
 		population: 22824,
@@ -43164,7 +43164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21169",
+		id: "21169",
 		name: "Metcalfe County",
 		state: "Kentucky",
 		population: 10372,
@@ -43204,7 +43204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21171",
+		id: "21171",
 		name: "Monroe County",
 		state: "Kentucky",
 		population: 11318,
@@ -43244,7 +43244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21173",
+		id: "21173",
 		name: "Montgomery County",
 		state: "Kentucky",
 		population: 28271,
@@ -43284,7 +43284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21175",
+		id: "21175",
 		name: "Morgan County",
 		state: "Kentucky",
 		population: 13938,
@@ -43324,7 +43324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21177",
+		id: "21177",
 		name: "Muhlenberg County",
 		state: "Kentucky",
 		population: 30712,
@@ -43364,7 +43364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21179",
+		id: "21179",
 		name: "Nelson County",
 		state: "Kentucky",
 		population: 47102,
@@ -43404,7 +43404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21181",
+		id: "21181",
 		name: "Nicholas County",
 		state: "Kentucky",
 		population: 7655,
@@ -43444,7 +43444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21183",
+		id: "21183",
 		name: "Ohio County",
 		state: "Kentucky",
 		population: 23704,
@@ -43484,7 +43484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21185",
+		id: "21185",
 		name: "Oldham County",
 		state: "Kentucky",
 		population: 68600,
@@ -43524,7 +43524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21187",
+		id: "21187",
 		name: "Owen County",
 		state: "Kentucky",
 		population: 11270,
@@ -43564,7 +43564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21189",
+		id: "21189",
 		name: "Owsley County",
 		state: "Kentucky",
 		population: 4021,
@@ -43604,7 +43604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21191",
+		id: "21191",
 		name: "Pendleton County",
 		state: "Kentucky",
 		population: 14683,
@@ -43644,7 +43644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21193",
+		id: "21193",
 		name: "Perry County",
 		state: "Kentucky",
 		population: 27847,
@@ -43684,7 +43684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21195",
+		id: "21195",
 		name: "Pike County",
 		state: "Kentucky",
 		population: 57466,
@@ -43724,7 +43724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21197",
+		id: "21197",
 		name: "Powell County",
 		state: "Kentucky",
 		population: 13057,
@@ -43764,7 +43764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21199",
+		id: "21199",
 		name: "Pulaski County",
 		state: "Kentucky",
 		population: 65503,
@@ -43804,7 +43804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21201",
+		id: "21201",
 		name: "Robertson County",
 		state: "Kentucky",
 		population: 2239,
@@ -43844,7 +43844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21203",
+		id: "21203",
 		name: "Rockcastle County",
 		state: "Kentucky",
 		population: 16144,
@@ -43884,7 +43884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21205",
+		id: "21205",
 		name: "Rowan County",
 		state: "Kentucky",
 		population: 24525,
@@ -43924,7 +43924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21207",
+		id: "21207",
 		name: "Russell County",
 		state: "Kentucky",
 		population: 18117,
@@ -43964,7 +43964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21209",
+		id: "21209",
 		name: "Scott County",
 		state: "Kentucky",
 		population: 58269,
@@ -44004,7 +44004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21211",
+		id: "21211",
 		name: "Shelby County",
 		state: "Kentucky",
 		population: 48599,
@@ -44044,7 +44044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21213",
+		id: "21213",
 		name: "Simpson County",
 		state: "Kentucky",
 		population: 19786,
@@ -44084,7 +44084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21215",
+		id: "21215",
 		name: "Spencer County",
 		state: "Kentucky",
 		population: 19875,
@@ -44124,7 +44124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21217",
+		id: "21217",
 		name: "Taylor County",
 		state: "Kentucky",
 		population: 26205,
@@ -44164,7 +44164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21219",
+		id: "21219",
 		name: "Todd County",
 		state: "Kentucky",
 		population: 12330,
@@ -44204,7 +44204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21221",
+		id: "21221",
 		name: "Trigg County",
 		state: "Kentucky",
 		population: 14211,
@@ -44244,7 +44244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21223",
+		id: "21223",
 		name: "Trimble County",
 		state: "Kentucky",
 		population: 8531,
@@ -44284,7 +44284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21225",
+		id: "21225",
 		name: "Union County",
 		state: "Kentucky",
 		population: 13379,
@@ -44324,7 +44324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21227",
+		id: "21227",
 		name: "Warren County",
 		state: "Kentucky",
 		population: 137549,
@@ -44364,7 +44364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21229",
+		id: "21229",
 		name: "Washington County",
 		state: "Kentucky",
 		population: 12091,
@@ -44404,7 +44404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21231",
+		id: "21231",
 		name: "Wayne County",
 		state: "Kentucky",
 		population: 19592,
@@ -44444,7 +44444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21233",
+		id: "21233",
 		name: "Webster County",
 		state: "Kentucky",
 		population: 12873,
@@ -44484,7 +44484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21235",
+		id: "21235",
 		name: "Whitley County",
 		state: "Kentucky",
 		population: 36755,
@@ -44524,7 +44524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21237",
+		id: "21237",
 		name: "Wolfe County",
 		state: "Kentucky",
 		population: 6484,
@@ -44564,7 +44564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "21239",
+		id: "21239",
 		name: "Woodford County",
 		state: "Kentucky",
 		population: 27017,
@@ -44604,7 +44604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22001",
+		id: "22001",
 		name: "Acadia Parish",
 		state: "Louisiana",
 		population: 57218,
@@ -44644,7 +44644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22003",
+		id: "22003",
 		name: "Allen Parish",
 		state: "Louisiana",
 		population: 22552,
@@ -44684,7 +44684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22005",
+		id: "22005",
 		name: "Ascension Parish",
 		state: "Louisiana",
 		population: 128593,
@@ -44724,7 +44724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22007",
+		id: "22007",
 		name: "Assumption Parish",
 		state: "Louisiana",
 		population: 20720,
@@ -44764,7 +44764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22009",
+		id: "22009",
 		name: "Avoyelles Parish",
 		state: "Louisiana",
 		population: 39176,
@@ -44804,7 +44804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22011",
+		id: "22011",
 		name: "Beauregard Parish",
 		state: "Louisiana",
 		population: 36646,
@@ -44844,7 +44844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22013",
+		id: "22013",
 		name: "Bienville Parish",
 		state: "Louisiana",
 		population: 12769,
@@ -44884,7 +44884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22015",
+		id: "22015",
 		name: "Bossier Parish",
 		state: "Louisiana",
 		population: 129134,
@@ -44924,7 +44924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22017",
+		id: "22017",
 		name: "Caddo Parish",
 		state: "Louisiana",
 		population: 232973,
@@ -44964,7 +44964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22019",
+		id: "22019",
 		name: "Calcasieu Parish",
 		state: "Louisiana",
 		population: 208668,
@@ -45004,7 +45004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22021",
+		id: "22021",
 		name: "Caldwell Parish",
 		state: "Louisiana",
 		population: 9563,
@@ -45044,7 +45044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22023",
+		id: "22023",
 		name: "Cameron Parish",
 		state: "Louisiana",
 		population: 5222,
@@ -45084,7 +45084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22025",
+		id: "22025",
 		name: "Catahoula Parish",
 		state: "Louisiana",
 		population: 8738,
@@ -45124,7 +45124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22027",
+		id: "22027",
 		name: "Claiborne Parish",
 		state: "Louisiana",
 		population: 14019,
@@ -45164,7 +45164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22029",
+		id: "22029",
 		name: "Concordia Parish",
 		state: "Louisiana",
 		population: 18325,
@@ -45204,7 +45204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22031",
+		id: "22031",
 		name: "De Soto Parish",
 		state: "Louisiana",
 		population: 26897,
@@ -45244,7 +45244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22033",
+		id: "22033",
 		name: "East Baton Rouge Parish",
 		state: "Louisiana",
 		population: 452821,
@@ -45284,7 +45284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22035",
+		id: "22035",
 		name: "East Carroll Parish",
 		state: "Louisiana",
 		population: 7195,
@@ -45324,7 +45324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22037",
+		id: "22037",
 		name: "East Feliciana Parish",
 		state: "Louisiana",
 		population: 19378,
@@ -45364,7 +45364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22039",
+		id: "22039",
 		name: "Evangeline Parish",
 		state: "Louisiana",
 		population: 32162,
@@ -45404,7 +45404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22041",
+		id: "22041",
 		name: "Franklin Parish",
 		state: "Louisiana",
 		population: 19590,
@@ -45444,7 +45444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22043",
+		id: "22043",
 		name: "Grant Parish",
 		state: "Louisiana",
 		population: 22123,
@@ -45484,7 +45484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22045",
+		id: "22045",
 		name: "Iberia Parish",
 		state: "Louisiana",
 		population: 69194,
@@ -45524,7 +45524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22047",
+		id: "22047",
 		name: "Iberville Parish",
 		state: "Louisiana",
 		population: 29950,
@@ -45564,7 +45564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22049",
+		id: "22049",
 		name: "Jackson Parish",
 		state: "Louisiana",
 		population: 14939,
@@ -45604,7 +45604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22051",
+		id: "22051",
 		name: "Jefferson Parish",
 		state: "Louisiana",
 		population: 432484,
@@ -45644,7 +45644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22053",
+		id: "22053",
 		name: "Jefferson Davis Parish",
 		state: "Louisiana",
 		population: 32083,
@@ -45684,7 +45684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22055",
+		id: "22055",
 		name: "Lafayette Parish",
 		state: "Louisiana",
 		population: 245075,
@@ -45724,7 +45724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22057",
+		id: "22057",
 		name: "Lafourche Parish",
 		state: "Louisiana",
 		population: 96670,
@@ -45764,7 +45764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22059",
+		id: "22059",
 		name: "LaSalle Parish",
 		state: "Louisiana",
 		population: 14804,
@@ -45804,7 +45804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22061",
+		id: "22061",
 		name: "Lincoln Parish",
 		state: "Louisiana",
 		population: 48160,
@@ -45844,7 +45844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22063",
+		id: "22063",
 		name: "Livingston Parish",
 		state: "Louisiana",
 		population: 145583,
@@ -45884,7 +45884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22065",
+		id: "22065",
 		name: "Madison Parish",
 		state: "Louisiana",
 		population: 9757,
@@ -45924,7 +45924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22067",
+		id: "22067",
 		name: "Morehouse Parish",
 		state: "Louisiana",
 		population: 24967,
@@ -45964,7 +45964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22069",
+		id: "22069",
 		name: "Natchitoches Parish",
 		state: "Louisiana",
 		population: 37047,
@@ -46004,7 +46004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22071",
+		id: "22071",
 		name: "Orleans Parish",
 		state: "Louisiana",
 		population: 376035,
@@ -46044,7 +46044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22073",
+		id: "22073",
 		name: "Ouachita Parish",
 		state: "Louisiana",
 		population: 158916,
@@ -46084,7 +46084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22075",
+		id: "22075",
 		name: "Plaquemines Parish",
 		state: "Louisiana",
 		population: 23070,
@@ -46124,7 +46124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22077",
+		id: "22077",
 		name: "Pointe Coupee Parish",
 		state: "Louisiana",
 		population: 20438,
@@ -46164,7 +46164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22079",
+		id: "22079",
 		name: "Rapides Parish",
 		state: "Louisiana",
 		population: 128470,
@@ -46204,7 +46204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22081",
+		id: "22081",
 		name: "Red River Parish",
 		state: "Louisiana",
 		population: 7529,
@@ -46244,7 +46244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22083",
+		id: "22083",
 		name: "Richland Parish",
 		state: "Louisiana",
 		population: 19908,
@@ -46284,7 +46284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22085",
+		id: "22085",
 		name: "Sabine Parish",
 		state: "Louisiana",
 		population: 22085,
@@ -46324,7 +46324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22087",
+		id: "22087",
 		name: "St. Bernard Parish",
 		state: "Louisiana",
 		population: 44172,
@@ -46364,7 +46364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22089",
+		id: "22089",
 		name: "St. Charles Parish",
 		state: "Louisiana",
 		population: 51863,
@@ -46404,7 +46404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22091",
+		id: "22091",
 		name: "St. Helena Parish",
 		state: "Louisiana",
 		population: 10849,
@@ -46444,7 +46444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22093",
+		id: "22093",
 		name: "St. James Parish",
 		state: "Louisiana",
 		population: 19797,
@@ -46484,7 +46484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22095",
+		id: "22095",
 		name: "St. John the Baptist Parish",
 		state: "Louisiana",
 		population: 41342,
@@ -46524,7 +46524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22097",
+		id: "22097",
 		name: "St. Landry Parish",
 		state: "Louisiana",
 		population: 82128,
@@ -46564,7 +46564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22099",
+		id: "22099",
 		name: "St. Martin Parish",
 		state: "Louisiana",
 		population: 51559,
@@ -46604,7 +46604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22101",
+		id: "22101",
 		name: "St. Mary Parish",
 		state: "Louisiana",
 		population: 48455,
@@ -46644,7 +46644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22103",
+		id: "22103",
 		name: "St. Tammany Parish",
 		state: "Louisiana",
 		population: 269331,
@@ -46684,7 +46684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22105",
+		id: "22105",
 		name: "Tangipahoa Parish",
 		state: "Louisiana",
 		population: 135218,
@@ -46724,7 +46724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22107",
+		id: "22107",
 		name: "Tensas Parish",
 		state: "Louisiana",
 		population: 3992,
@@ -46764,7 +46764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22109",
+		id: "22109",
 		name: "Terrebonne Parish",
 		state: "Louisiana",
 		population: 107362,
@@ -46804,7 +46804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22111",
+		id: "22111",
 		name: "Union Parish",
 		state: "Louisiana",
 		population: 20914,
@@ -46844,7 +46844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22113",
+		id: "22113",
 		name: "Vermilion Parish",
 		state: "Louisiana",
 		population: 57031,
@@ -46884,7 +46884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22115",
+		id: "22115",
 		name: "Vernon Parish",
 		state: "Louisiana",
 		population: 47764,
@@ -46924,7 +46924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22117",
+		id: "22117",
 		name: "Washington Parish",
 		state: "Louisiana",
 		population: 45238,
@@ -46964,7 +46964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22119",
+		id: "22119",
 		name: "Webster Parish",
 		state: "Louisiana",
 		population: 36189,
@@ -47004,7 +47004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22121",
+		id: "22121",
 		name: "West Baton Rouge Parish",
 		state: "Louisiana",
 		population: 27666,
@@ -47044,7 +47044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22123",
+		id: "22123",
 		name: "West Carroll Parish",
 		state: "Louisiana",
 		population: 9622,
@@ -47084,7 +47084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22125",
+		id: "22125",
 		name: "West Feliciana Parish",
 		state: "Louisiana",
 		population: 15381,
@@ -47124,7 +47124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "22127",
+		id: "22127",
 		name: "Winn Parish",
 		state: "Louisiana",
 		population: 13506,
@@ -47164,7 +47164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23001",
+		id: "23001",
 		name: "Androscoggin County",
 		state: "Maine",
 		population: 112323,
@@ -47204,7 +47204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23003",
+		id: "23003",
 		name: "Aroostook County",
 		state: "Maine",
 		population: 67227,
@@ -47244,7 +47244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23005",
+		id: "23005",
 		name: "Cumberland County",
 		state: "Maine",
 		population: 305940,
@@ -47284,7 +47284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23007",
+		id: "23007",
 		name: "Franklin County",
 		state: "Maine",
 		population: 30145,
@@ -47324,7 +47324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23009",
+		id: "23009",
 		name: "Hancock County",
 		state: "Maine",
 		population: 56084,
@@ -47364,7 +47364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23011",
+		id: "23011",
 		name: "Kennebec County",
 		state: "Maine",
 		population: 125614,
@@ -47404,7 +47404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23013",
+		id: "23013",
 		name: "Knox County",
 		state: "Maine",
 		population: 40860,
@@ -47444,7 +47444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23015",
+		id: "23015",
 		name: "Lincoln County",
 		state: "Maine",
 		population: 35840,
@@ -47484,7 +47484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23017",
+		id: "23017",
 		name: "Oxford County",
 		state: "Maine",
 		population: 58728,
@@ -47524,7 +47524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23019",
+		id: "23019",
 		name: "Penobscot County",
 		state: "Maine",
 		population: 153571,
@@ -47564,7 +47564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23021",
+		id: "23021",
 		name: "Piscataquis County",
 		state: "Maine",
 		population: 17125,
@@ -47604,7 +47604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23023",
+		id: "23023",
 		name: "Sagadahoc County",
 		state: "Maine",
 		population: 37093,
@@ -47644,7 +47644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23025",
+		id: "23025",
 		name: "Somerset County",
 		state: "Maine",
 		population: 50852,
@@ -47684,7 +47684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23027",
+		id: "23027",
 		name: "Waldo County",
 		state: "Maine",
 		population: 40006,
@@ -47724,7 +47724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23029",
+		id: "23029",
 		name: "Washington County",
 		state: "Maine",
 		population: 31261,
@@ -47764,7 +47764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "23031",
+		id: "23031",
 		name: "York County",
 		state: "Maine",
 		population: 214731,
@@ -47804,7 +47804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24001",
+		id: "24001",
 		name: "Allegany County",
 		state: "Maryland",
 		population: 67762,
@@ -47844,7 +47844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24003",
+		id: "24003",
 		name: "Anne Arundel County",
 		state: "Maryland",
 		population: 590936,
@@ -47884,7 +47884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24005",
+		id: "24005",
 		name: "Baltimore County",
 		state: "Maryland",
 		population: 849586,
@@ -47924,7 +47924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24009",
+		id: "24009",
 		name: "Calvert County",
 		state: "Maryland",
 		population: 93791,
@@ -47964,7 +47964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24011",
+		id: "24011",
 		name: "Caroline County",
 		state: "Maryland",
 		population: 33406,
@@ -48004,7 +48004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24013",
+		id: "24013",
 		name: "Carroll County",
 		state: "Maryland",
 		population: 174318,
@@ -48044,7 +48044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24015",
+		id: "24015",
 		name: "Cecil County",
 		state: "Maryland",
 		population: 104366,
@@ -48084,7 +48084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24017",
+		id: "24017",
 		name: "Charles County",
 		state: "Maryland",
 		population: 168710,
@@ -48124,7 +48124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24019",
+		id: "24019",
 		name: "Dorchester County",
 		state: "Maryland",
 		population: 32612,
@@ -48164,7 +48164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24021",
+		id: "24021",
 		name: "Frederick County",
 		state: "Maryland",
 		population: 280341,
@@ -48204,7 +48204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24023",
+		id: "24023",
 		name: "Garrett County",
 		state: "Maryland",
 		population: 28713,
@@ -48244,7 +48244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24025",
+		id: "24025",
 		name: "Harford County",
 		state: "Maryland",
 		population: 262509,
@@ -48284,7 +48284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24027",
+		id: "24027",
 		name: "Howard County",
 		state: "Maryland",
 		population: 333916,
@@ -48324,7 +48324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24029",
+		id: "24029",
 		name: "Kent County",
 		state: "Maryland",
 		population: 19265,
@@ -48364,7 +48364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24031",
+		id: "24031",
 		name: "Montgomery County",
 		state: "Maryland",
 		population: 1057586,
@@ -48404,7 +48404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24033",
+		id: "24033",
 		name: "Prince George's County",
 		state: "Maryland",
 		population: 955584,
@@ -48444,7 +48444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24035",
+		id: "24035",
 		name: "Queen Anne's County",
 		state: "Maryland",
 		population: 50951,
@@ -48484,7 +48484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24037",
+		id: "24037",
 		name: "St. Mary's County",
 		state: "Maryland",
 		population: 114372,
@@ -48524,7 +48524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24039",
+		id: "24039",
 		name: "Somerset County",
 		state: "Maryland",
 		population: 24685,
@@ -48564,7 +48564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24041",
+		id: "24041",
 		name: "Talbot County",
 		state: "Maryland",
 		population: 37707,
@@ -48604,7 +48604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24043",
+		id: "24043",
 		name: "Washington County",
 		state: "Maryland",
 		population: 155033,
@@ -48644,7 +48644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24045",
+		id: "24045",
 		name: "Wicomico County",
 		state: "Maryland",
 		population: 104117,
@@ -48684,7 +48684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24047",
+		id: "24047",
 		name: "Worcester County",
 		state: "Maryland",
 		population: 53279,
@@ -48724,7 +48724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "24510",
+		id: "24510",
 		name: "Baltimore city",
 		state: "Maryland",
 		population: 577193,
@@ -48764,7 +48764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25001",
+		id: "25001",
 		name: "Barnstable County",
 		state: "Massachusetts",
 		population: 230073,
@@ -48804,7 +48804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25003",
+		id: "25003",
 		name: "Berkshire County",
 		state: "Massachusetts",
 		population: 128047,
@@ -48844,7 +48844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25005",
+		id: "25005",
 		name: "Bristol County",
 		state: "Massachusetts",
 		population: 578436,
@@ -48884,7 +48884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25007",
+		id: "25007",
 		name: "Dukes County",
 		state: "Massachusetts",
 		population: 20751,
@@ -48924,7 +48924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25009",
+		id: "25009",
 		name: "Essex County",
 		state: "Massachusetts",
 		population: 807258,
@@ -48964,7 +48964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25011",
+		id: "25011",
 		name: "Franklin County",
 		state: "Massachusetts",
 		population: 70922,
@@ -49004,7 +49004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25013",
+		id: "25013",
 		name: "Hampden County",
 		state: "Massachusetts",
 		population: 462853,
@@ -49044,7 +49044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25015",
+		id: "25015",
 		name: "Hampshire County",
 		state: "Massachusetts",
 		population: 156595,
@@ -49084,7 +49084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25017",
+		id: "25017",
 		name: "Middlesex County",
 		state: "Massachusetts",
 		population: 1622896,
@@ -49124,7 +49124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25019",
+		id: "25019",
 		name: "Nantucket County",
 		state: "Massachusetts",
 		population: 14299,
@@ -49164,7 +49164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25021",
+		id: "25021",
 		name: "Norfolk County",
 		state: "Massachusetts",
 		population: 724540,
@@ -49204,7 +49204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25023",
+		id: "25023",
 		name: "Plymouth County",
 		state: "Massachusetts",
 		population: 531889,
@@ -49244,7 +49244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25025",
+		id: "25025",
 		name: "Suffolk County",
 		state: "Massachusetts",
 		population: 782172,
@@ -49284,7 +49284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "25027",
+		id: "25027",
 		name: "Worcester County",
 		state: "Massachusetts",
 		population: 861664,
@@ -49324,7 +49324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26001",
+		id: "26001",
 		name: "Alcona County",
 		state: "Michigan",
 		population: 10310,
@@ -49364,7 +49364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26003",
+		id: "26003",
 		name: "Alger County",
 		state: "Michigan",
 		population: 8813,
@@ -49404,7 +49404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26005",
+		id: "26005",
 		name: "Allegan County",
 		state: "Michigan",
 		population: 120913,
@@ -49444,7 +49444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26007",
+		id: "26007",
 		name: "Alpena County",
 		state: "Michigan",
 		population: 28908,
@@ -49484,7 +49484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26009",
+		id: "26009",
 		name: "Antrim County",
 		state: "Michigan",
 		population: 23876,
@@ -49524,7 +49524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26011",
+		id: "26011",
 		name: "Arenac County",
 		state: "Michigan",
 		population: 15054,
@@ -49564,7 +49564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26013",
+		id: "26013",
 		name: "Baraga County",
 		state: "Michigan",
 		population: 8249,
@@ -49604,7 +49604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26015",
+		id: "26015",
 		name: "Barry County",
 		state: "Michigan",
 		population: 62982,
@@ -49644,7 +49644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26017",
+		id: "26017",
 		name: "Bay County",
 		state: "Michigan",
 		population: 103235,
@@ -49684,7 +49684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26019",
+		id: "26019",
 		name: "Benzie County",
 		state: "Michigan",
 		population: 18177,
@@ -49724,7 +49724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26021",
+		id: "26021",
 		name: "Berrien County",
 		state: "Michigan",
 		population: 153411,
@@ -49764,7 +49764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26023",
+		id: "26023",
 		name: "Branch County",
 		state: "Michigan",
 		population: 44914,
@@ -49804,7 +49804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26025",
+		id: "26025",
 		name: "Calhoun County",
 		state: "Michigan",
 		population: 133846,
@@ -49844,7 +49844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26027",
+		id: "26027",
 		name: "Cass County",
 		state: "Michigan",
 		population: 51606,
@@ -49884,7 +49884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26029",
+		id: "26029",
 		name: "Charlevoix County",
 		state: "Michigan",
 		population: 26143,
@@ -49924,7 +49924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26031",
+		id: "26031",
 		name: "Cheboygan County",
 		state: "Michigan",
 		population: 25778,
@@ -49964,7 +49964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26033",
+		id: "26033",
 		name: "Chippewa County",
 		state: "Michigan",
 		population: 36448,
@@ -50004,7 +50004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26035",
+		id: "26035",
 		name: "Clare County",
 		state: "Michigan",
 		population: 31109,
@@ -50044,7 +50044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26037",
+		id: "26037",
 		name: "Clinton County",
 		state: "Michigan",
 		population: 79419,
@@ -50084,7 +50084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26039",
+		id: "26039",
 		name: "Crawford County",
 		state: "Michigan",
 		population: 13271,
@@ -50124,7 +50124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26041",
+		id: "26041",
 		name: "Delta County",
 		state: "Michigan",
 		population: 36829,
@@ -50164,7 +50164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26043",
+		id: "26043",
 		name: "Dickinson County",
 		state: "Michigan",
 		population: 25940,
@@ -50204,7 +50204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26045",
+		id: "26045",
 		name: "Eaton County",
 		state: "Michigan",
 		population: 109000,
@@ -50244,7 +50244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26047",
+		id: "26047",
 		name: "Emmet County",
 		state: "Michigan",
 		population: 34159,
@@ -50284,7 +50284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26049",
+		id: "26049",
 		name: "Genesee County",
 		state: "Michigan",
 		population: 404087,
@@ -50324,7 +50324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26051",
+		id: "26051",
 		name: "Gladwin County",
 		state: "Michigan",
 		population: 25543,
@@ -50364,7 +50364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26053",
+		id: "26053",
 		name: "Gogebic County",
 		state: "Michigan",
 		population: 14348,
@@ -50404,7 +50404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26055",
+		id: "26055",
 		name: "Grand Traverse County",
 		state: "Michigan",
 		population: 95757,
@@ -50444,7 +50444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26057",
+		id: "26057",
 		name: "Gratiot County",
 		state: "Michigan",
 		population: 41478,
@@ -50484,7 +50484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26059",
+		id: "26059",
 		name: "Hillsdale County",
 		state: "Michigan",
 		population: 45658,
@@ -50524,7 +50524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26061",
+		id: "26061",
 		name: "Houghton County",
 		state: "Michigan",
 		population: 37428,
@@ -50564,7 +50564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26063",
+		id: "26063",
 		name: "Huron County",
 		state: "Michigan",
 		population: 31258,
@@ -50604,7 +50604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26065",
+		id: "26065",
 		name: "Ingham County",
 		state: "Michigan",
 		population: 282015,
@@ -50644,7 +50644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26067",
+		id: "26067",
 		name: "Ionia County",
 		state: "Michigan",
 		population: 66706,
@@ -50684,7 +50684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26069",
+		id: "26069",
 		name: "Iosco County",
 		state: "Michigan",
 		population: 25333,
@@ -50724,7 +50724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26071",
+		id: "26071",
 		name: "Iron County",
 		state: "Michigan",
 		population: 11650,
@@ -50764,7 +50764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26073",
+		id: "26073",
 		name: "Isabella County",
 		state: "Michigan",
 		population: 64475,
@@ -50804,7 +50804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26075",
+		id: "26075",
 		name: "Jackson County",
 		state: "Michigan",
 		population: 160187,
@@ -50844,7 +50844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26077",
+		id: "26077",
 		name: "Kalamazoo County",
 		state: "Michigan",
 		population: 261437,
@@ -50884,7 +50884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26079",
+		id: "26079",
 		name: "Kalkaska County",
 		state: "Michigan",
 		population: 18116,
@@ -50924,7 +50924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26081",
+		id: "26081",
 		name: "Kent County",
 		state: "Michigan",
 		population: 658844,
@@ -50964,7 +50964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26083",
+		id: "26083",
 		name: "Keweenaw County",
 		state: "Michigan",
 		population: 2106,
@@ -51004,7 +51004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26085",
+		id: "26085",
 		name: "Lake County",
 		state: "Michigan",
 		population: 12393,
@@ -51044,7 +51044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26087",
+		id: "26087",
 		name: "Lapeer County",
 		state: "Michigan",
 		population: 88703,
@@ -51084,7 +51084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26089",
+		id: "26089",
 		name: "Leelanau County",
 		state: "Michigan",
 		population: 22607,
@@ -51124,7 +51124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26091",
+		id: "26091",
 		name: "Lenawee County",
 		state: "Michigan",
 		population: 98823,
@@ -51164,7 +51164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26093",
+		id: "26093",
 		name: "Livingston County",
 		state: "Michigan",
 		population: 195143,
@@ -51204,7 +51204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26095",
+		id: "26095",
 		name: "Luce County",
 		state: "Michigan",
 		population: 6325,
@@ -51244,7 +51244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26097",
+		id: "26097",
 		name: "Mackinac County",
 		state: "Michigan",
 		population: 10865,
@@ -51284,7 +51284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26099",
+		id: "26099",
 		name: "Macomb County",
 		state: "Michigan",
 		population: 877624,
@@ -51324,7 +51324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26101",
+		id: "26101",
 		name: "Manistee County",
 		state: "Michigan",
 		population: 25247,
@@ -51364,7 +51364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26103",
+		id: "26103",
 		name: "Marquette County",
 		state: "Michigan",
 		population: 66430,
@@ -51404,7 +51404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26105",
+		id: "26105",
 		name: "Mason County",
 		state: "Michigan",
 		population: 29177,
@@ -51444,7 +51444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26107",
+		id: "26107",
 		name: "Mecosta County",
 		state: "Michigan",
 		population: 40321,
@@ -51484,7 +51484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26109",
+		id: "26109",
 		name: "Menominee County",
 		state: "Michigan",
 		population: 23295,
@@ -51524,7 +51524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26111",
+		id: "26111",
 		name: "Midland County",
 		state: "Michigan",
 		population: 83641,
@@ -51564,7 +51564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26113",
+		id: "26113",
 		name: "Missaukee County",
 		state: "Michigan",
 		population: 15156,
@@ -51604,7 +51604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26115",
+		id: "26115",
 		name: "Monroe County",
 		state: "Michigan",
 		population: 155001,
@@ -51644,7 +51644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26117",
+		id: "26117",
 		name: "Montcalm County",
 		state: "Michigan",
 		population: 67174,
@@ -51684,7 +51684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26119",
+		id: "26119",
 		name: "Montmorency County",
 		state: "Michigan",
 		population: 9372,
@@ -51724,7 +51724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26121",
+		id: "26121",
 		name: "Muskegon County",
 		state: "Michigan",
 		population: 175378,
@@ -51764,7 +51764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26123",
+		id: "26123",
 		name: "Newaygo County",
 		state: "Michigan",
 		population: 50414,
@@ -51804,7 +51804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26125",
+		id: "26125",
 		name: "Oakland County",
 		state: "Michigan",
 		population: 1272294,
@@ -51844,7 +51844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26127",
+		id: "26127",
 		name: "Oceana County",
 		state: "Michigan",
 		population: 26788,
@@ -51884,7 +51884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26129",
+		id: "26129",
 		name: "Ogemaw County",
 		state: "Michigan",
 		population: 20853,
@@ -51924,7 +51924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26131",
+		id: "26131",
 		name: "Ontonagon County",
 		state: "Michigan",
 		population: 5870,
@@ -51964,7 +51964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26133",
+		id: "26133",
 		name: "Osceola County",
 		state: "Michigan",
 		population: 23122,
@@ -52004,7 +52004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26135",
+		id: "26135",
 		name: "Oscoda County",
 		state: "Michigan",
 		population: 8338,
@@ -52044,7 +52044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26137",
+		id: "26137",
 		name: "Otsego County",
 		state: "Michigan",
 		population: 25352,
@@ -52084,7 +52084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26139",
+		id: "26139",
 		name: "Ottawa County",
 		state: "Michigan",
 		population: 298614,
@@ -52124,7 +52124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26141",
+		id: "26141",
 		name: "Presque Isle County",
 		state: "Michigan",
 		population: 13142,
@@ -52164,7 +52164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26143",
+		id: "26143",
 		name: "Roscommon County",
 		state: "Michigan",
 		population: 23639,
@@ -52204,7 +52204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26145",
+		id: "26145",
 		name: "Saginaw County",
 		state: "Michigan",
 		population: 189210,
@@ -52244,7 +52244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26147",
+		id: "26147",
 		name: "St. Clair County",
 		state: "Michigan",
 		population: 160089,
@@ -52284,7 +52284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26149",
+		id: "26149",
 		name: "St. Joseph County",
 		state: "Michigan",
 		population: 60870,
@@ -52324,7 +52324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26151",
+		id: "26151",
 		name: "Sanilac County",
 		state: "Michigan",
 		population: 40574,
@@ -52364,7 +52364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26153",
+		id: "26153",
 		name: "Schoolcraft County",
 		state: "Michigan",
 		population: 8093,
@@ -52404,7 +52404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26155",
+		id: "26155",
 		name: "Shiawassee County",
 		state: "Michigan",
 		population: 68061,
@@ -52444,7 +52444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26157",
+		id: "26157",
 		name: "Tuscola County",
 		state: "Michigan",
 		population: 53071,
@@ -52484,7 +52484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26159",
+		id: "26159",
 		name: "Van Buren County",
 		state: "Michigan",
 		population: 75681,
@@ -52524,7 +52524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26161",
+		id: "26161",
 		name: "Washtenaw County",
 		state: "Michigan",
 		population: 368394,
@@ -52564,7 +52564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26163",
+		id: "26163",
 		name: "Wayne County",
 		state: "Michigan",
 		population: 1773767,
@@ -52604,7 +52604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "26165",
+		id: "26165",
 		name: "Wexford County",
 		state: "Michigan",
 		population: 33868,
@@ -52644,7 +52644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27001",
+		id: "27001",
 		name: "Aitkin County",
 		state: "Minnesota",
 		population: 15930,
@@ -52684,7 +52684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27003",
+		id: "27003",
 		name: "Anoka County",
 		state: "Minnesota",
 		population: 367095,
@@ -52724,7 +52724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27005",
+		id: "27005",
 		name: "Becker County",
 		state: "Minnesota",
 		population: 35260,
@@ -52764,7 +52764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27007",
+		id: "27007",
 		name: "Beltrami County",
 		state: "Minnesota",
 		population: 46421,
@@ -52804,7 +52804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27009",
+		id: "27009",
 		name: "Benton County",
 		state: "Minnesota",
 		population: 41458,
@@ -52844,7 +52844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27011",
+		id: "27011",
 		name: "Big Stone County",
 		state: "Minnesota",
 		population: 5152,
@@ -52884,7 +52884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27013",
+		id: "27013",
 		name: "Blue Earth County",
 		state: "Minnesota",
 		population: 69386,
@@ -52924,7 +52924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27015",
+		id: "27015",
 		name: "Brown County",
 		state: "Minnesota",
 		population: 25826,
@@ -52964,7 +52964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27017",
+		id: "27017",
 		name: "Carlton County",
 		state: "Minnesota",
 		population: 36457,
@@ -53004,7 +53004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27019",
+		id: "27019",
 		name: "Carver County",
 		state: "Minnesota",
 		population: 108622,
@@ -53044,7 +53044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27021",
+		id: "27021",
 		name: "Cass County",
 		state: "Minnesota",
 		population: 30688,
@@ -53084,7 +53084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27023",
+		id: "27023",
 		name: "Chippewa County",
 		state: "Minnesota",
 		population: 12388,
@@ -53124,7 +53124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27025",
+		id: "27025",
 		name: "Chisago County",
 		state: "Minnesota",
 		population: 57434,
@@ -53164,7 +53164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27027",
+		id: "27027",
 		name: "Clay County",
 		state: "Minnesota",
 		population: 65628,
@@ -53204,7 +53204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27029",
+		id: "27029",
 		name: "Clearwater County",
 		state: "Minnesota",
 		population: 8579,
@@ -53244,7 +53244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27031",
+		id: "27031",
 		name: "Cook County",
 		state: "Minnesota",
 		population: 5633,
@@ -53284,7 +53284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27033",
+		id: "27033",
 		name: "Cottonwood County",
 		state: "Minnesota",
 		population: 11458,
@@ -53324,7 +53324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27035",
+		id: "27035",
 		name: "Crow Wing County",
 		state: "Minnesota",
 		population: 67113,
@@ -53364,7 +53364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27037",
+		id: "27037",
 		name: "Dakota County",
 		state: "Minnesota",
 		population: 442204,
@@ -53404,7 +53404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27039",
+		id: "27039",
 		name: "Dodge County",
 		state: "Minnesota",
 		population: 20962,
@@ -53444,7 +53444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27041",
+		id: "27041",
 		name: "Douglas County",
 		state: "Minnesota",
 		population: 39354,
@@ -53484,7 +53484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27043",
+		id: "27043",
 		name: "Faribault County",
 		state: "Minnesota",
 		population: 13909,
@@ -53524,7 +53524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27045",
+		id: "27045",
 		name: "Fillmore County",
 		state: "Minnesota",
 		population: 21346,
@@ -53564,7 +53564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27047",
+		id: "27047",
 		name: "Freeborn County",
 		state: "Minnesota",
 		population: 30752,
@@ -53604,7 +53604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27049",
+		id: "27049",
 		name: "Goodhue County",
 		state: "Minnesota",
 		population: 47844,
@@ -53644,7 +53644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27051",
+		id: "27051",
 		name: "Grant County",
 		state: "Minnesota",
 		population: 6108,
@@ -53684,7 +53684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27053",
+		id: "27053",
 		name: "Hennepin County",
 		state: "Minnesota",
 		population: 1268903,
@@ -53724,7 +53724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27055",
+		id: "27055",
 		name: "Houston County",
 		state: "Minnesota",
 		population: 18768,
@@ -53764,7 +53764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27057",
+		id: "27057",
 		name: "Hubbard County",
 		state: "Minnesota",
 		population: 21700,
@@ -53804,7 +53804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27059",
+		id: "27059",
 		name: "Isanti County",
 		state: "Minnesota",
 		population: 41934,
@@ -53844,7 +53844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27061",
+		id: "27061",
 		name: "Itasca County",
 		state: "Minnesota",
 		population: 45141,
@@ -53884,7 +53884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27063",
+		id: "27063",
 		name: "Jackson County",
 		state: "Minnesota",
 		population: 9964,
@@ -53924,7 +53924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27065",
+		id: "27065",
 		name: "Kanabec County",
 		state: "Minnesota",
 		population: 16261,
@@ -53964,7 +53964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27067",
+		id: "27067",
 		name: "Kandiyohi County",
 		state: "Minnesota",
 		population: 43757,
@@ -54004,7 +54004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27069",
+		id: "27069",
 		name: "Kittson County",
 		state: "Minnesota",
 		population: 4163,
@@ -54044,7 +54044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27071",
+		id: "27071",
 		name: "Koochiching County",
 		state: "Minnesota",
 		population: 11950,
@@ -54084,7 +54084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27073",
+		id: "27073",
 		name: "Lac qui Parle County",
 		state: "Minnesota",
 		population: 6694,
@@ -54124,7 +54124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27075",
+		id: "27075",
 		name: "Lake County",
 		state: "Minnesota",
 		population: 10911,
@@ -54164,7 +54164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27077",
+		id: "27077",
 		name: "Lake of the Woods County",
 		state: "Minnesota",
 		population: 3800,
@@ -54204,7 +54204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27079",
+		id: "27079",
 		name: "Le Sueur County",
 		state: "Minnesota",
 		population: 28936,
@@ -54244,7 +54244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27081",
+		id: "27081",
 		name: "Lincoln County",
 		state: "Minnesota",
 		population: 5594,
@@ -54284,7 +54284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27083",
+		id: "27083",
 		name: "Lyon County",
 		state: "Minnesota",
 		population: 25498,
@@ -54324,7 +54324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27085",
+		id: "27085",
 		name: "McLeod County",
 		state: "Minnesota",
 		population: 36771,
@@ -54364,7 +54364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27087",
+		id: "27087",
 		name: "Mahnomen County",
 		state: "Minnesota",
 		population: 5371,
@@ -54404,7 +54404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27089",
+		id: "27089",
 		name: "Marshall County",
 		state: "Minnesota",
 		population: 8961,
@@ -54444,7 +54444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27091",
+		id: "27091",
 		name: "Martin County",
 		state: "Minnesota",
 		population: 19864,
@@ -54484,7 +54484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27093",
+		id: "27093",
 		name: "Meeker County",
 		state: "Minnesota",
 		population: 23422,
@@ -54524,7 +54524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27095",
+		id: "27095",
 		name: "Mille Lacs County",
 		state: "Minnesota",
 		population: 26912,
@@ -54564,7 +54564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27097",
+		id: "27097",
 		name: "Morrison County",
 		state: "Minnesota",
 		population: 34131,
@@ -54604,7 +54604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27099",
+		id: "27099",
 		name: "Mower County",
 		state: "Minnesota",
 		population: 40069,
@@ -54644,7 +54644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27101",
+		id: "27101",
 		name: "Murray County",
 		state: "Minnesota",
 		population: 8119,
@@ -54684,7 +54684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27103",
+		id: "27103",
 		name: "Nicollet County",
 		state: "Minnesota",
 		population: 34350,
@@ -54724,7 +54724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27105",
+		id: "27105",
 		name: "Nobles County",
 		state: "Minnesota",
 		population: 22067,
@@ -54764,7 +54764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27107",
+		id: "27107",
 		name: "Norman County",
 		state: "Minnesota",
 		population: 6411,
@@ -54804,7 +54804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27109",
+		id: "27109",
 		name: "Olmsted County",
 		state: "Minnesota",
 		population: 163425,
@@ -54844,7 +54844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27111",
+		id: "27111",
 		name: "Otter Tail County",
 		state: "Minnesota",
 		population: 60281,
@@ -54884,7 +54884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27113",
+		id: "27113",
 		name: "Pennington County",
 		state: "Minnesota",
 		population: 13877,
@@ -54924,7 +54924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27115",
+		id: "27115",
 		name: "Pine County",
 		state: "Minnesota",
 		population: 29411,
@@ -54964,7 +54964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27117",
+		id: "27117",
 		name: "Pipestone County",
 		state: "Minnesota",
 		population: 9352,
@@ -55004,7 +55004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27119",
+		id: "27119",
 		name: "Polk County",
 		state: "Minnesota",
 		population: 30905,
@@ -55044,7 +55044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27121",
+		id: "27121",
 		name: "Pope County",
 		state: "Minnesota",
 		population: 11363,
@@ -55084,7 +55084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27123",
+		id: "27123",
 		name: "Ramsey County",
 		state: "Minnesota",
 		population: 544438,
@@ -55124,7 +55124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27125",
+		id: "27125",
 		name: "Red Lake County",
 		state: "Minnesota",
 		population: 3922,
@@ -55164,7 +55164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27127",
+		id: "27127",
 		name: "Redwood County",
 		state: "Minnesota",
 		population: 15383,
@@ -55204,7 +55204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27129",
+		id: "27129",
 		name: "Renville County",
 		state: "Minnesota",
 		population: 14587,
@@ -55244,7 +55244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27131",
+		id: "27131",
 		name: "Rice County",
 		state: "Minnesota",
 		population: 67389,
@@ -55284,7 +55284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27133",
+		id: "27133",
 		name: "Rock County",
 		state: "Minnesota",
 		population: 9628,
@@ -55324,7 +55324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27135",
+		id: "27135",
 		name: "Roseau County",
 		state: "Minnesota",
 		population: 15301,
@@ -55364,7 +55364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27137",
+		id: "27137",
 		name: "St. Louis County",
 		state: "Minnesota",
 		population: 200056,
@@ -55404,7 +55404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27139",
+		id: "27139",
 		name: "Scott County",
 		state: "Minnesota",
 		population: 152957,
@@ -55444,7 +55444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27141",
+		id: "27141",
 		name: "Sherburne County",
 		state: "Minnesota",
 		population: 99178,
@@ -55484,7 +55484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27143",
+		id: "27143",
 		name: "Sibley County",
 		state: "Minnesota",
 		population: 14933,
@@ -55524,7 +55524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27145",
+		id: "27145",
 		name: "Stearns County",
 		state: "Minnesota",
 		population: 159358,
@@ -55564,7 +55564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27147",
+		id: "27147",
 		name: "Steele County",
 		state: "Minnesota",
 		population: 37413,
@@ -55604,7 +55604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27149",
+		id: "27149",
 		name: "Stevens County",
 		state: "Minnesota",
 		population: 9686,
@@ -55644,7 +55644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27151",
+		id: "27151",
 		name: "Swift County",
 		state: "Minnesota",
 		population: 9787,
@@ -55684,7 +55684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27153",
+		id: "27153",
 		name: "Todd County",
 		state: "Minnesota",
 		population: 25402,
@@ -55724,7 +55724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27155",
+		id: "27155",
 		name: "Traverse County",
 		state: "Minnesota",
 		population: 3279,
@@ -55764,7 +55764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27157",
+		id: "27157",
 		name: "Wabasha County",
 		state: "Minnesota",
 		population: 21519,
@@ -55804,7 +55804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27159",
+		id: "27159",
 		name: "Wadena County",
 		state: "Minnesota",
 		population: 14135,
@@ -55844,7 +55844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27161",
+		id: "27161",
 		name: "Waseca County",
 		state: "Minnesota",
 		population: 18958,
@@ -55884,7 +55884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27163",
+		id: "27163",
 		name: "Washington County",
 		state: "Minnesota",
 		population: 272298,
@@ -55924,7 +55924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27165",
+		id: "27165",
 		name: "Watonwan County",
 		state: "Minnesota",
 		population: 11169,
@@ -55964,7 +55964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27167",
+		id: "27167",
 		name: "Wilkin County",
 		state: "Minnesota",
 		population: 6413,
@@ -56004,7 +56004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27169",
+		id: "27169",
 		name: "Winona County",
 		state: "Minnesota",
 		population: 49705,
@@ -56044,7 +56044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27171",
+		id: "27171",
 		name: "Wright County",
 		state: "Minnesota",
 		population: 145270,
@@ -56084,7 +56084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "27173",
+		id: "27173",
 		name: "Yellow Medicine County",
 		state: "Minnesota",
 		population: 9509,
@@ -56124,7 +56124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28001",
+		id: "28001",
 		name: "Adams County",
 		state: "Mississippi",
 		population: 29098,
@@ -56164,7 +56164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28003",
+		id: "28003",
 		name: "Alcorn County",
 		state: "Mississippi",
 		population: 34500,
@@ -56204,7 +56204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28005",
+		id: "28005",
 		name: "Amite County",
 		state: "Mississippi",
 		population: 12611,
@@ -56244,7 +56244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28007",
+		id: "28007",
 		name: "Attala County",
 		state: "Mississippi",
 		population: 17685,
@@ -56284,7 +56284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28009",
+		id: "28009",
 		name: "Benton County",
 		state: "Mississippi",
 		population: 7592,
@@ -56324,7 +56324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28011",
+		id: "28011",
 		name: "Bolivar County",
 		state: "Mississippi",
 		population: 30163,
@@ -56364,7 +56364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28013",
+		id: "28013",
 		name: "Calhoun County",
 		state: "Mississippi",
 		population: 13029,
@@ -56404,7 +56404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28015",
+		id: "28015",
 		name: "Carroll County",
 		state: "Mississippi",
 		population: 9828,
@@ -56444,7 +56444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28017",
+		id: "28017",
 		name: "Chickasaw County",
 		state: "Mississippi",
 		population: 16994,
@@ -56484,7 +56484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28019",
+		id: "28019",
 		name: "Choctaw County",
 		state: "Mississippi",
 		population: 8172,
@@ -56524,7 +56524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28021",
+		id: "28021",
 		name: "Claiborne County",
 		state: "Mississippi",
 		population: 8908,
@@ -56564,7 +56564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28023",
+		id: "28023",
 		name: "Clarke County",
 		state: "Mississippi",
 		population: 15424,
@@ -56604,7 +56604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28025",
+		id: "28025",
 		name: "Clay County",
 		state: "Mississippi",
 		population: 18462,
@@ -56644,7 +56644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28027",
+		id: "28027",
 		name: "Coahoma County",
 		state: "Mississippi",
 		population: 20808,
@@ -56684,7 +56684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28029",
+		id: "28029",
 		name: "Copiah County",
 		state: "Mississippi",
 		population: 27994,
@@ -56724,7 +56724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28031",
+		id: "28031",
 		name: "Covington County",
 		state: "Mississippi",
 		population: 18226,
@@ -56764,7 +56764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28033",
+		id: "28033",
 		name: "DeSoto County",
 		state: "Mississippi",
 		population: 188598,
@@ -56804,7 +56804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28035",
+		id: "28035",
 		name: "Forrest County",
 		state: "Mississippi",
 		population: 78027,
@@ -56844,7 +56844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28037",
+		id: "28037",
 		name: "Franklin County",
 		state: "Mississippi",
 		population: 7655,
@@ -56884,7 +56884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28039",
+		id: "28039",
 		name: "George County",
 		state: "Mississippi",
 		population: 24870,
@@ -56924,7 +56924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28041",
+		id: "28041",
 		name: "Greene County",
 		state: "Mississippi",
 		population: 13595,
@@ -56964,7 +56964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28043",
+		id: "28043",
 		name: "Grenada County",
 		state: "Mississippi",
 		population: 21342,
@@ -57004,7 +57004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28045",
+		id: "28045",
 		name: "Hancock County",
 		state: "Mississippi",
 		population: 46057,
@@ -57044,7 +57044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28047",
+		id: "28047",
 		name: "Harrison County",
 		state: "Mississippi",
 		population: 209443,
@@ -57084,7 +57084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28049",
+		id: "28049",
 		name: "Hinds County",
 		state: "Mississippi",
 		population: 222494,
@@ -57124,7 +57124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28051",
+		id: "28051",
 		name: "Holmes County",
 		state: "Mississippi",
 		population: 16491,
@@ -57164,7 +57164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28053",
+		id: "28053",
 		name: "Humphreys County",
 		state: "Mississippi",
 		population: 7570,
@@ -57204,7 +57204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28055",
+		id: "28055",
 		name: "Issaquena County",
 		state: "Mississippi",
 		population: 1095,
@@ -57244,7 +57244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28057",
+		id: "28057",
 		name: "Itawamba County",
 		state: "Mississippi",
 		population: 23942,
@@ -57284,7 +57284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28059",
+		id: "28059",
 		name: "Jackson County",
 		state: "Mississippi",
 		population: 144437,
@@ -57324,7 +57324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28061",
+		id: "28061",
 		name: "Jasper County",
 		state: "Mississippi",
 		population: 16211,
@@ -57364,7 +57364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28063",
+		id: "28063",
 		name: "Jefferson County",
 		state: "Mississippi",
 		population: 7127,
@@ -57404,7 +57404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28065",
+		id: "28065",
 		name: "Jefferson Davis County",
 		state: "Mississippi",
 		population: 11183,
@@ -57444,7 +57444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28067",
+		id: "28067",
 		name: "Jones County",
 		state: "Mississippi",
 		population: 66839,
@@ -57484,7 +57484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28069",
+		id: "28069",
 		name: "Kemper County",
 		state: "Mississippi",
 		population: 8855,
@@ -57524,7 +57524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28071",
+		id: "28071",
 		name: "Lafayette County",
 		state: "Mississippi",
 		population: 56920,
@@ -57564,7 +57564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28073",
+		id: "28073",
 		name: "Lamar County",
 		state: "Mississippi",
 		population: 65081,
@@ -57604,7 +57604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28075",
+		id: "28075",
 		name: "Lauderdale County",
 		state: "Mississippi",
 		population: 71984,
@@ -57644,7 +57644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28077",
+		id: "28077",
 		name: "Lawrence County",
 		state: "Mississippi",
 		population: 11883,
@@ -57684,7 +57684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28079",
+		id: "28079",
 		name: "Leake County",
 		state: "Mississippi",
 		population: 21288,
@@ -57724,7 +57724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28081",
+		id: "28081",
 		name: "Lee County",
 		state: "Mississippi",
 		population: 83138,
@@ -57764,7 +57764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28083",
+		id: "28083",
 		name: "Leflore County",
 		state: "Mississippi",
 		population: 27432,
@@ -57804,7 +57804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28085",
+		id: "28085",
 		name: "Lincoln County",
 		state: "Mississippi",
 		population: 34830,
@@ -57844,7 +57844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28087",
+		id: "28087",
 		name: "Lowndes County",
 		state: "Mississippi",
 		population: 58187,
@@ -57884,7 +57884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28089",
+		id: "28089",
 		name: "Madison County",
 		state: "Mississippi",
 		population: 110303,
@@ -57924,7 +57924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28091",
+		id: "28091",
 		name: "Marion County",
 		state: "Mississippi",
 		population: 24303,
@@ -57964,7 +57964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28093",
+		id: "28093",
 		name: "Marshall County",
 		state: "Mississippi",
 		population: 33899,
@@ -58004,7 +58004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28095",
+		id: "28095",
 		name: "Monroe County",
 		state: "Mississippi",
 		population: 33928,
@@ -58044,7 +58044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28097",
+		id: "28097",
 		name: "Montgomery County",
 		state: "Mississippi",
 		population: 9708,
@@ -58084,7 +58084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28099",
+		id: "28099",
 		name: "Neshoba County",
 		state: "Mississippi",
 		population: 28927,
@@ -58124,7 +58124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28101",
+		id: "28101",
 		name: "Newton County",
 		state: "Mississippi",
 		population: 21151,
@@ -58164,7 +58164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28103",
+		id: "28103",
 		name: "Noxubee County",
 		state: "Mississippi",
 		population: 10136,
@@ -58204,7 +58204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28105",
+		id: "28105",
 		name: "Oktibbeha County",
 		state: "Mississippi",
 		population: 51473,
@@ -58244,7 +58244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28107",
+		id: "28107",
 		name: "Panola County",
 		state: "Mississippi",
 		population: 32965,
@@ -58284,7 +58284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28109",
+		id: "28109",
 		name: "Pearl River County",
 		state: "Mississippi",
 		population: 56781,
@@ -58324,7 +58324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28111",
+		id: "28111",
 		name: "Perry County",
 		state: "Mississippi",
 		population: 11459,
@@ -58364,7 +58364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28113",
+		id: "28113",
 		name: "Pike County",
 		state: "Mississippi",
 		population: 39930,
@@ -58404,7 +58404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28115",
+		id: "28115",
 		name: "Pontotoc County",
 		state: "Mississippi",
 		population: 31312,
@@ -58444,7 +58444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28117",
+		id: "28117",
 		name: "Prentiss County",
 		state: "Mississippi",
 		population: 24999,
@@ -58484,7 +58484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28119",
+		id: "28119",
 		name: "Quitman County",
 		state: "Mississippi",
 		population: 5908,
@@ -58524,7 +58524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28121",
+		id: "28121",
 		name: "Rankin County",
 		state: "Mississippi",
 		population: 158218,
@@ -58564,7 +58564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28123",
+		id: "28123",
 		name: "Scott County",
 		state: "Mississippi",
 		population: 27754,
@@ -58604,7 +58604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28125",
+		id: "28125",
 		name: "Sharkey County",
 		state: "Mississippi",
 		population: 3848,
@@ -58644,7 +58644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28127",
+		id: "28127",
 		name: "Simpson County",
 		state: "Mississippi",
 		population: 25817,
@@ -58684,7 +58684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28129",
+		id: "28129",
 		name: "Smith County",
 		state: "Mississippi",
 		population: 14193,
@@ -58724,7 +58724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28131",
+		id: "28131",
 		name: "Stone County",
 		state: "Mississippi",
 		population: 18515,
@@ -58764,7 +58764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28133",
+		id: "28133",
 		name: "Sunflower County",
 		state: "Mississippi",
 		population: 25328,
@@ -58804,7 +58804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28135",
+		id: "28135",
 		name: "Tallahatchie County",
 		state: "Mississippi",
 		population: 12363,
@@ -58844,7 +58844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28137",
+		id: "28137",
 		name: "Tate County",
 		state: "Mississippi",
 		population: 28135,
@@ -58884,7 +58884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28139",
+		id: "28139",
 		name: "Tippah County",
 		state: "Mississippi",
 		population: 21621,
@@ -58924,7 +58924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28141",
+		id: "28141",
 		name: "Tishomingo County",
 		state: "Mississippi",
 		population: 18738,
@@ -58964,7 +58964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28143",
+		id: "28143",
 		name: "Tunica County",
 		state: "Mississippi",
 		population: 9586,
@@ -59004,7 +59004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28145",
+		id: "28145",
 		name: "Union County",
 		state: "Mississippi",
 		population: 28009,
@@ -59044,7 +59044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28147",
+		id: "28147",
 		name: "Walthall County",
 		state: "Mississippi",
 		population: 13864,
@@ -59084,7 +59084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28149",
+		id: "28149",
 		name: "Warren County",
 		state: "Mississippi",
 		population: 43623,
@@ -59124,7 +59124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28151",
+		id: "28151",
 		name: "Washington County",
 		state: "Mississippi",
 		population: 43674,
@@ -59164,7 +59164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28153",
+		id: "28153",
 		name: "Wayne County",
 		state: "Mississippi",
 		population: 19699,
@@ -59204,7 +59204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28155",
+		id: "28155",
 		name: "Webster County",
 		state: "Mississippi",
 		population: 9942,
@@ -59244,7 +59244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28157",
+		id: "28157",
 		name: "Wilkinson County",
 		state: "Mississippi",
 		population: 8376,
@@ -59284,7 +59284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28159",
+		id: "28159",
 		name: "Winston County",
 		state: "Mississippi",
 		population: 17609,
@@ -59324,7 +59324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28161",
+		id: "28161",
 		name: "Yalobusha County",
 		state: "Mississippi",
 		population: 12439,
@@ -59364,7 +59364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "28163",
+		id: "28163",
 		name: "Yazoo County",
 		state: "Mississippi",
 		population: 26837,
@@ -59404,7 +59404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29001",
+		id: "29001",
 		name: "Adair County",
 		state: "Missouri",
 		population: 25224,
@@ -59444,7 +59444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29003",
+		id: "29003",
 		name: "Andrew County",
 		state: "Missouri",
 		population: 18086,
@@ -59484,7 +59484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29005",
+		id: "29005",
 		name: "Atchison County",
 		state: "Missouri",
 		population: 5216,
@@ -59524,7 +59524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29007",
+		id: "29007",
 		name: "Audrain County",
 		state: "Missouri",
 		population: 24688,
@@ -59564,7 +59564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29009",
+		id: "29009",
 		name: "Barry County",
 		state: "Missouri",
 		population: 34831,
@@ -59604,7 +59604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29011",
+		id: "29011",
 		name: "Barton County",
 		state: "Missouri",
 		population: 11685,
@@ -59644,7 +59644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29013",
+		id: "29013",
 		name: "Bates County",
 		state: "Missouri",
 		population: 16121,
@@ -59684,7 +59684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29015",
+		id: "29015",
 		name: "Benton County",
 		state: "Missouri",
 		population: 19887,
@@ -59724,7 +59724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29017",
+		id: "29017",
 		name: "Bollinger County",
 		state: "Missouri",
 		population: 10591,
@@ -59764,7 +59764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29019",
+		id: "29019",
 		name: "Boone County",
 		state: "Missouri",
 		population: 185874,
@@ -59804,7 +59804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29021",
+		id: "29021",
 		name: "Buchanan County",
 		state: "Missouri",
 		population: 83855,
@@ -59844,7 +59844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29023",
+		id: "29023",
 		name: "Butler County",
 		state: "Missouri",
 		population: 42166,
@@ -59884,7 +59884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29025",
+		id: "29025",
 		name: "Caldwell County",
 		state: "Missouri",
 		population: 8890,
@@ -59924,7 +59924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29027",
+		id: "29027",
 		name: "Callaway County",
 		state: "Missouri",
 		population: 44541,
@@ -59964,7 +59964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29029",
+		id: "29029",
 		name: "Camden County",
 		state: "Missouri",
 		population: 43416,
@@ -60004,7 +60004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29031",
+		id: "29031",
 		name: "Cape Girardeau County",
 		state: "Missouri",
 		population: 82180,
@@ -60044,7 +60044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29033",
+		id: "29033",
 		name: "Carroll County",
 		state: "Missouri",
 		population: 8459,
@@ -60084,7 +60084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29035",
+		id: "29035",
 		name: "Carter County",
 		state: "Missouri",
 		population: 5269,
@@ -60124,7 +60124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29037",
+		id: "29037",
 		name: "Cass County",
 		state: "Missouri",
 		population: 109393,
@@ -60164,7 +60164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29039",
+		id: "29039",
 		name: "Cedar County",
 		state: "Missouri",
 		population: 14440,
@@ -60204,7 +60204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29041",
+		id: "29041",
 		name: "Chariton County",
 		state: "Missouri",
 		population: 7406,
@@ -60244,7 +60244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29043",
+		id: "29043",
 		name: "Christian County",
 		state: "Missouri",
 		population: 91229,
@@ -60284,7 +60284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29045",
+		id: "29045",
 		name: "Clark County",
 		state: "Missouri",
 		population: 6680,
@@ -60324,7 +60324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29047",
+		id: "29047",
 		name: "Clay County",
 		state: "Missouri",
 		population: 255566,
@@ -60364,7 +60364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29049",
+		id: "29049",
 		name: "Clinton County",
 		state: "Missouri",
 		population: 21259,
@@ -60404,7 +60404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29051",
+		id: "29051",
 		name: "Cole County",
 		state: "Missouri",
 		population: 76924,
@@ -60444,7 +60444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29053",
+		id: "29053",
 		name: "Cooper County",
 		state: "Missouri",
 		population: 16835,
@@ -60484,7 +60484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29055",
+		id: "29055",
 		name: "Crawford County",
 		state: "Missouri",
 		population: 22890,
@@ -60524,7 +60524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29057",
+		id: "29057",
 		name: "Dade County",
 		state: "Missouri",
 		population: 7627,
@@ -60564,7 +60564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29059",
+		id: "29059",
 		name: "Dallas County",
 		state: "Missouri",
 		population: 17344,
@@ -60604,7 +60604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29061",
+		id: "29061",
 		name: "Daviess County",
 		state: "Missouri",
 		population: 8449,
@@ -60644,7 +60644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29063",
+		id: "29063",
 		name: "DeKalb County",
 		state: "Missouri",
 		population: 11176,
@@ -60684,7 +60684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29065",
+		id: "29065",
 		name: "Dent County",
 		state: "Missouri",
 		population: 14506,
@@ -60724,7 +60724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29067",
+		id: "29067",
 		name: "Douglas County",
 		state: "Missouri",
 		population: 11850,
@@ -60764,7 +60764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29069",
+		id: "29069",
 		name: "Dunklin County",
 		state: "Missouri",
 		population: 27795,
@@ -60804,7 +60804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29071",
+		id: "29071",
 		name: "Franklin County",
 		state: "Missouri",
 		population: 105316,
@@ -60844,7 +60844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29073",
+		id: "29073",
 		name: "Gasconade County",
 		state: "Missouri",
 		population: 14774,
@@ -60884,7 +60884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29075",
+		id: "29075",
 		name: "Gentry County",
 		state: "Missouri",
 		population: 6224,
@@ -60924,7 +60924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29077",
+		id: "29077",
 		name: "Greene County",
 		state: "Missouri",
 		population: 301121,
@@ -60964,7 +60964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29079",
+		id: "29079",
 		name: "Grundy County",
 		state: "Missouri",
 		population: 9822,
@@ -61004,7 +61004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29081",
+		id: "29081",
 		name: "Harrison County",
 		state: "Missouri",
 		population: 8198,
@@ -61044,7 +61044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29083",
+		id: "29083",
 		name: "Henry County",
 		state: "Missouri",
 		population: 22194,
@@ -61084,7 +61084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29085",
+		id: "29085",
 		name: "Hickory County",
 		state: "Missouri",
 		population: 8501,
@@ -61124,7 +61124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29087",
+		id: "29087",
 		name: "Holt County",
 		state: "Missouri",
 		population: 4254,
@@ -61164,7 +61164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29089",
+		id: "29089",
 		name: "Howard County",
 		state: "Missouri",
 		population: 10141,
@@ -61204,7 +61204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29091",
+		id: "29091",
 		name: "Howell County",
 		state: "Missouri",
 		population: 40168,
@@ -61244,7 +61244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29093",
+		id: "29093",
 		name: "Iron County",
 		state: "Missouri",
 		population: 9482,
@@ -61284,7 +61284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29095",
+		id: "29095",
 		name: "Jackson County",
 		state: "Missouri",
 		population: 717021,
@@ -61324,7 +61324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29097",
+		id: "29097",
 		name: "Jasper County",
 		state: "Missouri",
 		population: 123532,
@@ -61364,7 +61364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29099",
+		id: "29099",
 		name: "Jefferson County",
 		state: "Missouri",
 		population: 228227,
@@ -61404,7 +61404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29101",
+		id: "29101",
 		name: "Johnson County",
 		state: "Missouri",
 		population: 54331,
@@ -61444,7 +61444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29103",
+		id: "29103",
 		name: "Knox County",
 		state: "Missouri",
 		population: 3760,
@@ -61484,7 +61484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29105",
+		id: "29105",
 		name: "Laclede County",
 		state: "Missouri",
 		population: 36245,
@@ -61524,7 +61524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29107",
+		id: "29107",
 		name: "Lafayette County",
 		state: "Missouri",
 		population: 32974,
@@ -61564,7 +61564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29109",
+		id: "29109",
 		name: "Lawrence County",
 		state: "Missouri",
 		population: 38392,
@@ -61604,7 +61604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29111",
+		id: "29111",
 		name: "Lewis County",
 		state: "Missouri",
 		population: 9945,
@@ -61644,7 +61644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29113",
+		id: "29113",
 		name: "Lincoln County",
 		state: "Missouri",
 		population: 61636,
@@ -61684,7 +61684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29115",
+		id: "29115",
 		name: "Linn County",
 		state: "Missouri",
 		population: 11850,
@@ -61724,7 +61724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29117",
+		id: "29117",
 		name: "Livingston County",
 		state: "Missouri",
 		population: 14330,
@@ -61764,7 +61764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29119",
+		id: "29119",
 		name: "McDonald County",
 		state: "Missouri",
 		population: 23492,
@@ -61804,7 +61804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29121",
+		id: "29121",
 		name: "Macon County",
 		state: "Missouri",
 		population: 15163,
@@ -61844,7 +61844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29123",
+		id: "29123",
 		name: "Madison County",
 		state: "Missouri",
 		population: 12665,
@@ -61884,7 +61884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29125",
+		id: "29125",
 		name: "Maries County",
 		state: "Missouri",
 		population: 8435,
@@ -61924,7 +61924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29127",
+		id: "29127",
 		name: "Marion County",
 		state: "Missouri",
 		population: 28493,
@@ -61964,7 +61964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29129",
+		id: "29129",
 		name: "Mercer County",
 		state: "Missouri",
 		population: 3501,
@@ -62004,7 +62004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29131",
+		id: "29131",
 		name: "Miller County",
 		state: "Missouri",
 		population: 25081,
@@ -62044,7 +62044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29133",
+		id: "29133",
 		name: "Mississippi County",
 		state: "Missouri",
 		population: 12079,
@@ -62084,7 +62084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29135",
+		id: "29135",
 		name: "Moniteau County",
 		state: "Missouri",
 		population: 15303,
@@ -62124,7 +62124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29137",
+		id: "29137",
 		name: "Monroe County",
 		state: "Missouri",
 		population: 8672,
@@ -62164,7 +62164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29139",
+		id: "29139",
 		name: "Montgomery County",
 		state: "Missouri",
 		population: 11422,
@@ -62204,7 +62204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29141",
+		id: "29141",
 		name: "Morgan County",
 		state: "Missouri",
 		population: 21430,
@@ -62244,7 +62244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29143",
+		id: "29143",
 		name: "New Madrid County",
 		state: "Missouri",
 		population: 16041,
@@ -62284,7 +62284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29145",
+		id: "29145",
 		name: "Newton County",
 		state: "Missouri",
 		population: 59490,
@@ -62324,7 +62324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29147",
+		id: "29147",
 		name: "Nodaway County",
 		state: "Missouri",
 		population: 20959,
@@ -62364,7 +62364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29149",
+		id: "29149",
 		name: "Oregon County",
 		state: "Missouri",
 		population: 8704,
@@ -62404,7 +62404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29151",
+		id: "29151",
 		name: "Osage County",
 		state: "Missouri",
 		population: 13379,
@@ -62444,7 +62444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29153",
+		id: "29153",
 		name: "Ozark County",
 		state: "Missouri",
 		population: 8773,
@@ -62484,7 +62484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29155",
+		id: "29155",
 		name: "Pemiscot County",
 		state: "Missouri",
 		population: 15232,
@@ -62524,7 +62524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29157",
+		id: "29157",
 		name: "Perry County",
 		state: "Missouri",
 		population: 18947,
@@ -62564,7 +62564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29159",
+		id: "29159",
 		name: "Pettis County",
 		state: "Missouri",
 		population: 43205,
@@ -62604,7 +62604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29161",
+		id: "29161",
 		name: "Phelps County",
 		state: "Missouri",
 		population: 44948,
@@ -62644,7 +62644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29163",
+		id: "29163",
 		name: "Pike County",
 		state: "Missouri",
 		population: 17623,
@@ -62684,7 +62684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29165",
+		id: "29165",
 		name: "Platte County",
 		state: "Missouri",
 		population: 108751,
@@ -62724,7 +62724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29167",
+		id: "29167",
 		name: "Polk County",
 		state: "Missouri",
 		population: 32109,
@@ -62764,7 +62764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29169",
+		id: "29169",
 		name: "Pulaski County",
 		state: "Missouri",
 		population: 53850,
@@ -62804,7 +62804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29171",
+		id: "29171",
 		name: "Putnam County",
 		state: "Missouri",
 		population: 4675,
@@ -62844,7 +62844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29173",
+		id: "29173",
 		name: "Ralls County",
 		state: "Missouri",
 		population: 10394,
@@ -62884,7 +62884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29175",
+		id: "29175",
 		name: "Randolph County",
 		state: "Missouri",
 		population: 24524,
@@ -62924,7 +62924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29177",
+		id: "29177",
 		name: "Ray County",
 		state: "Missouri",
 		population: 23149,
@@ -62964,7 +62964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29179",
+		id: "29179",
 		name: "Reynolds County",
 		state: "Missouri",
 		population: 6058,
@@ -63004,7 +63004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29181",
+		id: "29181",
 		name: "Ripley County",
 		state: "Missouri",
 		population: 10755,
@@ -63044,7 +63044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29183",
+		id: "29183",
 		name: "St. Charles County",
 		state: "Missouri",
 		population: 409830,
@@ -63084,7 +63084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29185",
+		id: "29185",
 		name: "St. Clair County",
 		state: "Missouri",
 		population: 9451,
@@ -63124,7 +63124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29186",
+		id: "29186",
 		name: "Ste. Genevieve County",
 		state: "Missouri",
 		population: 18551,
@@ -63164,7 +63164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29187",
+		id: "29187",
 		name: "St. Francois County",
 		state: "Missouri",
 		population: 66864,
@@ -63204,7 +63204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29189",
+		id: "29189",
 		name: "St. Louis County",
 		state: "Missouri",
 		population: 996618,
@@ -63244,7 +63244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29195",
+		id: "29195",
 		name: "Saline County",
 		state: "Missouri",
 		population: 23177,
@@ -63284,7 +63284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29197",
+		id: "29197",
 		name: "Schuyler County",
 		state: "Missouri",
 		population: 4044,
@@ -63324,7 +63324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29199",
+		id: "29199",
 		name: "Scotland County",
 		state: "Missouri",
 		population: 4698,
@@ -63364,7 +63364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29201",
+		id: "29201",
 		name: "Scott County",
 		state: "Missouri",
 		population: 37967,
@@ -63404,7 +63404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29203",
+		id: "29203",
 		name: "Shannon County",
 		state: "Missouri",
 		population: 7137,
@@ -63444,7 +63444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29205",
+		id: "29205",
 		name: "Shelby County",
 		state: "Missouri",
 		population: 6011,
@@ -63484,7 +63484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29207",
+		id: "29207",
 		name: "Stoddard County",
 		state: "Missouri",
 		population: 28547,
@@ -63524,7 +63524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29209",
+		id: "29209",
 		name: "Stone County",
 		state: "Missouri",
 		population: 31697,
@@ -63564,7 +63564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29211",
+		id: "29211",
 		name: "Sullivan County",
 		state: "Missouri",
 		population: 5903,
@@ -63604,7 +63604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29213",
+		id: "29213",
 		name: "Taney County",
 		state: "Missouri",
 		population: 56382,
@@ -63644,7 +63644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29215",
+		id: "29215",
 		name: "Texas County",
 		state: "Missouri",
 		population: 24956,
@@ -63684,7 +63684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29217",
+		id: "29217",
 		name: "Vernon County",
 		state: "Missouri",
 		population: 19713,
@@ -63724,7 +63724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29219",
+		id: "29219",
 		name: "Warren County",
 		state: "Missouri",
 		population: 36467,
@@ -63764,7 +63764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29221",
+		id: "29221",
 		name: "Washington County",
 		state: "Missouri",
 		population: 23483,
@@ -63804,7 +63804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29223",
+		id: "29223",
 		name: "Wayne County",
 		state: "Missouri",
 		population: 10942,
@@ -63844,7 +63844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29225",
+		id: "29225",
 		name: "Webster County",
 		state: "Missouri",
 		population: 39868,
@@ -63884,7 +63884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29227",
+		id: "29227",
 		name: "Worth County",
 		state: "Missouri",
 		population: 1956,
@@ -63924,7 +63924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29229",
+		id: "29229",
 		name: "Wright County",
 		state: "Missouri",
 		population: 18722,
@@ -63964,7 +63964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "29510",
+		id: "29510",
 		name: "St. Louis city",
 		state: "Missouri",
 		population: 293109,
@@ -64004,7 +64004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30001",
+		id: "30001",
 		name: "Beaverhead County",
 		state: "Montana",
 		population: 9590,
@@ -64044,7 +64044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30003",
+		id: "30003",
 		name: "Big Horn County",
 		state: "Montana",
 		population: 12963,
@@ -64084,7 +64084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30005",
+		id: "30005",
 		name: "Blaine County",
 		state: "Montana",
 		population: 6997,
@@ -64124,7 +64124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30007",
+		id: "30007",
 		name: "Broadwater County",
 		state: "Montana",
 		population: 7310,
@@ -64164,7 +64164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30009",
+		id: "30009",
 		name: "Carbon County",
 		state: "Montana",
 		population: 10877,
@@ -64204,7 +64204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30011",
+		id: "30011",
 		name: "Carter County",
 		state: "Montana",
 		population: 1361,
@@ -64244,7 +64244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30013",
+		id: "30013",
 		name: "Cascade County",
 		state: "Montana",
 		population: 84601,
@@ -64284,7 +64284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30015",
+		id: "30015",
 		name: "Chouteau County",
 		state: "Montana",
 		population: 5888,
@@ -64324,7 +64324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30017",
+		id: "30017",
 		name: "Custer County",
 		state: "Montana",
 		population: 11938,
@@ -64364,7 +64364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30019",
+		id: "30019",
 		name: "Daniels County",
 		state: "Montana",
 		population: 1524,
@@ -64404,7 +64404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30021",
+		id: "30021",
 		name: "Dawson County",
 		state: "Montana",
 		population: 8874,
@@ -64444,7 +64444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30023",
+		id: "30023",
 		name: "Deer Lodge County",
 		state: "Montana",
 		population: 9512,
@@ -64484,7 +64484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30025",
+		id: "30025",
 		name: "Fallon County",
 		state: "Montana",
 		population: 2817,
@@ -64524,7 +64524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30027",
+		id: "30027",
 		name: "Fergus County",
 		state: "Montana",
 		population: 11581,
@@ -64564,7 +64564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30029",
+		id: "30029",
 		name: "Flathead County",
 		state: "Montana",
 		population: 108445,
@@ -64604,7 +64604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30031",
+		id: "30031",
 		name: "Gallatin County",
 		state: "Montana",
 		population: 122194,
@@ -64644,7 +64644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30033",
+		id: "30033",
 		name: "Garfield County",
 		state: "Montana",
 		population: 938,
@@ -64684,7 +64684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30035",
+		id: "30035",
 		name: "Glacier County",
 		state: "Montana",
 		population: 13713,
@@ -64724,7 +64724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30037",
+		id: "30037",
 		name: "Golden Valley County",
 		state: "Montana",
 		population: 840,
@@ -64764,7 +64764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30039",
+		id: "30039",
 		name: "Granite County",
 		state: "Montana",
 		population: 3419,
@@ -64804,7 +64804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30041",
+		id: "30041",
 		name: "Hill County",
 		state: "Montana",
 		population: 16260,
@@ -64844,7 +64844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30043",
+		id: "30043",
 		name: "Jefferson County",
 		state: "Montana",
 		population: 12501,
@@ -64884,7 +64884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30045",
+		id: "30045",
 		name: "Judith Basin County",
 		state: "Montana",
 		population: 2053,
@@ -64924,7 +64924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30047",
+		id: "30047",
 		name: "Lake County",
 		state: "Montana",
 		population: 32073,
@@ -64964,7 +64964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30049",
+		id: "30049",
 		name: "Lewis and Clark County",
 		state: "Montana",
 		population: 72580,
@@ -65004,7 +65004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30051",
+		id: "30051",
 		name: "Liberty County",
 		state: "Montana",
 		population: 1968,
@@ -65044,7 +65044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30053",
+		id: "30053",
 		name: "Lincoln County",
 		state: "Montana",
 		population: 20656,
@@ -65084,7 +65084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30055",
+		id: "30055",
 		name: "McCone County",
 		state: "Montana",
 		population: 1818,
@@ -65124,7 +65124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30057",
+		id: "30057",
 		name: "Madison County",
 		state: "Montana",
 		population: 8975,
@@ -65164,7 +65164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30059",
+		id: "30059",
 		name: "Meagher County",
 		state: "Montana",
 		population: 1979,
@@ -65204,7 +65204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30061",
+		id: "30061",
 		name: "Mineral County",
 		state: "Montana",
 		population: 4796,
@@ -65244,7 +65244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30063",
+		id: "30063",
 		name: "Missoula County",
 		state: "Montana",
 		population: 119639,
@@ -65284,7 +65284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30065",
+		id: "30065",
 		name: "Musselshell County",
 		state: "Montana",
 		population: 5068,
@@ -65324,7 +65324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30067",
+		id: "30067",
 		name: "Park County",
 		state: "Montana",
 		population: 17484,
@@ -65364,7 +65364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30069",
+		id: "30069",
 		name: "Petroleum County",
 		state: "Montana",
 		population: 401,
@@ -65404,7 +65404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30071",
+		id: "30071",
 		name: "Phillips County",
 		state: "Montana",
 		population: 4224,
@@ -65444,7 +65444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30073",
+		id: "30073",
 		name: "Pondera County",
 		state: "Montana",
 		population: 6012,
@@ -65484,7 +65484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30075",
+		id: "30075",
 		name: "Powder River County",
 		state: "Montana",
 		population: 1762,
@@ -65524,7 +65524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30077",
+		id: "30077",
 		name: "Powell County",
 		state: "Montana",
 		population: 7029,
@@ -65564,7 +65564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30079",
+		id: "30079",
 		name: "Prairie County",
 		state: "Montana",
 		population: 1251,
@@ -65604,7 +65604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30081",
+		id: "30081",
 		name: "Ravalli County",
 		state: "Montana",
 		population: 45807,
@@ -65644,7 +65644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30083",
+		id: "30083",
 		name: "Richland County",
 		state: "Montana",
 		population: 11329,
@@ -65684,7 +65684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30085",
+		id: "30085",
 		name: "Roosevelt County",
 		state: "Montana",
 		population: 10665,
@@ -65724,7 +65724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30087",
+		id: "30087",
 		name: "Rosebud County",
 		state: "Montana",
 		population: 8236,
@@ -65764,7 +65764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30089",
+		id: "30089",
 		name: "Sanders County",
 		state: "Montana",
 		population: 12936,
@@ -65804,7 +65804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30091",
+		id: "30091",
 		name: "Sheridan County",
 		state: "Montana",
 		population: 3677,
@@ -65844,7 +65844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30093",
+		id: "30093",
 		name: "Silver Bow County",
 		state: "Montana",
 		population: 35589,
@@ -65884,7 +65884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30095",
+		id: "30095",
 		name: "Stillwater County",
 		state: "Montana",
 		population: 9052,
@@ -65924,7 +65924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30097",
+		id: "30097",
 		name: "Sweet Grass County",
 		state: "Montana",
 		population: 3713,
@@ -65964,7 +65964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30099",
+		id: "30099",
 		name: "Teton County",
 		state: "Montana",
 		population: 6291,
@@ -66004,7 +66004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30101",
+		id: "30101",
 		name: "Toole County",
 		state: "Montana",
 		population: 5028,
@@ -66044,7 +66044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30103",
+		id: "30103",
 		name: "Treasure County",
 		state: "Montana",
 		population: 761,
@@ -66084,7 +66084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30105",
+		id: "30105",
 		name: "Valley County",
 		state: "Montana",
 		population: 7540,
@@ -66124,7 +66124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30107",
+		id: "30107",
 		name: "Wheatland County",
 		state: "Montana",
 		population: 2049,
@@ -66164,7 +66164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30109",
+		id: "30109",
 		name: "Wibaux County",
 		state: "Montana",
 		population: 1148,
@@ -66204,7 +66204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "30111",
+		id: "30111",
 		name: "Yellowstone County",
 		state: "Montana",
 		population: 167340,
@@ -66244,7 +66244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31001",
+		id: "31001",
 		name: "Adams County",
 		state: "Nebraska",
 		population: 31034,
@@ -66284,7 +66284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31003",
+		id: "31003",
 		name: "Antelope County",
 		state: "Nebraska",
 		population: 6302,
@@ -66324,7 +66324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31005",
+		id: "31005",
 		name: "Arthur County",
 		state: "Nebraska",
 		population: 540,
@@ -66364,7 +66364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31007",
+		id: "31007",
 		name: "Banner County",
 		state: "Nebraska",
 		population: 657,
@@ -66404,7 +66404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31009",
+		id: "31009",
 		name: "Blaine County",
 		state: "Nebraska",
 		population: 385,
@@ -66444,7 +66444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31011",
+		id: "31011",
 		name: "Boone County",
 		state: "Nebraska",
 		population: 5366,
@@ -66484,7 +66484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31013",
+		id: "31013",
 		name: "Box Butte County",
 		state: "Nebraska",
 		population: 10754,
@@ -66524,7 +66524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31015",
+		id: "31015",
 		name: "Boyd County",
 		state: "Nebraska",
 		population: 1704,
@@ -66564,7 +66564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31017",
+		id: "31017",
 		name: "Brown County",
 		state: "Nebraska",
 		population: 2739,
@@ -66604,7 +66604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31019",
+		id: "31019",
 		name: "Buffalo County",
 		state: "Nebraska",
 		population: 50323,
@@ -66644,7 +66644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31021",
+		id: "31021",
 		name: "Burt County",
 		state: "Nebraska",
 		population: 6730,
@@ -66684,7 +66684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31023",
+		id: "31023",
 		name: "Butler County",
 		state: "Nebraska",
 		population: 8413,
@@ -66724,7 +66724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31025",
+		id: "31025",
 		name: "Cass County",
 		state: "Nebraska",
 		population: 26963,
@@ -66764,7 +66764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31027",
+		id: "31027",
 		name: "Cedar County",
 		state: "Nebraska",
 		population: 8344,
@@ -66804,7 +66804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31029",
+		id: "31029",
 		name: "Chase County",
 		state: "Nebraska",
 		population: 3639,
@@ -66844,7 +66844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31031",
+		id: "31031",
 		name: "Cherry County",
 		state: "Nebraska",
 		population: 5468,
@@ -66884,7 +66884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31033",
+		id: "31033",
 		name: "Cheyenne County",
 		state: "Nebraska",
 		population: 9478,
@@ -66924,7 +66924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31035",
+		id: "31035",
 		name: "Clay County",
 		state: "Nebraska",
 		population: 6084,
@@ -66964,7 +66964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31037",
+		id: "31037",
 		name: "Colfax County",
 		state: "Nebraska",
 		population: 10541,
@@ -67004,7 +67004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31039",
+		id: "31039",
 		name: "Cuming County",
 		state: "Nebraska",
 		population: 8976,
@@ -67044,7 +67044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31041",
+		id: "31041",
 		name: "Custer County",
 		state: "Nebraska",
 		population: 10544,
@@ -67084,7 +67084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31043",
+		id: "31043",
 		name: "Dakota County",
 		state: "Nebraska",
 		population: 21331,
@@ -67124,7 +67124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31045",
+		id: "31045",
 		name: "Dawes County",
 		state: "Nebraska",
 		population: 8212,
@@ -67164,7 +67164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31047",
+		id: "31047",
 		name: "Dawson County",
 		state: "Nebraska",
 		population: 24020,
@@ -67204,7 +67204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31049",
+		id: "31049",
 		name: "Deuel County",
 		state: "Nebraska",
 		population: 1865,
@@ -67244,7 +67244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31051",
+		id: "31051",
 		name: "Dixon County",
 		state: "Nebraska",
 		population: 5561,
@@ -67284,7 +67284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31053",
+		id: "31053",
 		name: "Dodge County",
 		state: "Nebraska",
 		population: 37146,
@@ -67324,7 +67324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31055",
+		id: "31055",
 		name: "Douglas County",
 		state: "Nebraska",
 		population: 585461,
@@ -67364,7 +67364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31057",
+		id: "31057",
 		name: "Dundy County",
 		state: "Nebraska",
 		population: 1811,
@@ -67404,7 +67404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31059",
+		id: "31059",
 		name: "Fillmore County",
 		state: "Nebraska",
 		population: 5551,
@@ -67444,7 +67444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31061",
+		id: "31061",
 		name: "Franklin County",
 		state: "Nebraska",
 		population: 2868,
@@ -67484,7 +67484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31063",
+		id: "31063",
 		name: "Frontier County",
 		state: "Nebraska",
 		population: 2562,
@@ -67524,7 +67524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31065",
+		id: "31065",
 		name: "Furnas County",
 		state: "Nebraska",
 		population: 4605,
@@ -67564,7 +67564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31067",
+		id: "31067",
 		name: "Gage County",
 		state: "Nebraska",
 		population: 21646,
@@ -67604,7 +67604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31069",
+		id: "31069",
 		name: "Garden County",
 		state: "Nebraska",
 		population: 1620,
@@ -67644,7 +67644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31071",
+		id: "31071",
 		name: "Garfield County",
 		state: "Nebraska",
 		population: 1797,
@@ -67684,7 +67684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31073",
+		id: "31073",
 		name: "Gosper County",
 		state: "Nebraska",
 		population: 1929,
@@ -67724,7 +67724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31075",
+		id: "31075",
 		name: "Grant County",
 		state: "Nebraska",
 		population: 695,
@@ -67764,7 +67764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31077",
+		id: "31077",
 		name: "Greeley County",
 		state: "Nebraska",
 		population: 2211,
@@ -67804,7 +67804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31079",
+		id: "31079",
 		name: "Hall County",
 		state: "Nebraska",
 		population: 62431,
@@ -67844,7 +67844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31081",
+		id: "31081",
 		name: "Hamilton County",
 		state: "Nebraska",
 		population: 9438,
@@ -67884,7 +67884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31083",
+		id: "31083",
 		name: "Harlan County",
 		state: "Nebraska",
 		population: 3006,
@@ -67924,7 +67924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31085",
+		id: "31085",
 		name: "Hayes County",
 		state: "Nebraska",
 		population: 854,
@@ -67964,7 +67964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31087",
+		id: "31087",
 		name: "Hitchcock County",
 		state: "Nebraska",
 		population: 2601,
@@ -68004,7 +68004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31089",
+		id: "31089",
 		name: "Holt County",
 		state: "Nebraska",
 		population: 10093,
@@ -68044,7 +68044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31091",
+		id: "31091",
 		name: "Hooker County",
 		state: "Nebraska",
 		population: 613,
@@ -68084,7 +68084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31093",
+		id: "31093",
 		name: "Howard County",
 		state: "Nebraska",
 		population: 6492,
@@ -68124,7 +68124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31095",
+		id: "31095",
 		name: "Jefferson County",
 		state: "Nebraska",
 		population: 7155,
@@ -68164,7 +68164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31097",
+		id: "31097",
 		name: "Johnson County",
 		state: "Nebraska",
 		population: 5263,
@@ -68204,7 +68204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31099",
+		id: "31099",
 		name: "Kearney County",
 		state: "Nebraska",
 		population: 6697,
@@ -68244,7 +68244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31101",
+		id: "31101",
 		name: "Keith County",
 		state: "Nebraska",
 		population: 8239,
@@ -68284,7 +68284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31103",
+		id: "31103",
 		name: "Keya Paha County",
 		state: "Nebraska",
 		population: 939,
@@ -68324,7 +68324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31105",
+		id: "31105",
 		name: "Kimball County",
 		state: "Nebraska",
 		population: 3348,
@@ -68364,7 +68364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31107",
+		id: "31107",
 		name: "Knox County",
 		state: "Nebraska",
 		population: 8362,
@@ -68404,7 +68404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31109",
+		id: "31109",
 		name: "Lancaster County",
 		state: "Nebraska",
 		population: 323673,
@@ -68444,7 +68444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31111",
+		id: "31111",
 		name: "Lincoln County",
 		state: "Nebraska",
 		population: 34122,
@@ -68484,7 +68484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31113",
+		id: "31113",
 		name: "Logan County",
 		state: "Nebraska",
 		population: 812,
@@ -68524,7 +68524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31115",
+		id: "31115",
 		name: "Loup County",
 		state: "Nebraska",
 		population: 564,
@@ -68564,7 +68564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31117",
+		id: "31117",
 		name: "McPherson County",
 		state: "Nebraska",
 		population: 463,
@@ -68604,7 +68604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31119",
+		id: "31119",
 		name: "Madison County",
 		state: "Nebraska",
 		population: 35535,
@@ -68644,7 +68644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31121",
+		id: "31121",
 		name: "Merrick County",
 		state: "Nebraska",
 		population: 7696,
@@ -68684,7 +68684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31123",
+		id: "31123",
 		name: "Morrill County",
 		state: "Nebraska",
 		population: 4544,
@@ -68724,7 +68724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31125",
+		id: "31125",
 		name: "Nance County",
 		state: "Nebraska",
 		population: 3342,
@@ -68764,7 +68764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31127",
+		id: "31127",
 		name: "Nemaha County",
 		state: "Nebraska",
 		population: 7035,
@@ -68804,7 +68804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31129",
+		id: "31129",
 		name: "Nuckolls County",
 		state: "Nebraska",
 		population: 4089,
@@ -68844,7 +68844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31131",
+		id: "31131",
 		name: "Otoe County",
 		state: "Nebraska",
 		population: 16075,
@@ -68884,7 +68884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31133",
+		id: "31133",
 		name: "Pawnee County",
 		state: "Nebraska",
 		population: 2539,
@@ -68924,7 +68924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31135",
+		id: "31135",
 		name: "Perkins County",
 		state: "Nebraska",
 		population: 2835,
@@ -68964,7 +68964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31137",
+		id: "31137",
 		name: "Phelps County",
 		state: "Nebraska",
 		population: 8983,
@@ -69004,7 +69004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31139",
+		id: "31139",
 		name: "Pierce County",
 		state: "Nebraska",
 		population: 7312,
@@ -69044,7 +69044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31141",
+		id: "31141",
 		name: "Platte County",
 		state: "Nebraska",
 		population: 34358,
@@ -69084,7 +69084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31143",
+		id: "31143",
 		name: "Polk County",
 		state: "Nebraska",
 		population: 5209,
@@ -69124,7 +69124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31145",
+		id: "31145",
 		name: "Red Willow County",
 		state: "Nebraska",
 		population: 10611,
@@ -69164,7 +69164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31147",
+		id: "31147",
 		name: "Richardson County",
 		state: "Nebraska",
 		population: 7797,
@@ -69204,7 +69204,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31149",
+		id: "31149",
 		name: "Rock County",
 		state: "Nebraska",
 		population: 1335,
@@ -69244,7 +69244,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31151",
+		id: "31151",
 		name: "Saline County",
 		state: "Nebraska",
 		population: 14642,
@@ -69284,7 +69284,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31153",
+		id: "31153",
 		name: "Sarpy County",
 		state: "Nebraska",
 		population: 194051,
@@ -69324,7 +69324,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31155",
+		id: "31155",
 		name: "Saunders County",
 		state: "Nebraska",
 		population: 22761,
@@ -69364,7 +69364,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31157",
+		id: "31157",
 		name: "Scotts Bluff County",
 		state: "Nebraska",
 		population: 35937,
@@ -69404,7 +69404,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31159",
+		id: "31159",
 		name: "Seward County",
 		state: "Nebraska",
 		population: 17636,
@@ -69444,7 +69444,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31161",
+		id: "31161",
 		name: "Sheridan County",
 		state: "Nebraska",
 		population: 5058,
@@ -69484,7 +69484,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31163",
+		id: "31163",
 		name: "Sherman County",
 		state: "Nebraska",
 		population: 2974,
@@ -69524,7 +69524,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31165",
+		id: "31165",
 		name: "Sioux County",
 		state: "Nebraska",
 		population: 1197,
@@ -69564,7 +69564,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31167",
+		id: "31167",
 		name: "Stanton County",
 		state: "Nebraska",
 		population: 5835,
@@ -69604,7 +69604,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31169",
+		id: "31169",
 		name: "Thayer County",
 		state: "Nebraska",
 		population: 4938,
@@ -69644,7 +69644,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31171",
+		id: "31171",
 		name: "Thomas County",
 		state: "Nebraska",
 		population: 626,
@@ -69684,7 +69684,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31173",
+		id: "31173",
 		name: "Thurston County",
 		state: "Nebraska",
 		population: 6666,
@@ -69724,7 +69724,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31175",
+		id: "31175",
 		name: "Valley County",
 		state: "Nebraska",
 		population: 4094,
@@ -69764,7 +69764,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31177",
+		id: "31177",
 		name: "Washington County",
 		state: "Nebraska",
 		population: 20989,
@@ -69804,7 +69804,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31179",
+		id: "31179",
 		name: "Wayne County",
 		state: "Nebraska",
 		population: 9786,
@@ -69844,7 +69844,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31181",
+		id: "31181",
 		name: "Webster County",
 		state: "Nebraska",
 		population: 3385,
@@ -69884,7 +69884,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31183",
+		id: "31183",
 		name: "Wheeler County",
 		state: "Nebraska",
 		population: 785,
@@ -69924,7 +69924,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "31185",
+		id: "31185",
 		name: "York County",
 		state: "Nebraska",
 		population: 14231,
@@ -69964,7 +69964,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32001",
+		id: "32001",
 		name: "Churchill County",
 		state: "Nevada",
 		population: 25614,
@@ -70004,7 +70004,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32003",
+		id: "32003",
 		name: "Clark County",
 		state: "Nevada",
 		population: 2293764,
@@ -70044,7 +70044,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32005",
+		id: "32005",
 		name: "Douglas County",
 		state: "Nevada",
 		population: 49624,
@@ -70084,7 +70084,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32007",
+		id: "32007",
 		name: "Elko County",
 		state: "Nevada",
 		population: 53852,
@@ -70124,7 +70124,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32009",
+		id: "32009",
 		name: "Esmeralda County",
 		state: "Nevada",
 		population: 962,
@@ -70164,7 +70164,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32011",
+		id: "32011",
 		name: "Eureka County",
 		state: "Nevada",
 		population: 1660,
@@ -70203,7 +70203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32013",
+		id: "32013",
 		name: "Humboldt County",
 		state: "Nevada",
 		population: 17299,
@@ -70243,7 +70243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32015",
+		id: "32015",
 		name: "Lander County",
 		state: "Nevada",
 		population: 5745,
@@ -70283,7 +70283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32017",
+		id: "32017",
 		name: "Lincoln County",
 		state: "Nevada",
 		population: 4452,
@@ -70323,7 +70323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32019",
+		id: "32019",
 		name: "Lyon County",
 		state: "Nevada",
 		population: 60630,
@@ -70363,7 +70363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32021",
+		id: "32021",
 		name: "Mineral County",
 		state: "Nevada",
 		population: 4557,
@@ -70403,7 +70403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32023",
+		id: "32023",
 		name: "Nye County",
 		state: "Nevada",
 		population: 53207,
@@ -70443,7 +70443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32027",
+		id: "32027",
 		name: "Pershing County",
 		state: "Nevada",
 		population: 6505,
@@ -70483,7 +70483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32029",
+		id: "32029",
 		name: "Storey County",
 		state: "Nevada",
 		population: 4139,
@@ -70523,7 +70523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32031",
+		id: "32031",
 		name: "Washoe County",
 		state: "Nevada",
 		population: 491770,
@@ -70563,7 +70563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32033",
+		id: "32033",
 		name: "White Pine County",
 		state: "Nevada",
 		population: 8856,
@@ -70603,7 +70603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "32510",
+		id: "32510",
 		name: "Carson City",
 		state: "Nevada",
 		population: 58364,
@@ -70643,7 +70643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33001",
+		id: "33001",
 		name: "Belknap County",
 		state: "New Hampshire",
 		population: 64300,
@@ -70683,7 +70683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33003",
+		id: "33003",
 		name: "Carroll County",
 		state: "New Hampshire",
 		population: 51259,
@@ -70723,7 +70723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33005",
+		id: "33005",
 		name: "Cheshire County",
 		state: "New Hampshire",
 		population: 76945,
@@ -70763,7 +70763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33007",
+		id: "33007",
 		name: "Coos County",
 		state: "New Hampshire",
 		population: 31386,
@@ -70803,7 +70803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33009",
+		id: "33009",
 		name: "Grafton County",
 		state: "New Hampshire",
 		population: 91759,
@@ -70843,7 +70843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33011",
+		id: "33011",
 		name: "Hillsborough County",
 		state: "New Hampshire",
 		population: 424732,
@@ -70883,7 +70883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33013",
+		id: "33013",
 		name: "Merrimack County",
 		state: "New Hampshire",
 		population: 155018,
@@ -70923,7 +70923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33015",
+		id: "33015",
 		name: "Rockingham County",
 		state: "New Hampshire",
 		population: 317163,
@@ -70963,7 +70963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33017",
+		id: "33017",
 		name: "Strafford County",
 		state: "New Hampshire",
 		population: 131743,
@@ -71003,7 +71003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "33019",
+		id: "33019",
 		name: "Sullivan County",
 		state: "New Hampshire",
 		population: 43529,
@@ -71043,7 +71043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34001",
+		id: "34001",
 		name: "Atlantic County",
 		state: "New Jersey",
 		population: 274704,
@@ -71083,7 +71083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34003",
+		id: "34003",
 		name: "Bergen County",
 		state: "New Jersey",
 		population: 954717,
@@ -71123,7 +71123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34005",
+		id: "34005",
 		name: "Burlington County",
 		state: "New Jersey",
 		population: 464226,
@@ -71163,7 +71163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34007",
+		id: "34007",
 		name: "Camden County",
 		state: "New Jersey",
 		population: 524042,
@@ -71203,7 +71203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34009",
+		id: "34009",
 		name: "Cape May County",
 		state: "New Jersey",
 		population: 95236,
@@ -71243,7 +71243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34011",
+		id: "34011",
 		name: "Cumberland County",
 		state: "New Jersey",
 		population: 152915,
@@ -71283,7 +71283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34013",
+		id: "34013",
 		name: "Essex County",
 		state: "New Jersey",
 		population: 854130,
@@ -71323,7 +71323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34015",
+		id: "34015",
 		name: "Gloucester County",
 		state: "New Jersey",
 		population: 304504,
@@ -71363,7 +71363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34017",
+		id: "34017",
 		name: "Hudson County",
 		state: "New Jersey",
 		population: 710478,
@@ -71403,7 +71403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34019",
+		id: "34019",
 		name: "Hunterdon County",
 		state: "New Jersey",
 		population: 129448,
@@ -71443,7 +71443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34021",
+		id: "34021",
 		name: "Mercer County",
 		state: "New Jersey",
 		population: 383286,
@@ -71483,7 +71483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34023",
+		id: "34023",
 		name: "Middlesex County",
 		state: "New Jersey",
 		population: 861535,
@@ -71523,7 +71523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34025",
+		id: "34025",
 		name: "Monmouth County",
 		state: "New Jersey",
 		population: 643615,
@@ -71563,7 +71563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34027",
+		id: "34027",
 		name: "Morris County",
 		state: "New Jersey",
 		population: 510375,
@@ -71603,7 +71603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34029",
+		id: "34029",
 		name: "Ocean County",
 		state: "New Jersey",
 		population: 646434,
@@ -71643,7 +71643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34031",
+		id: "34031",
 		name: "Passaic County",
 		state: "New Jersey",
 		population: 518289,
@@ -71683,7 +71683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34033",
+		id: "34033",
 		name: "Salem County",
 		state: "New Jersey",
 		population: 64973,
@@ -71723,7 +71723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34035",
+		id: "34035",
 		name: "Somerset County",
 		state: "New Jersey",
 		population: 346203,
@@ -71763,7 +71763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34037",
+		id: "34037",
 		name: "Sussex County",
 		state: "New Jersey",
 		population: 145117,
@@ -71803,7 +71803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34039",
+		id: "34039",
 		name: "Union County",
 		state: "New Jersey",
 		population: 572549,
@@ -71843,7 +71843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "34041",
+		id: "34041",
 		name: "Warren County",
 		state: "New Jersey",
 		population: 110238,
@@ -71883,7 +71883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35001",
+		id: "35001",
 		name: "Bernalillo County",
 		state: "New Mexico",
 		population: 674357,
@@ -71923,7 +71923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35003",
+		id: "35003",
 		name: "Catron County",
 		state: "New Mexico",
 		population: 3685,
@@ -71963,7 +71963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35005",
+		id: "35005",
 		name: "Chaves County",
 		state: "New Mexico",
 		population: 64446,
@@ -72003,7 +72003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35006",
+		id: "35006",
 		name: "Cibola County",
 		state: "New Mexico",
 		population: 27059,
@@ -72043,7 +72043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35007",
+		id: "35007",
 		name: "Colfax County",
 		state: "New Mexico",
 		population: 12336,
@@ -72083,7 +72083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35009",
+		id: "35009",
 		name: "Curry County",
 		state: "New Mexico",
 		population: 47932,
@@ -72123,7 +72123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35011",
+		id: "35011",
 		name: "De Baca County",
 		state: "New Mexico",
 		population: 1580,
@@ -72163,7 +72163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35013",
+		id: "35013",
 		name: "Doña Ana County",
 		state: "New Mexico",
 		population: 221665,
@@ -72203,7 +72203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35015",
+		id: "35015",
 		name: "Eddy County",
 		state: "New Mexico",
 		population: 61114,
@@ -72243,7 +72243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35017",
+		id: "35017",
 		name: "Grant County",
 		state: "New Mexico",
 		population: 27856,
@@ -72283,7 +72283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35019",
+		id: "35019",
 		name: "Guadalupe County",
 		state: "New Mexico",
 		population: 4379,
@@ -72323,7 +72323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35021",
+		id: "35021",
 		name: "Harding County",
 		state: "New Mexico",
 		population: 748,
@@ -72363,7 +72363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35023",
+		id: "35023",
 		name: "Hidalgo County",
 		state: "New Mexico",
 		population: 4097,
@@ -72403,7 +72403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35025",
+		id: "35025",
 		name: "Lea County",
 		state: "New Mexico",
 		population: 73154,
@@ -72443,7 +72443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35027",
+		id: "35027",
 		name: "Lincoln County",
 		state: "New Mexico",
 		population: 20227,
@@ -72483,7 +72483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35028",
+		id: "35028",
 		name: "Los Alamos County",
 		state: "New Mexico",
 		population: 19374,
@@ -72523,7 +72523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35029",
+		id: "35029",
 		name: "Luna County",
 		state: "New Mexico",
 		population: 25420,
@@ -72563,7 +72563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35031",
+		id: "35031",
 		name: "McKinley County",
 		state: "New Mexico",
 		population: 71172,
@@ -72603,7 +72603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35033",
+		id: "35033",
 		name: "Mora County",
 		state: "New Mexico",
 		population: 4176,
@@ -72643,7 +72643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35035",
+		id: "35035",
 		name: "Otero County",
 		state: "New Mexico",
 		population: 68235,
@@ -72683,7 +72683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35037",
+		id: "35037",
 		name: "Quay County",
 		state: "New Mexico",
 		population: 8616,
@@ -72723,7 +72723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35039",
+		id: "35039",
 		name: "Rio Arriba County",
 		state: "New Mexico",
 		population: 40165,
@@ -72763,7 +72763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35041",
+		id: "35041",
 		name: "Roosevelt County",
 		state: "New Mexico",
 		population: 19002,
@@ -72803,7 +72803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35043",
+		id: "35043",
 		name: "Sandoval County",
 		state: "New Mexico",
 		population: 151538,
@@ -72843,7 +72843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35045",
+		id: "35045",
 		name: "San Juan County",
 		state: "New Mexico",
 		population: 121178,
@@ -72883,7 +72883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35047",
+		id: "35047",
 		name: "San Miguel County",
 		state: "New Mexico",
 		population: 27036,
@@ -72923,7 +72923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35049",
+		id: "35049",
 		name: "Santa Fe County",
 		state: "New Mexico",
 		population: 155175,
@@ -72963,7 +72963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35051",
+		id: "35051",
 		name: "Sierra County",
 		state: "New Mexico",
 		population: 11511,
@@ -73003,7 +73003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35053",
+		id: "35053",
 		name: "Socorro County",
 		state: "New Mexico",
 		population: 16308,
@@ -73043,7 +73043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35055",
+		id: "35055",
 		name: "Taos County",
 		state: "New Mexico",
 		population: 34516,
@@ -73083,7 +73083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35057",
+		id: "35057",
 		name: "Torrance County",
 		state: "New Mexico",
 		population: 15290,
@@ -73123,7 +73123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35059",
+		id: "35059",
 		name: "Union County",
 		state: "New Mexico",
 		population: 4039,
@@ -73163,7 +73163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "35061",
+		id: "35061",
 		name: "Valencia County",
 		state: "New Mexico",
 		population: 77382,
@@ -73203,7 +73203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36001",
+		id: "36001",
 		name: "Albany County",
 		state: "New York",
 		population: 315374,
@@ -73243,7 +73243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36003",
+		id: "36003",
 		name: "Allegany County",
 		state: "New York",
 		population: 47027,
@@ -73283,7 +73283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36005",
+		id: "36005",
 		name: "Bronx County",
 		state: "New York",
 		population: 1419250,
@@ -73323,7 +73323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36007",
+		id: "36007",
 		name: "Broome County",
 		state: "New York",
 		population: 197738,
@@ -73363,7 +73363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36009",
+		id: "36009",
 		name: "Cattaraugus County",
 		state: "New York",
 		population: 76479,
@@ -73403,7 +73403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36011",
+		id: "36011",
 		name: "Cayuga County",
 		state: "New York",
 		population: 75464,
@@ -73443,7 +73443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36013",
+		id: "36013",
 		name: "Chautauqua County",
 		state: "New York",
 		population: 126329,
@@ -73483,7 +73483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36015",
+		id: "36015",
 		name: "Chemung County",
 		state: "New York",
 		population: 82805,
@@ -73523,7 +73523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36017",
+		id: "36017",
 		name: "Chenango County",
 		state: "New York",
 		population: 46685,
@@ -73563,7 +73563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36019",
+		id: "36019",
 		name: "Clinton County",
 		state: "New York",
 		population: 78961,
@@ -73603,7 +73603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36021",
+		id: "36021",
 		name: "Columbia County",
 		state: "New York",
 		population: 61245,
@@ -73643,7 +73643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36023",
+		id: "36023",
 		name: "Cortland County",
 		state: "New York",
 		population: 46401,
@@ -73683,7 +73683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36025",
+		id: "36025",
 		name: "Delaware County",
 		state: "New York",
 		population: 44551,
@@ -73723,7 +73723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36027",
+		id: "36027",
 		name: "Dutchess County",
 		state: "New York",
 		population: 297144,
@@ -73763,7 +73763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36029",
+		id: "36029",
 		name: "Erie County",
 		state: "New York",
 		population: 950044,
@@ -73803,7 +73803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36031",
+		id: "36031",
 		name: "Essex County",
 		state: "New York",
 		population: 37077,
@@ -73843,7 +73843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36033",
+		id: "36033",
 		name: "Franklin County",
 		state: "New York",
 		population: 47066,
@@ -73883,7 +73883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36035",
+		id: "36035",
 		name: "Fulton County",
 		state: "New York",
 		population: 52787,
@@ -73923,7 +73923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36037",
+		id: "36037",
 		name: "Genesee County",
 		state: "New York",
 		population: 57943,
@@ -73963,7 +73963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36039",
+		id: "36039",
 		name: "Greene County",
 		state: "New York",
 		population: 47554,
@@ -74003,7 +74003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36041",
+		id: "36041",
 		name: "Hamilton County",
 		state: "New York",
 		population: 5102,
@@ -74043,7 +74043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36043",
+		id: "36043",
 		name: "Herkimer County",
 		state: "New York",
 		population: 59932,
@@ -74083,7 +74083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36045",
+		id: "36045",
 		name: "Jefferson County",
 		state: "New York",
 		population: 116130,
@@ -74123,7 +74123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36047",
+		id: "36047",
 		name: "Kings County",
 		state: "New York",
 		population: 2646306,
@@ -74163,7 +74163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36049",
+		id: "36049",
 		name: "Lewis County",
 		state: "New York",
 		population: 26618,
@@ -74203,7 +74203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36051",
+		id: "36051",
 		name: "Livingston County",
 		state: "New York",
 		population: 61588,
@@ -74243,7 +74243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36053",
+		id: "36053",
 		name: "Madison County",
 		state: "New York",
 		population: 67572,
@@ -74283,7 +74283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36055",
+		id: "36055",
 		name: "Monroe County",
 		state: "New York",
 		population: 754068,
@@ -74323,7 +74323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36057",
+		id: "36057",
 		name: "Montgomery County",
 		state: "New York",
 		population: 49461,
@@ -74363,7 +74363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36059",
+		id: "36059",
 		name: "Nassau County",
 		state: "New York",
 		population: 1388138,
@@ -74403,7 +74403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36061",
+		id: "36061",
 		name: "New York County",
 		state: "New York",
 		population: 1627788,
@@ -74443,7 +74443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36063",
+		id: "36063",
 		name: "Niagara County",
 		state: "New York",
 		population: 211341,
@@ -74483,7 +74483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36065",
+		id: "36065",
 		name: "Oneida County",
 		state: "New York",
 		population: 229645,
@@ -74523,7 +74523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36067",
+		id: "36067",
 		name: "Onondaga County",
 		state: "New York",
 		population: 471611,
@@ -74563,7 +74563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36069",
+		id: "36069",
 		name: "Ontario County",
 		state: "New York",
 		population: 112405,
@@ -74603,7 +74603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36071",
+		id: "36071",
 		name: "Orange County",
 		state: "New York",
 		population: 403840,
@@ -74643,7 +74643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36073",
+		id: "36073",
 		name: "Orleans County",
 		state: "New York",
 		population: 39686,
@@ -74683,7 +74683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36075",
+		id: "36075",
 		name: "Oswego County",
 		state: "New York",
 		population: 117945,
@@ -74723,7 +74723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36077",
+		id: "36077",
 		name: "Otsego County",
 		state: "New York",
 		population: 59738,
@@ -74763,7 +74763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36079",
+		id: "36079",
 		name: "Putnam County",
 		state: "New York",
 		population: 97988,
@@ -74803,7 +74803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36081",
+		id: "36081",
 		name: "Queens County",
 		state: "New York",
 		population: 2330124,
@@ -74843,7 +74843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36083",
+		id: "36083",
 		name: "Rensselaer County",
 		state: "New York",
 		population: 160341,
@@ -74883,7 +74883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36085",
+		id: "36085",
 		name: "Richmond County",
 		state: "New York",
 		population: 492734,
@@ -74923,7 +74923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36087",
+		id: "36087",
 		name: "Rockland County",
 		state: "New York",
 		population: 338936,
@@ -74963,7 +74963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36089",
+		id: "36089",
 		name: "St. Lawrence County",
 		state: "New York",
 		population: 107796,
@@ -75003,7 +75003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36091",
+		id: "36091",
 		name: "Saratoga County",
 		state: "New York",
 		population: 237075,
@@ -75043,7 +75043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36093",
+		id: "36093",
 		name: "Schenectady County",
 		state: "New York",
 		population: 159603,
@@ -75083,7 +75083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36095",
+		id: "36095",
 		name: "Schoharie County",
 		state: "New York",
 		population: 29979,
@@ -75123,7 +75123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36097",
+		id: "36097",
 		name: "Schuyler County",
 		state: "New York",
 		population: 17749,
@@ -75163,7 +75163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36099",
+		id: "36099",
 		name: "Seneca County",
 		state: "New York",
 		population: 33125,
@@ -75203,7 +75203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36101",
+		id: "36101",
 		name: "Steuben County",
 		state: "New York",
 		population: 93034,
@@ -75243,7 +75243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36103",
+		id: "36103",
 		name: "Suffolk County",
 		state: "New York",
 		population: 1525680,
@@ -75283,7 +75283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36105",
+		id: "36105",
 		name: "Sullivan County",
 		state: "New York",
 		population: 79147,
@@ -75323,7 +75323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36107",
+		id: "36107",
 		name: "Tioga County",
 		state: "New York",
 		population: 48106,
@@ -75363,7 +75363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36109",
+		id: "36109",
 		name: "Tompkins County",
 		state: "New York",
 		population: 102879,
@@ -75403,7 +75403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36111",
+		id: "36111",
 		name: "Ulster County",
 		state: "New York",
 		population: 182109,
@@ -75443,7 +75443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36113",
+		id: "36113",
 		name: "Warren County",
 		state: "New York",
 		population: 65560,
@@ -75483,7 +75483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36115",
+		id: "36115",
 		name: "Washington County",
 		state: "New York",
 		population: 60883,
@@ -75523,7 +75523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36117",
+		id: "36117",
 		name: "Wayne County",
 		state: "New York",
 		population: 91128,
@@ -75563,7 +75563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36119",
+		id: "36119",
 		name: "Westchester County",
 		state: "New York",
 		population: 996888,
@@ -75603,7 +75603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36121",
+		id: "36121",
 		name: "Wyoming County",
 		state: "New York",
 		population: 39980,
@@ -75643,7 +75643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "36123",
+		id: "36123",
 		name: "Yates County",
 		state: "New York",
 		population: 24637,
@@ -75683,7 +75683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37001",
+		id: "37001",
 		name: "Alamance County",
 		state: "North Carolina",
 		population: 174286,
@@ -75723,7 +75723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37003",
+		id: "37003",
 		name: "Alexander County",
 		state: "North Carolina",
 		population: 36440,
@@ -75763,7 +75763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37005",
+		id: "37005",
 		name: "Alleghany County",
 		state: "North Carolina",
 		population: 11075,
@@ -75803,7 +75803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37007",
+		id: "37007",
 		name: "Anson County",
 		state: "North Carolina",
 		population: 21903,
@@ -75843,7 +75843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37009",
+		id: "37009",
 		name: "Ashe County",
 		state: "North Carolina",
 		population: 26831,
@@ -75883,7 +75883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37011",
+		id: "37011",
 		name: "Avery County",
 		state: "North Carolina",
 		population: 17643,
@@ -75923,7 +75923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37013",
+		id: "37013",
 		name: "Beaufort County",
 		state: "North Carolina",
 		population: 44597,
@@ -75963,7 +75963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37015",
+		id: "37015",
 		name: "Bertie County",
 		state: "North Carolina",
 		population: 17482,
@@ -76003,7 +76003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37017",
+		id: "37017",
 		name: "Bladen County",
 		state: "North Carolina",
 		population: 29591,
@@ -76043,7 +76043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37019",
+		id: "37019",
 		name: "Brunswick County",
 		state: "North Carolina",
 		population: 145889,
@@ -76083,7 +76083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37021",
+		id: "37021",
 		name: "Buncombe County",
 		state: "North Carolina",
 		population: 271790,
@@ -76123,7 +76123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37023",
+		id: "37023",
 		name: "Burke County",
 		state: "North Carolina",
 		population: 87863,
@@ -76163,7 +76163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37025",
+		id: "37025",
 		name: "Cabarrus County",
 		state: "North Carolina",
 		population: 231262,
@@ -76203,7 +76203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37027",
+		id: "37027",
 		name: "Caldwell County",
 		state: "North Carolina",
 		population: 80618,
@@ -76243,7 +76243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37029",
+		id: "37029",
 		name: "Camden County",
 		state: "North Carolina",
 		population: 10743,
@@ -76283,7 +76283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37031",
+		id: "37031",
 		name: "Carteret County",
 		state: "North Carolina",
 		population: 68652,
@@ -76323,7 +76323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37033",
+		id: "37033",
 		name: "Caswell County",
 		state: "North Carolina",
 		population: 22689,
@@ -76363,7 +76363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37035",
+		id: "37035",
 		name: "Catawba County",
 		state: "North Carolina",
 		population: 162051,
@@ -76403,7 +76403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37037",
+		id: "37037",
 		name: "Chatham County",
 		state: "North Carolina",
 		population: 78319,
@@ -76443,7 +76443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37039",
+		id: "37039",
 		name: "Cherokee County",
 		state: "North Carolina",
 		population: 29197,
@@ -76483,7 +76483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37041",
+		id: "37041",
 		name: "Chowan County",
 		state: "North Carolina",
 		population: 13814,
@@ -76523,7 +76523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37043",
+		id: "37043",
 		name: "Clay County",
 		state: "North Carolina",
 		population: 11391,
@@ -76563,7 +76563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37045",
+		id: "37045",
 		name: "Cleveland County",
 		state: "North Carolina",
 		population: 100170,
@@ -76603,7 +76603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37047",
+		id: "37047",
 		name: "Columbus County",
 		state: "North Carolina",
 		population: 50453,
@@ -76643,7 +76643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37049",
+		id: "37049",
 		name: "Craven County",
 		state: "North Carolina",
 		population: 101074,
@@ -76683,7 +76683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37051",
+		id: "37051",
 		name: "Cumberland County",
 		state: "North Carolina",
 		population: 336749,
@@ -76723,7 +76723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37053",
+		id: "37053",
 		name: "Currituck County",
 		state: "North Carolina",
 		population: 29612,
@@ -76763,7 +76763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37055",
+		id: "37055",
 		name: "Dare County",
 		state: "North Carolina",
 		population: 37534,
@@ -76803,7 +76803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37057",
+		id: "37057",
 		name: "Davidson County",
 		state: "North Carolina",
 		population: 171063,
@@ -76843,7 +76843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37059",
+		id: "37059",
 		name: "Davie County",
 		state: "North Carolina",
 		population: 43526,
@@ -76883,7 +76883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37061",
+		id: "37061",
 		name: "Duplin County",
 		state: "North Carolina",
 		population: 49053,
@@ -76923,7 +76923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37063",
+		id: "37063",
 		name: "Durham County",
 		state: "North Carolina",
 		population: 329405,
@@ -76963,7 +76963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37065",
+		id: "37065",
 		name: "Edgecombe County",
 		state: "North Carolina",
 		population: 48777,
@@ -77003,7 +77003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37067",
+		id: "37067",
 		name: "Forsyth County",
 		state: "North Carolina",
 		population: 386740,
@@ -77043,7 +77043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37069",
+		id: "37069",
 		name: "Franklin County",
 		state: "North Carolina",
 		population: 71962,
@@ -77083,7 +77083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37071",
+		id: "37071",
 		name: "Gaston County",
 		state: "North Carolina",
 		population: 231485,
@@ -77123,7 +77123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37073",
+		id: "37073",
 		name: "Gates County",
 		state: "North Carolina",
 		population: 10437,
@@ -77163,7 +77163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37075",
+		id: "37075",
 		name: "Graham County",
 		state: "North Carolina",
 		population: 8041,
@@ -77203,7 +77203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37077",
+		id: "37077",
 		name: "Granville County",
 		state: "North Carolina",
 		population: 61439,
@@ -77243,7 +77243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37079",
+		id: "37079",
 		name: "Greene County",
 		state: "North Carolina",
 		population: 20421,
@@ -77283,7 +77283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37081",
+		id: "37081",
 		name: "Guilford County",
 		state: "North Carolina",
 		population: 542987,
@@ -77323,7 +77323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37083",
+		id: "37083",
 		name: "Halifax County",
 		state: "North Carolina",
 		population: 48219,
@@ -77363,7 +77363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37085",
+		id: "37085",
 		name: "Harnett County",
 		state: "North Carolina",
 		population: 136503,
@@ -77403,7 +77403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37087",
+		id: "37087",
 		name: "Haywood County",
 		state: "North Carolina",
 		population: 62432,
@@ -77443,7 +77443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37089",
+		id: "37089",
 		name: "Henderson County",
 		state: "North Carolina",
 		population: 117387,
@@ -77483,7 +77483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37091",
+		id: "37091",
 		name: "Hertford County",
 		state: "North Carolina",
 		population: 20492,
@@ -77523,7 +77523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37093",
+		id: "37093",
 		name: "Hoke County",
 		state: "North Carolina",
 		population: 53102,
@@ -77563,7 +77563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37095",
+		id: "37095",
 		name: "Hyde County",
 		state: "North Carolina",
 		population: 4625,
@@ -77603,7 +77603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37097",
+		id: "37097",
 		name: "Iredell County",
 		state: "North Carolina",
 		population: 191800,
@@ -77643,7 +77643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37099",
+		id: "37099",
 		name: "Jackson County",
 		state: "North Carolina",
 		population: 43089,
@@ -77683,7 +77683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37101",
+		id: "37101",
 		name: "Johnston County",
 		state: "North Carolina",
 		population: 226623,
@@ -77723,7 +77723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37103",
+		id: "37103",
 		name: "Jones County",
 		state: "North Carolina",
 		population: 9245,
@@ -77763,7 +77763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37105",
+		id: "37105",
 		name: "Lee County",
 		state: "North Carolina",
 		population: 64565,
@@ -77803,7 +77803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37107",
+		id: "37107",
 		name: "Lenoir County",
 		state: "North Carolina",
 		population: 54917,
@@ -77843,7 +77843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37109",
+		id: "37109",
 		name: "Lincoln County",
 		state: "North Carolina",
 		population: 90359,
@@ -77883,7 +77883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37111",
+		id: "37111",
 		name: "McDowell County",
 		state: "North Carolina",
 		population: 44679,
@@ -77923,7 +77923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37113",
+		id: "37113",
 		name: "Macon County",
 		state: "North Carolina",
 		population: 37533,
@@ -77963,7 +77963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37115",
+		id: "37115",
 		name: "Madison County",
 		state: "North Carolina",
 		population: 21640,
@@ -78003,7 +78003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37117",
+		id: "37117",
 		name: "Martin County",
 		state: "North Carolina",
 		population: 21773,
@@ -78043,7 +78043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37119",
+		id: "37119",
 		name: "Mecklenburg County",
 		state: "North Carolina",
 		population: 1130906,
@@ -78083,7 +78083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37121",
+		id: "37121",
 		name: "Mitchell County",
 		state: "North Carolina",
 		population: 14973,
@@ -78123,7 +78123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37123",
+		id: "37123",
 		name: "Montgomery County",
 		state: "North Carolina",
 		population: 25874,
@@ -78163,7 +78163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37125",
+		id: "37125",
 		name: "Moore County",
 		state: "North Carolina",
 		population: 102840,
@@ -78203,7 +78203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37127",
+		id: "37127",
 		name: "Nash County",
 		state: "North Carolina",
 		population: 95451,
@@ -78243,7 +78243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37129",
+		id: "37129",
 		name: "New Hanover County",
 		state: "North Carolina",
 		population: 231214,
@@ -78283,7 +78283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37131",
+		id: "37131",
 		name: "Northampton County",
 		state: "North Carolina",
 		population: 17212,
@@ -78323,7 +78323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37133",
+		id: "37133",
 		name: "Onslow County",
 		state: "North Carolina",
 		population: 208537,
@@ -78363,7 +78363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37135",
+		id: "37135",
 		name: "Orange County",
 		state: "North Carolina",
 		population: 147292,
@@ -78403,7 +78403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37137",
+		id: "37137",
 		name: "Pamlico County",
 		state: "North Carolina",
 		population: 12315,
@@ -78443,7 +78443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37139",
+		id: "37139",
 		name: "Pasquotank County",
 		state: "North Carolina",
 		population: 40830,
@@ -78483,7 +78483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37141",
+		id: "37141",
 		name: "Pender County",
 		state: "North Carolina",
 		population: 63475,
@@ -78523,7 +78523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37143",
+		id: "37143",
 		name: "Perquimans County",
 		state: "North Carolina",
 		population: 13146,
@@ -78563,7 +78563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37145",
+		id: "37145",
 		name: "Person County",
 		state: "North Carolina",
 		population: 39275,
@@ -78603,7 +78603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37147",
+		id: "37147",
 		name: "Pitt County",
 		state: "North Carolina",
 		population: 172279,
@@ -78643,7 +78643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37149",
+		id: "37149",
 		name: "Polk County",
 		state: "North Carolina",
 		population: 19689,
@@ -78683,7 +78683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37151",
+		id: "37151",
 		name: "Randolph County",
 		state: "North Carolina",
 		population: 145322,
@@ -78723,7 +78723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37153",
+		id: "37153",
 		name: "Richmond County",
 		state: "North Carolina",
 		population: 42818,
@@ -78763,7 +78763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37155",
+		id: "37155",
 		name: "Robeson County",
 		state: "North Carolina",
 		population: 116858,
@@ -78803,7 +78803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37157",
+		id: "37157",
 		name: "Rockingham County",
 		state: "North Carolina",
 		population: 91585,
@@ -78843,7 +78843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37159",
+		id: "37159",
 		name: "Rowan County",
 		state: "North Carolina",
 		population: 148487,
@@ -78883,7 +78883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37161",
+		id: "37161",
 		name: "Rutherford County",
 		state: "North Carolina",
 		population: 64850,
@@ -78923,7 +78923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37163",
+		id: "37163",
 		name: "Sampson County",
 		state: "North Carolina",
 		population: 59245,
@@ -78963,7 +78963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37165",
+		id: "37165",
 		name: "Scotland County",
 		state: "North Carolina",
 		population: 34353,
@@ -79003,7 +79003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37167",
+		id: "37167",
 		name: "Stanly County",
 		state: "North Carolina",
 		population: 63557,
@@ -79043,7 +79043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37169",
+		id: "37169",
 		name: "Stokes County",
 		state: "North Carolina",
 		population: 44889,
@@ -79083,7 +79083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37171",
+		id: "37171",
 		name: "Surry County",
 		state: "North Carolina",
 		population: 71407,
@@ -79123,7 +79123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37173",
+		id: "37173",
 		name: "Swain County",
 		state: "North Carolina",
 		population: 14065,
@@ -79163,7 +79163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37175",
+		id: "37175",
 		name: "Transylvania County",
 		state: "North Carolina",
 		population: 33243,
@@ -79203,7 +79203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37177",
+		id: "37177",
 		name: "Tyrrell County",
 		state: "North Carolina",
 		population: 3376,
@@ -79243,7 +79243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37179",
+		id: "37179",
 		name: "Union County",
 		state: "North Carolina",
 		population: 244975,
@@ -79283,7 +79283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37181",
+		id: "37181",
 		name: "Vance County",
 		state: "North Carolina",
 		population: 42361,
@@ -79323,7 +79323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37183",
+		id: "37183",
 		name: "Wake County",
 		state: "North Carolina",
 		population: 1151009,
@@ -79363,7 +79363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37185",
+		id: "37185",
 		name: "Warren County",
 		state: "North Carolina",
 		population: 18751,
@@ -79403,7 +79403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37187",
+		id: "37187",
 		name: "Washington County",
 		state: "North Carolina",
 		population: 10905,
@@ -79443,7 +79443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37189",
+		id: "37189",
 		name: "Watauga County",
 		state: "North Carolina",
 		population: 54607,
@@ -79483,7 +79483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37191",
+		id: "37191",
 		name: "Wayne County",
 		state: "North Carolina",
 		population: 117606,
@@ -79523,7 +79523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37193",
+		id: "37193",
 		name: "Wilkes County",
 		state: "North Carolina",
 		population: 65983,
@@ -79563,7 +79563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37195",
+		id: "37195",
 		name: "Wilson County",
 		state: "North Carolina",
 		population: 78648,
@@ -79603,7 +79603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37197",
+		id: "37197",
 		name: "Yadkin County",
 		state: "North Carolina",
 		population: 37419,
@@ -79643,7 +79643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "37199",
+		id: "37199",
 		name: "Yancey County",
 		state: "North Carolina",
 		population: 18676,
@@ -79683,7 +79683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38001",
+		id: "38001",
 		name: "Adams County",
 		state: "North Dakota",
 		population: 2179,
@@ -79723,7 +79723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38003",
+		id: "38003",
 		name: "Barnes County",
 		state: "North Dakota",
 		population: 10794,
@@ -79763,7 +79763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38005",
+		id: "38005",
 		name: "Benson County",
 		state: "North Dakota",
 		population: 5861,
@@ -79803,7 +79803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38007",
+		id: "38007",
 		name: "Billings County",
 		state: "North Dakota",
 		population: 948,
@@ -79843,7 +79843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38009",
+		id: "38009",
 		name: "Bottineau County",
 		state: "North Dakota",
 		population: 6390,
@@ -79883,7 +79883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38011",
+		id: "38011",
 		name: "Bowman County",
 		state: "North Dakota",
 		population: 2935,
@@ -79923,7 +79923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38013",
+		id: "38013",
 		name: "Burke County",
 		state: "North Dakota",
 		population: 2163,
@@ -79963,7 +79963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38015",
+		id: "38015",
 		name: "Burleigh County",
 		state: "North Dakota",
 		population: 98986,
@@ -80003,7 +80003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38017",
+		id: "38017",
 		name: "Cass County",
 		state: "North Dakota",
 		population: 189286,
@@ -80043,7 +80043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38019",
+		id: "38019",
 		name: "Cavalier County",
 		state: "North Dakota",
 		population: 3663,
@@ -80083,7 +80083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38021",
+		id: "38021",
 		name: "Dickey County",
 		state: "North Dakota",
 		population: 4959,
@@ -80123,7 +80123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38023",
+		id: "38023",
 		name: "Divide County",
 		state: "North Dakota",
 		population: 2174,
@@ -80163,7 +80163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38025",
+		id: "38025",
 		name: "Dunn County",
 		state: "North Dakota",
 		population: 4043,
@@ -80203,7 +80203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38027",
+		id: "38027",
 		name: "Eddy County",
 		state: "North Dakota",
 		population: 2319,
@@ -80243,7 +80243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38029",
+		id: "38029",
 		name: "Emmons County",
 		state: "North Dakota",
 		population: 3269,
@@ -80283,7 +80283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38031",
+		id: "38031",
 		name: "Foster County",
 		state: "North Dakota",
 		population: 3372,
@@ -80323,7 +80323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38033",
+		id: "38033",
 		name: "Golden Valley County",
 		state: "North Dakota",
 		population: 1679,
@@ -80363,7 +80363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38035",
+		id: "38035",
 		name: "Grand Forks County",
 		state: "North Dakota",
 		population: 72764,
@@ -80403,7 +80403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38037",
+		id: "38037",
 		name: "Grant County",
 		state: "North Dakota",
 		population: 2276,
@@ -80443,7 +80443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38039",
+		id: "38039",
 		name: "Griggs County",
 		state: "North Dakota",
 		population: 2340,
@@ -80483,7 +80483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38041",
+		id: "38041",
 		name: "Hettinger County",
 		state: "North Dakota",
 		population: 2453,
@@ -80523,7 +80523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38043",
+		id: "38043",
 		name: "Kidder County",
 		state: "North Dakota",
 		population: 2374,
@@ -80563,7 +80563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38045",
+		id: "38045",
 		name: "LaMoure County",
 		state: "North Dakota",
 		population: 4107,
@@ -80603,7 +80603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38047",
+		id: "38047",
 		name: "Logan County",
 		state: "North Dakota",
 		population: 1848,
@@ -80643,7 +80643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38049",
+		id: "38049",
 		name: "McHenry County",
 		state: "North Dakota",
 		population: 5264,
@@ -80683,7 +80683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38051",
+		id: "38051",
 		name: "McIntosh County",
 		state: "North Dakota",
 		population: 2512,
@@ -80723,7 +80723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38053",
+		id: "38053",
 		name: "McKenzie County",
 		state: "North Dakota",
 		population: 14280,
@@ -80763,7 +80763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38055",
+		id: "38055",
 		name: "McLean County",
 		state: "North Dakota",
 		population: 9807,
@@ -80803,7 +80803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38057",
+		id: "38057",
 		name: "Mercer County",
 		state: "North Dakota",
 		population: 8341,
@@ -80843,7 +80843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38059",
+		id: "38059",
 		name: "Morton County",
 		state: "North Dakota",
 		population: 33479,
@@ -80883,7 +80883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38061",
+		id: "38061",
 		name: "Mountrail County",
 		state: "North Dakota",
 		population: 9567,
@@ -80923,7 +80923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38063",
+		id: "38063",
 		name: "Nelson County",
 		state: "North Dakota",
 		population: 3015,
@@ -80963,7 +80963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38065",
+		id: "38065",
 		name: "Oliver County",
 		state: "North Dakota",
 		population: 1821,
@@ -81003,7 +81003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38067",
+		id: "38067",
 		name: "Pembina County",
 		state: "North Dakota",
 		population: 6787,
@@ -81043,7 +81043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38069",
+		id: "38069",
 		name: "Pierce County",
 		state: "North Dakota",
 		population: 3961,
@@ -81083,7 +81083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38071",
+		id: "38071",
 		name: "Ramsey County",
 		state: "North Dakota",
 		population: 11563,
@@ -81123,7 +81123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38073",
+		id: "38073",
 		name: "Ransom County",
 		state: "North Dakota",
 		population: 5662,
@@ -81163,7 +81163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38075",
+		id: "38075",
 		name: "Renville County",
 		state: "North Dakota",
 		population: 2277,
@@ -81203,7 +81203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38077",
+		id: "38077",
 		name: "Richland County",
 		state: "North Dakota",
 		population: 16550,
@@ -81243,7 +81243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38079",
+		id: "38079",
 		name: "Rolette County",
 		state: "North Dakota",
 		population: 12065,
@@ -81283,7 +81283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38081",
+		id: "38081",
 		name: "Sargent County",
 		state: "North Dakota",
 		population: 3822,
@@ -81323,7 +81323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38083",
+		id: "38083",
 		name: "Sheridan County",
 		state: "North Dakota",
 		population: 1327,
@@ -81363,7 +81363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38085",
+		id: "38085",
 		name: "Sioux County",
 		state: "North Dakota",
 		population: 3789,
@@ -81403,7 +81403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38087",
+		id: "38087",
 		name: "Slope County",
 		state: "North Dakota",
 		population: 795,
@@ -81443,7 +81443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38089",
+		id: "38089",
 		name: "Stark County",
 		state: "North Dakota",
 		population: 33116,
@@ -81483,7 +81483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38091",
+		id: "38091",
 		name: "Steele County",
 		state: "North Dakota",
 		population: 1731,
@@ -81523,7 +81523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38093",
+		id: "38093",
 		name: "Stutsman County",
 		state: "North Dakota",
 		population: 21525,
@@ -81563,7 +81563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38095",
+		id: "38095",
 		name: "Towner County",
 		state: "North Dakota",
 		population: 2113,
@@ -81603,7 +81603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38097",
+		id: "38097",
 		name: "Traill County",
 		state: "North Dakota",
 		population: 7980,
@@ -81643,7 +81643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38099",
+		id: "38099",
 		name: "Walsh County",
 		state: "North Dakota",
 		population: 10488,
@@ -81683,7 +81683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38101",
+		id: "38101",
 		name: "Ward County",
 		state: "North Dakota",
 		population: 69232,
@@ -81723,7 +81723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38103",
+		id: "38103",
 		name: "Wells County",
 		state: "North Dakota",
 		population: 3942,
@@ -81763,7 +81763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "38105",
+		id: "38105",
 		name: "Williams County",
 		state: "North Dakota",
 		population: 39368,
@@ -81803,7 +81803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39001",
+		id: "39001",
 		name: "Adams County",
 		state: "Ohio",
 		population: 27510,
@@ -81843,7 +81843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39003",
+		id: "39003",
 		name: "Allen County",
 		state: "Ohio",
 		population: 101685,
@@ -81883,7 +81883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39005",
+		id: "39005",
 		name: "Ashland County",
 		state: "Ohio",
 		population: 52296,
@@ -81923,7 +81923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39007",
+		id: "39007",
 		name: "Ashtabula County",
 		state: "Ohio",
 		population: 97343,
@@ -81963,7 +81963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39009",
+		id: "39009",
 		name: "Athens County",
 		state: "Ohio",
 		population: 61573,
@@ -82003,7 +82003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39011",
+		id: "39011",
 		name: "Auglaize County",
 		state: "Ohio",
 		population: 46209,
@@ -82043,7 +82043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39013",
+		id: "39013",
 		name: "Belmont County",
 		state: "Ohio",
 		population: 65982,
@@ -82083,7 +82083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39015",
+		id: "39015",
 		name: "Brown County",
 		state: "Ohio",
 		population: 43710,
@@ -82123,7 +82123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39017",
+		id: "39017",
 		name: "Butler County",
 		state: "Ohio",
 		population: 389910,
@@ -82163,7 +82163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39019",
+		id: "39019",
 		name: "Carroll County",
 		state: "Ohio",
 		population: 26731,
@@ -82203,7 +82203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39021",
+		id: "39021",
 		name: "Champaign County",
 		state: "Ohio",
 		population: 38772,
@@ -82243,7 +82243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39023",
+		id: "39023",
 		name: "Clark County",
 		state: "Ohio",
 		population: 135445,
@@ -82283,7 +82283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39025",
+		id: "39025",
 		name: "Clermont County",
 		state: "Ohio",
 		population: 209862,
@@ -82323,7 +82323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39027",
+		id: "39027",
 		name: "Clinton County",
 		state: "Ohio",
 		population: 42014,
@@ -82363,7 +82363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39029",
+		id: "39029",
 		name: "Columbiana County",
 		state: "Ohio",
 		population: 101203,
@@ -82403,7 +82403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39031",
+		id: "39031",
 		name: "Coshocton County",
 		state: "Ohio",
 		population: 36679,
@@ -82443,7 +82443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39033",
+		id: "39033",
 		name: "Crawford County",
 		state: "Ohio",
 		population: 41767,
@@ -82483,7 +82483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39035",
+		id: "39035",
 		name: "Cuyahoga County",
 		state: "Ohio",
 		population: 1249418,
@@ -82523,7 +82523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39037",
+		id: "39037",
 		name: "Darke County",
 		state: "Ohio",
 		population: 51655,
@@ -82563,7 +82563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39039",
+		id: "39039",
 		name: "Defiance County",
 		state: "Ohio",
 		population: 38258,
@@ -82603,7 +82603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39041",
+		id: "39041",
 		name: "Delaware County",
 		state: "Ohio",
 		population: 221160,
@@ -82643,7 +82643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39043",
+		id: "39043",
 		name: "Erie County",
 		state: "Ohio",
 		population: 74938,
@@ -82683,7 +82683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39045",
+		id: "39045",
 		name: "Fairfield County",
 		state: "Ohio",
 		population: 161289,
@@ -82723,7 +82723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39047",
+		id: "39047",
 		name: "Fayette County",
 		state: "Ohio",
 		population: 28880,
@@ -82763,7 +82763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39049",
+		id: "39049",
 		name: "Franklin County",
 		state: "Ohio",
 		population: 1321635,
@@ -82803,7 +82803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39051",
+		id: "39051",
 		name: "Fulton County",
 		state: "Ohio",
 		population: 42434,
@@ -82843,7 +82843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39053",
+		id: "39053",
 		name: "Gallia County",
 		state: "Ohio",
 		population: 29162,
@@ -82883,7 +82883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39055",
+		id: "39055",
 		name: "Geauga County",
 		state: "Ohio",
 		population: 95479,
@@ -82923,7 +82923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39057",
+		id: "39057",
 		name: "Greene County",
 		state: "Ohio",
 		population: 168531,
@@ -82963,7 +82963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39059",
+		id: "39059",
 		name: "Guernsey County",
 		state: "Ohio",
 		population: 38283,
@@ -83003,7 +83003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39061",
+		id: "39061",
 		name: "Hamilton County",
 		state: "Ohio",
 		population: 827878,
@@ -83043,7 +83043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39063",
+		id: "39063",
 		name: "Hancock County",
 		state: "Ohio",
 		population: 74885,
@@ -83083,7 +83083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39065",
+		id: "39065",
 		name: "Hardin County",
 		state: "Ohio",
 		population: 30527,
@@ -83123,7 +83123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39067",
+		id: "39067",
 		name: "Harrison County",
 		state: "Ohio",
 		population: 14408,
@@ -83163,7 +83163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39069",
+		id: "39069",
 		name: "Henry County",
 		state: "Ohio",
 		population: 27581,
@@ -83203,7 +83203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39071",
+		id: "39071",
 		name: "Highland County",
 		state: "Ohio",
 		population: 43403,
@@ -83243,7 +83243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39073",
+		id: "39073",
 		name: "Hocking County",
 		state: "Ohio",
 		population: 27938,
@@ -83283,7 +83283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39075",
+		id: "39075",
 		name: "Holmes County",
 		state: "Ohio",
 		population: 44312,
@@ -83323,7 +83323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39077",
+		id: "39077",
 		name: "Huron County",
 		state: "Ohio",
 		population: 58412,
@@ -83363,7 +83363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39079",
+		id: "39079",
 		name: "Jackson County",
 		state: "Ohio",
 		population: 32588,
@@ -83403,7 +83403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39081",
+		id: "39081",
 		name: "Jefferson County",
 		state: "Ohio",
 		population: 64855,
@@ -83443,7 +83443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39083",
+		id: "39083",
 		name: "Knox County",
 		state: "Ohio",
 		population: 62888,
@@ -83483,7 +83483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39085",
+		id: "39085",
 		name: "Lake County",
 		state: "Ohio",
 		population: 232101,
@@ -83523,7 +83523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39087",
+		id: "39087",
 		name: "Lawrence County",
 		state: "Ohio",
 		population: 57385,
@@ -83563,7 +83563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39089",
+		id: "39089",
 		name: "Licking County",
 		state: "Ohio",
 		population: 180311,
@@ -83603,7 +83603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39091",
+		id: "39091",
 		name: "Logan County",
 		state: "Ohio",
 		population: 46140,
@@ -83643,7 +83643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39093",
+		id: "39093",
 		name: "Lorain County",
 		state: "Ohio",
 		population: 314588,
@@ -83683,7 +83683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39095",
+		id: "39095",
 		name: "Lucas County",
 		state: "Ohio",
 		population: 428748,
@@ -83723,7 +83723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39097",
+		id: "39097",
 		name: "Madison County",
 		state: "Ohio",
 		population: 44126,
@@ -83763,7 +83763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39099",
+		id: "39099",
 		name: "Mahoning County",
 		state: "Ohio",
 		population: 227063,
@@ -83803,7 +83803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39101",
+		id: "39101",
 		name: "Marion County",
 		state: "Ohio",
 		population: 65145,
@@ -83843,7 +83843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39103",
+		id: "39103",
 		name: "Medina County",
 		state: "Ohio",
 		population: 183049,
@@ -83883,7 +83883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39105",
+		id: "39105",
 		name: "Meigs County",
 		state: "Ohio",
 		population: 22072,
@@ -83923,7 +83923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39107",
+		id: "39107",
 		name: "Mercer County",
 		state: "Ohio",
 		population: 42438,
@@ -83963,7 +83963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39109",
+		id: "39109",
 		name: "Miami County",
 		state: "Ohio",
 		population: 109549,
@@ -84003,7 +84003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39111",
+		id: "39111",
 		name: "Monroe County",
 		state: "Ohio",
 		population: 13308,
@@ -84043,7 +84043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39113",
+		id: "39113",
 		name: "Montgomery County",
 		state: "Ohio",
 		population: 535528,
@@ -84083,7 +84083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39115",
+		id: "39115",
 		name: "Morgan County",
 		state: "Ohio",
 		population: 13758,
@@ -84123,7 +84123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39117",
+		id: "39117",
 		name: "Morrow County",
 		state: "Ohio",
 		population: 35214,
@@ -84163,7 +84163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39119",
+		id: "39119",
 		name: "Muskingum County",
 		state: "Ohio",
 		population: 86382,
@@ -84203,7 +84203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39121",
+		id: "39121",
 		name: "Noble County",
 		state: "Ohio",
 		population: 14252,
@@ -84243,7 +84243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39123",
+		id: "39123",
 		name: "Ottawa County",
 		state: "Ohio",
 		population: 40161,
@@ -84283,7 +84283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39125",
+		id: "39125",
 		name: "Paulding County",
 		state: "Ohio",
 		population: 18800,
@@ -84323,7 +84323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39127",
+		id: "39127",
 		name: "Perry County",
 		state: "Ohio",
 		population: 35474,
@@ -84363,7 +84363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39129",
+		id: "39129",
 		name: "Pickaway County",
 		state: "Ohio",
 		population: 59407,
@@ -84403,7 +84403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39131",
+		id: "39131",
 		name: "Pike County",
 		state: "Ohio",
 		population: 27080,
@@ -84443,7 +84443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39133",
+		id: "39133",
 		name: "Portage County",
 		state: "Ohio",
 		population: 161421,
@@ -84483,7 +84483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39135",
+		id: "39135",
 		name: "Preble County",
 		state: "Ohio",
 		population: 40802,
@@ -84523,7 +84523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39137",
+		id: "39137",
 		name: "Putnam County",
 		state: "Ohio",
 		population: 34352,
@@ -84563,7 +84563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39139",
+		id: "39139",
 		name: "Richland County",
 		state: "Ohio",
 		population: 125138,
@@ -84603,7 +84603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39141",
+		id: "39141",
 		name: "Ross County",
 		state: "Ohio",
 		population: 76748,
@@ -84643,7 +84643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39143",
+		id: "39143",
 		name: "Sandusky County",
 		state: "Ohio",
 		population: 58770,
@@ -84683,7 +84683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39145",
+		id: "39145",
 		name: "Scioto County",
 		state: "Ohio",
 		population: 73118,
@@ -84723,7 +84723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39147",
+		id: "39147",
 		name: "Seneca County",
 		state: "Ohio",
 		population: 54861,
@@ -84763,7 +84763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39149",
+		id: "39149",
 		name: "Shelby County",
 		state: "Ohio",
 		population: 48007,
@@ -84803,7 +84803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39151",
+		id: "39151",
 		name: "Stark County",
 		state: "Ohio",
 		population: 373764,
@@ -84843,7 +84843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39153",
+		id: "39153",
 		name: "Summit County",
 		state: "Ohio",
 		population: 538087,
@@ -84883,7 +84883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39155",
+		id: "39155",
 		name: "Trumbull County",
 		state: "Ohio",
 		population: 201367,
@@ -84923,7 +84923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39157",
+		id: "39157",
 		name: "Tuscarawas County",
 		state: "Ohio",
 		population: 92585,
@@ -84963,7 +84963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39159",
+		id: "39159",
 		name: "Union County",
 		state: "Ohio",
 		population: 65293,
@@ -85003,7 +85003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39161",
+		id: "39161",
 		name: "Van Wert County",
 		state: "Ohio",
 		population: 28824,
@@ -85043,7 +85043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39163",
+		id: "39163",
 		name: "Vinton County",
 		state: "Ohio",
 		population: 12686,
@@ -85083,7 +85083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39165",
+		id: "39165",
 		name: "Warren County",
 		state: "Ohio",
 		population: 246364,
@@ -85123,7 +85123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39167",
+		id: "39167",
 		name: "Washington County",
 		state: "Ohio",
 		population: 59318,
@@ -85163,7 +85163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39169",
+		id: "39169",
 		name: "Wayne County",
 		state: "Ohio",
 		population: 116618,
@@ -85203,7 +85203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39171",
+		id: "39171",
 		name: "Williams County",
 		state: "Ohio",
 		population: 36862,
@@ -85243,7 +85243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39173",
+		id: "39173",
 		name: "Wood County",
 		state: "Ohio",
 		population: 131795,
@@ -85283,7 +85283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "39175",
+		id: "39175",
 		name: "Wyandot County",
 		state: "Ohio",
 		population: 21699,
@@ -85323,7 +85323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40001",
+		id: "40001",
 		name: "Adair County",
 		state: "Oklahoma",
 		population: 19595,
@@ -85363,7 +85363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40003",
+		id: "40003",
 		name: "Alfalfa County",
 		state: "Oklahoma",
 		population: 5685,
@@ -85403,7 +85403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40005",
+		id: "40005",
 		name: "Atoka County",
 		state: "Oklahoma",
 		population: 14255,
@@ -85443,7 +85443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40007",
+		id: "40007",
 		name: "Beaver County",
 		state: "Oklahoma",
 		population: 5041,
@@ -85483,7 +85483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40009",
+		id: "40009",
 		name: "Beckham County",
 		state: "Oklahoma",
 		population: 22202,
@@ -85523,7 +85523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40011",
+		id: "40011",
 		name: "Blaine County",
 		state: "Oklahoma",
 		population: 8603,
@@ -85563,7 +85563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40013",
+		id: "40013",
 		name: "Bryan County",
 		state: "Oklahoma",
 		population: 47237,
@@ -85603,7 +85603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40015",
+		id: "40015",
 		name: "Caddo County",
 		state: "Oklahoma",
 		population: 26626,
@@ -85643,7 +85643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40017",
+		id: "40017",
 		name: "Canadian County",
 		state: "Oklahoma",
 		population: 162621,
@@ -85683,7 +85683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40019",
+		id: "40019",
 		name: "Carter County",
 		state: "Oklahoma",
 		population: 48255,
@@ -85723,7 +85723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40021",
+		id: "40021",
 		name: "Cherokee County",
 		state: "Oklahoma",
 		population: 47621,
@@ -85763,7 +85763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40023",
+		id: "40023",
 		name: "Choctaw County",
 		state: "Oklahoma",
 		population: 14299,
@@ -85803,7 +85803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40025",
+		id: "40025",
 		name: "Cimarron County",
 		state: "Oklahoma",
 		population: 2247,
@@ -85843,7 +85843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40027",
+		id: "40027",
 		name: "Cleveland County",
 		state: "Oklahoma",
 		population: 297545,
@@ -85883,7 +85883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40029",
+		id: "40029",
 		name: "Coal County",
 		state: "Oklahoma",
 		population: 5275,
@@ -85923,7 +85923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40031",
+		id: "40031",
 		name: "Comanche County",
 		state: "Oklahoma",
 		population: 121699,
@@ -85963,7 +85963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40033",
+		id: "40033",
 		name: "Cotton County",
 		state: "Oklahoma",
 		population: 5475,
@@ -86003,7 +86003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40035",
+		id: "40035",
 		name: "Craig County",
 		state: "Oklahoma",
 		population: 14215,
@@ -86043,7 +86043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40037",
+		id: "40037",
 		name: "Creek County",
 		state: "Oklahoma",
 		population: 72353,
@@ -86083,7 +86083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40039",
+		id: "40039",
 		name: "Custer County",
 		state: "Oklahoma",
 		population: 28332,
@@ -86123,7 +86123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40041",
+		id: "40041",
 		name: "Delaware County",
 		state: "Oklahoma",
 		population: 41017,
@@ -86163,7 +86163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40043",
+		id: "40043",
 		name: "Dewey County",
 		state: "Oklahoma",
 		population: 4433,
@@ -86203,7 +86203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40045",
+		id: "40045",
 		name: "Ellis County",
 		state: "Oklahoma",
 		population: 3717,
@@ -86243,7 +86243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40047",
+		id: "40047",
 		name: "Garfield County",
 		state: "Oklahoma",
 		population: 62322,
@@ -86283,7 +86283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40049",
+		id: "40049",
 		name: "Garvin County",
 		state: "Oklahoma",
 		population: 25779,
@@ -86323,7 +86323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40051",
+		id: "40051",
 		name: "Grady County",
 		state: "Oklahoma",
 		population: 55868,
@@ -86363,7 +86363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40053",
+		id: "40053",
 		name: "Grant County",
 		state: "Oklahoma",
 		population: 4137,
@@ -86403,7 +86403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40055",
+		id: "40055",
 		name: "Greer County",
 		state: "Oklahoma",
 		population: 5498,
@@ -86443,7 +86443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40057",
+		id: "40057",
 		name: "Harmon County",
 		state: "Oklahoma",
 		population: 2452,
@@ -86483,7 +86483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40059",
+		id: "40059",
 		name: "Harper County",
 		state: "Oklahoma",
 		population: 3231,
@@ -86523,7 +86523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40061",
+		id: "40061",
 		name: "Haskell County",
 		state: "Oklahoma",
 		population: 11667,
@@ -86563,7 +86563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40063",
+		id: "40063",
 		name: "Hughes County",
 		state: "Oklahoma",
 		population: 13411,
@@ -86603,7 +86603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40065",
+		id: "40065",
 		name: "Jackson County",
 		state: "Oklahoma",
 		population: 24730,
@@ -86643,7 +86643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40067",
+		id: "40067",
 		name: "Jefferson County",
 		state: "Oklahoma",
 		population: 5377,
@@ -86683,7 +86683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40069",
+		id: "40069",
 		name: "Johnston County",
 		state: "Oklahoma",
 		population: 10334,
@@ -86723,7 +86723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40071",
+		id: "40071",
 		name: "Kay County",
 		state: "Oklahoma",
 		population: 43731,
@@ -86763,7 +86763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40073",
+		id: "40073",
 		name: "Kingfisher County",
 		state: "Oklahoma",
 		population: 15288,
@@ -86803,7 +86803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40075",
+		id: "40075",
 		name: "Kiowa County",
 		state: "Oklahoma",
 		population: 8458,
@@ -86843,7 +86843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40077",
+		id: "40077",
 		name: "Latimer County",
 		state: "Oklahoma",
 		population: 9495,
@@ -86883,7 +86883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40079",
+		id: "40079",
 		name: "Le Flore County",
 		state: "Oklahoma",
 		population: 48728,
@@ -86923,7 +86923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40081",
+		id: "40081",
 		name: "Lincoln County",
 		state: "Oklahoma",
 		population: 33917,
@@ -86963,7 +86963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40083",
+		id: "40083",
 		name: "Logan County",
 		state: "Oklahoma",
 		population: 50905,
@@ -87003,7 +87003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40085",
+		id: "40085",
 		name: "Love County",
 		state: "Oklahoma",
 		population: 10196,
@@ -87043,7 +87043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40087",
+		id: "40087",
 		name: "McClain County",
 		state: "Oklahoma",
 		population: 43779,
@@ -87083,7 +87083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40089",
+		id: "40089",
 		name: "McCurtain County",
 		state: "Oklahoma",
 		population: 30825,
@@ -87123,7 +87123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40091",
+		id: "40091",
 		name: "McIntosh County",
 		state: "Oklahoma",
 		population: 19237,
@@ -87163,7 +87163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40093",
+		id: "40093",
 		name: "Major County",
 		state: "Oklahoma",
 		population: 7656,
@@ -87203,7 +87203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40095",
+		id: "40095",
 		name: "Marshall County",
 		state: "Oklahoma",
 		population: 15628,
@@ -87243,7 +87243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40097",
+		id: "40097",
 		name: "Mayes County",
 		state: "Oklahoma",
 		population: 39406,
@@ -87283,7 +87283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40099",
+		id: "40099",
 		name: "Murray County",
 		state: "Oklahoma",
 		population: 13807,
@@ -87323,7 +87323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40101",
+		id: "40101",
 		name: "Muskogee County",
 		state: "Oklahoma",
 		population: 66471,
@@ -87363,7 +87363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40103",
+		id: "40103",
 		name: "Noble County",
 		state: "Oklahoma",
 		population: 10909,
@@ -87403,7 +87403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40105",
+		id: "40105",
 		name: "Nowata County",
 		state: "Oklahoma",
 		population: 9392,
@@ -87443,7 +87443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40107",
+		id: "40107",
 		name: "Okfuskee County",
 		state: "Oklahoma",
 		population: 11304,
@@ -87483,7 +87483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40109",
+		id: "40109",
 		name: "Oklahoma County",
 		state: "Oklahoma",
 		population: 800487,
@@ -87523,7 +87523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40111",
+		id: "40111",
 		name: "Okmulgee County",
 		state: "Oklahoma",
 		population: 36922,
@@ -87563,7 +87563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40113",
+		id: "40113",
 		name: "Osage County",
 		state: "Oklahoma",
 		population: 45963,
@@ -87603,7 +87603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40115",
+		id: "40115",
 		name: "Ottawa County",
 		state: "Oklahoma",
 		population: 30360,
@@ -87643,7 +87643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40117",
+		id: "40117",
 		name: "Pawnee County",
 		state: "Oklahoma",
 		population: 15689,
@@ -87683,7 +87683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40119",
+		id: "40119",
 		name: "Payne County",
 		state: "Oklahoma",
 		population: 82290,
@@ -87723,7 +87723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40121",
+		id: "40121",
 		name: "Pittsburg County",
 		state: "Oklahoma",
 		population: 43629,
@@ -87763,7 +87763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40123",
+		id: "40123",
 		name: "Pontotoc County",
 		state: "Oklahoma",
 		population: 38158,
@@ -87803,7 +87803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40125",
+		id: "40125",
 		name: "Pottawatomie County",
 		state: "Oklahoma",
 		population: 73011,
@@ -87843,7 +87843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40127",
+		id: "40127",
 		name: "Pushmataha County",
 		state: "Oklahoma",
 		population: 10787,
@@ -87883,7 +87883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40129",
+		id: "40129",
 		name: "Roger Mills County",
 		state: "Oklahoma",
 		population: 3378,
@@ -87923,7 +87923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40131",
+		id: "40131",
 		name: "Rogers County",
 		state: "Oklahoma",
 		population: 97235,
@@ -87963,7 +87963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40133",
+		id: "40133",
 		name: "Seminole County",
 		state: "Oklahoma",
 		population: 23550,
@@ -88003,7 +88003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40135",
+		id: "40135",
 		name: "Sequoyah County",
 		state: "Oklahoma",
 		population: 39676,
@@ -88043,7 +88043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40137",
+		id: "40137",
 		name: "Stephens County",
 		state: "Oklahoma",
 		population: 43314,
@@ -88083,7 +88083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40139",
+		id: "40139",
 		name: "Texas County",
 		state: "Oklahoma",
 		population: 20880,
@@ -88123,7 +88123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40141",
+		id: "40141",
 		name: "Tillman County",
 		state: "Oklahoma",
 		population: 6967,
@@ -88163,7 +88163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40143",
+		id: "40143",
 		name: "Tulsa County",
 		state: "Oklahoma",
 		population: 673708,
@@ -88203,7 +88203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40145",
+		id: "40145",
 		name: "Wagoner County",
 		state: "Oklahoma",
 		population: 84339,
@@ -88243,7 +88243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40147",
+		id: "40147",
 		name: "Washington County",
 		state: "Oklahoma",
 		population: 52895,
@@ -88283,7 +88283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40149",
+		id: "40149",
 		name: "Washita County",
 		state: "Oklahoma",
 		population: 10857,
@@ -88323,7 +88323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40151",
+		id: "40151",
 		name: "Woods County",
 		state: "Oklahoma",
 		population: 8619,
@@ -88363,7 +88363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "40153",
+		id: "40153",
 		name: "Woodward County",
 		state: "Oklahoma",
 		population: 20260,
@@ -88403,7 +88403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41001",
+		id: "41001",
 		name: "Baker County",
 		state: "Oregon",
 		population: 16796,
@@ -88443,7 +88443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41003",
+		id: "41003",
 		name: "Benton County",
 		state: "Oregon",
 		population: 96359,
@@ -88483,7 +88483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41005",
+		id: "41005",
 		name: "Clackamas County",
 		state: "Oregon",
 		population: 422308,
@@ -88523,7 +88523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41007",
+		id: "41007",
 		name: "Clatsop County",
 		state: "Oregon",
 		population: 41343,
@@ -88563,7 +88563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41009",
+		id: "41009",
 		name: "Columbia County",
 		state: "Oregon",
 		population: 53178,
@@ -88603,7 +88603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41011",
+		id: "41011",
 		name: "Coos County",
 		state: "Oregon",
 		population: 64832,
@@ -88643,7 +88643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41013",
+		id: "41013",
 		name: "Crook County",
 		state: "Oregon",
 		population: 25651,
@@ -88683,7 +88683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41015",
+		id: "41015",
 		name: "Curry County",
 		state: "Oregon",
 		population: 23463,
@@ -88723,7 +88723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41017",
+		id: "41017",
 		name: "Deschutes County",
 		state: "Oregon",
 		population: 203026,
@@ -88763,7 +88763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41019",
+		id: "41019",
 		name: "Douglas County",
 		state: "Oregon",
 		population: 111807,
@@ -88803,7 +88803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41021",
+		id: "41021",
 		name: "Gilliam County",
 		state: "Oregon",
 		population: 2002,
@@ -88843,7 +88843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41023",
+		id: "41023",
 		name: "Grant County",
 		state: "Oregon",
 		population: 7238,
@@ -88883,7 +88883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41025",
+		id: "41025",
 		name: "Harney County",
 		state: "Oregon",
 		population: 7515,
@@ -88923,7 +88923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41027",
+		id: "41027",
 		name: "Hood River County",
 		state: "Oregon",
 		population: 23958,
@@ -88963,7 +88963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41029",
+		id: "41029",
 		name: "Jackson County",
 		state: "Oregon",
 		population: 222563,
@@ -89003,7 +89003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41031",
+		id: "41031",
 		name: "Jefferson County",
 		state: "Oregon",
 		population: 24973,
@@ -89043,7 +89043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41033",
+		id: "41033",
 		name: "Josephine County",
 		state: "Oregon",
 		population: 88069,
@@ -89083,7 +89083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41035",
+		id: "41035",
 		name: "Klamath County",
 		state: "Oregon",
 		population: 69812,
@@ -89123,7 +89123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41037",
+		id: "41037",
 		name: "Lake County",
 		state: "Oregon",
 		population: 8254,
@@ -89163,7 +89163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41039",
+		id: "41039",
 		name: "Lane County",
 		state: "Oregon",
 		population: 382628,
@@ -89203,7 +89203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41041",
+		id: "41041",
 		name: "Lincoln County",
 		state: "Oregon",
 		population: 50632,
@@ -89243,7 +89243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41043",
+		id: "41043",
 		name: "Linn County",
 		state: "Oregon",
 		population: 129794,
@@ -89283,7 +89283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41045",
+		id: "41045",
 		name: "Malheur County",
 		state: "Oregon",
 		population: 31701,
@@ -89323,7 +89323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41047",
+		id: "41047",
 		name: "Marion County",
 		state: "Oregon",
 		population: 346532,
@@ -89363,7 +89363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41049",
+		id: "41049",
 		name: "Morrow County",
 		state: "Oregon",
 		population: 12249,
@@ -89403,7 +89403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41051",
+		id: "41051",
 		name: "Multnomah County",
 		state: "Oregon",
 		population: 803863,
@@ -89443,7 +89443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41053",
+		id: "41053",
 		name: "Polk County",
 		state: "Oregon",
 		population: 88553,
@@ -89483,7 +89483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41055",
+		id: "41055",
 		name: "Sherman County",
 		state: "Oregon",
 		population: 1908,
@@ -89523,7 +89523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41057",
+		id: "41057",
 		name: "Tillamook County",
 		state: "Oregon",
 		population: 27471,
@@ -89563,7 +89563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41059",
+		id: "41059",
 		name: "Umatilla County",
 		state: "Oregon",
 		population: 80087,
@@ -89603,7 +89603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41061",
+		id: "41061",
 		name: "Union County",
 		state: "Oregon",
 		population: 26192,
@@ -89643,7 +89643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41063",
+		id: "41063",
 		name: "Wallowa County",
 		state: "Oregon",
 		population: 7532,
@@ -89683,7 +89683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41065",
+		id: "41065",
 		name: "Wasco County",
 		state: "Oregon",
 		population: 26603,
@@ -89723,7 +89723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41067",
+		id: "41067",
 		name: "Washington County",
 		state: "Oregon",
 		population: 600266,
@@ -89763,7 +89763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41069",
+		id: "41069",
 		name: "Wheeler County",
 		state: "Oregon",
 		population: 1434,
@@ -89803,7 +89803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "41071",
+		id: "41071",
 		name: "Yamhill County",
 		state: "Oregon",
 		population: 108122,
@@ -89843,7 +89843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42001",
+		id: "42001",
 		name: "Adams County",
 		state: "Pennsylvania",
 		population: 105183,
@@ -89883,7 +89883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42003",
+		id: "42003",
 		name: "Allegheny County",
 		state: "Pennsylvania",
 		population: 1240476,
@@ -89923,7 +89923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42005",
+		id: "42005",
 		name: "Armstrong County",
 		state: "Pennsylvania",
 		population: 65069,
@@ -89963,7 +89963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42007",
+		id: "42007",
 		name: "Beaver County",
 		state: "Pennsylvania",
 		population: 166993,
@@ -90003,7 +90003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42009",
+		id: "42009",
 		name: "Bedford County",
 		state: "Pennsylvania",
 		population: 47503,
@@ -90043,7 +90043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42011",
+		id: "42011",
 		name: "Berks County",
 		state: "Pennsylvania",
 		population: 429989,
@@ -90083,7 +90083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42013",
+		id: "42013",
 		name: "Blair County",
 		state: "Pennsylvania",
 		population: 121854,
@@ -90123,7 +90123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42015",
+		id: "42015",
 		name: "Bradford County",
 		state: "Pennsylvania",
 		population: 59971,
@@ -90163,7 +90163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42017",
+		id: "42017",
 		name: "Bucks County",
 		state: "Pennsylvania",
 		population: 645993,
@@ -90203,7 +90203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42019",
+		id: "42019",
 		name: "Butler County",
 		state: "Pennsylvania",
 		population: 195870,
@@ -90243,7 +90243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42021",
+		id: "42021",
 		name: "Cambria County",
 		state: "Pennsylvania",
 		population: 132355,
@@ -90283,7 +90283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42023",
+		id: "42023",
 		name: "Cameron County",
 		state: "Pennsylvania",
 		population: 4475,
@@ -90323,7 +90323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42025",
+		id: "42025",
 		name: "Carbon County",
 		state: "Pennsylvania",
 		population: 65191,
@@ -90363,7 +90363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42027",
+		id: "42027",
 		name: "Centre County",
 		state: "Pennsylvania",
 		population: 158041,
@@ -90403,7 +90403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42029",
+		id: "42029",
 		name: "Chester County",
 		state: "Pennsylvania",
 		population: 540896,
@@ -90443,7 +90443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42031",
+		id: "42031",
 		name: "Clarion County",
 		state: "Pennsylvania",
 		population: 37297,
@@ -90483,7 +90483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42033",
+		id: "42033",
 		name: "Clearfield County",
 		state: "Pennsylvania",
 		population: 78902,
@@ -90523,7 +90523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42035",
+		id: "42035",
 		name: "Clinton County",
 		state: "Pennsylvania",
 		population: 37707,
@@ -90563,7 +90563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42037",
+		id: "42037",
 		name: "Columbia County",
 		state: "Pennsylvania",
 		population: 65055,
@@ -90603,7 +90603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42039",
+		id: "42039",
 		name: "Crawford County",
 		state: "Pennsylvania",
 		population: 83189,
@@ -90643,7 +90643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42041",
+		id: "42041",
 		name: "Cumberland County",
 		state: "Pennsylvania",
 		population: 264422,
@@ -90683,7 +90683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42043",
+		id: "42043",
 		name: "Dauphin County",
 		state: "Pennsylvania",
 		population: 287484,
@@ -90723,7 +90723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42045",
+		id: "42045",
 		name: "Delaware County",
 		state: "Pennsylvania",
 		population: 576195,
@@ -90763,7 +90763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42047",
+		id: "42047",
 		name: "Elk County",
 		state: "Pennsylvania",
 		population: 30703,
@@ -90803,7 +90803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42049",
+		id: "42049",
 		name: "Erie County",
 		state: "Pennsylvania",
 		population: 269544,
@@ -90843,7 +90843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42051",
+		id: "42051",
 		name: "Fayette County",
 		state: "Pennsylvania",
 		population: 126967,
@@ -90883,7 +90883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42053",
+		id: "42053",
 		name: "Forest County",
 		state: "Pennsylvania",
 		population: 6785,
@@ -90923,7 +90923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42055",
+		id: "42055",
 		name: "Franklin County",
 		state: "Pennsylvania",
 		population: 156626,
@@ -90963,7 +90963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42057",
+		id: "42057",
 		name: "Fulton County",
 		state: "Pennsylvania",
 		population: 14545,
@@ -91003,7 +91003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42059",
+		id: "42059",
 		name: "Greene County",
 		state: "Pennsylvania",
 		population: 35265,
@@ -91043,7 +91043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42061",
+		id: "42061",
 		name: "Huntingdon County",
 		state: "Pennsylvania",
 		population: 43844,
@@ -91083,7 +91083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42063",
+		id: "42063",
 		name: "Indiana County",
 		state: "Pennsylvania",
 		population: 83213,
@@ -91123,7 +91123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42065",
+		id: "42065",
 		name: "Jefferson County",
 		state: "Pennsylvania",
 		population: 44099,
@@ -91163,7 +91163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42067",
+		id: "42067",
 		name: "Juniata County",
 		state: "Pennsylvania",
 		population: 23419,
@@ -91203,7 +91203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42069",
+		id: "42069",
 		name: "Lackawanna County",
 		state: "Pennsylvania",
 		population: 215834,
@@ -91243,7 +91243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42071",
+		id: "42071",
 		name: "Lancaster County",
 		state: "Pennsylvania",
 		population: 555151,
@@ -91283,7 +91283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42073",
+		id: "42073",
 		name: "Lawrence County",
 		state: "Pennsylvania",
 		population: 85423,
@@ -91323,7 +91323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42075",
+		id: "42075",
 		name: "Lebanon County",
 		state: "Pennsylvania",
 		population: 143592,
@@ -91363,7 +91363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42077",
+		id: "42077",
 		name: "Lehigh County",
 		state: "Pennsylvania",
 		population: 375408,
@@ -91403,7 +91403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42079",
+		id: "42079",
 		name: "Luzerne County",
 		state: "Pennsylvania",
 		population: 325978,
@@ -91443,7 +91443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42081",
+		id: "42081",
 		name: "Lycoming County",
 		state: "Pennsylvania",
 		population: 113570,
@@ -91483,7 +91483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42083",
+		id: "42083",
 		name: "McKean County",
 		state: "Pennsylvania",
 		population: 40149,
@@ -91523,7 +91523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42085",
+		id: "42085",
 		name: "Mercer County",
 		state: "Pennsylvania",
 		population: 109852,
@@ -91563,7 +91563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42087",
+		id: "42087",
 		name: "Mifflin County",
 		state: "Pennsylvania",
 		population: 46074,
@@ -91603,7 +91603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42089",
+		id: "42089",
 		name: "Monroe County",
 		state: "Pennsylvania",
 		population: 167784,
@@ -91643,7 +91643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42091",
+		id: "42091",
 		name: "Montgomery County",
 		state: "Pennsylvania",
 		population: 861225,
@@ -91683,7 +91683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42093",
+		id: "42093",
 		name: "Montour County",
 		state: "Pennsylvania",
 		population: 18079,
@@ -91723,7 +91723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42095",
+		id: "42095",
 		name: "Northampton County",
 		state: "Pennsylvania",
 		population: 315927,
@@ -91763,7 +91763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42097",
+		id: "42097",
 		name: "Northumberland County",
 		state: "Pennsylvania",
 		population: 90925,
@@ -91803,7 +91803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42099",
+		id: "42099",
 		name: "Perry County",
 		state: "Pennsylvania",
 		population: 45988,
@@ -91843,7 +91843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42101",
+		id: "42101",
 		name: "Philadelphia County",
 		state: "Pennsylvania",
 		population: 1582432,
@@ -91883,7 +91883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42103",
+		id: "42103",
 		name: "Pike County",
 		state: "Pennsylvania",
 		population: 59691,
@@ -91923,7 +91923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42105",
+		id: "42105",
 		name: "Potter County",
 		state: "Pennsylvania",
 		population: 16276,
@@ -91963,7 +91963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42107",
+		id: "42107",
 		name: "Schuylkill County",
 		state: "Pennsylvania",
 		population: 143259,
@@ -92003,7 +92003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42109",
+		id: "42109",
 		name: "Snyder County",
 		state: "Pennsylvania",
 		population: 39711,
@@ -92043,7 +92043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42111",
+		id: "42111",
 		name: "Somerset County",
 		state: "Pennsylvania",
 		population: 73255,
@@ -92083,7 +92083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42113",
+		id: "42113",
 		name: "Sullivan County",
 		state: "Pennsylvania",
 		population: 5849,
@@ -92123,7 +92123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42115",
+		id: "42115",
 		name: "Susquehanna County",
 		state: "Pennsylvania",
 		population: 38349,
@@ -92163,7 +92163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42117",
+		id: "42117",
 		name: "Tioga County",
 		state: "Pennsylvania",
 		population: 41078,
@@ -92203,7 +92203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42119",
+		id: "42119",
 		name: "Union County",
 		state: "Pennsylvania",
 		population: 42570,
@@ -92243,7 +92243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42121",
+		id: "42121",
 		name: "Venango County",
 		state: "Pennsylvania",
 		population: 50096,
@@ -92283,7 +92283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42123",
+		id: "42123",
 		name: "Warren County",
 		state: "Pennsylvania",
 		population: 38174,
@@ -92323,7 +92323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42125",
+		id: "42125",
 		name: "Washington County",
 		state: "Pennsylvania",
 		population: 209778,
@@ -92363,7 +92363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42127",
+		id: "42127",
 		name: "Wayne County",
 		state: "Pennsylvania",
 		population: 51189,
@@ -92403,7 +92403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42129",
+		id: "42129",
 		name: "Westmoreland County",
 		state: "Pennsylvania",
 		population: 353345,
@@ -92443,7 +92443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42131",
+		id: "42131",
 		name: "Wyoming County",
 		state: "Pennsylvania",
 		population: 26075,
@@ -92483,7 +92483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "42133",
+		id: "42133",
 		name: "York County",
 		state: "Pennsylvania",
 		population: 459312,
@@ -92523,7 +92523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "44001",
+		id: "44001",
 		name: "Bristol County",
 		state: "Rhode Island",
 		population: 50568,
@@ -92563,7 +92563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "44003",
+		id: "44003",
 		name: "Kent County",
 		state: "Rhode Island",
 		population: 170658,
@@ -92603,7 +92603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "44005",
+		id: "44005",
 		name: "Newport County",
 		state: "Rhode Island",
 		population: 85095,
@@ -92643,7 +92643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "44007",
+		id: "44007",
 		name: "Providence County",
 		state: "Rhode Island",
 		population: 658977,
@@ -92683,7 +92683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "44009",
+		id: "44009",
 		name: "Washington County",
 		state: "Rhode Island",
 		population: 130073,
@@ -92723,7 +92723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45001",
+		id: "45001",
 		name: "Abbeville County",
 		state: "South Carolina",
 		population: 24352,
@@ -92763,7 +92763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45003",
+		id: "45003",
 		name: "Aiken County",
 		state: "South Carolina",
 		population: 171949,
@@ -92803,7 +92803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45005",
+		id: "45005",
 		name: "Allendale County",
 		state: "South Carolina",
 		population: 7738,
@@ -92843,7 +92843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45007",
+		id: "45007",
 		name: "Anderson County",
 		state: "South Carolina",
 		population: 207218,
@@ -92883,7 +92883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45009",
+		id: "45009",
 		name: "Bamberg County",
 		state: "South Carolina",
 		population: 13164,
@@ -92923,7 +92923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45011",
+		id: "45011",
 		name: "Barnwell County",
 		state: "South Carolina",
 		population: 20565,
@@ -92963,7 +92963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45013",
+		id: "45013",
 		name: "Beaufort County",
 		state: "South Carolina",
 		population: 192123,
@@ -93003,7 +93003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45015",
+		id: "45015",
 		name: "Berkeley County",
 		state: "South Carolina",
 		population: 238723,
@@ -93043,7 +93043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45017",
+		id: "45017",
 		name: "Calhoun County",
 		state: "South Carolina",
 		population: 14150,
@@ -93083,7 +93083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45019",
+		id: "45019",
 		name: "Charleston County",
 		state: "South Carolina",
 		population: 414711,
@@ -93123,7 +93123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45021",
+		id: "45021",
 		name: "Cherokee County",
 		state: "South Carolina",
 		population: 56299,
@@ -93163,7 +93163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45023",
+		id: "45023",
 		name: "Chester County",
 		state: "South Carolina",
 		population: 32177,
@@ -93203,7 +93203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45025",
+		id: "45025",
 		name: "Chesterfield County",
 		state: "South Carolina",
 		population: 43575,
@@ -93243,7 +93243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45027",
+		id: "45027",
 		name: "Clarendon County",
 		state: "South Carolina",
 		population: 31037,
@@ -93283,7 +93283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45029",
+		id: "45029",
 		name: "Colleton County",
 		state: "South Carolina",
 		population: 38623,
@@ -93323,7 +93323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45031",
+		id: "45031",
 		name: "Darlington County",
 		state: "South Carolina",
 		population: 62754,
@@ -93363,7 +93363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45033",
+		id: "45033",
 		name: "Dillon County",
 		state: "South Carolina",
 		population: 28031,
@@ -93403,7 +93403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45035",
+		id: "45035",
 		name: "Dorchester County",
 		state: "South Carolina",
 		population: 164322,
@@ -93443,7 +93443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45037",
+		id: "45037",
 		name: "Edgefield County",
 		state: "South Carolina",
 		population: 26508,
@@ -93483,7 +93483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45039",
+		id: "45039",
 		name: "Fairfield County",
 		state: "South Carolina",
 		population: 20741,
@@ -93523,7 +93523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45041",
+		id: "45041",
 		name: "Florence County",
 		state: "South Carolina",
 		population: 136921,
@@ -93563,7 +93563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45043",
+		id: "45043",
 		name: "Georgetown County",
 		state: "South Carolina",
 		population: 64200,
@@ -93603,7 +93603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45045",
+		id: "45045",
 		name: "Greenville County",
 		state: "South Carolina",
 		population: 537575,
@@ -93643,7 +93643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45047",
+		id: "45047",
 		name: "Greenwood County",
 		state: "South Carolina",
 		population: 69329,
@@ -93683,7 +93683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45049",
+		id: "45049",
 		name: "Hampton County",
 		state: "South Carolina",
 		population: 18555,
@@ -93723,7 +93723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45051",
+		id: "45051",
 		name: "Horry County",
 		state: "South Carolina",
 		population: 368937,
@@ -93763,7 +93763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45053",
+		id: "45053",
 		name: "Jasper County",
 		state: "South Carolina",
 		population: 30658,
@@ -93803,7 +93803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45055",
+		id: "45055",
 		name: "Kershaw County",
 		state: "South Carolina",
 		population: 66924,
@@ -93843,7 +93843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45057",
+		id: "45057",
 		name: "Lancaster County",
 		state: "South Carolina",
 		population: 100905,
@@ -93883,7 +93883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45059",
+		id: "45059",
 		name: "Laurens County",
 		state: "South Carolina",
 		population: 67904,
@@ -93923,7 +93923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45061",
+		id: "45061",
 		name: "Lee County",
 		state: "South Carolina",
 		population: 16330,
@@ -93963,7 +93963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45063",
+		id: "45063",
 		name: "Lexington County",
 		state: "South Carolina",
 		population: 300370,
@@ -94003,7 +94003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45065",
+		id: "45065",
 		name: "McCormick County",
 		state: "South Carolina",
 		population: 9701,
@@ -94043,7 +94043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45067",
+		id: "45067",
 		name: "Marion County",
 		state: "South Carolina",
 		population: 28900,
@@ -94083,7 +94083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45069",
+		id: "45069",
 		name: "Marlboro County",
 		state: "South Carolina",
 		population: 26285,
@@ -94123,7 +94123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45071",
+		id: "45071",
 		name: "Newberry County",
 		state: "South Carolina",
 		population: 38121,
@@ -94163,7 +94163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45073",
+		id: "45073",
 		name: "Oconee County",
 		state: "South Carolina",
 		population: 79566,
@@ -94203,7 +94203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45075",
+		id: "45075",
 		name: "Orangeburg County",
 		state: "South Carolina",
 		population: 83531,
@@ -94243,7 +94243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45077",
+		id: "45077",
 		name: "Pickens County",
 		state: "South Carolina",
 		population: 132604,
@@ -94283,7 +94283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45079",
+		id: "45079",
 		name: "Richland County",
 		state: "South Carolina",
 		population: 418725,
@@ -94323,7 +94323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45081",
+		id: "45081",
 		name: "Saluda County",
 		state: "South Carolina",
 		population: 18958,
@@ -94363,7 +94363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45083",
+		id: "45083",
 		name: "Spartanburg County",
 		state: "South Carolina",
 		population: 338096,
@@ -94403,7 +94403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45085",
+		id: "45085",
 		name: "Sumter County",
 		state: "South Carolina",
 		population: 104853,
@@ -94443,7 +94443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45087",
+		id: "45087",
 		name: "Union County",
 		state: "South Carolina",
 		population: 26990,
@@ -94483,7 +94483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45089",
+		id: "45089",
 		name: "Williamsburg County",
 		state: "South Carolina",
 		population: 30517,
@@ -94523,7 +94523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "45091",
+		id: "45091",
 		name: "York County",
 		state: "South Carolina",
 		population: 288559,
@@ -94563,7 +94563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46003",
+		id: "46003",
 		name: "Aurora County",
 		state: "South Dakota",
 		population: 2573,
@@ -94603,7 +94603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46005",
+		id: "46005",
 		name: "Beadle County",
 		state: "South Dakota",
 		population: 19279,
@@ -94643,7 +94643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46007",
+		id: "46007",
 		name: "Bennett County",
 		state: "South Dakota",
 		population: 3354,
@@ -94683,7 +94683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46009",
+		id: "46009",
 		name: "Bon Homme County",
 		state: "South Dakota",
 		population: 7024,
@@ -94723,7 +94723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46011",
+		id: "46011",
 		name: "Brookings County",
 		state: "South Dakota",
 		population: 34968,
@@ -94763,7 +94763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46013",
+		id: "46013",
 		name: "Brown County",
 		state: "South Dakota",
 		population: 38079,
@@ -94803,7 +94803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46015",
+		id: "46015",
 		name: "Brule County",
 		state: "South Dakota",
 		population: 5261,
@@ -94843,7 +94843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46017",
+		id: "46017",
 		name: "Buffalo County",
 		state: "South Dakota",
 		population: 1757,
@@ -94883,7 +94883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46019",
+		id: "46019",
 		name: "Butte County",
 		state: "South Dakota",
 		population: 10538,
@@ -94923,7 +94923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46021",
+		id: "46021",
 		name: "Campbell County",
 		state: "South Dakota",
 		population: 1481,
@@ -94963,7 +94963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46023",
+		id: "46023",
 		name: "Charles Mix County",
 		state: "South Dakota",
 		population: 9281,
@@ -95003,7 +95003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46025",
+		id: "46025",
 		name: "Clark County",
 		state: "South Dakota",
 		population: 3876,
@@ -95043,7 +95043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46027",
+		id: "46027",
 		name: "Clay County",
 		state: "South Dakota",
 		population: 15133,
@@ -95083,7 +95083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46029",
+		id: "46029",
 		name: "Codington County",
 		state: "South Dakota",
 		population: 28556,
@@ -95123,7 +95123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46031",
+		id: "46031",
 		name: "Corson County",
 		state: "South Dakota",
 		population: 3859,
@@ -95163,7 +95163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46033",
+		id: "46033",
 		name: "Custer County",
 		state: "South Dakota",
 		population: 8686,
@@ -95203,7 +95203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46035",
+		id: "46035",
 		name: "Davison County",
 		state: "South Dakota",
 		population: 19936,
@@ -95243,7 +95243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46037",
+		id: "46037",
 		name: "Day County",
 		state: "South Dakota",
 		population: 5460,
@@ -95283,7 +95283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46039",
+		id: "46039",
 		name: "Deuel County",
 		state: "South Dakota",
 		population: 4318,
@@ -95323,7 +95323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46041",
+		id: "46041",
 		name: "Dewey County",
 		state: "South Dakota",
 		population: 5230,
@@ -95363,7 +95363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46043",
+		id: "46043",
 		name: "Douglas County",
 		state: "South Dakota",
 		population: 2823,
@@ -95403,7 +95403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46045",
+		id: "46045",
 		name: "Edmunds County",
 		state: "South Dakota",
 		population: 4033,
@@ -95443,7 +95443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46047",
+		id: "46047",
 		name: "Fall River County",
 		state: "South Dakota",
 		population: 7179,
@@ -95483,7 +95483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46049",
+		id: "46049",
 		name: "Faulk County",
 		state: "South Dakota",
 		population: 2137,
@@ -95523,7 +95523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46051",
+		id: "46051",
 		name: "Grant County",
 		state: "South Dakota",
 		population: 7544,
@@ -95563,7 +95563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46053",
+		id: "46053",
 		name: "Gregory County",
 		state: "South Dakota",
 		population: 3993,
@@ -95603,7 +95603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46055",
+		id: "46055",
 		name: "Haakon County",
 		state: "South Dakota",
 		population: 1708,
@@ -95643,7 +95643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46057",
+		id: "46057",
 		name: "Hamlin County",
 		state: "South Dakota",
 		population: 6288,
@@ -95683,7 +95683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46059",
+		id: "46059",
 		name: "Hand County",
 		state: "South Dakota",
 		population: 3045,
@@ -95723,7 +95723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46061",
+		id: "46061",
 		name: "Hanson County",
 		state: "South Dakota",
 		population: 3473,
@@ -95763,7 +95763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46063",
+		id: "46063",
 		name: "Harding County",
 		state: "South Dakota",
 		population: 1092,
@@ -95803,7 +95803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46065",
+		id: "46065",
 		name: "Hughes County",
 		state: "South Dakota",
 		population: 17732,
@@ -95843,7 +95843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46067",
+		id: "46067",
 		name: "Hutchinson County",
 		state: "South Dakota",
 		population: 7393,
@@ -95883,7 +95883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46069",
+		id: "46069",
 		name: "Hyde County",
 		state: "South Dakota",
 		population: 1305,
@@ -95923,7 +95923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46071",
+		id: "46071",
 		name: "Jackson County",
 		state: "South Dakota",
 		population: 2826,
@@ -95963,7 +95963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46073",
+		id: "46073",
 		name: "Jerauld County",
 		state: "South Dakota",
 		population: 1845,
@@ -96003,7 +96003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46075",
+		id: "46075",
 		name: "Jones County",
 		state: "South Dakota",
 		population: 1030,
@@ -96043,7 +96043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46077",
+		id: "46077",
 		name: "Kingsbury County",
 		state: "South Dakota",
 		population: 5210,
@@ -96083,7 +96083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46079",
+		id: "46079",
 		name: "Lake County",
 		state: "South Dakota",
 		population: 11052,
@@ -96123,7 +96123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46081",
+		id: "46081",
 		name: "Lawrence County",
 		state: "South Dakota",
 		population: 26574,
@@ -96163,7 +96163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46083",
+		id: "46083",
 		name: "Lincoln County",
 		state: "South Dakota",
 		population: 68286,
@@ -96203,7 +96203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46085",
+		id: "46085",
 		name: "Lyman County",
 		state: "South Dakota",
 		population: 3717,
@@ -96243,7 +96243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46087",
+		id: "46087",
 		name: "McCook County",
 		state: "South Dakota",
 		population: 5732,
@@ -96283,7 +96283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46089",
+		id: "46089",
 		name: "McPherson County",
 		state: "South Dakota",
 		population: 2278,
@@ -96323,7 +96323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46091",
+		id: "46091",
 		name: "Marshall County",
 		state: "South Dakota",
 		population: 4355,
@@ -96363,7 +96363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46093",
+		id: "46093",
 		name: "Meade County",
 		state: "South Dakota",
 		population: 30297,
@@ -96403,7 +96403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46095",
+		id: "46095",
 		name: "Mellette County",
 		state: "South Dakota",
 		population: 2043,
@@ -96443,7 +96443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46097",
+		id: "46097",
 		name: "Miner County",
 		state: "South Dakota",
 		population: 2299,
@@ -96483,7 +96483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46099",
+		id: "46099",
 		name: "Minnehaha County",
 		state: "South Dakota",
 		population: 200689,
@@ -96523,7 +96523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46101",
+		id: "46101",
 		name: "Moody County",
 		state: "South Dakota",
 		population: 6371,
@@ -96563,7 +96563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46102",
+		id: "46102",
 		name: "Oglala Lakota County",
 		state: "South Dakota",
 		population: 13587,
@@ -96603,7 +96603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46103",
+		id: "46103",
 		name: "Pennington County",
 		state: "South Dakota",
 		population: 112081,
@@ -96643,7 +96643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46105",
+		id: "46105",
 		name: "Perkins County",
 		state: "South Dakota",
 		population: 3058,
@@ -96683,7 +96683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46107",
+		id: "46107",
 		name: "Potter County",
 		state: "South Dakota",
 		population: 2430,
@@ -96723,7 +96723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46109",
+		id: "46109",
 		name: "Roberts County",
 		state: "South Dakota",
 		population: 10219,
@@ -96763,7 +96763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46111",
+		id: "46111",
 		name: "Sanborn County",
 		state: "South Dakota",
 		population: 2370,
@@ -96803,7 +96803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46115",
+		id: "46115",
 		name: "Spink County",
 		state: "South Dakota",
 		population: 6283,
@@ -96843,7 +96843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46117",
+		id: "46117",
 		name: "Stanley County",
 		state: "South Dakota",
 		population: 3012,
@@ -96883,7 +96883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46119",
+		id: "46119",
 		name: "Sully County",
 		state: "South Dakota",
 		population: 1481,
@@ -96923,7 +96923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46121",
+		id: "46121",
 		name: "Todd County",
 		state: "South Dakota",
 		population: 9293,
@@ -96963,7 +96963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46123",
+		id: "46123",
 		name: "Tripp County",
 		state: "South Dakota",
 		population: 5607,
@@ -97003,7 +97003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46125",
+		id: "46125",
 		name: "Turner County",
 		state: "South Dakota",
 		population: 8772,
@@ -97043,7 +97043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46127",
+		id: "46127",
 		name: "Union County",
 		state: "South Dakota",
 		population: 16916,
@@ -97083,7 +97083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46129",
+		id: "46129",
 		name: "Walworth County",
 		state: "South Dakota",
 		population: 5298,
@@ -97123,7 +97123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46135",
+		id: "46135",
 		name: "Yankton County",
 		state: "South Dakota",
 		population: 23379,
@@ -97163,7 +97163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "46137",
+		id: "46137",
 		name: "Ziebach County",
 		state: "South Dakota",
 		population: 2410,
@@ -97203,7 +97203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47001",
+		id: "47001",
 		name: "Anderson County",
 		state: "Tennessee",
 		population: 78175,
@@ -97243,7 +97243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47003",
+		id: "47003",
 		name: "Bedford County",
 		state: "Tennessee",
 		population: 51291,
@@ -97283,7 +97283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47005",
+		id: "47005",
 		name: "Benton County",
 		state: "Tennessee",
 		population: 15948,
@@ -97323,7 +97323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47007",
+		id: "47007",
 		name: "Bledsoe County",
 		state: "Tennessee",
 		population: 14905,
@@ -97363,7 +97363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47009",
+		id: "47009",
 		name: "Blount County",
 		state: "Tennessee",
 		population: 137747,
@@ -97403,7 +97403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47011",
+		id: "47011",
 		name: "Bradley County",
 		state: "Tennessee",
 		population: 109743,
@@ -97443,7 +97443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47013",
+		id: "47013",
 		name: "Campbell County",
 		state: "Tennessee",
 		population: 39568,
@@ -97483,7 +97483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47015",
+		id: "47015",
 		name: "Cannon County",
 		state: "Tennessee",
 		population: 14661,
@@ -97523,7 +97523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47017",
+		id: "47017",
 		name: "Carroll County",
 		state: "Tennessee",
 		population: 28461,
@@ -97563,7 +97563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47019",
+		id: "47019",
 		name: "Carter County",
 		state: "Tennessee",
 		population: 56462,
@@ -97603,7 +97603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47021",
+		id: "47021",
 		name: "Cheatham County",
 		state: "Tennessee",
 		population: 41500,
@@ -97643,7 +97643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47023",
+		id: "47023",
 		name: "Chester County",
 		state: "Tennessee",
 		population: 17452,
@@ -97683,7 +97683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47025",
+		id: "47025",
 		name: "Claiborne County",
 		state: "Tennessee",
 		population: 32221,
@@ -97723,7 +97723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47027",
+		id: "47027",
 		name: "Clay County",
 		state: "Tennessee",
 		population: 7621,
@@ -97763,7 +97763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47029",
+		id: "47029",
 		name: "Cocke County",
 		state: "Tennessee",
 		population: 36503,
@@ -97803,7 +97803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47031",
+		id: "47031",
 		name: "Coffee County",
 		state: "Tennessee",
 		population: 58940,
@@ -97843,7 +97843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47033",
+		id: "47033",
 		name: "Crockett County",
 		state: "Tennessee",
 		population: 13937,
@@ -97883,7 +97883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47035",
+		id: "47035",
 		name: "Cumberland County",
 		state: "Tennessee",
 		population: 62529,
@@ -97923,7 +97923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47037",
+		id: "47037",
 		name: "Davidson County",
 		state: "Tennessee",
 		population: 709846,
@@ -97963,7 +97963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47039",
+		id: "47039",
 		name: "Decatur County",
 		state: "Tennessee",
 		population: 11499,
@@ -98003,7 +98003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47041",
+		id: "47041",
 		name: "DeKalb County",
 		state: "Tennessee",
 		population: 20551,
@@ -98043,7 +98043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47043",
+		id: "47043",
 		name: "Dickson County",
 		state: "Tennessee",
 		population: 55197,
@@ -98083,7 +98083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47045",
+		id: "47045",
 		name: "Dyer County",
 		state: "Tennessee",
 		population: 36681,
@@ -98123,7 +98123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47047",
+		id: "47047",
 		name: "Fayette County",
 		state: "Tennessee",
 		population: 42653,
@@ -98163,7 +98163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47049",
+		id: "47049",
 		name: "Fentress County",
 		state: "Tennessee",
 		population: 18948,
@@ -98203,7 +98203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47051",
+		id: "47051",
 		name: "Franklin County",
 		state: "Tennessee",
 		population: 43478,
@@ -98243,7 +98243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47053",
+		id: "47053",
 		name: "Gibson County",
 		state: "Tennessee",
 		population: 50610,
@@ -98283,7 +98283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47055",
+		id: "47055",
 		name: "Giles County",
 		state: "Tennessee",
 		population: 30442,
@@ -98323,7 +98323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47057",
+		id: "47057",
 		name: "Grainger County",
 		state: "Tennessee",
 		population: 23929,
@@ -98363,7 +98363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47059",
+		id: "47059",
 		name: "Greene County",
 		state: "Tennessee",
 		population: 70919,
@@ -98403,7 +98403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47061",
+		id: "47061",
 		name: "Grundy County",
 		state: "Tennessee",
 		population: 13665,
@@ -98443,7 +98443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47063",
+		id: "47063",
 		name: "Hamblen County",
 		state: "Tennessee",
 		population: 64930,
@@ -98483,7 +98483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47065",
+		id: "47065",
 		name: "Hamilton County",
 		state: "Tennessee",
 		population: 370913,
@@ -98523,7 +98523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47067",
+		id: "47067",
 		name: "Hancock County",
 		state: "Tennessee",
 		population: 6790,
@@ -98563,7 +98563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47069",
+		id: "47069",
 		name: "Hardeman County",
 		state: "Tennessee",
 		population: 25477,
@@ -98603,7 +98603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47071",
+		id: "47071",
 		name: "Hardin County",
 		state: "Tennessee",
 		population: 26939,
@@ -98643,7 +98643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47073",
+		id: "47073",
 		name: "Hawkins County",
 		state: "Tennessee",
 		population: 57446,
@@ -98683,7 +98683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47075",
+		id: "47075",
 		name: "Haywood County",
 		state: "Tennessee",
 		population: 17672,
@@ -98723,7 +98723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47077",
+		id: "47077",
 		name: "Henderson County",
 		state: "Tennessee",
 		population: 27906,
@@ -98763,7 +98763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47079",
+		id: "47079",
 		name: "Henry County",
 		state: "Tennessee",
 		population: 32345,
@@ -98803,7 +98803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47081",
+		id: "47081",
 		name: "Hickman County",
 		state: "Tennessee",
 		population: 25229,
@@ -98843,7 +98843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47083",
+		id: "47083",
 		name: "Houston County",
 		state: "Tennessee",
 		population: 8293,
@@ -98883,7 +98883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47085",
+		id: "47085",
 		name: "Humphreys County",
 		state: "Tennessee",
 		population: 19074,
@@ -98923,7 +98923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47087",
+		id: "47087",
 		name: "Jackson County",
 		state: "Tennessee",
 		population: 11882,
@@ -98963,7 +98963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47089",
+		id: "47089",
 		name: "Jefferson County",
 		state: "Tennessee",
 		population: 55835,
@@ -99003,7 +99003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47091",
+		id: "47091",
 		name: "Johnson County",
 		state: "Tennessee",
 		population: 18073,
@@ -99043,7 +99043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47093",
+		id: "47093",
 		name: "Knox County",
 		state: "Tennessee",
 		population: 487401,
@@ -99083,7 +99083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47095",
+		id: "47095",
 		name: "Lake County",
 		state: "Tennessee",
 		population: 6691,
@@ -99123,7 +99123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47097",
+		id: "47097",
 		name: "Lauderdale County",
 		state: "Tennessee",
 		population: 24933,
@@ -99163,7 +99163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47099",
+		id: "47099",
 		name: "Lawrence County",
 		state: "Tennessee",
 		population: 44901,
@@ -99203,7 +99203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47101",
+		id: "47101",
 		name: "Lewis County",
 		state: "Tennessee",
 		population: 12784,
@@ -99243,7 +99243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47103",
+		id: "47103",
 		name: "Lincoln County",
 		state: "Tennessee",
 		population: 35617,
@@ -99283,7 +99283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47105",
+		id: "47105",
 		name: "Loudon County",
 		state: "Tennessee",
 		population: 56996,
@@ -99323,7 +99323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47107",
+		id: "47107",
 		name: "McMinn County",
 		state: "Tennessee",
 		population: 54135,
@@ -99363,7 +99363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47109",
+		id: "47109",
 		name: "McNairy County",
 		state: "Tennessee",
 		population: 25933,
@@ -99403,7 +99403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47111",
+		id: "47111",
 		name: "Macon County",
 		state: "Tennessee",
 		population: 25793,
@@ -99443,7 +99443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47113",
+		id: "47113",
 		name: "Madison County",
 		state: "Tennessee",
 		population: 98845,
@@ -99483,7 +99483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47115",
+		id: "47115",
 		name: "Marion County",
 		state: "Tennessee",
 		population: 29010,
@@ -99523,7 +99523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47117",
+		id: "47117",
 		name: "Marshall County",
 		state: "Tennessee",
 		population: 35276,
@@ -99563,7 +99563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47119",
+		id: "47119",
 		name: "Maury County",
 		state: "Tennessee",
 		population: 104855,
@@ -99603,7 +99603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47121",
+		id: "47121",
 		name: "Meigs County",
 		state: "Tennessee",
 		population: 13076,
@@ -99643,7 +99643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47123",
+		id: "47123",
 		name: "Monroe County",
 		state: "Tennessee",
 		population: 47054,
@@ -99683,7 +99683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47125",
+		id: "47125",
 		name: "Montgomery County",
 		state: "Tennessee",
 		population: 227957,
@@ -99723,7 +99723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47127",
+		id: "47127",
 		name: "Moore County",
 		state: "Tennessee",
 		population: 6611,
@@ -99763,7 +99763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47129",
+		id: "47129",
 		name: "Morgan County",
 		state: "Tennessee",
 		population: 21193,
@@ -99803,7 +99803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47131",
+		id: "47131",
 		name: "Obion County",
 		state: "Tennessee",
 		population: 30570,
@@ -99843,7 +99843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47133",
+		id: "47133",
 		name: "Overton County",
 		state: "Tennessee",
 		population: 22807,
@@ -99883,7 +99883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47135",
+		id: "47135",
 		name: "Perry County",
 		state: "Tennessee",
 		population: 8561,
@@ -99923,7 +99923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47137",
+		id: "47137",
 		name: "Pickett County",
 		state: "Tennessee",
 		population: 5062,
@@ -99963,7 +99963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47139",
+		id: "47139",
 		name: "Polk County",
 		state: "Tennessee",
 		population: 17702,
@@ -100003,7 +100003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47141",
+		id: "47141",
 		name: "Putnam County",
 		state: "Tennessee",
 		population: 81366,
@@ -100043,7 +100043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47143",
+		id: "47143",
 		name: "Rhea County",
 		state: "Tennessee",
 		population: 33299,
@@ -100083,7 +100083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47145",
+		id: "47145",
 		name: "Roane County",
 		state: "Tennessee",
 		population: 54403,
@@ -100123,7 +100123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47147",
+		id: "47147",
 		name: "Robertson County",
 		state: "Tennessee",
 		population: 74291,
@@ -100163,7 +100163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47149",
+		id: "47149",
 		name: "Rutherford County",
 		state: "Tennessee",
 		population: 351591,
@@ -100203,7 +100203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47151",
+		id: "47151",
 		name: "Scott County",
 		state: "Tennessee",
 		population: 21969,
@@ -100243,7 +100243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47153",
+		id: "47153",
 		name: "Sequatchie County",
 		state: "Tennessee",
 		population: 16409,
@@ -100283,7 +100283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47155",
+		id: "47155",
 		name: "Sevier County",
 		state: "Tennessee",
 		population: 98802,
@@ -100323,7 +100323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47157",
+		id: "47157",
 		name: "Shelby County",
 		state: "Tennessee",
 		population: 922195,
@@ -100363,7 +100363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47159",
+		id: "47159",
 		name: "Smith County",
 		state: "Tennessee",
 		population: 20196,
@@ -100403,7 +100403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47161",
+		id: "47161",
 		name: "Stewart County",
 		state: "Tennessee",
 		population: 13859,
@@ -100443,7 +100443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47163",
+		id: "47163",
 		name: "Sullivan County",
 		state: "Tennessee",
 		population: 159693,
@@ -100483,7 +100483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47165",
+		id: "47165",
 		name: "Sumner County",
 		state: "Tennessee",
 		population: 200553,
@@ -100523,7 +100523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47167",
+		id: "47167",
 		name: "Tipton County",
 		state: "Tennessee",
 		population: 61339,
@@ -100563,7 +100563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47169",
+		id: "47169",
 		name: "Trousdale County",
 		state: "Tennessee",
 		population: 11805,
@@ -100603,7 +100603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47171",
+		id: "47171",
 		name: "Unicoi County",
 		state: "Tennessee",
 		population: 17779,
@@ -100643,7 +100643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47173",
+		id: "47173",
 		name: "Union County",
 		state: "Tennessee",
 		population: 20141,
@@ -100683,7 +100683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47175",
+		id: "47175",
 		name: "Van Buren County",
 		state: "Tennessee",
 		population: 6293,
@@ -100723,7 +100723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47177",
+		id: "47177",
 		name: "Warren County",
 		state: "Tennessee",
 		population: 41587,
@@ -100763,7 +100763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47179",
+		id: "47179",
 		name: "Washington County",
 		state: "Tennessee",
 		population: 134693,
@@ -100803,7 +100803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47181",
+		id: "47181",
 		name: "Wayne County",
 		state: "Tennessee",
 		population: 16251,
@@ -100843,7 +100843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47183",
+		id: "47183",
 		name: "Weakley County",
 		state: "Tennessee",
 		population: 32959,
@@ -100883,7 +100883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47185",
+		id: "47185",
 		name: "White County",
 		state: "Tennessee",
 		population: 27764,
@@ -100923,7 +100923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47187",
+		id: "47187",
 		name: "Williamson County",
 		state: "Tennessee",
 		population: 254609,
@@ -100963,7 +100963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "47189",
+		id: "47189",
 		name: "Wilson County",
 		state: "Tennessee",
 		population: 153587,
@@ -101003,7 +101003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48001",
+		id: "48001",
 		name: "Anderson County",
 		state: "Texas",
 		population: 57825,
@@ -101043,7 +101043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48003",
+		id: "48003",
 		name: "Andrews County",
 		state: "Texas",
 		population: 18518,
@@ -101083,7 +101083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48005",
+		id: "48005",
 		name: "Angelina County",
 		state: "Texas",
 		population: 86791,
@@ -101123,7 +101123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48007",
+		id: "48007",
 		name: "Aransas County",
 		state: "Texas",
 		population: 24449,
@@ -101163,7 +101163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48009",
+		id: "48009",
 		name: "Archer County",
 		state: "Texas",
 		population: 8734,
@@ -101203,7 +101203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48011",
+		id: "48011",
 		name: "Armstrong County",
 		state: "Texas",
 		population: 1883,
@@ -101243,7 +101243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48013",
+		id: "48013",
 		name: "Atascosa County",
 		state: "Texas",
 		population: 50058,
@@ -101283,7 +101283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48015",
+		id: "48015",
 		name: "Austin County",
 		state: "Texas",
 		population: 30712,
@@ -101323,7 +101323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48017",
+		id: "48017",
 		name: "Bailey County",
 		state: "Texas",
 		population: 7044,
@@ -101363,7 +101363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48019",
+		id: "48019",
 		name: "Bandera County",
 		state: "Texas",
 		population: 21589,
@@ -101403,7 +101403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48021",
+		id: "48021",
 		name: "Bastrop County",
 		state: "Texas",
 		population: 102370,
@@ -101443,7 +101443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48023",
+		id: "48023",
 		name: "Baylor County",
 		state: "Texas",
 		population: 3464,
@@ -101483,7 +101483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48025",
+		id: "48025",
 		name: "Bee County",
 		state: "Texas",
 		population: 31000,
@@ -101523,7 +101523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48027",
+		id: "48027",
 		name: "Bell County",
 		state: "Texas",
 		population: 379811,
@@ -101563,7 +101563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48029",
+		id: "48029",
 		name: "Bexar County",
 		state: "Texas",
 		population: 2037344,
@@ -101603,7 +101603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48031",
+		id: "48031",
 		name: "Blanco County",
 		state: "Texas",
 		population: 12008,
@@ -101643,7 +101643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48033",
+		id: "48033",
 		name: "Borden County",
 		state: "Texas",
 		population: 723,
@@ -101683,7 +101683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48035",
+		id: "48035",
 		name: "Bosque County",
 		state: "Texas",
 		population: 18546,
@@ -101723,7 +101723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48037",
+		id: "48037",
 		name: "Bowie County",
 		state: "Texas",
 		population: 92321,
@@ -101763,7 +101763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48039",
+		id: "48039",
 		name: "Brazoria County",
 		state: "Texas",
 		population: 381650,
@@ -101803,7 +101803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48041",
+		id: "48041",
 		name: "Brazos County",
 		state: "Texas",
 		population: 237980,
@@ -101843,7 +101843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48043",
+		id: "48043",
 		name: "Brewster County",
 		state: "Texas",
 		population: 9464,
@@ -101883,7 +101883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48045",
+		id: "48045",
 		name: "Briscoe County",
 		state: "Texas",
 		population: 1223,
@@ -101923,7 +101923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48047",
+		id: "48047",
 		name: "Brooks County",
 		state: "Texas",
 		population: 6987,
@@ -101963,7 +101963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48049",
+		id: "48049",
 		name: "Brown County",
 		state: "Texas",
 		population: 38294,
@@ -102003,7 +102003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48051",
+		id: "48051",
 		name: "Burleson County",
 		state: "Texas",
 		population: 18327,
@@ -102043,7 +102043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48053",
+		id: "48053",
 		name: "Burnet County",
 		state: "Texas",
 		population: 51064,
@@ -102083,7 +102083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48055",
+		id: "48055",
 		name: "Caldwell County",
 		state: "Texas",
 		population: 47184,
@@ -102123,7 +102123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48057",
+		id: "48057",
 		name: "Calhoun County",
 		state: "Texas",
 		population: 19921,
@@ -102163,7 +102163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48059",
+		id: "48059",
 		name: "Callahan County",
 		state: "Texas",
 		population: 14017,
@@ -102203,7 +102203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48061",
+		id: "48061",
 		name: "Cameron County",
 		state: "Texas",
 		population: 423192,
@@ -102243,7 +102243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48063",
+		id: "48063",
 		name: "Camp County",
 		state: "Texas",
 		population: 12652,
@@ -102283,7 +102283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48065",
+		id: "48065",
 		name: "Carson County",
 		state: "Texas",
 		population: 5802,
@@ -102323,7 +102323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48067",
+		id: "48067",
 		name: "Cass County",
 		state: "Texas",
 		population: 28582,
@@ -102363,7 +102363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48069",
+		id: "48069",
 		name: "Castro County",
 		state: "Texas",
 		population: 7328,
@@ -102403,7 +102403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48071",
+		id: "48071",
 		name: "Chambers County",
 		state: "Texas",
 		population: 49178,
@@ -102443,7 +102443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48073",
+		id: "48073",
 		name: "Cherokee County",
 		state: "Texas",
 		population: 51143,
@@ -102483,7 +102483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48075",
+		id: "48075",
 		name: "Childress County",
 		state: "Texas",
 		population: 6772,
@@ -102523,7 +102523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48077",
+		id: "48077",
 		name: "Clay County",
 		state: "Texas",
 		population: 10402,
@@ -102563,7 +102563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48079",
+		id: "48079",
 		name: "Cochran County",
 		state: "Texas",
 		population: 2520,
@@ -102603,7 +102603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48081",
+		id: "48081",
 		name: "Coke County",
 		state: "Texas",
 		population: 3315,
@@ -102643,7 +102643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48083",
+		id: "48083",
 		name: "Coleman County",
 		state: "Texas",
 		population: 7765,
@@ -102683,7 +102683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48085",
+		id: "48085",
 		name: "Collin County",
 		state: "Texas",
 		population: 1116601,
@@ -102723,7 +102723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48087",
+		id: "48087",
 		name: "Collingsworth County",
 		state: "Texas",
 		population: 2733,
@@ -102763,7 +102763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48089",
+		id: "48089",
 		name: "Colorado County",
 		state: "Texas",
 		population: 20736,
@@ -102803,7 +102803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48091",
+		id: "48091",
 		name: "Comal County",
 		state: "Texas",
 		population: 174552,
@@ -102843,7 +102843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48093",
+		id: "48093",
 		name: "Comanche County",
 		state: "Texas",
 		population: 13786,
@@ -102883,7 +102883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48095",
+		id: "48095",
 		name: "Concho County",
 		state: "Texas",
 		population: 3301,
@@ -102923,7 +102923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48097",
+		id: "48097",
 		name: "Cooke County",
 		state: "Texas",
 		population: 42473,
@@ -102963,7 +102963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48099",
+		id: "48099",
 		name: "Coryell County",
 		state: "Texas",
 		population: 83772,
@@ -103003,7 +103003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48101",
+		id: "48101",
 		name: "Cottle County",
 		state: "Texas",
 		population: 1302,
@@ -103043,7 +103043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48103",
+		id: "48103",
 		name: "Crane County",
 		state: "Texas",
 		population: 4623,
@@ -103083,7 +103083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48105",
+		id: "48105",
 		name: "Crockett County",
 		state: "Texas",
 		population: 2881,
@@ -103123,7 +103123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48107",
+		id: "48107",
 		name: "Crosby County",
 		state: "Texas",
 		population: 5072,
@@ -103163,7 +103163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48109",
+		id: "48109",
 		name: "Culberson County",
 		state: "Texas",
 		population: 2181,
@@ -103203,7 +103203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48111",
+		id: "48111",
 		name: "Dallam County",
 		state: "Texas",
 		population: 7180,
@@ -103243,7 +103243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48113",
+		id: "48113",
 		name: "Dallas County",
 		state: "Texas",
 		population: 2603816,
@@ -103283,7 +103283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48115",
+		id: "48115",
 		name: "Dawson County",
 		state: "Texas",
 		population: 12311,
@@ -103323,7 +103323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48117",
+		id: "48117",
 		name: "Deaf Smith County",
 		state: "Texas",
 		population: 18487,
@@ -103363,7 +103363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48119",
+		id: "48119",
 		name: "Delta County",
 		state: "Texas",
 		population: 5345,
@@ -103403,7 +103403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48121",
+		id: "48121",
 		name: "Denton County",
 		state: "Texas",
 		population: 945644,
@@ -103443,7 +103443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48123",
+		id: "48123",
 		name: "DeWitt County",
 		state: "Texas",
 		population: 19853,
@@ -103483,7 +103483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48125",
+		id: "48125",
 		name: "Dickens County",
 		state: "Texas",
 		population: 1641,
@@ -103523,7 +103523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48127",
+		id: "48127",
 		name: "Dimmit County",
 		state: "Texas",
 		population: 8507,
@@ -103563,7 +103563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48129",
+		id: "48129",
 		name: "Donley County",
 		state: "Texas",
 		population: 3276,
@@ -103603,7 +103603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48131",
+		id: "48131",
 		name: "Duval County",
 		state: "Texas",
 		population: 9824,
@@ -103643,7 +103643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48133",
+		id: "48133",
 		name: "Eastland County",
 		state: "Texas",
 		population: 17846,
@@ -103683,7 +103683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48135",
+		id: "48135",
 		name: "Ector County",
 		state: "Texas",
 		population: 163206,
@@ -103723,7 +103723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48137",
+		id: "48137",
 		name: "Edwards County",
 		state: "Texas",
 		population: 1392,
@@ -103763,7 +103763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48139",
+		id: "48139",
 		name: "Ellis County",
 		state: "Texas",
 		population: 203927,
@@ -103803,7 +103803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48141",
+		id: "48141",
 		name: "El Paso County",
 		state: "Texas",
 		population: 866275,
@@ -103843,7 +103843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48143",
+		id: "48143",
 		name: "Erath County",
 		state: "Texas",
 		population: 43244,
@@ -103883,7 +103883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48145",
+		id: "48145",
 		name: "Falls County",
 		state: "Texas",
 		population: 17063,
@@ -103923,7 +103923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48147",
+		id: "48147",
 		name: "Fannin County",
 		state: "Texas",
 		population: 36525,
@@ -103963,7 +103963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48149",
+		id: "48149",
 		name: "Fayette County",
 		state: "Texas",
 		population: 24783,
@@ -104003,7 +104003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48151",
+		id: "48151",
 		name: "Fisher County",
 		state: "Texas",
 		population: 3661,
@@ -104043,7 +104043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48153",
+		id: "48153",
 		name: "Floyd County",
 		state: "Texas",
 		population: 5294,
@@ -104083,7 +104083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48155",
+		id: "48155",
 		name: "Foard County",
 		state: "Texas",
 		population: 1079,
@@ -104123,7 +104123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48157",
+		id: "48157",
 		name: "Fort Bend County",
 		state: "Texas",
 		population: 859721,
@@ -104163,7 +104163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48159",
+		id: "48159",
 		name: "Franklin County",
 		state: "Texas",
 		population: 10522,
@@ -104203,7 +104203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48161",
+		id: "48161",
 		name: "Freestone County",
 		state: "Texas",
 		population: 19813,
@@ -104243,7 +104243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48163",
+		id: "48163",
 		name: "Frio County",
 		state: "Texas",
 		population: 18019,
@@ -104283,7 +104283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48165",
+		id: "48165",
 		name: "Gaines County",
 		state: "Texas",
 		population: 21904,
@@ -104323,7 +104323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48167",
+		id: "48167",
 		name: "Galveston County",
 		state: "Texas",
 		population: 354721,
@@ -104363,7 +104363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48169",
+		id: "48169",
 		name: "Garza County",
 		state: "Texas",
 		population: 5435,
@@ -104403,7 +104403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48171",
+		id: "48171",
 		name: "Gillespie County",
 		state: "Texas",
 		population: 27202,
@@ -104443,7 +104443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48173",
+		id: "48173",
 		name: "Glasscock County",
 		state: "Texas",
 		population: 1070,
@@ -104483,7 +104483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48175",
+		id: "48175",
 		name: "Goliad County",
 		state: "Texas",
 		population: 7096,
@@ -104523,7 +104523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48177",
+		id: "48177",
 		name: "Gonzales County",
 		state: "Texas",
 		population: 19764,
@@ -104563,7 +104563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48179",
+		id: "48179",
 		name: "Gray County",
 		state: "Texas",
 		population: 21131,
@@ -104603,7 +104603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48181",
+		id: "48181",
 		name: "Grayson County",
 		state: "Texas",
 		population: 139988,
@@ -104643,7 +104643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48183",
+		id: "48183",
 		name: "Gregg County",
 		state: "Texas",
 		population: 124860,
@@ -104683,7 +104683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48185",
+		id: "48185",
 		name: "Grimes County",
 		state: "Texas",
 		population: 30385,
@@ -104723,7 +104723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48187",
+		id: "48187",
 		name: "Guadalupe County",
 		state: "Texas",
 		population: 178368,
@@ -104763,7 +104763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48189",
+		id: "48189",
 		name: "Hale County",
 		state: "Texas",
 		population: 32247,
@@ -104803,7 +104803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48191",
+		id: "48191",
 		name: "Hall County",
 		state: "Texas",
 		population: 2827,
@@ -104843,7 +104843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48193",
+		id: "48193",
 		name: "Hamilton County",
 		state: "Texas",
 		population: 8320,
@@ -104883,7 +104883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48195",
+		id: "48195",
 		name: "Hansford County",
 		state: "Texas",
 		population: 5182,
@@ -104923,7 +104923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48197",
+		id: "48197",
 		name: "Hardeman County",
 		state: "Texas",
 		population: 3529,
@@ -104963,7 +104963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48199",
+		id: "48199",
 		name: "Hardin County",
 		state: "Texas",
 		population: 57126,
@@ -105003,7 +105003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48201",
+		id: "48201",
 		name: "Harris County",
 		state: "Texas",
 		population: 4758579,
@@ -105043,7 +105043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48203",
+		id: "48203",
 		name: "Harrison County",
 		state: "Texas",
 		population: 69584,
@@ -105083,7 +105083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48205",
+		id: "48205",
 		name: "Hartley County",
 		state: "Texas",
 		population: 5307,
@@ -105123,7 +105123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48207",
+		id: "48207",
 		name: "Haskell County",
 		state: "Texas",
 		population: 5390,
@@ -105163,7 +105163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48209",
+		id: "48209",
 		name: "Hays County",
 		state: "Texas",
 		population: 256429,
@@ -105203,7 +105203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48211",
+		id: "48211",
 		name: "Hemphill County",
 		state: "Texas",
 		population: 3311,
@@ -105243,7 +105243,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48213",
+		id: "48213",
 		name: "Henderson County",
 		state: "Texas",
 		population: 83658,
@@ -105283,7 +105283,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48215",
+		id: "48215",
 		name: "Hidalgo County",
 		state: "Texas",
 		population: 880921,
@@ -105323,7 +105323,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48217",
+		id: "48217",
 		name: "Hill County",
 		state: "Texas",
 		population: 36664,
@@ -105363,7 +105363,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48219",
+		id: "48219",
 		name: "Hockley County",
 		state: "Texas",
 		population: 21455,
@@ -105403,7 +105403,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48221",
+		id: "48221",
 		name: "Hood County",
 		state: "Texas",
 		population: 64198,
@@ -105443,7 +105443,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48223",
+		id: "48223",
 		name: "Hopkins County",
 		state: "Texas",
 		population: 37351,
@@ -105483,7 +105483,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48225",
+		id: "48225",
 		name: "Houston County",
 		state: "Texas",
 		population: 22042,
@@ -105523,7 +105523,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48227",
+		id: "48227",
 		name: "Howard County",
 		state: "Texas",
 		population: 33127,
@@ -105563,7 +105563,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48229",
+		id: "48229",
 		name: "Hudspeth County",
 		state: "Texas",
 		population: 3331,
@@ -105603,7 +105603,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48231",
+		id: "48231",
 		name: "Hunt County",
 		state: "Texas",
 		population: 104917,
@@ -105643,7 +105643,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48233",
+		id: "48233",
 		name: "Hutchinson County",
 		state: "Texas",
 		population: 20413,
@@ -105683,7 +105683,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48235",
+		id: "48235",
 		name: "Irion County",
 		state: "Texas",
 		population: 1432,
@@ -105723,7 +105723,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48237",
+		id: "48237",
 		name: "Jack County",
 		state: "Texas",
 		population: 8623,
@@ -105763,7 +105763,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48239",
+		id: "48239",
 		name: "Jackson County",
 		state: "Texas",
 		population: 15081,
@@ -105803,7 +105803,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48241",
+		id: "48241",
 		name: "Jasper County",
 		state: "Texas",
 		population: 32807,
@@ -105843,7 +105843,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48243",
+		id: "48243",
 		name: "Jeff Davis County",
 		state: "Texas",
 		population: 1740,
@@ -105883,7 +105883,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48245",
+		id: "48245",
 		name: "Jefferson County",
 		state: "Texas",
 		population: 253939,
@@ -105923,7 +105923,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48247",
+		id: "48247",
 		name: "Jim Hogg County",
 		state: "Texas",
 		population: 4797,
@@ -105963,7 +105963,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48249",
+		id: "48249",
 		name: "Jim Wells County",
 		state: "Texas",
 		population: 38863,
@@ -106003,7 +106003,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48251",
+		id: "48251",
 		name: "Johnson County",
 		state: "Texas",
 		population: 188820,
@@ -106043,7 +106043,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48253",
+		id: "48253",
 		name: "Jones County",
 		state: "Texas",
 		population: 19968,
@@ -106083,7 +106083,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48255",
+		id: "48255",
 		name: "Karnes County",
 		state: "Texas",
 		population: 14819,
@@ -106123,7 +106123,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48257",
+		id: "48257",
 		name: "Kaufman County",
 		state: "Texas",
 		population: 160718,
@@ -106163,7 +106163,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48259",
+		id: "48259",
 		name: "Kendall County",
 		state: "Texas",
 		population: 46971,
@@ -106203,7 +106203,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48261",
+		id: "48261",
 		name: "Kenedy County",
 		state: "Texas",
 		population: 52,
@@ -106242,7 +106242,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48263",
+		id: "48263",
 		name: "Kent County",
 		state: "Texas",
 		population: 727,
@@ -106282,7 +106282,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48265",
+		id: "48265",
 		name: "Kerr County",
 		state: "Texas",
 		population: 53166,
@@ -106322,7 +106322,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48267",
+		id: "48267",
 		name: "Kimble County",
 		state: "Texas",
 		population: 4355,
@@ -106362,7 +106362,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48269",
+		id: "48269",
 		name: "King County",
 		state: "Texas",
 		population: 189,
@@ -106401,7 +106401,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48271",
+		id: "48271",
 		name: "Kinney County",
 		state: "Texas",
 		population: 3140,
@@ -106441,7 +106441,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48273",
+		id: "48273",
 		name: "Kleberg County",
 		state: "Texas",
 		population: 30629,
@@ -106481,7 +106481,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48275",
+		id: "48275",
 		name: "Knox County",
 		state: "Texas",
 		population: 3322,
@@ -106521,7 +106521,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48277",
+		id: "48277",
 		name: "Lamar County",
 		state: "Texas",
 		population: 50421,
@@ -106561,7 +106561,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48279",
+		id: "48279",
 		name: "Lamb County",
 		state: "Texas",
 		population: 12919,
@@ -106601,7 +106601,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48281",
+		id: "48281",
 		name: "Lampasas County",
 		state: "Texas",
 		population: 22267,
@@ -106641,7 +106641,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48283",
+		id: "48283",
 		name: "La Salle County",
 		state: "Texas",
 		population: 6946,
@@ -106681,7 +106681,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48285",
+		id: "48285",
 		name: "Lavaca County",
 		state: "Texas",
 		population: 20479,
@@ -106721,7 +106721,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48287",
+		id: "48287",
 		name: "Lee County",
 		state: "Texas",
 		population: 17758,
@@ -106761,7 +106761,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48289",
+		id: "48289",
 		name: "Leon County",
 		state: "Texas",
 		population: 16067,
@@ -106801,7 +106801,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48291",
+		id: "48291",
 		name: "Liberty County",
 		state: "Texas",
 		population: 97993,
@@ -106841,7 +106841,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48293",
+		id: "48293",
 		name: "Limestone County",
 		state: "Texas",
 		population: 22185,
@@ -106881,7 +106881,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48295",
+		id: "48295",
 		name: "Lipscomb County",
 		state: "Texas",
 		population: 2964,
@@ -106921,7 +106921,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48297",
+		id: "48297",
 		name: "Live Oak County",
 		state: "Texas",
 		population: 11444,
@@ -106961,7 +106961,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48299",
+		id: "48299",
 		name: "Llano County",
 		state: "Texas",
 		population: 22011,
@@ -107001,7 +107001,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48301",
+		id: "48301",
 		name: "Loving County",
 		state: "Texas",
 		population: 54,
@@ -107040,7 +107040,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48303",
+		id: "48303",
 		name: "Lubbock County",
 		state: "Texas",
 		population: 314633,
@@ -107080,7 +107080,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48305",
+		id: "48305",
 		name: "Lynn County",
 		state: "Texas",
 		population: 5667,
@@ -107120,7 +107120,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48307",
+		id: "48307",
 		name: "McCulloch County",
 		state: "Texas",
 		population: 7565,
@@ -107160,7 +107160,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48309",
+		id: "48309",
 		name: "McLennan County",
 		state: "Texas",
 		population: 263608,
@@ -107200,7 +107200,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48311",
+		id: "48311",
 		name: "McMullen County",
 		state: "Texas",
 		population: 623,
@@ -107240,7 +107240,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48313",
+		id: "48313",
 		name: "Madison County",
 		state: "Texas",
 		population: 13574,
@@ -107280,7 +107280,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48315",
+		id: "48315",
 		name: "Marion County",
 		state: "Texas",
 		population: 9631,
@@ -107320,7 +107320,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48317",
+		id: "48317",
 		name: "Martin County",
 		state: "Texas",
 		population: 5230,
@@ -107360,7 +107360,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48319",
+		id: "48319",
 		name: "Mason County",
 		state: "Texas",
 		population: 3951,
@@ -107400,7 +107400,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48321",
+		id: "48321",
 		name: "Matagorda County",
 		state: "Texas",
 		population: 36274,
@@ -107440,7 +107440,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48323",
+		id: "48323",
 		name: "Maverick County",
 		state: "Texas",
 		population: 57770,
@@ -107480,7 +107480,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48325",
+		id: "48325",
 		name: "Medina County",
 		state: "Texas",
 		population: 52419,
@@ -107520,7 +107520,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48327",
+		id: "48327",
 		name: "Menard County",
 		state: "Texas",
 		population: 1964,
@@ -107560,7 +107560,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48329",
+		id: "48329",
 		name: "Midland County",
 		state: "Texas",
 		population: 171496,
@@ -107600,7 +107600,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48331",
+		id: "48331",
 		name: "Milam County",
 		state: "Texas",
 		population: 25268,
@@ -107640,7 +107640,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48333",
+		id: "48333",
 		name: "Mills County",
 		state: "Texas",
 		population: 4499,
@@ -107680,7 +107680,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48335",
+		id: "48335",
 		name: "Mitchell County",
 		state: "Texas",
 		population: 8989,
@@ -107720,7 +107720,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48337",
+		id: "48337",
 		name: "Montague County",
 		state: "Texas",
 		population: 20599,
@@ -107760,7 +107760,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48339",
+		id: "48339",
 		name: "Montgomery County",
 		state: "Texas",
 		population: 654722,
@@ -107800,7 +107800,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48341",
+		id: "48341",
 		name: "Moore County",
 		state: "Texas",
 		population: 21234,
@@ -107840,7 +107840,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48343",
+		id: "48343",
 		name: "Morris County",
 		state: "Texas",
 		population: 12014,
@@ -107880,7 +107880,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48345",
+		id: "48345",
 		name: "Motley County",
 		state: "Texas",
 		population: 1267,
@@ -107920,7 +107920,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48347",
+		id: "48347",
 		name: "Nacogdoches County",
 		state: "Texas",
 		population: 64897,
@@ -107960,7 +107960,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48349",
+		id: "48349",
 		name: "Navarro County",
 		state: "Texas",
 		population: 53735,
@@ -108000,7 +108000,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48351",
+		id: "48351",
 		name: "Newton County",
 		state: "Texas",
 		population: 12193,
@@ -108040,7 +108040,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48353",
+		id: "48353",
 		name: "Nolan County",
 		state: "Texas",
 		population: 14565,
@@ -108080,7 +108080,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48355",
+		id: "48355",
 		name: "Nueces County",
 		state: "Texas",
 		population: 352829,
@@ -108120,7 +108120,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48357",
+		id: "48357",
 		name: "Ochiltree County",
 		state: "Texas",
 		population: 9852,
@@ -108160,7 +108160,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48359",
+		id: "48359",
 		name: "Oldham County",
 		state: "Texas",
 		population: 2097,
@@ -108200,7 +108200,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48361",
+		id: "48361",
 		name: "Orange County",
 		state: "Texas",
 		population: 84993,
@@ -108240,7 +108240,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48363",
+		id: "48363",
 		name: "Palo Pinto County",
 		state: "Texas",
 		population: 28920,
@@ -108280,7 +108280,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48365",
+		id: "48365",
 		name: "Panola County",
 		state: "Texas",
 		population: 22624,
@@ -108320,7 +108320,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48367",
+		id: "48367",
 		name: "Parker County",
 		state: "Texas",
 		population: 158079,
@@ -108360,7 +108360,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48369",
+		id: "48369",
 		name: "Parmer County",
 		state: "Texas",
 		population: 9752,
@@ -108400,7 +108400,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48371",
+		id: "48371",
 		name: "Pecos County",
 		state: "Texas",
 		population: 14983,
@@ -108440,7 +108440,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48373",
+		id: "48373",
 		name: "Polk County",
 		state: "Texas",
 		population: 51780,
@@ -108480,7 +108480,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48375",
+		id: "48375",
 		name: "Potter County",
 		state: "Texas",
 		population: 116634,
@@ -108520,7 +108520,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48377",
+		id: "48377",
 		name: "Presidio County",
 		state: "Texas",
 		population: 6043,
@@ -108560,7 +108560,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48379",
+		id: "48379",
 		name: "Rains County",
 		state: "Texas",
 		population: 12505,
@@ -108600,7 +108600,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48381",
+		id: "48381",
 		name: "Randall County",
 		state: "Texas",
 		population: 143791,
@@ -108640,7 +108640,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48383",
+		id: "48383",
 		name: "Reagan County",
 		state: "Texas",
 		population: 3259,
@@ -108680,7 +108680,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48385",
+		id: "48385",
 		name: "Real County",
 		state: "Texas",
 		population: 2821,
@@ -108719,7 +108719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48387",
+		id: "48387",
 		name: "Red River County",
 		state: "Texas",
 		population: 11621,
@@ -108759,7 +108759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48389",
+		id: "48389",
 		name: "Reeves County",
 		state: "Texas",
 		population: 13219,
@@ -108799,7 +108799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48391",
+		id: "48391",
 		name: "Refugio County",
 		state: "Texas",
 		population: 6693,
@@ -108839,7 +108839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48393",
+		id: "48393",
 		name: "Roberts County",
 		state: "Texas",
 		population: 785,
@@ -108879,7 +108879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48395",
+		id: "48395",
 		name: "Robertson County",
 		state: "Texas",
 		population: 16973,
@@ -108919,7 +108919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48397",
+		id: "48397",
 		name: "Rockwall County",
 		state: "Texas",
 		population: 116931,
@@ -108959,7 +108959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48399",
+		id: "48399",
 		name: "Runnels County",
 		state: "Texas",
 		population: 9880,
@@ -108999,7 +108999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48401",
+		id: "48401",
 		name: "Rusk County",
 		state: "Texas",
 		population: 52613,
@@ -109039,7 +109039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48403",
+		id: "48403",
 		name: "Sabine County",
 		state: "Texas",
 		population: 9998,
@@ -109079,7 +109079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48405",
+		id: "48405",
 		name: "San Augustine County",
 		state: "Texas",
 		population: 7889,
@@ -109119,7 +109119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48407",
+		id: "48407",
 		name: "San Jacinto County",
 		state: "Texas",
 		population: 27983,
@@ -109159,7 +109159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48409",
+		id: "48409",
 		name: "San Patricio County",
 		state: "Texas",
 		population: 69519,
@@ -109199,7 +109199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48411",
+		id: "48411",
 		name: "San Saba County",
 		state: "Texas",
 		population: 5802,
@@ -109239,7 +109239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48413",
+		id: "48413",
 		name: "Schleicher County",
 		state: "Texas",
 		population: 2426,
@@ -109279,7 +109279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48415",
+		id: "48415",
 		name: "Scurry County",
 		state: "Texas",
 		population: 16633,
@@ -109319,7 +109319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48417",
+		id: "48417",
 		name: "Shackelford County",
 		state: "Texas",
 		population: 3169,
@@ -109359,7 +109359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48419",
+		id: "48419",
 		name: "Shelby County",
 		state: "Texas",
 		population: 24108,
@@ -109399,7 +109399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48421",
+		id: "48421",
 		name: "Sherman County",
 		state: "Texas",
 		population: 2434,
@@ -109439,7 +109439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48423",
+		id: "48423",
 		name: "Smith County",
 		state: "Texas",
 		population: 238014,
@@ -109479,7 +109479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48425",
+		id: "48425",
 		name: "Somervell County",
 		state: "Texas",
 		population: 9510,
@@ -109519,7 +109519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48427",
+		id: "48427",
 		name: "Starr County",
 		state: "Texas",
 		population: 65809,
@@ -109559,7 +109559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48429",
+		id: "48429",
 		name: "Stephens County",
 		state: "Texas",
 		population: 9278,
@@ -109599,7 +109599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48431",
+		id: "48431",
 		name: "Sterling County",
 		state: "Texas",
 		population: 1389,
@@ -109639,7 +109639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48433",
+		id: "48433",
 		name: "Stonewall County",
 		state: "Texas",
 		population: 1244,
@@ -109679,7 +109679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48435",
+		id: "48435",
 		name: "Sutton County",
 		state: "Texas",
 		population: 3306,
@@ -109719,7 +109719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48437",
+		id: "48437",
 		name: "Swisher County",
 		state: "Texas",
 		population: 6981,
@@ -109759,7 +109759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48439",
+		id: "48439",
 		name: "Tarrant County",
 		state: "Texas",
 		population: 2135743,
@@ -109799,7 +109799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48441",
+		id: "48441",
 		name: "Taylor County",
 		state: "Texas",
 		population: 144259,
@@ -109839,7 +109839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48443",
+		id: "48443",
 		name: "Terrell County",
 		state: "Texas",
 		population: 851,
@@ -109879,7 +109879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48445",
+		id: "48445",
 		name: "Terry County",
 		state: "Texas",
 		population: 11699,
@@ -109919,7 +109919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48447",
+		id: "48447",
 		name: "Throckmorton County",
 		state: "Texas",
 		population: 1589,
@@ -109959,7 +109959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48449",
+		id: "48449",
 		name: "Titus County",
 		state: "Texas",
 		population: 31284,
@@ -109999,7 +109999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48451",
+		id: "48451",
 		name: "Tom Green County",
 		state: "Texas",
 		population: 119398,
@@ -110039,7 +110039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48453",
+		id: "48453",
 		name: "Travis County",
 		state: "Texas",
 		population: 1307625,
@@ -110079,7 +110079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48455",
+		id: "48455",
 		name: "Trinity County",
 		state: "Texas",
 		population: 13850,
@@ -110119,7 +110119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48457",
+		id: "48457",
 		name: "Tyler County",
 		state: "Texas",
 		population: 20084,
@@ -110159,7 +110159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48459",
+		id: "48459",
 		name: "Upshur County",
 		state: "Texas",
 		population: 41864,
@@ -110199,7 +110199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48461",
+		id: "48461",
 		name: "Upton County",
 		state: "Texas",
 		population: 3227,
@@ -110239,7 +110239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48463",
+		id: "48463",
 		name: "Uvalde County",
 		state: "Texas",
 		population: 24810,
@@ -110279,7 +110279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48465",
+		id: "48465",
 		name: "Val Verde County",
 		state: "Texas",
 		population: 47647,
@@ -110319,7 +110319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48467",
+		id: "48467",
 		name: "Van Zandt County",
 		state: "Texas",
 		population: 61323,
@@ -110359,7 +110359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48469",
+		id: "48469",
 		name: "Victoria County",
 		state: "Texas",
 		population: 91281,
@@ -110399,7 +110399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48471",
+		id: "48471",
 		name: "Walker County",
 		state: "Texas",
 		population: 78292,
@@ -110439,7 +110439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48473",
+		id: "48473",
 		name: "Waller County",
 		state: "Texas",
 		population: 59455,
@@ -110479,7 +110479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48475",
+		id: "48475",
 		name: "Ward County",
 		state: "Texas",
 		population: 11255,
@@ -110519,7 +110519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48477",
+		id: "48477",
 		name: "Washington County",
 		state: "Texas",
 		population: 36156,
@@ -110559,7 +110559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48479",
+		id: "48479",
 		name: "Webb County",
 		state: "Texas",
 		population: 267731,
@@ -110599,7 +110599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48481",
+		id: "48481",
 		name: "Wharton County",
 		state: "Texas",
 		population: 41651,
@@ -110639,7 +110639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48483",
+		id: "48483",
 		name: "Wheeler County",
 		state: "Texas",
 		population: 4902,
@@ -110679,7 +110679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48485",
+		id: "48485",
 		name: "Wichita County",
 		state: "Texas",
 		population: 129842,
@@ -110719,7 +110719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48487",
+		id: "48487",
 		name: "Wilbarger County",
 		state: "Texas",
 		population: 12712,
@@ -110759,7 +110759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48489",
+		id: "48489",
 		name: "Willacy County",
 		state: "Texas",
 		population: 20218,
@@ -110799,7 +110799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48491",
+		id: "48491",
 		name: "Williamson County",
 		state: "Texas",
 		population: 643889,
@@ -110839,7 +110839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48493",
+		id: "48493",
 		name: "Wilson County",
 		state: "Texas",
 		population: 51501,
@@ -110879,7 +110879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48495",
+		id: "48495",
 		name: "Winkler County",
 		state: "Texas",
 		population: 7540,
@@ -110919,7 +110919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48497",
+		id: "48497",
 		name: "Wise County",
 		state: "Texas",
 		population: 72359,
@@ -110959,7 +110959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48499",
+		id: "48499",
 		name: "Wood County",
 		state: "Texas",
 		population: 46094,
@@ -110999,7 +110999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48501",
+		id: "48501",
 		name: "Yoakum County",
 		state: "Texas",
 		population: 7589,
@@ -111039,7 +111039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48503",
+		id: "48503",
 		name: "Young County",
 		state: "Texas",
 		population: 17963,
@@ -111079,7 +111079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48505",
+		id: "48505",
 		name: "Zapata County",
 		state: "Texas",
 		population: 13855,
@@ -111119,7 +111119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "48507",
+		id: "48507",
 		name: "Zavala County",
 		state: "Texas",
 		population: 9532,
@@ -111159,7 +111159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49001",
+		id: "49001",
 		name: "Beaver County",
 		state: "Utah",
 		population: 7172,
@@ -111199,7 +111199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49003",
+		id: "49003",
 		name: "Box Elder County",
 		state: "Utah",
 		population: 59725,
@@ -111239,7 +111239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49005",
+		id: "49005",
 		name: "Cache County",
 		state: "Utah",
 		population: 137031,
@@ -111279,7 +111279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49007",
+		id: "49007",
 		name: "Carbon County",
 		state: "Utah",
 		population: 20446,
@@ -111319,7 +111319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49009",
+		id: "49009",
 		name: "Daggett County",
 		state: "Utah",
 		population: 747,
@@ -111359,7 +111359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49011",
+		id: "49011",
 		name: "Davis County",
 		state: "Utah",
 		population: 366742,
@@ -111399,7 +111399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49013",
+		id: "49013",
 		name: "Duchesne County",
 		state: "Utah",
 		population: 19932,
@@ -111439,7 +111439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49015",
+		id: "49015",
 		name: "Emery County",
 		state: "Utah",
 		population: 9968,
@@ -111479,7 +111479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49017",
+		id: "49017",
 		name: "Garfield County",
 		state: "Utah",
 		population: 5170,
@@ -111519,7 +111519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49019",
+		id: "49019",
 		name: "Grand County",
 		state: "Utah",
 		population: 9697,
@@ -111559,7 +111559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49021",
+		id: "49021",
 		name: "Iron County",
 		state: "Utah",
 		population: 60201,
@@ -111599,7 +111599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49023",
+		id: "49023",
 		name: "Juab County",
 		state: "Utah",
 		population: 12273,
@@ -111639,7 +111639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49025",
+		id: "49025",
 		name: "Kane County",
 		state: "Utah",
 		population: 7996,
@@ -111679,7 +111679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49027",
+		id: "49027",
 		name: "Millard County",
 		state: "Utah",
 		population: 13179,
@@ -111719,7 +111719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49029",
+		id: "49029",
 		name: "Morgan County",
 		state: "Utah",
 		population: 12585,
@@ -111759,7 +111759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49031",
+		id: "49031",
 		name: "Piute County",
 		state: "Utah",
 		population: 1705,
@@ -111799,7 +111799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49033",
+		id: "49033",
 		name: "Rich County",
 		state: "Utah",
 		population: 2588,
@@ -111839,7 +111839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49035",
+		id: "49035",
 		name: "Salt Lake County",
 		state: "Utah",
 		population: 1184689,
@@ -111879,7 +111879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49037",
+		id: "49037",
 		name: "San Juan County",
 		state: "Utah",
 		population: 14466,
@@ -111919,7 +111919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49039",
+		id: "49039",
 		name: "Sanpete County",
 		state: "Utah",
 		population: 29209,
@@ -111959,7 +111959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49041",
+		id: "49041",
 		name: "Sevier County",
 		state: "Utah",
 		population: 21854,
@@ -111999,7 +111999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49043",
+		id: "49043",
 		name: "Summit County",
 		state: "Utah",
 		population: 42709,
@@ -112039,7 +112039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49045",
+		id: "49045",
 		name: "Tooele County",
 		state: "Utah",
 		population: 76648,
@@ -112079,7 +112079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49047",
+		id: "49047",
 		name: "Uintah County",
 		state: "Utah",
 		population: 36458,
@@ -112119,7 +112119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49049",
+		id: "49049",
 		name: "Utah County",
 		state: "Utah",
 		population: 683622,
@@ -112159,7 +112159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49051",
+		id: "49051",
 		name: "Wasatch County",
 		state: "Utah",
 		population: 35808,
@@ -112199,7 +112199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49053",
+		id: "49053",
 		name: "Washington County",
 		state: "Utah",
 		population: 189827,
@@ -112239,7 +112239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49055",
+		id: "49055",
 		name: "Wayne County",
 		state: "Utah",
 		population: 2557,
@@ -112279,7 +112279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "49057",
+		id: "49057",
 		name: "Weber County",
 		state: "Utah",
 		population: 266183,
@@ -112319,7 +112319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50001",
+		id: "50001",
 		name: "Addison County",
 		state: "Vermont",
 		population: 37497,
@@ -112359,7 +112359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50003",
+		id: "50003",
 		name: "Bennington County",
 		state: "Vermont",
 		population: 37312,
@@ -112399,7 +112399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50005",
+		id: "50005",
 		name: "Caledonia County",
 		state: "Vermont",
 		population: 30425,
@@ -112439,7 +112439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50007",
+		id: "50007",
 		name: "Chittenden County",
 		state: "Vermont",
 		population: 168831,
@@ -112479,7 +112479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50009",
+		id: "50009",
 		name: "Essex County",
 		state: "Vermont",
 		population: 5972,
@@ -112519,7 +112519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50011",
+		id: "50011",
 		name: "Franklin County",
 		state: "Vermont",
 		population: 50379,
@@ -112559,7 +112559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50013",
+		id: "50013",
 		name: "Grand Isle County",
 		state: "Vermont",
 		population: 7393,
@@ -112599,7 +112599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50015",
+		id: "50015",
 		name: "Lamoille County",
 		state: "Vermont",
 		population: 26036,
@@ -112639,7 +112639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50017",
+		id: "50017",
 		name: "Orange County",
 		state: "Vermont",
 		population: 29594,
@@ -112679,7 +112679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50019",
+		id: "50019",
 		name: "Orleans County",
 		state: "Vermont",
 		population: 27492,
@@ -112719,7 +112719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50021",
+		id: "50021",
 		name: "Rutland County",
 		state: "Vermont",
 		population: 60484,
@@ -112759,7 +112759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50023",
+		id: "50023",
 		name: "Washington County",
 		state: "Vermont",
 		population: 59958,
@@ -112799,7 +112799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50025",
+		id: "50025",
 		name: "Windham County",
 		state: "Vermont",
 		population: 45913,
@@ -112839,7 +112839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "50027",
+		id: "50027",
 		name: "Windsor County",
 		state: "Vermont",
 		population: 57968,
@@ -112879,7 +112879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51001",
+		id: "51001",
 		name: "Accomack County",
 		state: "Virginia",
 		population: 33326,
@@ -112919,7 +112919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51003",
+		id: "51003",
 		name: "Albemarle County",
 		state: "Virginia",
 		population: 113683,
@@ -112959,7 +112959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51005",
+		id: "51005",
 		name: "Alleghany County",
 		state: "Virginia",
 		population: 14962,
@@ -112999,7 +112999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51007",
+		id: "51007",
 		name: "Amelia County",
 		state: "Virginia",
 		population: 13342,
@@ -113039,7 +113039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51009",
+		id: "51009",
 		name: "Amherst County",
 		state: "Virginia",
 		population: 31385,
@@ -113079,7 +113079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51011",
+		id: "51011",
 		name: "Appomattox County",
 		state: "Virginia",
 		population: 16424,
@@ -113119,7 +113119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51013",
+		id: "51013",
 		name: "Arlington County",
 		state: "Virginia",
 		population: 235463,
@@ -113159,7 +113159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51015",
+		id: "51015",
 		name: "Augusta County",
 		state: "Virginia",
 		population: 77713,
@@ -113199,7 +113199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51017",
+		id: "51017",
 		name: "Bath County",
 		state: "Virginia",
 		population: 4123,
@@ -113239,7 +113239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51019",
+		id: "51019",
 		name: "Bedford County",
 		state: "Virginia",
 		population: 80254,
@@ -113279,7 +113279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51021",
+		id: "51021",
 		name: "Bland County",
 		state: "Virginia",
 		population: 6211,
@@ -113319,7 +113319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51023",
+		id: "51023",
 		name: "Botetourt County",
 		state: "Virginia",
 		population: 33875,
@@ -113359,7 +113359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51025",
+		id: "51025",
 		name: "Brunswick County",
 		state: "Virginia",
 		population: 15868,
@@ -113399,7 +113399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51027",
+		id: "51027",
 		name: "Buchanan County",
 		state: "Virginia",
 		population: 19857,
@@ -113439,7 +113439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51029",
+		id: "51029",
 		name: "Buckingham County",
 		state: "Virginia",
 		population: 16914,
@@ -113479,7 +113479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51031",
+		id: "51031",
 		name: "Campbell County",
 		state: "Virginia",
 		population: 55398,
@@ -113519,7 +113519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51033",
+		id: "51033",
 		name: "Caroline County",
 		state: "Virginia",
 		population: 31541,
@@ -113559,7 +113559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51035",
+		id: "51035",
 		name: "Carroll County",
 		state: "Virginia",
 		population: 29158,
@@ -113599,7 +113599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51036",
+		id: "51036",
 		name: "Charles City County",
 		state: "Virginia",
 		population: 6686,
@@ -113639,7 +113639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51037",
+		id: "51037",
 		name: "Charlotte County",
 		state: "Virginia",
 		population: 11475,
@@ -113679,7 +113679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51041",
+		id: "51041",
 		name: "Chesterfield County",
 		state: "Virginia",
 		population: 371610,
@@ -113719,7 +113719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51043",
+		id: "51043",
 		name: "Clarke County",
 		state: "Virginia",
 		population: 15060,
@@ -113759,7 +113759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51045",
+		id: "51045",
 		name: "Craig County",
 		state: "Virginia",
 		population: 4881,
@@ -113799,7 +113799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51047",
+		id: "51047",
 		name: "Culpeper County",
 		state: "Virginia",
 		population: 53563,
@@ -113839,7 +113839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51049",
+		id: "51049",
 		name: "Cumberland County",
 		state: "Virginia",
 		population: 9745,
@@ -113879,7 +113879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51051",
+		id: "51051",
 		name: "Dickenson County",
 		state: "Virginia",
 		population: 13920,
@@ -113919,7 +113919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51053",
+		id: "51053",
 		name: "Dinwiddie County",
 		state: "Virginia",
 		population: 28083,
@@ -113959,7 +113959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51057",
+		id: "51057",
 		name: "Essex County",
 		state: "Virginia",
 		population: 10604,
@@ -113999,7 +113999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51059",
+		id: "51059",
 		name: "Fairfax County",
 		state: "Virginia",
 		population: 1144474,
@@ -114039,7 +114039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51061",
+		id: "51061",
 		name: "Fauquier County",
 		state: "Virginia",
 		population: 73935,
@@ -114079,7 +114079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51063",
+		id: "51063",
 		name: "Floyd County",
 		state: "Virginia",
 		population: 15560,
@@ -114119,7 +114119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51065",
+		id: "51065",
 		name: "Fluvanna County",
 		state: "Virginia",
 		population: 27764,
@@ -114159,7 +114159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51067",
+		id: "51067",
 		name: "Franklin County",
 		state: "Virginia",
 		population: 54958,
@@ -114199,7 +114199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51069",
+		id: "51069",
 		name: "Frederick County",
 		state: "Virginia",
 		population: 93355,
@@ -114239,7 +114239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51071",
+		id: "51071",
 		name: "Giles County",
 		state: "Virginia",
 		population: 16610,
@@ -114279,7 +114279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51073",
+		id: "51073",
 		name: "Gloucester County",
 		state: "Virginia",
 		population: 39228,
@@ -114319,7 +114319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51075",
+		id: "51075",
 		name: "Goochland County",
 		state: "Virginia",
 		population: 25613,
@@ -114359,7 +114359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51077",
+		id: "51077",
 		name: "Grayson County",
 		state: "Virginia",
 		population: 15323,
@@ -114399,7 +114399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51079",
+		id: "51079",
 		name: "Greene County",
 		state: "Virginia",
 		population: 20850,
@@ -114439,7 +114439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51081",
+		id: "51081",
 		name: "Greensville County",
 		state: "Virginia",
 		population: 11304,
@@ -114479,7 +114479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51083",
+		id: "51083",
 		name: "Halifax County",
 		state: "Virginia",
 		population: 33811,
@@ -114519,7 +114519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51085",
+		id: "51085",
 		name: "Hanover County",
 		state: "Virginia",
 		population: 111652,
@@ -114559,7 +114559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51087",
+		id: "51087",
 		name: "Henrico County",
 		state: "Virginia",
 		population: 334434,
@@ -114599,7 +114599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51089",
+		id: "51089",
 		name: "Henry County",
 		state: "Virginia",
 		population: 50365,
@@ -114639,7 +114639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51091",
+		id: "51091",
 		name: "Highland County",
 		state: "Virginia",
 		population: 2265,
@@ -114679,7 +114679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51093",
+		id: "51093",
 		name: "Isle of Wight County",
 		state: "Virginia",
 		population: 39444,
@@ -114719,7 +114719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51095",
+		id: "51095",
 		name: "James City County",
 		state: "Virginia",
 		population: 80046,
@@ -114759,7 +114759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51097",
+		id: "51097",
 		name: "King and Queen County",
 		state: "Virginia",
 		population: 6676,
@@ -114799,7 +114799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51099",
+		id: "51099",
 		name: "King George County",
 		state: "Virginia",
 		population: 27468,
@@ -114839,7 +114839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51101",
+		id: "51101",
 		name: "King William County",
 		state: "Virginia",
 		population: 18232,
@@ -114879,7 +114879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51103",
+		id: "51103",
 		name: "Lancaster County",
 		state: "Virginia",
 		population: 10876,
@@ -114919,7 +114919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51105",
+		id: "51105",
 		name: "Lee County",
 		state: "Virginia",
 		population: 22042,
@@ -114959,7 +114959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51107",
+		id: "51107",
 		name: "Loudoun County",
 		state: "Virginia",
 		population: 427082,
@@ -114999,7 +114999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51109",
+		id: "51109",
 		name: "Louisa County",
 		state: "Virginia",
 		population: 39012,
@@ -115039,7 +115039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51111",
+		id: "51111",
 		name: "Lunenburg County",
 		state: "Virginia",
 		population: 11990,
@@ -115079,7 +115079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51113",
+		id: "51113",
 		name: "Madison County",
 		state: "Virginia",
 		population: 13931,
@@ -115119,7 +115119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51115",
+		id: "51115",
 		name: "Mathews County",
 		state: "Virginia",
 		population: 8517,
@@ -115159,7 +115159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51117",
+		id: "51117",
 		name: "Mecklenburg County",
 		state: "Virginia",
 		population: 30431,
@@ -115199,7 +115199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51119",
+		id: "51119",
 		name: "Middlesex County",
 		state: "Virginia",
 		population: 10774,
@@ -115239,7 +115239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51121",
+		id: "51121",
 		name: "Montgomery County",
 		state: "Virginia",
 		population: 99159,
@@ -115279,7 +115279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51125",
+		id: "51125",
 		name: "Nelson County",
 		state: "Virginia",
 		population: 14777,
@@ -115319,7 +115319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51127",
+		id: "51127",
 		name: "New Kent County",
 		state: "Virginia",
 		population: 24139,
@@ -115359,7 +115359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51131",
+		id: "51131",
 		name: "Northampton County",
 		state: "Virginia",
 		population: 12115,
@@ -115399,7 +115399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51133",
+		id: "51133",
 		name: "Northumberland County",
 		state: "Virginia",
 		population: 12085,
@@ -115439,7 +115439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51135",
+		id: "51135",
 		name: "Nottoway County",
 		state: "Virginia",
 		population: 15597,
@@ -115479,7 +115479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51137",
+		id: "51137",
 		name: "Orange County",
 		state: "Virginia",
 		population: 37208,
@@ -115519,7 +115519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51139",
+		id: "51139",
 		name: "Page County",
 		state: "Virginia",
 		population: 23750,
@@ -115559,7 +115559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51141",
+		id: "51141",
 		name: "Patrick County",
 		state: "Virginia",
 		population: 17606,
@@ -115599,7 +115599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51143",
+		id: "51143",
 		name: "Pittsylvania County",
 		state: "Virginia",
 		population: 60148,
@@ -115639,7 +115639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51145",
+		id: "51145",
 		name: "Powhatan County",
 		state: "Virginia",
 		population: 31074,
@@ -115679,7 +115679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51147",
+		id: "51147",
 		name: "Prince Edward County",
 		state: "Virginia",
 		population: 21932,
@@ -115719,7 +115719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51149",
+		id: "51149",
 		name: "Prince George County",
 		state: "Virginia",
 		population: 42873,
@@ -115759,7 +115759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51153",
+		id: "51153",
 		name: "Prince William County",
 		state: "Virginia",
 		population: 484625,
@@ -115799,7 +115799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51155",
+		id: "51155",
 		name: "Pulaski County",
 		state: "Virginia",
 		population: 33771,
@@ -115839,7 +115839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51157",
+		id: "51157",
 		name: "Rappahannock County",
 		state: "Virginia",
 		population: 7409,
@@ -115879,7 +115879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51159",
+		id: "51159",
 		name: "Richmond County",
 		state: "Virginia",
 		population: 9047,
@@ -115919,7 +115919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51161",
+		id: "51161",
 		name: "Roanoke County",
 		state: "Virginia",
 		population: 96793,
@@ -115959,7 +115959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51163",
+		id: "51163",
 		name: "Rockbridge County",
 		state: "Virginia",
 		population: 22578,
@@ -115999,7 +115999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51165",
+		id: "51165",
 		name: "Rockingham County",
 		state: "Virginia",
 		population: 84739,
@@ -116039,7 +116039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51167",
+		id: "51167",
 		name: "Russell County",
 		state: "Virginia",
 		population: 25635,
@@ -116079,7 +116079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51169",
+		id: "51169",
 		name: "Scott County",
 		state: "Virginia",
 		population: 21504,
@@ -116119,7 +116119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51171",
+		id: "51171",
 		name: "Shenandoah County",
 		state: "Virginia",
 		population: 44630,
@@ -116159,7 +116159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51173",
+		id: "51173",
 		name: "Smyth County",
 		state: "Virginia",
 		population: 29585,
@@ -116199,7 +116199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51175",
+		id: "51175",
 		name: "Southampton County",
 		state: "Virginia",
 		population: 17988,
@@ -116239,7 +116239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51177",
+		id: "51177",
 		name: "Spotsylvania County",
 		state: "Virginia",
 		population: 143876,
@@ -116279,7 +116279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51179",
+		id: "51179",
 		name: "Stafford County",
 		state: "Virginia",
 		population: 160520,
@@ -116319,7 +116319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51181",
+		id: "51181",
 		name: "Surry County",
 		state: "Virginia",
 		population: 6552,
@@ -116359,7 +116359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51183",
+		id: "51183",
 		name: "Sussex County",
 		state: "Virginia",
 		population: 10793,
@@ -116399,7 +116399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51185",
+		id: "51185",
 		name: "Tazewell County",
 		state: "Virginia",
 		population: 39933,
@@ -116439,7 +116439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51187",
+		id: "51187",
 		name: "Warren County",
 		state: "Virginia",
 		population: 41104,
@@ -116479,7 +116479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51191",
+		id: "51191",
 		name: "Washington County",
 		state: "Virginia",
 		population: 53913,
@@ -116519,7 +116519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51193",
+		id: "51193",
 		name: "Westmoreland County",
 		state: "Virginia",
 		population: 18683,
@@ -116559,7 +116559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51195",
+		id: "51195",
 		name: "Wise County",
 		state: "Virginia",
 		population: 35727,
@@ -116599,7 +116599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51197",
+		id: "51197",
 		name: "Wythe County",
 		state: "Virginia",
 		population: 28219,
@@ -116639,7 +116639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51199",
+		id: "51199",
 		name: "York County",
 		state: "Virginia",
 		population: 70590,
@@ -116679,7 +116679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51510",
+		id: "51510",
 		name: "Alexandria city",
 		state: "Virginia",
 		population: 156788,
@@ -116719,7 +116719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51520",
+		id: "51520",
 		name: "Bristol city",
 		state: "Virginia",
 		population: 17024,
@@ -116759,7 +116759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51530",
+		id: "51530",
 		name: "Buena Vista city",
 		state: "Virginia",
 		population: 6612,
@@ -116799,7 +116799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51540",
+		id: "51540",
 		name: "Charlottesville city",
 		state: "Virginia",
 		population: 45863,
@@ -116839,7 +116839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51550",
+		id: "51550",
 		name: "Chesapeake city",
 		state: "Virginia",
 		population: 251153,
@@ -116879,7 +116879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51570",
+		id: "51570",
 		name: "Colonial Heights city",
 		state: "Virginia",
 		population: 18210,
@@ -116919,7 +116919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51580",
+		id: "51580",
 		name: "Covington city",
 		state: "Virginia",
 		population: 5671,
@@ -116959,7 +116959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51590",
+		id: "51590",
 		name: "Danville city",
 		state: "Virginia",
 		population: 42239,
@@ -116999,7 +116999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51595",
+		id: "51595",
 		name: "Emporia city",
 		state: "Virginia",
 		population: 5633,
@@ -117039,7 +117039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51600",
+		id: "51600",
 		name: "Fairfax city",
 		state: "Virginia",
 		population: 24478,
@@ -117079,7 +117079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51610",
+		id: "51610",
 		name: "Falls Church city",
 		state: "Virginia",
 		population: 14593,
@@ -117119,7 +117119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51620",
+		id: "51620",
 		name: "Franklin city",
 		state: "Virginia",
 		population: 8212,
@@ -117159,7 +117159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51630",
+		id: "51630",
 		name: "Fredericksburg city",
 		state: "Virginia",
 		population: 28383,
@@ -117199,7 +117199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51640",
+		id: "51640",
 		name: "Galax city",
 		state: "Virginia",
 		population: 6698,
@@ -117239,7 +117239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51650",
+		id: "51650",
 		name: "Hampton city",
 		state: "Virginia",
 		population: 137334,
@@ -117279,7 +117279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51660",
+		id: "51660",
 		name: "Harrisonburg city",
 		state: "Virginia",
 		population: 51492,
@@ -117319,7 +117319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51670",
+		id: "51670",
 		name: "Hopewell city",
 		state: "Virginia",
 		population: 22944,
@@ -117359,7 +117359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51678",
+		id: "51678",
 		name: "Lexington city",
 		state: "Virginia",
 		population: 7420,
@@ -117399,7 +117399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51680",
+		id: "51680",
 		name: "Lynchburg city",
 		state: "Virginia",
 		population: 79255,
@@ -117439,7 +117439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51683",
+		id: "51683",
 		name: "Manassas city",
 		state: "Virginia",
 		population: 42674,
@@ -117479,7 +117479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51685",
+		id: "51685",
 		name: "Manassas Park city",
 		state: "Virginia",
 		population: 16923,
@@ -117519,7 +117519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51690",
+		id: "51690",
 		name: "Martinsville city",
 		state: "Virginia",
 		population: 13584,
@@ -117559,7 +117559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51700",
+		id: "51700",
 		name: "Newport News city",
 		state: "Virginia",
 		population: 184774,
@@ -117599,7 +117599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51710",
+		id: "51710",
 		name: "Norfolk city",
 		state: "Virginia",
 		population: 235037,
@@ -117639,7 +117639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51720",
+		id: "51720",
 		name: "Norton city",
 		state: "Virginia",
 		population: 3620,
@@ -117679,7 +117679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51730",
+		id: "51730",
 		name: "Petersburg city",
 		state: "Virginia",
 		population: 33365,
@@ -117719,7 +117719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51735",
+		id: "51735",
 		name: "Poquoson city",
 		state: "Virginia",
 		population: 12556,
@@ -117759,7 +117759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51740",
+		id: "51740",
 		name: "Portsmouth city",
 		state: "Virginia",
 		population: 97299,
@@ -117799,7 +117799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51750",
+		id: "51750",
 		name: "Radford city",
 		state: "Virginia",
 		population: 16505,
@@ -117839,7 +117839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51760",
+		id: "51760",
 		name: "Richmond city",
 		state: "Virginia",
 		population: 227595,
@@ -117879,7 +117879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51770",
+		id: "51770",
 		name: "Roanoke city",
 		state: "Virginia",
 		population: 98677,
@@ -117919,7 +117919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51775",
+		id: "51775",
 		name: "Salem city",
 		state: "Virginia",
 		population: 25477,
@@ -117959,7 +117959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51790",
+		id: "51790",
 		name: "Staunton city",
 		state: "Virginia",
 		population: 25765,
@@ -117999,7 +117999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51800",
+		id: "51800",
 		name: "Suffolk city",
 		state: "Virginia",
 		population: 96638,
@@ -118039,7 +118039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51810",
+		id: "51810",
 		name: "Virginia Beach city",
 		state: "Virginia",
 		population: 457066,
@@ -118079,7 +118079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51820",
+		id: "51820",
 		name: "Waynesboro city",
 		state: "Virginia",
 		population: 22574,
@@ -118119,7 +118119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51830",
+		id: "51830",
 		name: "Williamsburg city",
 		state: "Virginia",
 		population: 15564,
@@ -118159,7 +118159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "51840",
+		id: "51840",
 		name: "Winchester city",
 		state: "Virginia",
 		population: 27981,
@@ -118199,7 +118199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53001",
+		id: "53001",
 		name: "Adams County",
 		state: "Washington",
 		population: 20690,
@@ -118239,7 +118239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53003",
+		id: "53003",
 		name: "Asotin County",
 		state: "Washington",
 		population: 22424,
@@ -118279,7 +118279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53005",
+		id: "53005",
 		name: "Benton County",
 		state: "Washington",
 		population: 210224,
@@ -118319,7 +118319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53007",
+		id: "53007",
 		name: "Chelan County",
 		state: "Washington",
 		population: 79518,
@@ -118359,7 +118359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53009",
+		id: "53009",
 		name: "Clallam County",
 		state: "Washington",
 		population: 77593,
@@ -118399,7 +118399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53011",
+		id: "53011",
 		name: "Clark County",
 		state: "Washington",
 		population: 510516,
@@ -118439,7 +118439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53013",
+		id: "53013",
 		name: "Columbia County",
 		state: "Washington",
 		population: 3996,
@@ -118479,7 +118479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53015",
+		id: "53015",
 		name: "Cowlitz County",
 		state: "Washington",
 		population: 111539,
@@ -118519,7 +118519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53017",
+		id: "53017",
 		name: "Douglas County",
 		state: "Washington",
 		population: 43733,
@@ -118559,7 +118559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53019",
+		id: "53019",
 		name: "Ferry County",
 		state: "Washington",
 		population: 7326,
@@ -118599,7 +118599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53021",
+		id: "53021",
 		name: "Franklin County",
 		state: "Washington",
 		population: 97676,
@@ -118639,7 +118639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53023",
+		id: "53023",
 		name: "Garfield County",
 		state: "Washington",
 		population: 2326,
@@ -118679,7 +118679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53025",
+		id: "53025",
 		name: "Grant County",
 		state: "Washington",
 		population: 100428,
@@ -118719,7 +118719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53027",
+		id: "53027",
 		name: "Grays Harbor County",
 		state: "Washington",
 		population: 76397,
@@ -118759,7 +118759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53029",
+		id: "53029",
 		name: "Island County",
 		state: "Washington",
 		population: 86747,
@@ -118799,7 +118799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53031",
+		id: "53031",
 		name: "Jefferson County",
 		state: "Washington",
 		population: 33313,
@@ -118839,7 +118839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53033",
+		id: "53033",
 		name: "King County",
 		state: "Washington",
 		population: 2262713,
@@ -118879,7 +118879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53035",
+		id: "53035",
 		name: "Kitsap County",
 		state: "Washington",
 		population: 276581,
@@ -118919,7 +118919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53037",
+		id: "53037",
 		name: "Kittitas County",
 		state: "Washington",
 		population: 44736,
@@ -118959,7 +118959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53039",
+		id: "53039",
 		name: "Klickitat County",
 		state: "Washington",
 		population: 23082,
@@ -118999,7 +118999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53041",
+		id: "53041",
 		name: "Lewis County",
 		state: "Washington",
 		population: 83925,
@@ -119039,7 +119039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53043",
+		id: "53043",
 		name: "Lincoln County",
 		state: "Washington",
 		population: 11271,
@@ -119079,7 +119079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53045",
+		id: "53045",
 		name: "Mason County",
 		state: "Washington",
 		population: 66968,
@@ -119119,7 +119119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53047",
+		id: "53047",
 		name: "Okanogan County",
 		state: "Washington",
 		population: 42811,
@@ -119159,7 +119159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53049",
+		id: "53049",
 		name: "Pacific County",
 		state: "Washington",
 		population: 23750,
@@ -119199,7 +119199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53051",
+		id: "53051",
 		name: "Pend Oreille County",
 		state: "Washington",
 		population: 13811,
@@ -119239,7 +119239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53053",
+		id: "53053",
 		name: "Pierce County",
 		state: "Washington",
 		population: 924106,
@@ -119279,7 +119279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53055",
+		id: "53055",
 		name: "San Juan County",
 		state: "Washington",
 		population: 18266,
@@ -119319,7 +119319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53057",
+		id: "53057",
 		name: "Skagit County",
 		state: "Washington",
 		population: 130407,
@@ -119359,7 +119359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53059",
+		id: "53059",
 		name: "Skamania County",
 		state: "Washington",
 		population: 12276,
@@ -119399,7 +119399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53061",
+		id: "53061",
 		name: "Snohomish County",
 		state: "Washington",
 		population: 834648,
@@ -119439,7 +119439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53063",
+		id: "53063",
 		name: "Spokane County",
 		state: "Washington",
 		population: 544323,
@@ -119479,7 +119479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53065",
+		id: "53065",
 		name: "Stevens County",
 		state: "Washington",
 		population: 47470,
@@ -119519,7 +119519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53067",
+		id: "53067",
 		name: "Thurston County",
 		state: "Washington",
 		population: 296640,
@@ -119559,7 +119559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53069",
+		id: "53069",
 		name: "Wahkiakum County",
 		state: "Washington",
 		population: 4573,
@@ -119599,7 +119599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53071",
+		id: "53071",
 		name: "Walla Walla County",
 		state: "Washington",
 		population: 62102,
@@ -119639,7 +119639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53073",
+		id: "53073",
 		name: "Whatcom County",
 		state: "Washington",
 		population: 228432,
@@ -119679,7 +119679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53075",
+		id: "53075",
 		name: "Whitman County",
 		state: "Washington",
 		population: 47042,
@@ -119719,7 +119719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "53077",
+		id: "53077",
 		name: "Yakima County",
 		state: "Washington",
 		population: 256605,
@@ -119759,7 +119759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54001",
+		id: "54001",
 		name: "Barbour County",
 		state: "West Virginia",
 		population: 15454,
@@ -119799,7 +119799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54003",
+		id: "54003",
 		name: "Berkeley County",
 		state: "West Virginia",
 		population: 126165,
@@ -119839,7 +119839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54005",
+		id: "54005",
 		name: "Boone County",
 		state: "West Virginia",
 		population: 21312,
@@ -119879,7 +119879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54007",
+		id: "54007",
 		name: "Braxton County",
 		state: "West Virginia",
 		population: 12345,
@@ -119919,7 +119919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54009",
+		id: "54009",
 		name: "Brooke County",
 		state: "West Virginia",
 		population: 22053,
@@ -119959,7 +119959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54011",
+		id: "54011",
 		name: "Cabell County",
 		state: "West Virginia",
 		population: 93300,
@@ -119999,7 +119999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54013",
+		id: "54013",
 		name: "Calhoun County",
 		state: "West Virginia",
 		population: 6158,
@@ -120039,7 +120039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54015",
+		id: "54015",
 		name: "Clay County",
 		state: "West Virginia",
 		population: 7946,
@@ -120079,7 +120079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54017",
+		id: "54017",
 		name: "Doddridge County",
 		state: "West Virginia",
 		population: 7767,
@@ -120119,7 +120119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54019",
+		id: "54019",
 		name: "Fayette County",
 		state: "West Virginia",
 		population: 39987,
@@ -120159,7 +120159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54021",
+		id: "54021",
 		name: "Gilmer County",
 		state: "West Virginia",
 		population: 7376,
@@ -120199,7 +120199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54023",
+		id: "54023",
 		name: "Grant County",
 		state: "West Virginia",
 		population: 10972,
@@ -120239,7 +120239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54025",
+		id: "54025",
 		name: "Greenbrier County",
 		state: "West Virginia",
 		population: 32688,
@@ -120279,7 +120279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54027",
+		id: "54027",
 		name: "Hampshire County",
 		state: "West Virginia",
 		population: 23340,
@@ -120319,7 +120319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54029",
+		id: "54029",
 		name: "Hancock County",
 		state: "West Virginia",
 		population: 28658,
@@ -120359,7 +120359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54031",
+		id: "54031",
 		name: "Hardy County",
 		state: "West Virginia",
 		population: 14236,
@@ -120399,7 +120399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54033",
+		id: "54033",
 		name: "Harrison County",
 		state: "West Virginia",
 		population: 65407,
@@ -120439,7 +120439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54035",
+		id: "54035",
 		name: "Jackson County",
 		state: "West Virginia",
 		population: 27753,
@@ -120479,7 +120479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54037",
+		id: "54037",
 		name: "Jefferson County",
 		state: "West Virginia",
 		population: 58546,
@@ -120519,7 +120519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54039",
+		id: "54039",
 		name: "Kanawha County",
 		state: "West Virginia",
 		population: 178198,
@@ -120559,7 +120559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54041",
+		id: "54041",
 		name: "Lewis County",
 		state: "West Virginia",
 		population: 16808,
@@ -120599,7 +120599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54043",
+		id: "54043",
 		name: "Lincoln County",
 		state: "West Virginia",
 		population: 20170,
@@ -120639,7 +120639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54045",
+		id: "54045",
 		name: "Logan County",
 		state: "West Virginia",
 		population: 31826,
@@ -120679,7 +120679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54047",
+		id: "54047",
 		name: "McDowell County",
 		state: "West Virginia",
 		population: 18413,
@@ -120719,7 +120719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54049",
+		id: "54049",
 		name: "Marion County",
 		state: "West Virginia",
 		population: 56042,
@@ -120759,7 +120759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54051",
+		id: "54051",
 		name: "Marshall County",
 		state: "West Virginia",
 		population: 30129,
@@ -120799,7 +120799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54053",
+		id: "54053",
 		name: "Mason County",
 		state: "West Virginia",
 		population: 25214,
@@ -120839,7 +120839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54055",
+		id: "54055",
 		name: "Mercer County",
 		state: "West Virginia",
 		population: 59062,
@@ -120879,7 +120879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54057",
+		id: "54057",
 		name: "Mineral County",
 		state: "West Virginia",
 		population: 26922,
@@ -120919,7 +120919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54059",
+		id: "54059",
 		name: "Mingo County",
 		state: "West Virginia",
 		population: 22979,
@@ -120959,7 +120959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54061",
+		id: "54061",
 		name: "Monongalia County",
 		state: "West Virginia",
 		population: 106520,
@@ -120999,7 +120999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54063",
+		id: "54063",
 		name: "Monroe County",
 		state: "West Virginia",
 		population: 12401,
@@ -121039,7 +121039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54065",
+		id: "54065",
 		name: "Morgan County",
 		state: "West Virginia",
 		population: 17327,
@@ -121079,7 +121079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54067",
+		id: "54067",
 		name: "Nicholas County",
 		state: "West Virginia",
 		population: 24446,
@@ -121119,7 +121119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54069",
+		id: "54069",
 		name: "Ohio County",
 		state: "West Virginia",
 		population: 41904,
@@ -121159,7 +121159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54071",
+		id: "54071",
 		name: "Pendleton County",
 		state: "West Virginia",
 		population: 6111,
@@ -121199,7 +121199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54073",
+		id: "54073",
 		name: "Pleasants County",
 		state: "West Virginia",
 		population: 7572,
@@ -121239,7 +121239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54075",
+		id: "54075",
 		name: "Pocahontas County",
 		state: "West Virginia",
 		population: 7855,
@@ -121279,7 +121279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54077",
+		id: "54077",
 		name: "Preston County",
 		state: "West Virginia",
 		population: 34204,
@@ -121319,7 +121319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54079",
+		id: "54079",
 		name: "Putnam County",
 		state: "West Virginia",
 		population: 57250,
@@ -121359,7 +121359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54081",
+		id: "54081",
 		name: "Raleigh County",
 		state: "West Virginia",
 		population: 73666,
@@ -121399,7 +121399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54083",
+		id: "54083",
 		name: "Randolph County",
 		state: "West Virginia",
 		population: 27782,
@@ -121439,7 +121439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54085",
+		id: "54085",
 		name: "Ritchie County",
 		state: "West Virginia",
 		population: 8372,
@@ -121479,7 +121479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54087",
+		id: "54087",
 		name: "Roane County",
 		state: "West Virginia",
 		population: 13921,
@@ -121519,7 +121519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54089",
+		id: "54089",
 		name: "Summers County",
 		state: "West Virginia",
 		population: 11833,
@@ -121559,7 +121559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54091",
+		id: "54091",
 		name: "Taylor County",
 		state: "West Virginia",
 		population: 16543,
@@ -121599,7 +121599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54093",
+		id: "54093",
 		name: "Tucker County",
 		state: "West Virginia",
 		population: 6698,
@@ -121639,7 +121639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54095",
+		id: "54095",
 		name: "Tyler County",
 		state: "West Virginia",
 		population: 8181,
@@ -121679,7 +121679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54097",
+		id: "54097",
 		name: "Upshur County",
 		state: "West Virginia",
 		population: 23758,
@@ -121719,7 +121719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54099",
+		id: "54099",
 		name: "Wayne County",
 		state: "West Virginia",
 		population: 38498,
@@ -121759,7 +121759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54101",
+		id: "54101",
 		name: "Webster County",
 		state: "West Virginia",
 		population: 8253,
@@ -121799,7 +121799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54103",
+		id: "54103",
 		name: "Wetzel County",
 		state: "West Virginia",
 		population: 14233,
@@ -121839,7 +121839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54105",
+		id: "54105",
 		name: "Wirt County",
 		state: "West Virginia",
 		population: 5131,
@@ -121879,7 +121879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54107",
+		id: "54107",
 		name: "Wood County",
 		state: "West Virginia",
 		population: 83829,
@@ -121919,7 +121919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "54109",
+		id: "54109",
 		name: "Wyoming County",
 		state: "West Virginia",
 		population: 20948,
@@ -121959,7 +121959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55001",
+		id: "55001",
 		name: "Adams County",
 		state: "Wisconsin",
 		population: 20928,
@@ -121999,7 +121999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55003",
+		id: "55003",
 		name: "Ashland County",
 		state: "Wisconsin",
 		population: 16050,
@@ -122039,7 +122039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55005",
+		id: "55005",
 		name: "Barron County",
 		state: "Wisconsin",
 		population: 46741,
@@ -122079,7 +122079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55007",
+		id: "55007",
 		name: "Bayfield County",
 		state: "Wisconsin",
 		population: 16410,
@@ -122119,7 +122119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55009",
+		id: "55009",
 		name: "Brown County",
 		state: "Wisconsin",
 		population: 269425,
@@ -122159,7 +122159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55011",
+		id: "55011",
 		name: "Buffalo County",
 		state: "Wisconsin",
 		population: 13341,
@@ -122199,7 +122199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55013",
+		id: "55013",
 		name: "Burnett County",
 		state: "Wisconsin",
 		population: 16741,
@@ -122239,7 +122239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55015",
+		id: "55015",
 		name: "Calumet County",
 		state: "Wisconsin",
 		population: 52626,
@@ -122279,7 +122279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55017",
+		id: "55017",
 		name: "Chippewa County",
 		state: "Wisconsin",
 		population: 66558,
@@ -122319,7 +122319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55019",
+		id: "55019",
 		name: "Clark County",
 		state: "Wisconsin",
 		population: 34736,
@@ -122359,7 +122359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55021",
+		id: "55021",
 		name: "Columbia County",
 		state: "Wisconsin",
 		population: 58322,
@@ -122399,7 +122399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55023",
+		id: "55023",
 		name: "Crawford County",
 		state: "Wisconsin",
 		population: 16064,
@@ -122439,7 +122439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55025",
+		id: "55025",
 		name: "Dane County",
 		state: "Wisconsin",
 		population: 564777,
@@ -122479,7 +122479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55027",
+		id: "55027",
 		name: "Dodge County",
 		state: "Wisconsin",
 		population: 88818,
@@ -122519,7 +122519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55029",
+		id: "55029",
 		name: "Door County",
 		state: "Wisconsin",
 		population: 30279,
@@ -122559,7 +122559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55031",
+		id: "55031",
 		name: "Douglas County",
 		state: "Wisconsin",
 		population: 44197,
@@ -122599,7 +122599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55033",
+		id: "55033",
 		name: "Dunn County",
 		state: "Wisconsin",
 		population: 45349,
@@ -122639,7 +122639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55035",
+		id: "55035",
 		name: "Eau Claire County",
 		state: "Wisconsin",
 		population: 106328,
@@ -122679,7 +122679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55037",
+		id: "55037",
 		name: "Florence County",
 		state: "Wisconsin",
 		population: 4617,
@@ -122719,7 +122719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55039",
+		id: "55039",
 		name: "Fond du Lac County",
 		state: "Wisconsin",
 		population: 104053,
@@ -122759,7 +122759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55041",
+		id: "55041",
 		name: "Forest County",
 		state: "Wisconsin",
 		population: 9261,
@@ -122799,7 +122799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55043",
+		id: "55043",
 		name: "Grant County",
 		state: "Wisconsin",
 		population: 51678,
@@ -122839,7 +122839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55045",
+		id: "55045",
 		name: "Green County",
 		state: "Wisconsin",
 		population: 37036,
@@ -122879,7 +122879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55047",
+		id: "55047",
 		name: "Green Lake County",
 		state: "Wisconsin",
 		population: 19165,
@@ -122919,7 +122919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55049",
+		id: "55049",
 		name: "Iowa County",
 		state: "Wisconsin",
 		population: 23832,
@@ -122959,7 +122959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55051",
+		id: "55051",
 		name: "Iron County",
 		state: "Wisconsin",
 		population: 6164,
@@ -122999,7 +122999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55053",
+		id: "55053",
 		name: "Jackson County",
 		state: "Wisconsin",
 		population: 20971,
@@ -123039,7 +123039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55055",
+		id: "55055",
 		name: "Jefferson County",
 		state: "Wisconsin",
 		population: 85867,
@@ -123079,7 +123079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55057",
+		id: "55057",
 		name: "Juneau County",
 		state: "Wisconsin",
 		population: 26695,
@@ -123119,7 +123119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55059",
+		id: "55059",
 		name: "Kenosha County",
 		state: "Wisconsin",
 		population: 168413,
@@ -123159,7 +123159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55061",
+		id: "55061",
 		name: "Kewaunee County",
 		state: "Wisconsin",
 		population: 20621,
@@ -123199,7 +123199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55063",
+		id: "55063",
 		name: "La Crosse County",
 		state: "Wisconsin",
 		population: 120262,
@@ -123239,7 +123239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55065",
+		id: "55065",
 		name: "Lafayette County",
 		state: "Wisconsin",
 		population: 16788,
@@ -123279,7 +123279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55067",
+		id: "55067",
 		name: "Langlade County",
 		state: "Wisconsin",
 		population: 19473,
@@ -123319,7 +123319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55069",
+		id: "55069",
 		name: "Lincoln County",
 		state: "Wisconsin",
 		population: 28403,
@@ -123359,7 +123359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55071",
+		id: "55071",
 		name: "Manitowoc County",
 		state: "Wisconsin",
 		population: 81314,
@@ -123399,7 +123399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55073",
+		id: "55073",
 		name: "Marathon County",
 		state: "Wisconsin",
 		population: 138067,
@@ -123439,7 +123439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55075",
+		id: "55075",
 		name: "Marinette County",
 		state: "Wisconsin",
 		population: 41907,
@@ -123479,7 +123479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55077",
+		id: "55077",
 		name: "Marquette County",
 		state: "Wisconsin",
 		population: 15706,
@@ -123519,7 +123519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55078",
+		id: "55078",
 		name: "Menominee County",
 		state: "Wisconsin",
 		population: 4256,
@@ -123559,7 +123559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55079",
+		id: "55079",
 		name: "Milwaukee County",
 		state: "Wisconsin",
 		population: 927656,
@@ -123599,7 +123599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55081",
+		id: "55081",
 		name: "Monroe County",
 		state: "Wisconsin",
 		population: 46169,
@@ -123639,7 +123639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55083",
+		id: "55083",
 		name: "Oconto County",
 		state: "Wisconsin",
 		population: 39329,
@@ -123679,7 +123679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55085",
+		id: "55085",
 		name: "Oneida County",
 		state: "Wisconsin",
 		population: 38007,
@@ -123719,7 +123719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55087",
+		id: "55087",
 		name: "Outagamie County",
 		state: "Wisconsin",
 		population: 191537,
@@ -123759,7 +123759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55089",
+		id: "55089",
 		name: "Ozaukee County",
 		state: "Wisconsin",
 		population: 92345,
@@ -123799,7 +123799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55091",
+		id: "55091",
 		name: "Pepin County",
 		state: "Wisconsin",
 		population: 7372,
@@ -123839,7 +123839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55093",
+		id: "55093",
 		name: "Pierce County",
 		state: "Wisconsin",
 		population: 42351,
@@ -123879,7 +123879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55095",
+		id: "55095",
 		name: "Polk County",
 		state: "Wisconsin",
 		population: 45327,
@@ -123919,7 +123919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55097",
+		id: "55097",
 		name: "Portage County",
 		state: "Wisconsin",
 		population: 70375,
@@ -123959,7 +123959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55099",
+		id: "55099",
 		name: "Price County",
 		state: "Wisconsin",
 		population: 14077,
@@ -123999,7 +123999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55101",
+		id: "55101",
 		name: "Racine County",
 		state: "Wisconsin",
 		population: 196888,
@@ -124039,7 +124039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55103",
+		id: "55103",
 		name: "Richland County",
 		state: "Wisconsin",
 		population: 17229,
@@ -124079,7 +124079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55105",
+		id: "55105",
 		name: "Rock County",
 		state: "Wisconsin",
 		population: 163944,
@@ -124119,7 +124119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55107",
+		id: "55107",
 		name: "Rusk County",
 		state: "Wisconsin",
 		population: 14146,
@@ -124159,7 +124159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55109",
+		id: "55109",
 		name: "St. Croix County",
 		state: "Wisconsin",
 		population: 94819,
@@ -124199,7 +124199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55111",
+		id: "55111",
 		name: "Sauk County",
 		state: "Wisconsin",
 		population: 65759,
@@ -124239,7 +124239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55113",
+		id: "55113",
 		name: "Sawyer County",
 		state: "Wisconsin",
 		population: 18243,
@@ -124279,7 +124279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55115",
+		id: "55115",
 		name: "Shawano County",
 		state: "Wisconsin",
 		population: 40927,
@@ -124319,7 +124319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55117",
+		id: "55117",
 		name: "Sheboygan County",
 		state: "Wisconsin",
 		population: 117783,
@@ -124359,7 +124359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55119",
+		id: "55119",
 		name: "Taylor County",
 		state: "Wisconsin",
 		population: 19972,
@@ -124399,7 +124399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55121",
+		id: "55121",
 		name: "Trempealeau County",
 		state: "Wisconsin",
 		population: 30786,
@@ -124439,7 +124439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55123",
+		id: "55123",
 		name: "Vernon County",
 		state: "Wisconsin",
 		population: 30915,
@@ -124479,7 +124479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55125",
+		id: "55125",
 		name: "Vilas County",
 		state: "Wisconsin",
 		population: 23410,
@@ -124519,7 +124519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55127",
+		id: "55127",
 		name: "Walworth County",
 		state: "Wisconsin",
 		population: 105447,
@@ -124559,7 +124559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55129",
+		id: "55129",
 		name: "Washburn County",
 		state: "Wisconsin",
 		population: 16749,
@@ -124599,7 +124599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55131",
+		id: "55131",
 		name: "Washington County",
 		state: "Wisconsin",
 		population: 137320,
@@ -124639,7 +124639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55133",
+		id: "55133",
 		name: "Waukesha County",
 		state: "Wisconsin",
 		population: 409040,
@@ -124679,7 +124679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55135",
+		id: "55135",
 		name: "Waupaca County",
 		state: "Wisconsin",
 		population: 51714,
@@ -124719,7 +124719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55137",
+		id: "55137",
 		name: "Waushara County",
 		state: "Wisconsin",
 		population: 24752,
@@ -124759,7 +124759,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55139",
+		id: "55139",
 		name: "Winnebago County",
 		state: "Wisconsin",
 		population: 171357,
@@ -124799,7 +124799,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "55141",
+		id: "55141",
 		name: "Wood County",
 		state: "Wisconsin",
 		population: 74039,
@@ -124839,7 +124839,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56001",
+		id: "56001",
 		name: "Albany County",
 		state: "Wyoming",
 		population: 37713,
@@ -124879,7 +124879,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56003",
+		id: "56003",
 		name: "Big Horn County",
 		state: "Wyoming",
 		population: 11737,
@@ -124919,7 +124919,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56005",
+		id: "56005",
 		name: "Campbell County",
 		state: "Wyoming",
 		population: 47018,
@@ -124959,7 +124959,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56007",
+		id: "56007",
 		name: "Carbon County",
 		state: "Wyoming",
 		population: 14549,
@@ -124999,7 +124999,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56009",
+		id: "56009",
 		name: "Converse County",
 		state: "Wyoming",
 		population: 13759,
@@ -125039,7 +125039,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56011",
+		id: "56011",
 		name: "Crook County",
 		state: "Wyoming",
 		population: 7339,
@@ -125079,7 +125079,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56013",
+		id: "56013",
 		name: "Fremont County",
 		state: "Wyoming",
 		population: 39472,
@@ -125119,7 +125119,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56015",
+		id: "56015",
 		name: "Goshen County",
 		state: "Wyoming",
 		population: 12587,
@@ -125159,7 +125159,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56017",
+		id: "56017",
 		name: "Hot Springs County",
 		state: "Wyoming",
 		population: 4618,
@@ -125199,7 +125199,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56019",
+		id: "56019",
 		name: "Johnson County",
 		state: "Wyoming",
 		population: 8602,
@@ -125239,7 +125239,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56021",
+		id: "56021",
 		name: "Laramie County",
 		state: "Wyoming",
 		population: 100661,
@@ -125279,7 +125279,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56023",
+		id: "56023",
 		name: "Lincoln County",
 		state: "Wyoming",
 		population: 20158,
@@ -125319,7 +125319,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56025",
+		id: "56025",
 		name: "Natrona County",
 		state: "Wyoming",
 		population: 79735,
@@ -125359,7 +125359,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56027",
+		id: "56027",
 		name: "Niobrara County",
 		state: "Wyoming",
 		population: 2415,
@@ -125399,7 +125399,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56029",
+		id: "56029",
 		name: "Park County",
 		state: "Wyoming",
 		population: 30109,
@@ -125439,7 +125439,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56031",
+		id: "56031",
 		name: "Platte County",
 		state: "Wyoming",
 		population: 8606,
@@ -125479,7 +125479,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56033",
+		id: "56033",
 		name: "Sheridan County",
 		state: "Wyoming",
 		population: 31585,
@@ -125519,7 +125519,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56035",
+		id: "56035",
 		name: "Sublette County",
 		state: "Wyoming",
 		population: 8806,
@@ -125559,7 +125559,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56037",
+		id: "56037",
 		name: "Sweetwater County",
 		state: "Wyoming",
 		population: 41786,
@@ -125599,7 +125599,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56039",
+		id: "56039",
 		name: "Teton County",
 		state: "Wyoming",
 		population: 23358,
@@ -125639,7 +125639,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56041",
+		id: "56041",
 		name: "Uinta County",
 		state: "Wyoming",
 		population: 20605,
@@ -125679,7 +125679,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56043",
+		id: "56043",
 		name: "Washakie County",
 		state: "Wyoming",
 		population: 7708,
@@ -125719,7 +125719,7 @@ export const counties: CountyData[] = [
 		},
 	},
 	{
-		FIPS: "56045",
+		id: "56045",
 		name: "Weston County",
 		state: "Wyoming",
 		population: 6835,

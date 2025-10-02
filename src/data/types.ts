@@ -1,5 +1,5 @@
 export type CountyData = {
-	FIPS: string;
+	id: string;
 	name: string;
 	state: string;
 	population: number;

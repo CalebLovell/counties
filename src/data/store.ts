@@ -1,5 +1,5 @@
 import { create } from "zustand";
-import type { County } from "~/data/counties";
+import type { County } from "~/data/old_data";
 import { standardDeviation } from "./functions";
 
 const {
