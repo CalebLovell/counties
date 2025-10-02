@@ -1,0 +1,56 @@
+[
+	{
+		"FIPS": "15005",
+		"County": "Kalawao County",
+		"State": "Hawaii",
+		"Median Home Value": "650000",
+		"Median Home Value Index": "377.2",
+		"Affordability": "Very Expensive",
+		"Note": "Estimated based on Hawaii regional data"
+	},
+	{
+		"FIPS": "32011",
+		"County": "Eureka County",
+		"State": "Nevada",
+		"Median Home Value": "280000",
+		"Median Home Value Index": "162.5",
+		"Affordability": "Expensive",
+		"Note": "Estimated based on rural Nevada data"
+	},
+	{
+		"FIPS": "48261",
+		"County": "Kenedy County",
+		"State": "Texas",
+		"Median Home Value": "85000",
+		"Median Home Value Index": "49.3",
+		"Affordability": "Very Affordable",
+		"Note": "Estimated based on rural Texas data"
+	},
+	{
+		"FIPS": "48269",
+		"County": "King County",
+		"State": "Texas",
+		"Median Home Value": "70000",
+		"Median Home Value Index": "40.6",
+		"Affordability": "Very Affordable",
+		"Note": "Estimated based on rural Texas data"
+	},
+	{
+		"FIPS": "48301",
+		"County": "Loving County",
+		"State": "Texas",
+		"Median Home Value": "75000",
+		"Median Home Value Index": "43.5",
+		"Affordability": "Very Affordable",
+		"Note": "Estimated based on rural Texas data"
+	},
+	{
+		"FIPS": "48385",
+		"County": "Real County",
+		"State": "Texas",
+		"Median Home Value": "180000",
+		"Median Home Value Index": "104.5",
+		"Affordability": "Affordable",
+		"Note": "Estimated based on rural Texas data"
+	}
+]

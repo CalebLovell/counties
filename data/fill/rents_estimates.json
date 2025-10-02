@@ -1,0 +1,18 @@
+[
+	{
+		"FIPS": "11001",
+		"State": "District of Columbia",
+		"State Code": "DC",
+		"County": "District of Columbia",
+		"Metro Area": "Washington-Arlington-Alexandria, DC-VA-MD-WV HUD Metro FMR Area",
+		"Year": "2023",
+		"Median Rent": "2650",
+		"Efficiency": "1850",
+		"1BR": "2100",
+		"2BR": "2650",
+		"3BR": "3350",
+		"4BR": "3750",
+		"Entity ID": "1100199999",
+		"Note": "Estimated based on regional urban rent data"
+	}
+]

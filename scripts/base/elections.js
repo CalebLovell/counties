@@ -120,8 +120,8 @@ async function main() {
 		console.log(`\n✓ Successfully processed data for ${electionData.length} counties`);
 
 		// Save to JSON file
-		await fs.writeFile("data/output/elections_2024.json", JSON.stringify(electionData, null, 2));
-		console.log("✓ Saved to: data/output/elections_2024.json");
+		await fs.writeFile("data/base/elections_2024.json", JSON.stringify(electionData, null, 2));
+		console.log("✓ Saved to: data/base/elections_2024.json");
 
 		// Save to CSV file
 		const csvHeader =
@@ -132,8 +132,8 @@ async function main() {
 					`${r.fips},"${r.county}",${r.state},${r.totalVotes},${r.democratVotes},${r.republicanVotes},${r.democratPercentage},${r.republicanPercentage},${r.winner}`,
 			)
 			.join("\n");
-		await fs.writeFile("data/output/elections_2024.csv", csvHeader + csvRows);
-		console.log("✓ Saved to: data/output/elections_2024.csv");
+		await fs.writeFile("data/base/elections_2024.csv", csvHeader + csvRows);
+		console.log("✓ Saved to: data/base/elections_2024.csv");
 
 		// Show sample results
 		console.log("\nSample results (first 5 counties):");

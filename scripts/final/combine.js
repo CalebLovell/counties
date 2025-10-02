@@ -125,40 +125,46 @@ function getStateAbbreviation(stateName) {
 }
 
 async function combineCountyData() {
-	const dataDir = path.join(__dirname, "..", "output");
+	console.log("Starting combine script...");
+	const baseDir = path.join(__dirname, "..", "..", "data", "base");
+	const fillDir = path.join(__dirname, "..", "..", "data", "fill");
+	const finalDir = path.join(__dirname, "..", "..", "data", "final");
+	console.log("Base data directory:", baseDir);
+	console.log("Fill data directory:", fillDir);
+	console.log("Final data directory:", finalDir);
 
-	console.log("Loading CSV files...");
+	console.log("\nLoading CSV files...");
 
 	// Load all CSV files - use complete versions if available
-	const elections = parseCSV(fs.readFileSync(path.join(dataDir, "elections_2024.csv"), "utf8"));
-	const housing = parseCSV(fs.readFileSync(path.join(dataDir, "housing_2023.csv"), "utf8"));
-	const ages = parseCSV(fs.readFileSync(path.join(dataDir, "median_ages_2023.csv"), "utf8"));
-	const population = parseCSV(fs.readFileSync(path.join(dataDir, "population_2023.csv"), "utf8"));
+	const elections = parseCSV(fs.readFileSync(path.join(baseDir, "elections_2024.csv"), "utf8"));
+	const housing = parseCSV(fs.readFileSync(path.join(baseDir, "housing_2023.csv"), "utf8"));
+	const ages = parseCSV(fs.readFileSync(path.join(baseDir, "median_ages_2023.csv"), "utf8"));
+	const population = parseCSV(fs.readFileSync(path.join(baseDir, "population_2023.csv"), "utf8"));
 
-	// Try to load complete versions with filled data, fallback to originals
+	// Try to load filled versions with filled data, fallback to originals
 	let temperatures, rents, alaskaElections;
 	try {
-		temperatures = parseCSV(fs.readFileSync(path.join(dataDir, "temperatures_2023_complete.csv"), "utf8"));
-		console.log("  ✓ Using complete temperatures with filled data");
+		temperatures = parseCSV(fs.readFileSync(path.join(fillDir, "temperatures_filled.csv"), "utf8"));
+		console.log("  ✓ Using filled temperatures data");
 	} catch {
-		temperatures = parseCSV(fs.readFileSync(path.join(dataDir, "temperatures_2023.csv"), "utf8"));
-		console.log("  ℹ Using original temperatures (run fill-all-missing.js to add estimates)");
+		temperatures = parseCSV(fs.readFileSync(path.join(baseDir, "temperatures_2023.csv"), "utf8"));
+		console.log("  ℹ Using original temperatures (missing data not filled)");
 	}
 
 	try {
-		rents = parseCSV(fs.readFileSync(path.join(dataDir, "rents_2023_complete.csv"), "utf8"));
-		console.log("  ✓ Using complete rents with filled data");
+		rents = parseCSV(fs.readFileSync(path.join(fillDir, "rents_filled.csv"), "utf8"));
+		console.log("  ✓ Using filled rents data");
 	} catch {
-		rents = parseCSV(fs.readFileSync(path.join(dataDir, "rents_2023.csv"), "utf8"));
-		console.log("  ℹ Using original rents (run fill-all-missing.js to add estimates)");
+		rents = parseCSV(fs.readFileSync(path.join(baseDir, "rents_2023.csv"), "utf8"));
+		console.log("  ℹ Using original rents (missing data not filled)");
 	}
 
 	try {
-		alaskaElections = parseCSV(fs.readFileSync(path.join(dataDir, "alaska_elections_filled.csv"), "utf8"));
+		alaskaElections = parseCSV(fs.readFileSync(path.join(fillDir, "alaska_elections_filled.csv"), "utf8"));
 		console.log("  ✓ Using filled Alaska elections data");
 	} catch {
 		alaskaElections = null;
-		console.log("  ℹ Alaska elections not filled (run fill-all-missing.js to add estimates)");
+		console.log("  ℹ Alaska elections not filled");
 	}
 
 	console.log(`Loaded data:
@@ -371,11 +377,11 @@ async function combineCountyData() {
 		),
 	].join("\n");
 
-	const csvOutputPath = path.join(dataDir, "counties_combined.csv");
+	const csvOutputPath = path.join(finalDir, "counties_combined.csv");
 	fs.writeFileSync(csvOutputPath, csvContent);
 
 	// Also write JSON output
-	const jsonOutputPath = path.join(dataDir, "counties_combined.json");
+	const jsonOutputPath = path.join(finalDir, "counties_combined.json");
 	fs.writeFileSync(jsonOutputPath, JSON.stringify(combined, null, 2));
 
 	console.log(`✅ Combined dataset written to:`);
@@ -402,8 +408,15 @@ async function combineCountyData() {
 	});
 }
 
-if (import.meta.url === `file://${process.argv[1]}`) {
-	combineCountyData().catch(console.error);
+const isMainModule = import.meta.url === `file:///${process.argv[1].replace(/\\/g, "/")}`;
+if (isMainModule) {
+	console.log("Script executed directly, running combineCountyData...");
+	combineCountyData().catch((err) => {
+		console.error("Error in combineCountyData:", err);
+		process.exit(1);
+	});
+} else {
+	console.log("Module imported, not running automatically");
 }
 
 export { combineCountyData };

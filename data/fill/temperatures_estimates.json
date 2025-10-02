@@ -1,0 +1,289 @@
+[
+	{
+		"FIPS": "02013",
+		"County Name": "AK: Aleutians East Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "38.6",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02016",
+		"County Name": "AK: Aleutians West Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "38.1",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02020",
+		"County Name": "AK: Anchorage Municipality",
+		"State": "AK",
+		"Avg Temperature (°F)": "36.3",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02050",
+		"County Name": "AK: Bethel Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "28.5",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02060",
+		"County Name": "AK: Bristol Bay Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "36.2",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02063",
+		"County Name": "AK: Chugach Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "35.8",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02066",
+		"County Name": "AK: Copper River Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "32.4",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02068",
+		"County Name": "AK: Denali Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "29.7",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02070",
+		"County Name": "AK: Dillingham Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "34.1",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02090",
+		"County Name": "AK: Fairbanks North Star Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "26.9",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02100",
+		"County Name": "AK: Haines Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "41.3",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02105",
+		"County Name": "AK: Hoonah-Angoon Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "42.1",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02110",
+		"County Name": "AK: Juneau City and Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "42.6",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02122",
+		"County Name": "AK: Kenai Peninsula Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "35.4",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02130",
+		"County Name": "AK: Ketchikan Gateway Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "44.8",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02150",
+		"County Name": "AK: Kodiak Island Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "39.2",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02158",
+		"County Name": "AK: Kusilvak Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "25.3",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02164",
+		"County Name": "AK: Lake and Peninsula Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "36.8",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02170",
+		"County Name": "AK: Matanuska-Susitna Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "33.1",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02180",
+		"County Name": "AK: Nome Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "23.8",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02185",
+		"County Name": "AK: North Slope Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "10.9",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02188",
+		"County Name": "AK: Northwest Arctic Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "19.6",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02195",
+		"County Name": "AK: Petersburg Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "43.2",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02198",
+		"County Name": "AK: Prince of Wales-Hyder Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "43.7",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02220",
+		"County Name": "AK: Sitka City and Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "43.9",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02230",
+		"County Name": "AK: Skagway Municipality",
+		"State": "AK",
+		"Avg Temperature (°F)": "40.8",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02240",
+		"County Name": "AK: Southeast Fairbanks Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "25.1",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02261",
+		"County Name": "AK: Valdez-Cordova Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "37.2",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02275",
+		"County Name": "AK: Wrangell City and Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "44.1",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02282",
+		"County Name": "AK: Yakutat City and Borough",
+		"State": "AK",
+		"Avg Temperature (°F)": "40.5",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "02290",
+		"County Name": "AK: Yukon-Koyukuk Census Area",
+		"State": "AK",
+		"Avg Temperature (°F)": "22.4",
+		"Note": "Estimated based on regional climate zones"
+	},
+	{
+		"FIPS": "09110",
+		"County Name": "CT: Capitol Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "50.8",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09120",
+		"County Name": "CT: Greater Bridgeport Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "52.3",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09130",
+		"County Name": "CT: Lower Connecticut River Valley Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "51.2",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09140",
+		"County Name": "CT: Naugatuck Valley Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "49.9",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09150",
+		"County Name": "CT: Northeastern Connecticut Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "48.7",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09160",
+		"County Name": "CT: Northwest Hills Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "47.5",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09170",
+		"County Name": "CT: South Central Connecticut Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "52.1",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09180",
+		"County Name": "CT: Southeastern Connecticut Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "51.5",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "09190",
+		"County Name": "CT: Western Connecticut Planning Region",
+		"State": "CT",
+		"Avg Temperature (°F)": "50.2",
+		"Note": "Estimated based on regional climate data"
+	},
+	{
+		"FIPS": "51678",
+		"County Name": "VA: Lexington city",
+		"State": "VA",
+		"Avg Temperature (°F)": "55.2",
+		"Note": "Estimated based on regional climate data"
+	}
+]

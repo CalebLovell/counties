@@ -1,0 +1,42 @@
+FIPS,County Name,State,Avg Temperature (°F),Note
+02013,AK: Aleutians East Borough,AK,38.6,Estimated based on regional climate zones
+02016,AK: Aleutians West Census Area,AK,38.1,Estimated based on regional climate zones
+02020,AK: Anchorage Municipality,AK,36.3,Estimated based on regional climate zones
+02050,AK: Bethel Census Area,AK,28.5,Estimated based on regional climate zones
+02060,AK: Bristol Bay Borough,AK,36.2,Estimated based on regional climate zones
+02063,AK: Chugach Census Area,AK,35.8,Estimated based on regional climate zones
+02066,AK: Copper River Census Area,AK,32.4,Estimated based on regional climate zones
+02068,AK: Denali Borough,AK,29.7,Estimated based on regional climate zones
+02070,AK: Dillingham Census Area,AK,34.1,Estimated based on regional climate zones
+02090,AK: Fairbanks North Star Borough,AK,26.9,Estimated based on regional climate zones
+02100,AK: Haines Borough,AK,41.3,Estimated based on regional climate zones
+02105,AK: Hoonah-Angoon Census Area,AK,42.1,Estimated based on regional climate zones
+02110,AK: Juneau City and Borough,AK,42.6,Estimated based on regional climate zones
+02122,AK: Kenai Peninsula Borough,AK,35.4,Estimated based on regional climate zones
+02130,AK: Ketchikan Gateway Borough,AK,44.8,Estimated based on regional climate zones
+02150,AK: Kodiak Island Borough,AK,39.2,Estimated based on regional climate zones
+02158,AK: Kusilvak Census Area,AK,25.3,Estimated based on regional climate zones
+02164,AK: Lake and Peninsula Borough,AK,36.8,Estimated based on regional climate zones
+02170,AK: Matanuska-Susitna Borough,AK,33.1,Estimated based on regional climate zones
+02180,AK: Nome Census Area,AK,23.8,Estimated based on regional climate zones
+02185,AK: North Slope Borough,AK,10.9,Estimated based on regional climate zones
+02188,AK: Northwest Arctic Borough,AK,19.6,Estimated based on regional climate zones
+02195,AK: Petersburg Borough,AK,43.2,Estimated based on regional climate zones
+02198,AK: Prince of Wales-Hyder Census Area,AK,43.7,Estimated based on regional climate zones
+02220,AK: Sitka City and Borough,AK,43.9,Estimated based on regional climate zones
+02230,AK: Skagway Municipality,AK,40.8,Estimated based on regional climate zones
+02240,AK: Southeast Fairbanks Census Area,AK,25.1,Estimated based on regional climate zones
+02261,AK: Valdez-Cordova Census Area,AK,37.2,Estimated based on regional climate zones
+02275,AK: Wrangell City and Borough,AK,44.1,Estimated based on regional climate zones
+02282,AK: Yakutat City and Borough,AK,40.5,Estimated based on regional climate zones
+02290,AK: Yukon-Koyukuk Census Area,AK,22.4,Estimated based on regional climate zones
+09110,CT: Capitol Planning Region,CT,50.8,Estimated based on regional climate data
+09120,CT: Greater Bridgeport Planning Region,CT,52.3,Estimated based on regional climate data
+09130,CT: Lower Connecticut River Valley Planning Region,CT,51.2,Estimated based on regional climate data
+09140,CT: Naugatuck Valley Planning Region,CT,49.9,Estimated based on regional climate data
+09150,CT: Northeastern Connecticut Planning Region,CT,48.7,Estimated based on regional climate data
+09160,CT: Northwest Hills Planning Region,CT,47.5,Estimated based on regional climate data
+09170,CT: South Central Connecticut Planning Region,CT,52.1,Estimated based on regional climate data
+09180,CT: Southeastern Connecticut Planning Region,CT,51.5,Estimated based on regional climate data
+09190,CT: Western Connecticut Planning Region,CT,50.2,Estimated based on regional climate data
+51678,VA: Lexington city,VA,55.2,Estimated based on regional climate data

@@ -1,4 +1,7 @@
 FIPS,County,State,Total Votes,Democrat Votes,Republican Votes,Democrat %,Republican %,Winner,Note
+02013,Aleutians East Borough,Alaska,3169,1334,1835,40.50,55.70,Republican,Estimated based on statewide results
+02016,Aleutians West Census Area,Alaska,4793,2018,2775,40.50,55.70,Republican,Estimated based on statewide results
+02020,Anchorage Municipality,Alaska,267576,112649,154927,40.50,55.70,Republican,Estimated based on statewide results
 02050,Bethel Census Area,Alaska,17451,7347,10104,40.50,55.70,Republican,Estimated based on statewide results
 02060,Bristol Bay Borough,Alaska,805,339,466,40.50,55.70,Republican,Estimated based on statewide results
 02063,Chugach Census Area,Alaska,6594,2776,3818,40.50,55.70,Republican,Estimated based on statewide results
@@ -27,3 +30,4 @@ FIPS,County,State,Total Votes,Democrat Votes,Republican Votes,Democrat %,Republi
 02275,Wrangell City and Borough,Alaska,2046,861,1185,40.50,55.70,Republican,Estimated based on statewide results
 02282,Yakutat City and Borough,Alaska,639,269,370,40.50,55.70,Republican,Estimated based on statewide results
 02290,Yukon-Koyukuk Census Area,Alaska,4992,2102,2890,40.50,55.70,Republican,Estimated based on statewide results
+15005,Kalawao County,Hawaii,27,17,10,60.90,37.10,Democrat,Estimated based on Hawaii statewide results

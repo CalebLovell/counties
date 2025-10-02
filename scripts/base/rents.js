@@ -309,10 +309,10 @@ async function collectCountyRentData() {
 		console.log(`\n✅ Successfully collected rent data for ${rentData.length} counties`);
 
 		// Create output directory if it doesn't exist
-		await fs.mkdir("data/output", { recursive: true });
+		await fs.mkdir("data/base", { recursive: true });
 
 		// Save to JSON file
-		const jsonFilePath = `data/output/rents_${DATA_YEAR}.json`;
+		const jsonFilePath = `data/base/rents_${DATA_YEAR}.json`;
 		await fs.writeFile(jsonFilePath, JSON.stringify(rentData, null, 2));
 		console.log(`✓ Saved to: ${jsonFilePath}`);
 
@@ -326,7 +326,7 @@ async function collectCountyRentData() {
 			)
 			.join("\n");
 
-		const csvFilePath = `data/output/rents_${DATA_YEAR}.csv`;
+		const csvFilePath = `data/base/rents_${DATA_YEAR}.csv`;
 		await fs.writeFile(csvFilePath, csvHeader + csvRows);
 		console.log(`✓ Saved to: ${csvFilePath}`);
 

@@ -1,5 +1,41 @@
 [
 	{
+		"FIPS": "02013",
+		"County": "Aleutians East Borough",
+		"State": "Alaska",
+		"Total Votes": 3169,
+		"Democrat Votes": 1334,
+		"Republican Votes": 1835,
+		"Democrat %": "40.50",
+		"Republican %": "55.70",
+		"Winner": "Republican",
+		"Note": "Estimated based on statewide results"
+	},
+	{
+		"FIPS": "02016",
+		"County": "Aleutians West Census Area",
+		"State": "Alaska",
+		"Total Votes": 4793,
+		"Democrat Votes": 2018,
+		"Republican Votes": 2775,
+		"Democrat %": "40.50",
+		"Republican %": "55.70",
+		"Winner": "Republican",
+		"Note": "Estimated based on statewide results"
+	},
+	{
+		"FIPS": "02020",
+		"County": "Anchorage Municipality",
+		"State": "Alaska",
+		"Total Votes": 267576,
+		"Democrat Votes": 112649,
+		"Republican Votes": 154927,
+		"Democrat %": "40.50",
+		"Republican %": "55.70",
+		"Winner": "Republican",
+		"Note": "Estimated based on statewide results"
+	},
+	{
 		"FIPS": "02050",
 		"County": "Bethel Census Area",
 		"State": "Alaska",
@@ -334,5 +370,17 @@
 		"Republican %": "55.70",
 		"Winner": "Republican",
 		"Note": "Estimated based on statewide results"
+	},
+	{
+		"FIPS": "15005",
+		"County": "Kalawao County",
+		"State": "Hawaii",
+		"Total Votes": 27,
+		"Democrat Votes": 17,
+		"Republican Votes": 10,
+		"Democrat %": "60.90",
+		"Republican %": "37.10",
+		"Winner": "Democrat",
+		"Note": "Estimated based on Hawaii statewide results"
 	}
 ]
