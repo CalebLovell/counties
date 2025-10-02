@@ -20,7 +20,8 @@
 			"Bash(pkill:*)",
 			"Bash(grep:*)",
 			"Bash(ls:*)",
-			"Bash(python:*)"
+			"Bash(python:*)",
+			"Bash(cat:*)"
 		],
 		"deny": [],
 		"ask": []

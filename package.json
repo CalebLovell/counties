@@ -16,8 +16,10 @@
 		"collect": "npm run collect:temps && npm run collect:votes && npm run collect:housing && npm run collect:age && npm run collect:rents && npm run collect:population && npm run clean",
 		"fill": "node scripts/fill/fillEstimates.js && npm run clean",
 		"combine": "node scripts/final/combineBase.js && node scripts/final/fillMissing.js && npm run clean",
-		"data:generate": "npm run collect && npm run fill && npm run combine && npm run clean",
-		"data:reset": "rm -rf data/base data/fill data/final && npm run data:generate && npm run clean"
+		"generate": "node scripts/final/generate.js && npm run clean",
+		"data:create": "npm run collect && npm run fill && npm run combine && npm run clean",
+		"data:generate": "npm run generate && npm run clean",
+		"data:reset": "rm -rf data/base data/fill data/final && npm run data:create && npm run data:generate && npm run clean"
 	},
 	"dependencies": {
 		"@headlessui/react": "^2.2.7",
