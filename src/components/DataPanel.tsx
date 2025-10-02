@@ -4,16 +4,22 @@ export const DataPanel = () => {
 	const { selectedCounty } = useAppStore();
 
 	const details = [
+		{ title: "Population", value: selectedCounty?.population?.toLocaleString() ?? null },
+		{ title: "Median Age", value: selectedCounty?.medianAge ?? null },
 		{
-			title: "Household Income",
-			value: selectedCounty?.household_income ? `$${selectedCounty.household_income.toLocaleString()}` : null,
+			title: "Avg. Temperature",
+			value: selectedCounty?.temperature.avgTempF ? `${selectedCounty.temperature.avgTempF} °F` : null,
 		},
-		{ title: "Commute Time", value: selectedCounty?.commute_time ? `${selectedCounty.commute_time} min` : null },
 		{
-			title: "Property Value",
-			value: selectedCounty?.property_value ? `$${selectedCounty.property_value.toLocaleString()}` : null,
+			title: "Median Home Value",
+			value: selectedCounty?.housing.medianHomeValue
+				? `$${selectedCounty.housing.medianHomeValue.toLocaleString()}`
+				: null,
 		},
-		{ title: "Median Age", value: selectedCounty?.median_age ?? null },
+		{
+			title: "Median Rent",
+			value: selectedCounty?.rent.medianRent ? `$${selectedCounty.rent.medianRent.toLocaleString()}` : null,
+		},
 	];
 
 	if (!selectedCounty) return null;
@@ -22,9 +28,9 @@ export const DataPanel = () => {
 			<dl className="flex flex-col items-end w-full">
 				<div className="relative flex-auto p-1 md:p-2 text-right w-full">
 					<dt className="truncate text-xs font-semibold leading-6 text-gray-900 md:whitespace-normal md:text-base">
-						{selectedCounty.county_name}
+						{selectedCounty.name}
 					</dt>
-					<dd className="text-xs text-gray-500 md:text-sm">{selectedCounty.county_state_name}</dd>
+					<dd className="text-xs text-gray-500 md:text-sm">{selectedCounty.state}</dd>
 				</div>
 
 				<div className="space-y-0 md:space-y-1 w-full">

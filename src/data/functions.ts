@@ -1,81 +1,104 @@
 import stddev from "just-standard-deviation";
-
-import { type County, old_counties } from "./old_data";
+import { counties } from "~/data/counties";
+import type { CountyData } from "~/data/types";
 
 export const getCountyData = () => {
-	return old_counties;
+	return counties;
 };
 
 export const standardDeviation = () => {
-	const household_income = old_counties.map((x) => x.household_income);
-	const property_value = old_counties.map((x) => x.property_value);
-	const commute_time = old_counties.map((x) => x.commute_time);
-	const median_age = old_counties.map((x) => x.median_age);
+	const population = counties.map((x) => x.population);
+	const median_age = counties.map((x) => x.medianAge);
+	const temperate = counties.map((x) => x.temperature.avgTempF);
+	const homeValue = counties.map((x) => x.housing.medianHomeValue);
+	const medianRent = counties.map((x) => x.rent.medianRent);
 
 	const vals = {
-		household_income_stdev: stddev(household_income) / 2,
-		household_income_max: Math.max(...household_income),
-		household_income_min: Math.min(...household_income),
-		property_value_stdev: stddev(property_value) / 2,
-		property_value_max: Math.max(...property_value),
-		property_value_min: Math.min(...property_value),
-		commute_time_stdev: stddev(commute_time) / 2,
-		commute_time_max: Math.max(...commute_time),
-		commute_time_min: Math.min(...commute_time),
+		population_stdev: stddev(population) / 2,
+		population_max: Math.max(...population),
+		population_min: Math.min(...population),
 		median_age_stdev: stddev(median_age) / 2,
 		median_age_max: Math.max(...median_age),
 		median_age_min: Math.min(...median_age),
+		temperature_stdev: stddev(temperate) / 2,
+		temperature_max: Math.max(...temperate),
+		temperature_min: Math.min(...temperate),
+		homeValue_stdev: stddev(homeValue) / 2,
+		homeValue_max: Math.max(...homeValue),
+		homeValue_min: Math.min(...homeValue),
+		medianRent_stdev: stddev(medianRent) / 2,
+		medianRent_max: Math.max(...medianRent),
+		medianRent_min: Math.min(...medianRent),
 	};
 	return vals;
 };
 
 export const getActiveCounty = (county_id: number) => {
-	const activeCounty = old_counties.find((x) => x.county_id === county_id);
+	const activeCounty = counties.find((x) => Number(x.id) === county_id);
 	return activeCounty;
 };
 
 export const getColor = (
-	county: County,
+	county: CountyData,
 	filterValues: {
-		hi: boolean;
-		hi_val: number;
-		pv: boolean;
-		pv_val: number;
-		c: boolean;
-		c_val: number;
-		age: boolean;
-		age_val: number;
+		population: boolean;
+		population_val: number;
+		median_age: boolean;
+		median_age_val: number;
+		temperature: boolean;
+		temperature_val: number;
+		home_value: boolean;
+		home_value_val: number;
+		median_rent: boolean;
+		median_rent_val: number;
 	},
 ) => {
-	const { hi, hi_val, pv, pv_val, c, c_val, age, age_val } = filterValues;
+	const {
+		population,
+		population_val,
+		median_age,
+		median_age_val,
+		temperature,
+		temperature_val,
+		home_value,
+		home_value_val,
+		median_rent,
+		median_rent_val,
+	} = filterValues;
 
 	const vals = standardDeviation();
-	const { household_income_stdev, property_value_stdev, median_age_stdev, commute_time_stdev } = vals;
+	const { population_stdev, median_age_stdev, temperature_stdev, homeValue_stdev, medianRent_stdev } = vals;
 
 	let totalDeviations = 0;
 	let activeFilters = 0;
 
 	// Calculate standard deviations for each active filter
-	if (hi) {
-		const deviation = Math.abs(county.household_income - hi_val) / household_income_stdev;
+	if (population) {
+		const deviation = Math.abs(county.population - population_val) / population_stdev;
 		totalDeviations += deviation;
 		activeFilters++;
 	}
 
-	if (pv) {
-		const deviation = Math.abs(county.property_value - pv_val) / property_value_stdev;
+	if (median_age) {
+		const deviation = Math.abs(county.medianAge - median_age_val) / median_age_stdev;
 		totalDeviations += deviation;
 		activeFilters++;
 	}
 
-	if (c) {
-		const deviation = Math.abs(county.commute_time - c_val) / commute_time_stdev;
+	if (temperature) {
+		const deviation = Math.abs(county.temperature.avgTempF - temperature_val) / temperature_stdev;
 		totalDeviations += deviation;
 		activeFilters++;
 	}
 
-	if (age) {
-		const deviation = Math.abs(county.median_age - age_val) / median_age_stdev;
+	if (home_value) {
+		const deviation = Math.abs(county.housing.medianHomeValue - home_value_val) / homeValue_stdev;
+		totalDeviations += deviation;
+		activeFilters++;
+	}
+
+	if (median_rent) {
+		const deviation = Math.abs(county.rent.medianRent - median_rent_val) / medianRent_stdev;
 		totalDeviations += deviation;
 		activeFilters++;
 	}

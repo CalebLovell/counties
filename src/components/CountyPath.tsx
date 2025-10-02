@@ -7,20 +7,35 @@ type Props = {
 	path: string | null;
 };
 
-export const County = ({ d, path }: Props) => {
-	const { hi, hi_val, pv, pv_val, c, c_val, age, age_val, setSelectedCounty, selectedCounty } = useAppStore();
-	const isSelected = selectedCounty?.county_id === Number(d.id);
+export const CountyPath = ({ d, path }: Props) => {
+	const {
+		population,
+		population_val,
+		age,
+		age_val,
+		temperature,
+		temperature_val,
+		home_value,
+		home_value_val,
+		median_rent,
+		median_rent_val,
+		setSelectedCounty,
+		selectedCounty,
+	} = useAppStore();
+	const isSelected = Number(selectedCounty?.id) === Number(d.id);
 	const activeCounty = getActiveCounty(Number(d.id));
 
 	const filterValues = {
-		hi,
-		hi_val,
-		pv,
-		pv_val,
-		c,
-		c_val,
-		age,
-		age_val,
+		population,
+		population_val,
+		median_age: age,
+		median_age_val: age_val,
+		temperature,
+		temperature_val,
+		home_value,
+		home_value_val,
+		median_rent,
+		median_rent_val,
 	};
 
 	const color = activeCounty ? getColor(activeCounty, filterValues) : `purple`;

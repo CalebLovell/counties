@@ -2,9 +2,9 @@ import * as d3 from "d3";
 import type { FeatureCollection, GeometryObject } from "geojson";
 import * as React from "react";
 import * as topojson from "topojson-client";
+import { CountyPath } from "~/components/CountyPath";
 import { useAppStore } from "~/data/store";
 import { usaCountyGeojson } from "~/data/usaCountyGeojson";
-import { County } from "./County";
 
 const usaTopoJson = topojson.feature(usaCountyGeojson, usaCountyGeojson.objects.counties) as FeatureCollection;
 const path = d3.geoPath();
@@ -32,19 +32,19 @@ export const USAMap = () => {
 	const countryBordersPath = countryBordersGeometry ? path(countryBordersGeometry) : null;
 
 	const { selectedCounty } = useAppStore();
-	const selectedId = selectedCounty?.county_id;
+	const selectedId = selectedCounty?.id;
 	const counties = usaTopoJson.features;
-	const nonSelected = counties.filter((d) => Number(d.id) !== selectedId);
-	const selected = counties.find((d) => Number(d.id) === selectedId);
+	const nonSelected = counties.filter((d) => Number(d.id) !== Number(selectedId));
+	const selected = counties.find((d) => Number(d.id) === Number(selectedId));
 
 	return (
 		<svg ref={svgRef} width="100%" height="100%" viewBox="0 0 960 600" aria-labelledby={titleId}>
 			<title id={titleId}>United States Counties Map</title>
 			<g ref={gRef}>
 				{nonSelected.map((d) => (
-					<County key={d.id} d={d} path={path(d)} />
+					<CountyPath key={d.id} d={d} path={path(d)} />
 				))}
-				{selected && <County key={selected.id} d={selected} path={path(selected)} />}
+				{selected && <CountyPath key={selected.id} d={selected} path={path(selected)} />}
 				<path
 					id={stateBordersId}
 					d={stateBordersPath || undefined}
