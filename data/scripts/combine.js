@@ -52,24 +52,74 @@ function normalizeFIPS(fips) {
 
 // Normalize county name for matching
 function normalizeCountyName(county, state) {
-	const cleanCounty = county.replace(/"/g, "").trim();
+	let cleanCounty = county.replace(/"/g, "").trim();
 	const cleanState = state.replace(/"/g, "").trim();
+
+	// Remove common suffixes
+	cleanCounty = cleanCounty.replace(/\s+(county|parish|borough|municipality|municipio|census area)$/i, "").trim();
+
+	// Remove state name from county if present (e.g., "Autauga County, Alabama" -> "Autauga")
+	const parts = cleanCounty.split(",");
+	if (parts.length > 1) {
+		cleanCounty = parts[0].trim();
+	}
+
 	return `${cleanCounty}|${cleanState}`.toLowerCase();
 }
 
 // Create state name to abbreviation mapping
 function getStateAbbreviation(stateName) {
 	const stateMap = {
-		'alabama': 'al', 'alaska': 'ak', 'arizona': 'az', 'arkansas': 'ar', 'california': 'ca',
-		'colorado': 'co', 'connecticut': 'ct', 'delaware': 'de', 'florida': 'fl', 'georgia': 'ga',
-		'hawaii': 'hi', 'idaho': 'id', 'illinois': 'il', 'indiana': 'in', 'iowa': 'ia',
-		'kansas': 'ks', 'kentucky': 'ky', 'louisiana': 'la', 'maine': 'me', 'maryland': 'md',
-		'massachusetts': 'ma', 'michigan': 'mi', 'minnesota': 'mn', 'mississippi': 'ms', 'missouri': 'mo',
-		'montana': 'mt', 'nebraska': 'ne', 'nevada': 'nv', 'new hampshire': 'nh', 'new jersey': 'nj',
-		'new mexico': 'nm', 'new york': 'ny', 'north carolina': 'nc', 'north dakota': 'nd', 'ohio': 'oh',
-		'oklahoma': 'ok', 'oregon': 'or', 'pennsylvania': 'pa', 'rhode island': 'ri', 'south carolina': 'sc',
-		'south dakota': 'sd', 'tennessee': 'tn', 'texas': 'tx', 'utah': 'ut', 'vermont': 'vt',
-		'virginia': 'va', 'washington': 'wa', 'west virginia': 'wv', 'wisconsin': 'wi', 'wyoming': 'wy'
+		alabama: "al",
+		alaska: "ak",
+		arizona: "az",
+		arkansas: "ar",
+		california: "ca",
+		colorado: "co",
+		connecticut: "ct",
+		delaware: "de",
+		florida: "fl",
+		georgia: "ga",
+		hawaii: "hi",
+		idaho: "id",
+		illinois: "il",
+		indiana: "in",
+		iowa: "ia",
+		kansas: "ks",
+		kentucky: "ky",
+		louisiana: "la",
+		maine: "me",
+		maryland: "md",
+		massachusetts: "ma",
+		michigan: "mi",
+		minnesota: "mn",
+		mississippi: "ms",
+		missouri: "mo",
+		montana: "mt",
+		nebraska: "ne",
+		nevada: "nv",
+		"new hampshire": "nh",
+		"new jersey": "nj",
+		"new mexico": "nm",
+		"new york": "ny",
+		"north carolina": "nc",
+		"north dakota": "nd",
+		ohio: "oh",
+		oklahoma: "ok",
+		oregon: "or",
+		pennsylvania: "pa",
+		"rhode island": "ri",
+		"south carolina": "sc",
+		"south dakota": "sd",
+		tennessee: "tn",
+		texas: "tx",
+		utah: "ut",
+		vermont: "vt",
+		virginia: "va",
+		washington: "wa",
+		"west virginia": "wv",
+		wisconsin: "wi",
+		wyoming: "wy",
 	};
 	return stateMap[stateName.toLowerCase()] || stateName.toLowerCase();
 }
@@ -79,16 +129,40 @@ async function combineCountyData() {
 
 	console.log("Loading CSV files...");
 
-	// Load all CSV files
+	// Load all CSV files - use complete versions if available
 	const elections = parseCSV(fs.readFileSync(path.join(dataDir, "elections_2024.csv"), "utf8"));
 	const housing = parseCSV(fs.readFileSync(path.join(dataDir, "housing_2023.csv"), "utf8"));
 	const ages = parseCSV(fs.readFileSync(path.join(dataDir, "median_ages_2023.csv"), "utf8"));
 	const population = parseCSV(fs.readFileSync(path.join(dataDir, "population_2023.csv"), "utf8"));
-	const temperatures = parseCSV(fs.readFileSync(path.join(dataDir, "temperatures_2023.csv"), "utf8"));
-	const rents = parseCSV(fs.readFileSync(path.join(dataDir, "rents_2023.csv"), "utf8"));
+
+	// Try to load complete versions with filled data, fallback to originals
+	let temperatures, rents, alaskaElections;
+	try {
+		temperatures = parseCSV(fs.readFileSync(path.join(dataDir, "temperatures_2023_complete.csv"), "utf8"));
+		console.log("  ✓ Using complete temperatures with filled data");
+	} catch {
+		temperatures = parseCSV(fs.readFileSync(path.join(dataDir, "temperatures_2023.csv"), "utf8"));
+		console.log("  ℹ Using original temperatures (run fill-all-missing.js to add estimates)");
+	}
+
+	try {
+		rents = parseCSV(fs.readFileSync(path.join(dataDir, "rents_2023_complete.csv"), "utf8"));
+		console.log("  ✓ Using complete rents with filled data");
+	} catch {
+		rents = parseCSV(fs.readFileSync(path.join(dataDir, "rents_2023.csv"), "utf8"));
+		console.log("  ℹ Using original rents (run fill-all-missing.js to add estimates)");
+	}
+
+	try {
+		alaskaElections = parseCSV(fs.readFileSync(path.join(dataDir, "alaska_elections_filled.csv"), "utf8"));
+		console.log("  ✓ Using filled Alaska elections data");
+	} catch {
+		alaskaElections = null;
+		console.log("  ℹ Alaska elections not filled (run fill-all-missing.js to add estimates)");
+	}
 
 	console.log(`Loaded data:
-    - Elections: ${elections.rows.length} rows
+    - Elections: ${elections.rows.length} rows${alaskaElections ? ` + ${alaskaElections.rows.length} Alaska` : ""}
     - Housing: ${housing.rows.length} rows
     - Ages: ${ages.rows.length} rows
     - Population: ${population.rows.length} rows
@@ -127,9 +201,16 @@ async function combineCountyData() {
 		const parts = row["County Name"].split(": ");
 		if (parts.length === 2) {
 			const stateCode = parts[0].replace(/"/g, "").trim().toLowerCase();
-			const county = parts[1].replace(/"/g, "").trim().toLowerCase()
-				.replace(/county$/, "").replace(/parish$/, "").replace(/borough$/, "")
-				.replace(/municipality$/, "").replace(/census area$/, "").trim();
+			const county = parts[1]
+				.replace(/"/g, "")
+				.trim()
+				.toLowerCase()
+				.replace(/county$/, "")
+				.replace(/parish$/, "")
+				.replace(/borough$/, "")
+				.replace(/municipality$/, "")
+				.replace(/census area$/, "")
+				.trim();
 			const key = `${county}|${stateCode}`;
 			temperaturesNameMap.set(key, row);
 		}
@@ -137,19 +218,51 @@ async function combineCountyData() {
 
 	console.log("Merging data by FIPS...");
 
-	// Start with elections as base and merge by FIPS
-	const combined = [];
-	const countyNameMap = new Map(); // For rents mapping
-
+	// Create elections lookup map (include Alaska if available)
+	const electionsMap = new Map();
 	elections.rows.forEach((row) => {
+		const fips = normalizeFIPS(row.FIPS);
+		if (fips) electionsMap.set(fips, row);
+	});
+
+	// Add Alaska elections if available
+	if (alaskaElections) {
+		alaskaElections.rows.forEach((row) => {
+			const fips = normalizeFIPS(row.FIPS);
+			if (fips) electionsMap.set(fips, row);
+		});
+	}
+
+	// Start with population as base and merge by FIPS
+	const combined = [];
+
+	population.rows.forEach((row) => {
 		const fips = normalizeFIPS(row.FIPS);
 		if (!fips) return;
 
-		const combinedRow = { ...row };
+		// Exclude Puerto Rico (FIPS codes starting with 72)
+		if (fips.startsWith("72")) return;
 
-		// Store county name mapping for rents
-		const countyKey = normalizeCountyName(row.County, row.State);
-		countyNameMap.set(countyKey, fips);
+		// Extract county name from "County Name, State" format
+		const nameParts = row["County Name"].split(",");
+		const countyName = nameParts[0].trim();
+		const stateName = row.State;
+
+		const combinedRow = {
+			FIPS: fips,
+			County: countyName,
+			State: stateName,
+		};
+
+		// Merge elections data
+		const electionsData = electionsMap.get(fips);
+		if (electionsData) {
+			Object.keys(electionsData).forEach((key) => {
+				if (!["FIPS", "County", "State"].includes(key)) {
+					combinedRow[key] = electionsData[key];
+				}
+			});
+		}
 
 		// Merge housing data
 		const housingData = housingMap.get(fips);
@@ -171,24 +284,21 @@ async function combineCountyData() {
 			});
 		}
 
-		// Merge population data
-		const populationData = populationMap.get(fips);
-		if (populationData) {
-			Object.keys(populationData).forEach((key) => {
-				if (!["FIPS", "County Name", "State", "State FIPS", "County FIPS", "Year"].includes(key)) {
-					combinedRow[`pop_${key}`] = populationData[key];
-				}
-			});
-		}
+		// Add population data directly (since we're iterating over population)
+		combinedRow.Population = row.Population;
+		combinedRow.Year = row.Year;
 
 		// Merge temperatures data - try FIPS first, then county name
 		let temperaturesData = temperaturesMap.get(fips);
 		if (!temperaturesData) {
 			// Fallback to county name matching
-			const county = row.County.replace(/"/g, "").trim().toLowerCase()
-				.replace(/county$/, "").replace(/parish$/, "").replace(/borough$/, "")
-				.replace(/municipality$/, "").replace(/census area$/, "").trim();
-			const stateCode = getStateAbbreviation(row.State);
+			const county = countyName
+				.replace(/"/g, "")
+				.trim()
+				.toLowerCase()
+				.replace(/\s+(county|parish|borough|municipality|census area)$/i, "")
+				.trim();
+			const stateCode = getStateAbbreviation(stateName);
 			const nameKey = `${county}|${stateCode}`;
 			temperaturesData = temperaturesNameMap.get(nameKey);
 		}
@@ -205,19 +315,28 @@ async function combineCountyData() {
 
 	console.log("Mapping rents data by county name...");
 
-	// Create rents lookup by county name
+	// Create rents lookup by county name and FIPS
 	const rentsMap = new Map();
+	const rentsByName = new Map();
 	rents.rows.forEach((row) => {
+		const fips = normalizeFIPS(row.FIPS);
+		if (fips) {
+			rentsMap.set(fips, row);
+		}
 		const countyKey = normalizeCountyName(row.County, row.State);
-		rentsMap.set(countyKey, row);
+		rentsByName.set(countyKey, row);
 	});
 
 	// Add rents data to combined dataset
 	let rentsMatched = 0;
 	let temperaturesMatched = 0;
 	combined.forEach((row) => {
-		const countyKey = normalizeCountyName(row.County, row.State);
-		const rentsData = rentsMap.get(countyKey);
+		// Try FIPS match first, then fall back to county name
+		let rentsData = rentsMap.get(row.FIPS);
+		if (!rentsData) {
+			const countyKey = normalizeCountyName(row.County, row.State);
+			rentsData = rentsByName.get(countyKey);
+		}
 
 		if (rentsData) {
 			rentsMatched++;
@@ -252,19 +371,26 @@ async function combineCountyData() {
 		),
 	].join("\n");
 
-	const outputPath = path.join(dataDir, "counties_combined.csv");
-	fs.writeFileSync(outputPath, csvContent);
+	const csvOutputPath = path.join(dataDir, "counties_combined.csv");
+	fs.writeFileSync(csvOutputPath, csvContent);
 
-	console.log(`✅ Combined dataset written to: ${outputPath}`);
+	// Also write JSON output
+	const jsonOutputPath = path.join(dataDir, "counties_combined.json");
+	fs.writeFileSync(jsonOutputPath, JSON.stringify(combined, null, 2));
+
+	console.log(`✅ Combined dataset written to:`);
+	console.log(`   CSV: ${csvOutputPath}`);
+	console.log(`   JSON: ${jsonOutputPath}`);
 	console.log(`📊 Total counties: ${combined.length}`);
 	console.log(`📋 Total columns: ${outputHeaders.length}`);
 
 	// Summary statistics
 	const stats = {
 		total_counties: combined.length,
+		with_elections: combined.filter((r) => r["Total Votes"]).length,
 		with_housing: combined.filter((r) => r["housing_Median Home Value"]).length,
 		with_ages: combined.filter((r) => r["age_Median Age"]).length,
-		with_population: combined.filter((r) => r.pop_Population).length,
+		with_population: combined.filter((r) => r.Population).length,
 		with_temperatures: combined.filter((r) => r["temp_Avg Temperature (°F)"]).length,
 		with_rents: rentsMatched,
 	};

@@ -1,0 +1,40 @@
+FIPS,County Name,State,Avg Temperature (°F),Data Points,Note
+02016,AK: Aleutians West Census Area,AK,26,,Estimated from nearby counties or state average
+02020,AK: Anchorage Municipality,AK,26,,Estimated from nearby counties or state average
+02050,AK: Bethel Census Area,AK,52.89,,Estimated from nearby counties or state average
+02060,AK: Bristol Bay Borough,AK,52.87,,Estimated from nearby counties or state average
+02063,AK: Chugach Census Area,AK,54.26,,Estimated from nearby counties or state average
+02066,AK: Copper River Census Area,AK,54.25,,Estimated from nearby counties or state average
+02068,AK: Denali Borough,AK,54.27,,Estimated from nearby counties or state average
+02070,AK: Dillingham Census Area,AK,52.9,,Estimated from nearby counties or state average
+02090,AK: Fairbanks North Star Borough,AK,54.27,,Estimated from nearby counties or state average
+02100,AK: Haines Borough,AK,54.18,,Estimated from nearby counties or state average
+02105,AK: Hoonah-Angoon Census Area,AK,54.17,,Estimated from nearby counties or state average
+02110,AK: Juneau City and Borough,AK,54.16,,Estimated from nearby counties or state average
+02122,AK: Kenai Peninsula Borough,AK,54.28,,Estimated from nearby counties or state average
+02130,AK: Ketchikan Gateway Borough,AK,54.12,,Estimated from nearby counties or state average
+02150,AK: Kodiak Island Borough,AK,54.3,,Estimated from nearby counties or state average
+02158,AK: Kusilvak Census Area,AK,52.88,,Estimated from nearby counties or state average
+02164,AK: Lake and Peninsula Borough,AK,52.88,,Estimated from nearby counties or state average
+02170,AK: Matanuska-Susitna Borough,AK,54.28,,Estimated from nearby counties or state average
+02180,AK: Nome Census Area,AK,54.34,,Estimated from nearby counties or state average
+02185,AK: North Slope Borough,AK,54.3,,Estimated from nearby counties or state average
+02188,AK: Northwest Arctic Borough,AK,54.32,,Estimated from nearby counties or state average
+02195,AK: Petersburg Borough,AK,54.14,,Estimated from nearby counties or state average
+02198,AK: Prince of Wales-Hyder Census Area,AK,54.14,,Estimated from nearby counties or state average
+02220,AK: Sitka City and Borough,AK,54.17,,Estimated from nearby counties or state average
+02230,AK: Skagway Municipality,AK,54.18,,Estimated from nearby counties or state average
+02240,AK: Southeast Fairbanks Census Area,AK,54.25,,Estimated from nearby counties or state average
+02275,AK: Wrangell City and Borough,AK,54.13,,Estimated from nearby counties or state average
+02282,AK: Yakutat City and Borough,AK,54.21,,Estimated from nearby counties or state average
+02290,AK: Yukon-Koyukuk Census Area,AK,54.29,,Estimated from nearby counties or state average
+09110,CT: Capitol Planning Region,CT,49,,Estimated from nearby counties or state average
+09120,CT: Greater Bridgeport Planning Region,CT,49,,Estimated from nearby counties or state average
+09130,CT: Lower Connecticut River Valley Planning Region,CT,49,,Estimated from nearby counties or state average
+09140,CT: Naugatuck Valley Planning Region,CT,49,,Estimated from nearby counties or state average
+09150,CT: Northeastern Connecticut Planning Region,CT,49,,Estimated from nearby counties or state average
+09160,CT: Northwest Hills Planning Region,CT,49,,Estimated from nearby counties or state average
+09170,CT: South Central Connecticut Planning Region,CT,49,,Estimated from nearby counties or state average
+09180,CT: Southeastern Connecticut Planning Region,CT,49,,Estimated from nearby counties or state average
+09190,CT: Western Connecticut Planning Region,CT,49,,Estimated from nearby counties or state average
+51678,VA: Lexington city,VA,56,,Estimated from nearby counties or state average

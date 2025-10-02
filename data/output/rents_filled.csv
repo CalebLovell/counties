@@ -1,0 +1,349 @@
+FIPS,State,State Code,County,Metro Area,Year,Median Rent,Efficiency,1BR,2BR,3BR,4BR,Entity ID,Note
+06003,California,CA,Alpine County,California Non-Metro,2023,1486,1149,1246,1486,1917,2224,0699999999,Estimated from state non-metro area rates
+06017,California,CA,El Dorado County,California Non-Metro,2023,1486,1149,1246,1486,1917,2224,0699999999,Estimated from state non-metro area rates
+06061,California,CA,Placer County,California Non-Metro,2023,1486,1149,1246,1486,1917,2224,0699999999,Estimated from state non-metro area rates
+06067,California,CA,Sacramento County,California Non-Metro,2023,1486,1149,1246,1486,1917,2224,0699999999,Estimated from state non-metro area rates
+06073,California,CA,San Diego County,California Non-Metro,2023,1486,1149,1246,1486,1917,2224,0699999999,Estimated from state non-metro area rates
+08041,Colorado,CO,El Paso County,Colorado Non-Metro,2023,1099,849,921,1099,1419,1646,0899999999,Estimated from state non-metro area rates
+08073,Colorado,CO,Lincoln County,Colorado Non-Metro,2023,1099,849,921,1099,1419,1646,0899999999,Estimated from state non-metro area rates
+09110,Connecticut,CT,Capitol Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09120,Connecticut,CT,Greater Bridgeport Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09130,Connecticut,CT,Lower Connecticut River Valley Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09140,Connecticut,CT,Naugatuck Valley Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09150,Connecticut,CT,Northeastern Connecticut Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09160,Connecticut,CT,Northwest Hills Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09170,Connecticut,CT,South Central Connecticut Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09180,Connecticut,CT,Southeastern Connecticut Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+09190,Connecticut,CT,Western Connecticut Planning Region,Connecticut Non-Metro,2023,1228,949,1029,1228,1584,1838,0999999999,Estimated from state non-metro area rates
+10003,Delaware,DE,New Castle County,Delaware Non-Metro,2023,1099,849,921,1099,1419,1646,1099999999,Estimated from state non-metro area rates
+12009,Florida,FL,Brevard County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12011,Florida,FL,Broward County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12019,Florida,FL,Clay County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12031,Florida,FL,Duval County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12053,Florida,FL,Hernando County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12057,Florida,FL,Hillsborough County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12081,Florida,FL,Manatee County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12089,Florida,FL,Nassau County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12099,Florida,FL,Palm Beach County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12101,Florida,FL,Pasco County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12103,Florida,FL,Pinellas County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12109,Florida,FL,St. Johns County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+12115,Florida,FL,Sarasota County,Florida Non-Metro,2023,1099,849,921,1099,1419,1646,1299999999,Estimated from state non-metro area rates
+13013,Georgia,GA,Barrow County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13015,Georgia,GA,Bartow County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13027,Georgia,GA,Brooks County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13045,Georgia,GA,Carroll County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13057,Georgia,GA,Cherokee County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13063,Georgia,GA,Clayton County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13067,Georgia,GA,Cobb County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13077,Georgia,GA,Coweta County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13085,Georgia,GA,Dawson County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13089,Georgia,GA,DeKalb County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13097,Georgia,GA,Douglas County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13113,Georgia,GA,Fayette County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13117,Georgia,GA,Forsyth County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13121,Georgia,GA,Fulton County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13135,Georgia,GA,Gwinnett County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13149,Georgia,GA,Heard County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13151,Georgia,GA,Henry County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13159,Georgia,GA,Jasper County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13217,Georgia,GA,Newton County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13221,Georgia,GA,Oglethorpe County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13223,Georgia,GA,Paulding County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13227,Georgia,GA,Pickens County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13231,Georgia,GA,Pike County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13247,Georgia,GA,Rockdale County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13255,Georgia,GA,Spalding County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+13297,Georgia,GA,Walton County,Georgia Non-Metro,2023,840,649,704,840,1084,1258,1399999999,Estimated from state non-metro area rates
+15003,Hawaii,HI,Honolulu County,Hawaii Non-Metro,2023,1875,1449,1571,1875,2419,2807,1599999999,Estimated from state non-metro area rates
+16071,Idaho,ID,Oneida County,Idaho Non-Metro,2023,840,649,704,840,1084,1258,1699999999,Estimated from state non-metro area rates
+17031,Illinois,IL,Cook County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+17043,Illinois,IL,DuPage County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+17089,Illinois,IL,Kane County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+17097,Illinois,IL,Lake County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+17099,Illinois,IL,LaSalle County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+17111,Illinois,IL,McHenry County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+17173,Illinois,IL,Shelby County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+17197,Illinois,IL,Will County,Illinois Non-Metro,2023,840,649,704,840,1084,1258,1799999999,Estimated from state non-metro area rates
+18089,Indiana,IN,Lake County,Indiana Non-Metro,2023,775,599,650,775,1000,1161,1899999999,Estimated from state non-metro area rates
+18111,Indiana,IN,Newton County,Indiana Non-Metro,2023,775,599,650,775,1000,1161,1899999999,Estimated from state non-metro area rates
+18127,Indiana,IN,Porter County,Indiana Non-Metro,2023,775,599,650,775,1000,1161,1899999999,Estimated from state non-metro area rates
+18155,Indiana,IN,Switzerland County,Indiana Non-Metro,2023,775,599,650,775,1000,1161,1899999999,Estimated from state non-metro area rates
+19159,Iowa,IA,Ringgold County,Iowa Non-Metro,2023,775,599,650,775,1000,1161,1999999999,Estimated from state non-metro area rates
+20099,Kansas,KS,Labette County,Kansas Non-Metro,2023,775,599,650,775,1000,1161,2099999999,Estimated from state non-metro area rates
+20101,Kansas,KS,Lane County,Kansas Non-Metro,2023,775,599,650,775,1000,1161,2099999999,Estimated from state non-metro area rates
+21029,Kentucky,KY,Bullitt County,Kentucky Non-Metro,2023,775,599,650,775,1000,1161,2199999999,Estimated from state non-metro area rates
+21031,Kentucky,KY,Butler County,Kentucky Non-Metro,2023,775,599,650,775,1000,1161,2199999999,Estimated from state non-metro area rates
+21149,Kentucky,KY,McLean County,Kentucky Non-Metro,2023,775,599,650,775,1000,1161,2199999999,Estimated from state non-metro area rates
+21163,Kentucky,KY,Meade County,Kentucky Non-Metro,2023,775,599,650,775,1000,1161,2199999999,Estimated from state non-metro area rates
+22049,Louisiana,LA,Jackson Parish,Louisiana Non-Metro,2023,775,599,650,775,1000,1161,2299999999,Estimated from state non-metro area rates
+22053,Louisiana,LA,Jefferson Davis Parish,Louisiana Non-Metro,2023,775,599,650,775,1000,1161,2299999999,Estimated from state non-metro area rates
+22059,Louisiana,LA,LaSalle Parish,Louisiana Non-Metro,2023,775,599,650,775,1000,1161,2299999999,Estimated from state non-metro area rates
+24009,Maryland,MD,Calvert County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+24015,Maryland,MD,Cecil County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+24017,Maryland,MD,Charles County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+24021,Maryland,MD,Frederick County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+24025,Maryland,MD,Harford County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+24027,Maryland,MD,Howard County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+24031,Maryland,MD,Montgomery County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+24033,Maryland,MD,Prince George's County,Maryland Non-Metro,2023,1228,949,1029,1228,1584,1838,2499999999,Estimated from state non-metro area rates
+26067,Michigan,MI,Ionia County,Michigan Non-Metro,2023,840,649,704,840,1084,1258,2699999999,Estimated from state non-metro area rates
+26069,Michigan,MI,Iosco County,Michigan Non-Metro,2023,840,649,704,840,1084,1258,2699999999,Estimated from state non-metro area rates
+27029,Minnesota,MN,Clearwater County,Minnesota Non-Metro,2023,905,699,758,905,1168,1355,2799999999,Estimated from state non-metro area rates
+27031,Minnesota,MN,Cook County,Minnesota Non-Metro,2023,905,699,758,905,1168,1355,2799999999,Estimated from state non-metro area rates
+27165,Minnesota,MN,Watonwan County,Minnesota Non-Metro,2023,905,699,758,905,1168,1355,2799999999,Estimated from state non-metro area rates
+27167,Minnesota,MN,Wilkin County,Minnesota Non-Metro,2023,905,699,758,905,1168,1355,2799999999,Estimated from state non-metro area rates
+28029,Mississippi,MS,Copiah County,Mississippi Non-Metro,2023,709,549,595,709,915,1062,2899999999,Estimated from state non-metro area rates
+28049,Mississippi,MS,Hinds County,Mississippi Non-Metro,2023,709,549,595,709,915,1062,2899999999,Estimated from state non-metro area rates
+28089,Mississippi,MS,Madison County,Mississippi Non-Metro,2023,709,549,595,709,915,1062,2899999999,Estimated from state non-metro area rates
+28121,Mississippi,MS,Rankin County,Mississippi Non-Metro,2023,709,549,595,709,915,1062,2899999999,Estimated from state non-metro area rates
+28123,Mississippi,MS,Scott County,Mississippi Non-Metro,2023,709,549,595,709,915,1062,2899999999,Estimated from state non-metro area rates
+28125,Mississippi,MS,Sharkey County,Mississippi Non-Metro,2023,709,549,595,709,915,1062,2899999999,Estimated from state non-metro area rates
+29081,Missouri,MO,Harrison County,Missouri Non-Metro,2023,775,599,650,775,1000,1161,2999999999,Estimated from state non-metro area rates
+29083,Missouri,MO,Henry County,Missouri Non-Metro,2023,775,599,650,775,1000,1161,2999999999,Estimated from state non-metro area rates
+29213,Missouri,MO,Taney County,Missouri Non-Metro,2023,775,599,650,775,1000,1161,2999999999,Estimated from state non-metro area rates
+31001,Nebraska,NE,Adams County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31003,Nebraska,NE,Antelope County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31005,Nebraska,NE,Arthur County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31007,Nebraska,NE,Banner County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31009,Nebraska,NE,Blaine County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31011,Nebraska,NE,Boone County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31013,Nebraska,NE,Box Butte County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31015,Nebraska,NE,Boyd County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31017,Nebraska,NE,Brown County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31019,Nebraska,NE,Buffalo County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31021,Nebraska,NE,Burt County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31023,Nebraska,NE,Butler County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31025,Nebraska,NE,Cass County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31027,Nebraska,NE,Cedar County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31029,Nebraska,NE,Chase County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31031,Nebraska,NE,Cherry County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31033,Nebraska,NE,Cheyenne County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31035,Nebraska,NE,Clay County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31037,Nebraska,NE,Colfax County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31039,Nebraska,NE,Cuming County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31041,Nebraska,NE,Custer County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31043,Nebraska,NE,Dakota County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31045,Nebraska,NE,Dawes County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31047,Nebraska,NE,Dawson County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31049,Nebraska,NE,Deuel County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31051,Nebraska,NE,Dixon County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31053,Nebraska,NE,Dodge County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31055,Nebraska,NE,Douglas County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31057,Nebraska,NE,Dundy County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31059,Nebraska,NE,Fillmore County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31061,Nebraska,NE,Franklin County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31063,Nebraska,NE,Frontier County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31065,Nebraska,NE,Furnas County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31067,Nebraska,NE,Gage County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31069,Nebraska,NE,Garden County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31071,Nebraska,NE,Garfield County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31073,Nebraska,NE,Gosper County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31075,Nebraska,NE,Grant County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31077,Nebraska,NE,Greeley County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31079,Nebraska,NE,Hall County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31081,Nebraska,NE,Hamilton County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31083,Nebraska,NE,Harlan County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31085,Nebraska,NE,Hayes County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31087,Nebraska,NE,Hitchcock County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31089,Nebraska,NE,Holt County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31091,Nebraska,NE,Hooker County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31093,Nebraska,NE,Howard County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31095,Nebraska,NE,Jefferson County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31097,Nebraska,NE,Johnson County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31099,Nebraska,NE,Kearney County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31101,Nebraska,NE,Keith County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31103,Nebraska,NE,Keya Paha County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31105,Nebraska,NE,Kimball County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31107,Nebraska,NE,Knox County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31109,Nebraska,NE,Lancaster County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31111,Nebraska,NE,Lincoln County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31113,Nebraska,NE,Logan County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31115,Nebraska,NE,Loup County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31117,Nebraska,NE,McPherson County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31119,Nebraska,NE,Madison County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31121,Nebraska,NE,Merrick County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31123,Nebraska,NE,Morrill County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31125,Nebraska,NE,Nance County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31127,Nebraska,NE,Nemaha County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31129,Nebraska,NE,Nuckolls County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31131,Nebraska,NE,Otoe County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31133,Nebraska,NE,Pawnee County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31135,Nebraska,NE,Perkins County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31137,Nebraska,NE,Phelps County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31139,Nebraska,NE,Pierce County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31141,Nebraska,NE,Platte County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31143,Nebraska,NE,Polk County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31145,Nebraska,NE,Red Willow County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31147,Nebraska,NE,Richardson County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31149,Nebraska,NE,Rock County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31151,Nebraska,NE,Saline County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31153,Nebraska,NE,Sarpy County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31155,Nebraska,NE,Saunders County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31157,Nebraska,NE,Scotts Bluff County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31159,Nebraska,NE,Seward County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31161,Nebraska,NE,Sheridan County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31163,Nebraska,NE,Sherman County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31165,Nebraska,NE,Sioux County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31167,Nebraska,NE,Stanton County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31169,Nebraska,NE,Thayer County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31171,Nebraska,NE,Thomas County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31173,Nebraska,NE,Thurston County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31175,Nebraska,NE,Valley County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31177,Nebraska,NE,Washington County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31179,Nebraska,NE,Wayne County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31181,Nebraska,NE,Webster County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31183,Nebraska,NE,Wheeler County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+31185,Nebraska,NE,York County,Nebraska Non-Metro,2023,775,599,650,775,1000,1161,3199999999,Estimated from state non-metro area rates
+32001,Nevada,NV,Churchill County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32003,Nevada,NV,Clark County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32005,Nevada,NV,Douglas County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32007,Nevada,NV,Elko County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32009,Nevada,NV,Esmeralda County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32011,Nevada,NV,Eureka County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32013,Nevada,NV,Humboldt County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32015,Nevada,NV,Lander County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32017,Nevada,NV,Lincoln County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32019,Nevada,NV,Lyon County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32021,Nevada,NV,Mineral County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32023,Nevada,NV,Nye County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32027,Nevada,NV,Pershing County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32029,Nevada,NV,Storey County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32031,Nevada,NV,Washoe County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32033,Nevada,NV,White Pine County,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+32510,Nevada,NV,Carson City,Nevada Non-Metro,2023,1099,849,921,1099,1419,1646,3299999999,Estimated from state non-metro area rates
+34001,New Jersey,NJ,Atlantic County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34003,New Jersey,NJ,Bergen County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34005,New Jersey,NJ,Burlington County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34007,New Jersey,NJ,Camden County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34009,New Jersey,NJ,Cape May County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34011,New Jersey,NJ,Cumberland County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34013,New Jersey,NJ,Essex County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34015,New Jersey,NJ,Gloucester County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34017,New Jersey,NJ,Hudson County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34019,New Jersey,NJ,Hunterdon County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34021,New Jersey,NJ,Mercer County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34023,New Jersey,NJ,Middlesex County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34025,New Jersey,NJ,Monmouth County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34027,New Jersey,NJ,Morris County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34029,New Jersey,NJ,Ocean County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34031,New Jersey,NJ,Passaic County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34033,New Jersey,NJ,Salem County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34035,New Jersey,NJ,Somerset County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34037,New Jersey,NJ,Sussex County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34039,New Jersey,NJ,Union County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+34041,New Jersey,NJ,Warren County,New Jersey Non-Metro,2023,1358,1049,1137,1358,1752,2034,3499999999,Estimated from state non-metro area rates
+35001,New Mexico,NM,Bernalillo County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35003,New Mexico,NM,Catron County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35005,New Mexico,NM,Chaves County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35006,New Mexico,NM,Cibola County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35007,New Mexico,NM,Colfax County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35009,New Mexico,NM,Curry County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35011,New Mexico,NM,De Baca County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35013,New Mexico,NM,Doña Ana County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35015,New Mexico,NM,Eddy County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35017,New Mexico,NM,Grant County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35019,New Mexico,NM,Guadalupe County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35021,New Mexico,NM,Harding County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35023,New Mexico,NM,Hidalgo County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35025,New Mexico,NM,Lea County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35027,New Mexico,NM,Lincoln County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35028,New Mexico,NM,Los Alamos County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35029,New Mexico,NM,Luna County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35031,New Mexico,NM,McKinley County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35033,New Mexico,NM,Mora County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35035,New Mexico,NM,Otero County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35037,New Mexico,NM,Quay County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35039,New Mexico,NM,Rio Arriba County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35041,New Mexico,NM,Roosevelt County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35043,New Mexico,NM,Sandoval County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35045,New Mexico,NM,San Juan County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35047,New Mexico,NM,San Miguel County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35049,New Mexico,NM,Santa Fe County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35051,New Mexico,NM,Sierra County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35053,New Mexico,NM,Socorro County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35055,New Mexico,NM,Taos County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35057,New Mexico,NM,Torrance County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35059,New Mexico,NM,Union County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+35061,New Mexico,NM,Valencia County,New Mexico Non-Metro,2023,840,649,704,840,1084,1258,3599999999,Estimated from state non-metro area rates
+36121,New York,NY,Wyoming County,New York Non-Metro,2023,1099,849,921,1099,1419,1646,3699999999,Estimated from state non-metro area rates
+36123,New York,NY,Yates County,New York Non-Metro,2023,1099,849,921,1099,1419,1646,3699999999,Estimated from state non-metro area rates
+37025,North Carolina,NC,Cabarrus County,North Carolina Non-Metro,2023,840,649,704,840,1084,1258,3799999999,Estimated from state non-metro area rates
+37071,North Carolina,NC,Gaston County,North Carolina Non-Metro,2023,840,649,704,840,1084,1258,3799999999,Estimated from state non-metro area rates
+37119,North Carolina,NC,Mecklenburg County,North Carolina Non-Metro,2023,840,649,704,840,1084,1258,3799999999,Estimated from state non-metro area rates
+37125,North Carolina,NC,Moore County,North Carolina Non-Metro,2023,840,649,704,840,1084,1258,3799999999,Estimated from state non-metro area rates
+37127,North Carolina,NC,Nash County,North Carolina Non-Metro,2023,840,649,704,840,1084,1258,3799999999,Estimated from state non-metro area rates
+37179,North Carolina,NC,Union County,North Carolina Non-Metro,2023,840,649,704,840,1084,1258,3799999999,Estimated from state non-metro area rates
+38049,North Dakota,ND,McHenry County,North Dakota Non-Metro,2023,840,649,704,840,1084,1258,3899999999,Estimated from state non-metro area rates
+39067,Ohio,OH,Harrison County,Ohio Non-Metro,2023,775,599,650,775,1000,1161,3999999999,Estimated from state non-metro area rates
+39069,Ohio,OH,Henry County,Ohio Non-Metro,2023,775,599,650,775,1000,1161,3999999999,Estimated from state non-metro area rates
+40021,Oklahoma,OK,Cherokee County,Oklahoma Non-Metro,2023,775,599,650,775,1000,1161,4099999999,Estimated from state non-metro area rates
+40023,Oklahoma,OK,Choctaw County,Oklahoma Non-Metro,2023,775,599,650,775,1000,1161,4099999999,Estimated from state non-metro area rates
+40149,Oklahoma,OK,Washita County,Oklahoma Non-Metro,2023,775,599,650,775,1000,1161,4099999999,Estimated from state non-metro area rates
+40151,Oklahoma,OK,Woods County,Oklahoma Non-Metro,2023,775,599,650,775,1000,1161,4099999999,Estimated from state non-metro area rates
+42003,Pennsylvania,PA,Allegheny County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42007,Pennsylvania,PA,Beaver County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42017,Pennsylvania,PA,Bucks County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42019,Pennsylvania,PA,Butler County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42029,Pennsylvania,PA,Chester County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42045,Pennsylvania,PA,Delaware County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42051,Pennsylvania,PA,Fayette County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42053,Pennsylvania,PA,Forest County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42091,Pennsylvania,PA,Montgomery County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42101,Pennsylvania,PA,Philadelphia County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42125,Pennsylvania,PA,Washington County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+42129,Pennsylvania,PA,Westmoreland County,Pennsylvania Non-Metro,2023,905,699,758,905,1168,1355,4299999999,Estimated from state non-metro area rates
+45065,South Carolina,SC,McCormick County,South Carolina Non-Metro,2023,840,649,704,840,1084,1258,4599999999,Estimated from state non-metro area rates
+45069,South Carolina,SC,Marlboro County,South Carolina Non-Metro,2023,840,649,704,840,1084,1258,4599999999,Estimated from state non-metro area rates
+45091,South Carolina,SC,York County,South Carolina Non-Metro,2023,840,649,704,840,1084,1258,4599999999,Estimated from state non-metro area rates
+46107,South Dakota,SD,Potter County,South Dakota Non-Metro,2023,775,599,650,775,1000,1161,4699999999,Estimated from state non-metro area rates
+46109,South Dakota,SD,Roberts County,South Dakota Non-Metro,2023,775,599,650,775,1000,1161,4699999999,Estimated from state non-metro area rates
+47111,Tennessee,TN,Macon County,Tennessee Non-Metro,2023,840,649,704,840,1084,1258,4799999999,Estimated from state non-metro area rates
+47113,Tennessee,TN,Madison County,Tennessee Non-Metro,2023,840,649,704,840,1084,1258,4799999999,Estimated from state non-metro area rates
+48019,Texas,TX,Bandera County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48029,Texas,TX,Bexar County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48049,Texas,TX,Brown County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48051,Texas,TX,Burleson County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48085,Texas,TX,Collin County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48091,Texas,TX,Comal County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48113,Texas,TX,Dallas County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48121,Texas,TX,Denton County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48139,Texas,TX,Ellis County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48183,Texas,TX,Gregg County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48185,Texas,TX,Grimes County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48187,Texas,TX,Guadalupe County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48231,Texas,TX,Hunt County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48251,Texas,TX,Johnson County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48257,Texas,TX,Kaufman County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48307,Texas,TX,McCulloch County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48323,Texas,TX,Maverick County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48367,Texas,TX,Parker County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48397,Texas,TX,Rockwall County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48439,Texas,TX,Tarrant County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48441,Texas,TX,Taylor County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48443,Texas,TX,Terrell County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+48493,Texas,TX,Wilson County,Texas Non-Metro,2023,969,749,812,969,1249,1449,4899999999,Estimated from state non-metro area rates
+51007,Virginia,VA,Amelia County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51009,Virginia,VA,Amherst County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51013,Virginia,VA,Arlington County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51043,Virginia,VA,Clarke County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51059,Virginia,VA,Fairfax County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51061,Virginia,VA,Fauquier County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51107,Virginia,VA,Loudoun County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51109,Virginia,VA,Louisa County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51111,Virginia,VA,Lunenburg County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51153,Virginia,VA,Prince William County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51177,Virginia,VA,Spotsylvania County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51179,Virginia,VA,Stafford County,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51510,Virginia,VA,Alexandria city,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51600,Virginia,VA,Fairfax city,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51610,Virginia,VA,Falls Church city,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51630,Virginia,VA,Fredericksburg city,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51683,Virginia,VA,Manassas city,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+51685,Virginia,VA,Manassas Park city,Virginia Non-Metro,2023,969,749,812,969,1249,1449,5199999999,Estimated from state non-metro area rates
+53003,Washington,WA,Asotin County,Washington Non-Metro,2023,1099,849,921,1099,1419,1646,5399999999,Estimated from state non-metro area rates
+53005,Washington,WA,Benton County,Washington Non-Metro,2023,1099,849,921,1099,1419,1646,5399999999,Estimated from state non-metro area rates
+54051,West Virginia,WV,Marshall County,West Virginia Non-Metro,2023,775,599,650,775,1000,1161,5499999999,Estimated from state non-metro area rates
+54053,West Virginia,WV,Mason County,West Virginia Non-Metro,2023,775,599,650,775,1000,1161,5499999999,Estimated from state non-metro area rates
+55075,Wisconsin,WI,Marinette County,Wisconsin Non-Metro,2023,840,649,704,840,1084,1258,5599999999,Estimated from state non-metro area rates
+55077,Wisconsin,WI,Marquette County,Wisconsin Non-Metro,2023,840,649,704,840,1084,1258,5599999999,Estimated from state non-metro area rates
