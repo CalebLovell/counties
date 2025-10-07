@@ -24,21 +24,21 @@ export const DataPanel = () => {
 
 	if (!selectedCounty) return null;
 	return (
-		<section className="flex justify-end w-full">
-			<dl className="flex flex-col items-end w-full">
-				<div className="relative flex-auto p-1 md:p-2 text-right w-full">
-					<dt className="truncate text-xs font-semibold leading-6 text-gray-900 md:whitespace-normal md:text-base">
+		<section className="w-full">
+			<div className="border rounded-lg p-3 border-indigo-400 bg-indigo-50/50">
+				<div className="mb-3">
+					<h3 className="text-sm font-semibold text-gray-900">
 						{selectedCounty.name}
-					</dt>
-					<dd className="text-xs text-gray-500 md:text-sm">{selectedCounty.state}</dd>
+					</h3>
+					<p className="text-xs text-gray-600">{selectedCounty.state}</p>
 				</div>
 
-				<div className="space-y-0 md:space-y-1 w-full">
+				<div className="space-y-2">
 					{details.map(({ title, value }) => (
 						<Detail key={title} title={title} value={value} />
 					))}
 				</div>
-			</dl>
+			</div>
 		</section>
 	);
 };
@@ -46,9 +46,9 @@ export const DataPanel = () => {
 const Detail = ({ title, value }: { title: string; value: string | number | null | undefined }) => {
 	if (!value) return null;
 	return (
-		<div className="flex w-full flex-none items-center gap-x-1 justify-end text-right">
-			<dt className="flex-none">{title}:</dt>
-			<dd className="text-xs font-medium leading-6 text-gray-900 md:text-sm">{value}</dd>
+		<div className="flex items-center justify-between text-xs">
+			<span className="text-gray-600">{title}</span>
+			<span className="font-semibold text-gray-900">{value}</span>
 		</div>
 	);
 };

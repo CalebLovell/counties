@@ -42,76 +42,96 @@ export const getColor = (
 	county: CountyData,
 	filterValues: {
 		population: boolean;
-		population_val: number;
+		population_val: [number, number];
+		population_importance: number;
 		median_age: boolean;
-		median_age_val: number;
+		median_age_val: [number, number];
+		age_importance: number;
 		temperature: boolean;
-		temperature_val: number;
+		temperature_val: [number, number];
+		temperature_importance: number;
 		home_value: boolean;
-		home_value_val: number;
+		home_value_val: [number, number];
+		home_value_importance: number;
 		median_rent: boolean;
-		median_rent_val: number;
+		median_rent_val: [number, number];
+		median_rent_importance: number;
 	},
 ) => {
 	const {
 		population,
 		population_val,
+		population_importance,
 		median_age,
 		median_age_val,
+		age_importance,
 		temperature,
 		temperature_val,
+		temperature_importance,
 		home_value,
 		home_value_val,
+		home_value_importance,
 		median_rent,
 		median_rent_val,
+		median_rent_importance,
 	} = filterValues;
 
 	const vals = standardDeviation();
 	const { population_stdev, median_age_stdev, temperature_stdev, homeValue_stdev, medianRent_stdev } = vals;
 
 	let totalDeviations = 0;
-	let activeFilters = 0;
+	let totalImportance = 0;
 
-	// Calculate standard deviations for each active filter
+	// Calculate weighted deviations for each active filter
 	if (population) {
-		const deviation = Math.abs(county.population - population_val) / population_stdev;
-		totalDeviations += deviation;
-		activeFilters++;
+		const [minVal, maxVal] = population_val;
+		const rangeCenter = (minVal + maxVal) / 2;
+		const deviation = Math.abs(county.population - rangeCenter) / population_stdev;
+		totalDeviations += deviation * population_importance;
+		totalImportance += population_importance;
 	}
 
 	if (median_age) {
-		const deviation = Math.abs(county.medianAge - median_age_val) / median_age_stdev;
-		totalDeviations += deviation;
-		activeFilters++;
+		const [minVal, maxVal] = median_age_val;
+		const rangeCenter = (minVal + maxVal) / 2;
+		const deviation = Math.abs(county.medianAge - rangeCenter) / median_age_stdev;
+		totalDeviations += deviation * age_importance;
+		totalImportance += age_importance;
 	}
 
 	if (temperature) {
-		const deviation = Math.abs(county.temperature.avgTempF - temperature_val) / temperature_stdev;
-		totalDeviations += deviation;
-		activeFilters++;
+		const [minVal, maxVal] = temperature_val;
+		const rangeCenter = (minVal + maxVal) / 2;
+		const deviation = Math.abs(county.temperature.avgTempF - rangeCenter) / temperature_stdev;
+		totalDeviations += deviation * temperature_importance;
+		totalImportance += temperature_importance;
 	}
 
 	if (home_value) {
-		const deviation = Math.abs(county.housing.medianHomeValue - home_value_val) / homeValue_stdev;
-		totalDeviations += deviation;
-		activeFilters++;
+		const [minVal, maxVal] = home_value_val;
+		const rangeCenter = (minVal + maxVal) / 2;
+		const deviation = Math.abs(county.housing.medianHomeValue - rangeCenter) / homeValue_stdev;
+		totalDeviations += deviation * home_value_importance;
+		totalImportance += home_value_importance;
 	}
 
 	if (median_rent) {
-		const deviation = Math.abs(county.rent.medianRent - median_rent_val) / medianRent_stdev;
-		totalDeviations += deviation;
-		activeFilters++;
+		const [minVal, maxVal] = median_rent_val;
+		const rangeCenter = (minVal + maxVal) / 2;
+		const deviation = Math.abs(county.rent.medianRent - rangeCenter) / medianRent_stdev;
+		totalDeviations += deviation * median_rent_importance;
+		totalImportance += median_rent_importance;
 	}
 
 	// If no filters are active, return default color
-	if (activeFilters === 0) {
+	if (totalImportance === 0) {
 		return "#e5e7eb"; // Light gray for unfiltered counties
 	}
 
-	// Calculate average deviation across all active filters
-	const avgDeviation = totalDeviations / activeFilters;
+	// Calculate average weighted deviation
+	const avgDeviation = totalDeviations / totalImportance;
 
-	// Convert average deviation to weight (0-9 scale)
+	// Convert average deviation to weight (0-9 scale) - using original thresholds
 	let weight = 9;
 	if (avgDeviation <= 0.5) weight = 1;
 	else if (avgDeviation <= 1) weight = 2;
@@ -124,16 +144,15 @@ export const getColor = (
 	// else weight = 9 (most different)
 
 	const colors: Record<number, string> = {
-		9: "#ffffff",
-		8: "#FEFFE0",
-		7: "rgb(254,255,207)",
-		6: "rgb(202,233,181)",
-		5: "rgb(133,204,187)",
-		4: "rgb(73,183,194)",
-		3: "rgb(50,128,181)",
-		2: "#205274",
 		1: "#173B53",
-		0: "#fc2f70",
+		2: "#205274",
+		3: "rgb(50,128,181)",
+		4: "rgb(73,183,194)",
+		5: "rgb(133,204,187)",
+		6: "rgb(202,233,181)",
+		7: "rgb(254,255,207)",
+		8: "#FEFFE0",
+		9: "#ffffff",
 	};
 
 	return colors[weight];

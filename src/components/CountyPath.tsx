@@ -11,14 +11,19 @@ export const CountyPath = ({ d, path }: Props) => {
 	const {
 		population,
 		population_val,
+		population_importance,
 		age,
 		age_val,
+		age_importance,
 		temperature,
 		temperature_val,
+		temperature_importance,
 		home_value,
 		home_value_val,
+		home_value_importance,
 		median_rent,
 		median_rent_val,
+		median_rent_importance,
 		setSelectedCounty,
 		selectedCounty,
 	} = useAppStore();
@@ -28,14 +33,19 @@ export const CountyPath = ({ d, path }: Props) => {
 	const filterValues = {
 		population,
 		population_val,
+		population_importance,
 		median_age: age,
 		median_age_val: age_val,
+		age_importance,
 		temperature,
 		temperature_val,
+		temperature_importance,
 		home_value,
 		home_value_val,
+		home_value_importance,
 		median_rent,
 		median_rent_val,
+		median_rent_importance,
 	};
 
 	const color = activeCounty ? getColor(activeCounty, filterValues) : `purple`;

@@ -27,28 +27,38 @@ type AppState = {
 	// Population Filter
 	population: boolean;
 	setPopulation: (value: boolean) => void;
-	population_val: number;
-	setPopulationVal: (value: number) => void;
+	population_val: [number, number];
+	setPopulationVal: (value: [number, number]) => void;
+	population_importance: number;
+	setPopulationImportance: (value: number) => void;
 	// Median Age Filter
 	age: boolean;
 	setAge: (value: boolean) => void;
-	age_val: number;
-	setAgeVal: (value: number) => void;
+	age_val: [number, number];
+	setAgeVal: (value: [number, number]) => void;
+	age_importance: number;
+	setAgeImportance: (value: number) => void;
 	// Temperature Filter
 	temperature: boolean;
 	setTemperature: (value: boolean) => void;
-	temperature_val: number;
-	setTemperatureVal: (value: number) => void;
+	temperature_val: [number, number];
+	setTemperatureVal: (value: [number, number]) => void;
+	temperature_importance: number;
+	setTemperatureImportance: (value: number) => void;
 	// Home Value Filter
 	home_value: boolean;
 	setHomeValue: (value: boolean) => void;
-	home_value_val: number;
-	setHomeValueVal: (value: number) => void;
+	home_value_val: [number, number];
+	setHomeValueVal: (value: [number, number]) => void;
+	home_value_importance: number;
+	setHomeValueImportance: (value: number) => void;
 	// Median Rent Filter
 	median_rent: boolean;
 	setMedianRent: (value: boolean) => void;
-	median_rent_val: number;
-	setMedianRentVal: (value: number) => void;
+	median_rent_val: [number, number];
+	setMedianRentVal: (value: [number, number]) => void;
+	median_rent_importance: number;
+	setMedianRentImportance: (value: number) => void;
 };
 
 export const useAppStore = create<AppState>((set) => ({
@@ -63,26 +73,36 @@ export const useAppStore = create<AppState>((set) => ({
 	// Population Filter
 	population: true,
 	setPopulation: (value: boolean) => set({ population: value }),
-	population_val: Math.round((population_min + population_max) / 2),
-	setPopulationVal: (value: number) => set({ population_val: value }),
+	population_val: [population_min, population_max],
+	setPopulationVal: (value: [number, number]) => set({ population_val: value }),
+	population_importance: 3,
+	setPopulationImportance: (value: number) => set({ population_importance: value }),
 	// Median Age Filter
 	age: true,
 	setAge: (value: boolean) => set({ age: value }),
-	age_val: Math.round((median_age_min + median_age_max) / 2),
-	setAgeVal: (value: number) => set({ age_val: value }),
+	age_val: [median_age_min, median_age_max],
+	setAgeVal: (value: [number, number]) => set({ age_val: value }),
+	age_importance: 3,
+	setAgeImportance: (value: number) => set({ age_importance: value }),
 	// Temperature Filter
-	temperature: false,
+	temperature: true,
 	setTemperature: (value: boolean) => set({ temperature: value }),
-	temperature_val: Math.round((temperature_min + temperature_max) / 2),
-	setTemperatureVal: (value: number) => set({ temperature_val: value }),
+	temperature_val: [temperature_min, temperature_max],
+	setTemperatureVal: (value: [number, number]) => set({ temperature_val: value }),
+	temperature_importance: 3,
+	setTemperatureImportance: (value: number) => set({ temperature_importance: value }),
 	// Home Value Filter
-	home_value: false,
+	home_value: true,
 	setHomeValue: (value: boolean) => set({ home_value: value }),
-	home_value_val: Math.round((homeValue_min + homeValue_max) / 2),
-	setHomeValueVal: (value: number) => set({ home_value_val: value }),
+	home_value_val: [homeValue_min, homeValue_max],
+	setHomeValueVal: (value: [number, number]) => set({ home_value_val: value }),
+	home_value_importance: 3,
+	setHomeValueImportance: (value: number) => set({ home_value_importance: value }),
 	// Median Rent Filter
-	median_rent: false,
+	median_rent: true,
 	setMedianRent: (value: boolean) => set({ median_rent: value }),
-	median_rent_val: Math.round((medianRent_min + medianRent_max) / 2),
-	setMedianRentVal: (value: number) => set({ median_rent_val: value }),
+	median_rent_val: [medianRent_min, medianRent_max],
+	setMedianRentVal: (value: [number, number]) => set({ median_rent_val: value }),
+	median_rent_importance: 3,
+	setMedianRentImportance: (value: number) => set({ median_rent_importance: value }),
 }));
